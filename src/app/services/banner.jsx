@@ -1,7 +1,7 @@
 import styles from "@/styles/services/banner.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 import Image from "next/image"
-import MobileAppIco from "@/public/home/mobile-app.png"
+const MobileAppIco = "/home/mobile-app.png"
 import ButtonCommon from "@/src/components/common/button"
 import ContactFrom from "@/src/components/common/contactfrom"
 import Popup from "@/src/app/home/components/popup";
@@ -22,7 +22,7 @@ const Banner = ({ data }) => {
                         </Col>
                         <Col lg={5} md={5} className="my-auto">
                             <div className={styles.img}>
-                                <Image src={MobileAppIco} />
+                                <Image src={MobileAppIco} width={500} height={500} alt="BitsWits" />
                             </div>
                         </Col>
                     </Row>

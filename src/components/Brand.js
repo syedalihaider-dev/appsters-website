@@ -5,7 +5,7 @@ import Axios from "axios";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/Brand.module.css";
 //images
-import free from "@/public/newdubai/free.png";
+const free = "/newdubai/free.png";
 
 const Brand = ({ rtl }) => {
   const [ip, setIP] = useState("");

@@ -1,11 +1,11 @@
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/about/abtcta.module.scss";
-import BgImg from "@/public/about/bgCTA.webp"
+const BgImg = "/about/bgCTA.webp"
 import ButtonCommon from "@/src/components/common/button";
 
 const AbtCta = () => {
     return (
-        <section className={`${styles.abtctaSection}`} style={{ backgroundImage: `url(${BgImg.src})` }}>
+        <section className={`${styles.abtctaSection}`} style={{ backgroundImage: `url(${BgImg})` }}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col lg={10} md={12} className="text-center m-auto">

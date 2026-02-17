@@ -1,51 +1,52 @@
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/about/abtawards.module.scss";
-import Award1 from "@/public/about/awards/award1.png"
-import Award2 from "@/public/about/awards/award2.png"
-import Award3 from "@/public/about/awards/award3.png"
-import Award4 from "@/public/about/awards/award4.png"
-import Award5 from "@/public/about/awards/award5.png"
-import Award6 from "@/public/about/awards/award6.png"
-import Award7 from "@/public/about/awards/award7.png"
-import Award8 from "@/public/about/awards/award8.png"
-import Award9 from "@/public/about/awards/award9.png"
-import Award10 from "@/public/about/awards/award10.png"
-import Award11 from "@/public/about/awards/award11.png"
+// Awards Images
+const Award1 = "/about/awards/award1.png"
+const Award2 = "/about/awards/award2.png"
+const Award3 = "/about/awards/award3.png"
+const Award4 = "/about/awards/award4.png"
+const Award5 = "/about/awards/award5.png"
+const Award6 = "/about/awards/award6.png"
+const Award7 = "/about/awards/award7.png"
+const Award8 = "/about/awards/award8.png"
+const Award9 = "/about/awards/award9.png"
+const Award10 = "/about/awards/award10.png"
+const Award11 = "/about/awards/award11.png"
 import Image from "next/image";
 
 export const data = [
     {
-        AwardsIMG: Award1.src
+        AwardsIMG: Award1
     },
     {
-        AwardsIMG: Award2.src
+        AwardsIMG: Award2
     },
     {
-        AwardsIMG: Award3.src
+        AwardsIMG: Award3
     },
     {
-        AwardsIMG: Award4.src
+        AwardsIMG: Award4
     },
     {
-        AwardsIMG: Award5.src
+        AwardsIMG: Award5
     },
     {
-        AwardsIMG: Award6.src
+        AwardsIMG: Award6
     },
     {
-        AwardsIMG: Award7.src
+        AwardsIMG: Award7
     },
     {
-        AwardsIMG: Award8.src
+        AwardsIMG: Award8
     },
     {
-        AwardsIMG: Award9.src
+        AwardsIMG: Award9
     },
     {
-        AwardsIMG: Award10.src
+        AwardsIMG: Award10
     },
     {
-        AwardsIMG: Award11.src
+        AwardsIMG: Award11
     },
 ]
 

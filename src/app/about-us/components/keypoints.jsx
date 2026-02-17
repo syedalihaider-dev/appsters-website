@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/about/keypoints.module.scss";
-import BgImg from "@/public/about/abtBG.webp"
+const BgImg = "/about/abtBG.webp"
 
 const keyPointsData = [
     {
@@ -28,7 +28,7 @@ const KeyPoints = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     return (
-        <section className={`${styles.aboutSection} pb-100`} style={{ backgroundImage: `url(${BgImg.src})` }}>
+        <section className={`${styles.aboutSection} pb-100`} style={{ backgroundImage: `url(${BgImg})` }}>
             <Container>
                 <Row>
                     <Col lg={12} md={12}>

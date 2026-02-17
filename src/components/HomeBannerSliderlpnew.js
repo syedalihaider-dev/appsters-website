@@ -6,14 +6,14 @@ import "swiper/css/effect-coverflow";
 import styles from "@/styles/NewBannerlpnew.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
 //images
-import banImg1 from "@/public/newdubai/slider/1.png";
-import banImg2 from "@/public/newdubai/slider/2.png";
-import banImg3 from "@/public/newdubai/slider/3.png";
-import banImg4 from "@/public/newdubai/slider/4.png";
-import banImg5 from "@/public/newdubai/slider/5.png";
-import banImg6 from "@/public/newdubai/slider/6.png";
-import banImg7 from "@/public/newdubai/slider/7.png";
-import banImg8 from "@/public/newdubai/slider/8.png";
+const banImg1 = "/newdubai/slider/1.png";
+const banImg2 = "/newdubai/slider/2.png";
+const banImg3 = "/newdubai/slider/3.png";
+const banImg4 = "/newdubai/slider/4.png";
+const banImg5 = "/newdubai/slider/5.png";
+const banImg6 = "/newdubai/slider/6.png";
+const banImg7 = "/newdubai/slider/7.png";
+const banImg8 = "/newdubai/slider/8.png";
 
 
 export default function HomeBannerSliderlpnew(props) {
@@ -28,6 +28,8 @@ export default function HomeBannerSliderlpnew(props) {
                   quality={100}
                   alt="BitsWits"
                   src={banImg1}
+                  width={200}
+                  height={100}
                   className="img-fluid"
                 />
               </div>
@@ -36,6 +38,8 @@ export default function HomeBannerSliderlpnew(props) {
                   quality={100}
                   alt="BitsWits"
                   src={banImg2}
+                  width={200}
+                  height={100}
                   className="img-fluid"
                 />
               </div>
@@ -44,6 +48,8 @@ export default function HomeBannerSliderlpnew(props) {
                   quality={100}
                   alt="BitsWits"
                   src={banImg3}
+                  width={200}
+                  height={100}
                   className="img-fluid"
                 />
               </div>
@@ -52,6 +58,8 @@ export default function HomeBannerSliderlpnew(props) {
                   quality={100}
                   alt="BitsWits"
                   src={banImg4}
+                  width={200}
+                  height={100}
                   className="img-fluid"
                 />
               </div>
@@ -60,6 +68,8 @@ export default function HomeBannerSliderlpnew(props) {
                   quality={100}
                   alt="BitsWits"
                   src={banImg5}
+                  width={200}
+                  height={100}
                   className="img-fluid"
                 />
               </div>
@@ -68,6 +78,8 @@ export default function HomeBannerSliderlpnew(props) {
                   quality={100}
                   alt="BitsWits"
                   src={banImg6}
+                  width={200}
+                  height={100}
                   className="img-fluid"
                 />
               </div>
@@ -76,6 +88,8 @@ export default function HomeBannerSliderlpnew(props) {
                   quality={100}
                   alt="BitsWits"
                   src={banImg7}
+                  width={200}
+                  height={100}
                   className="img-fluid"
                 />
               </div>
@@ -84,6 +98,8 @@ export default function HomeBannerSliderlpnew(props) {
                   quality={100}
                   alt="BitsWits"
                   src={banImg8}
+                  width={200}
+                  height={100}
                   className="img-fluid"
                 />
               </div>
