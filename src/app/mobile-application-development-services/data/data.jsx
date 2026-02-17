@@ -1,0 +1,1036 @@
+// Next
+import Image from "next/image"
+
+// Bannar Images
+import BannerLogos from "media/services/bannerLogo.webp";
+import BannerBg from "media/services/bgBanner.webp";
+
+
+//========= CaseStudy Images
+import slider1 from "media/newmobileapp/slider-2.png";
+import slider2 from "media/newmobileapp/slider-3.png";
+import slider3 from "media/newmobileapp/slider-5.png";
+import slider4 from "media/newmobileapp/slider-4.png";
+import slider5 from "media/newmobileapp/slider-1.png";
+
+//========= WhyChoose Images
+import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+
+//========= Process Images
+import { Process01, Process02, Process03, Process04, Process05, Process06, Process07, Process08 } from "@/src/app/app-constants"
+
+//========= Process Images
+import IMG from "media/services/process/tab01.webp"
+
+//========= Technologies Images
+import TechIcon01 from "media/services/tech/1.webp"
+import TechIcon02 from "media/services/tech/2.webp"
+import TechIcon03 from "media/services/tech/3.webp"
+import TechIcon04 from "media/services/tech/4.webp"
+import TechIcon05 from "media/services/tech/5.webp"
+import TechIcon06 from "media/services/tech/6.webp"
+import TechIcon07 from "media/services/tech/7.webp"
+import TechIcon08 from "media/services/tech/8.webp"
+import TechImg from "media/services/techImg.webp"
+
+
+//========= Testimonial Images
+import TestiImg1 from "media/services/reviwes/trustpilot.webp"
+import TestiImg2 from "media/services/reviwes/clutch.webp"
+import TestiImg3 from "media/services/reviwes/google.webp"
+import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
+import RyanJaden from "media/services/reviwes/RyanJaden.webp"
+import Joseph from "media/services/reviwes/Joseph.webp"
+import MauryoJones from "media/services/reviwes/MauryoJones.webp"
+import KateBullock from "media/services/reviwes/KateBullock.webp"
+
+//========= Risks Images
+import RisksIMG01 from "media/services/customImg01.webp"
+import RisksIMG02 from "media/services/customImg02.webp"
+
+//========= Fueling Images
+import FuelingImg from "media/services/cuttingEdge.webp"
+
+//========= CtaEstimated Images
+import CtaEstimatedImg from "media/services/ctaImg.webp"
+
+//========= TechStack Images
+import TAB1_1 from "media/services/tech/tab1/01.webp";
+import TAB1_2 from "media/services/tech/tab1/02.webp";
+import TAB1_3 from "media/services/tech/tab1/03.webp";
+import TAB1_4 from "media/services/tech/tab1/04.webp";
+import TAB1_5 from "media/services/tech/tab1/05.webp";
+import TAB1_6 from "media/services/tech/tab1/06.webp";
+import TAB2_1 from "media/services/tech/tab2/01.webp";
+import TAB2_2 from "media/services/tech/tab2/02.webp";
+import TAB2_3 from "media/services/tech/tab2/03.webp";
+import TAB2_4 from "media/services/tech/tab2/04.webp";
+import TAB2_5 from "media/services/tech/tab2/05.webp";
+import TAB2_6 from "media/services/tech/tab2/06.webp";
+import TAB2_7 from "media/services/tech/tab2/07.webp";
+import TAB2_8 from "media/services/tech/tab2/08.webp";
+import TAB3_1 from "media/services/tech/tab3/01.webp";
+import TAB3_2 from "media/services/tech/tab3/02.webp";
+import TAB3_3 from "media/services/tech/tab3/03.webp";
+import TAB3_4 from "media/services/tech/tab3/04.webp";
+import TAB3_5 from "media/services/tech/tab3/05.webp";
+import TAB4_1 from "media/services/tech/tab4/01.webp";
+import TAB4_2 from "media/services/tech/tab4/02.webp";
+import TAB4_3 from "media/services/tech/tab4/03.webp";
+import TAB4_4 from "media/services/tech/tab4/04.webp";
+import TAB4_5 from "media/services/tech/tab4/05.webp";
+import TAB4_6 from "media/services/tech/tab4/06.webp";
+import TAB5_1 from "media/services/tech/tab5/01.webp";
+import TAB5_2 from "media/services/tech/tab5/02.webp";
+import TAB5_3 from "media/services/tech/tab5/03.webp";
+import TAB5_4 from "media/services/tech/tab5/04.webp";
+import TAB5_5 from "media/services/tech/tab5/05.webp";
+import TAB5_6 from "media/services/tech/tab5/06.webp";
+import TAB5_7 from "media/services/tech/tab5/07.webp";
+import TAB6_1 from "media/services/tech/tab6/01.webp";
+import TAB6_2 from "media/services/tech/tab6/02.webp";
+import TAB6_3 from "media/services/tech/tab6/03.webp";
+import TAB6_4 from "media/services/tech/tab6/04.webp";
+import TAB6_5 from "media/services/tech/tab6/05.webp";
+import TAB6_6 from "media/services/tech/tab6/06.webp";
+import TAB6_7 from "media/services/tech/tab6/07.webp";
+import TAB6_8 from "media/services/tech/tab6/08.webp";
+import TAB7_1 from "media/services/tech/tab7/01.webp";
+import TAB7_2 from "media/services/tech/tab7/02.webp";
+import TAB7_3 from "media/services/tech/tab7/03.webp";
+import TAB7_4 from "media/services/tech/tab7/04.webp";
+import TAB7_5 from "media/services/tech/tab7/05.webp";
+import TAB7_6 from "media/services/tech/tab7/06.webp";
+
+//========= Industries Images
+import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, SocialSVG, ChoiceSVG1, ChoiceSVG2, ChoiceSVG3, ChoiceSVG4, ChoiceSVG5, ChoiceSVG6, ChoiceSVG7, ChoiceSVG8,  } from "@/src/app/app-constants";
+
+import { MobileAppBannerImg } from "@/src/app/app-constants";
+import Ecommerce from "media/services/industry/Ecommerce.webp";
+import Fintech from "media/services/industry/Fintech.webp";
+import Healthcare from "media/services/industry/Healthcare.webp";
+import Education from "media/services/industry/Education.webp";
+import SocialMarketing from "media/services/industry/SocialMarketing.webp";
+import RealEstate from "media/services/industry/RealEstate.webp";
+import Logistics from "media/services/industry/Logistics.webp";
+import Music from "media/services/industry/music.webp";
+
+
+//========= Blogs Images
+import BlogsIMG01 from "media/services/blogs/post-1.webp"
+import BlogsIMG02 from "media/services/blogs/post-2.webp"
+import BlogsIMG03 from "media/services/blogs/post-3.webp"
+import Link from "next/link";
+
+
+export const BannerData = {
+    subtitle: "Top App Developers in the USA",
+    title: "A Mobile App Development Company That Builds What Businesses Actually Need.",
+    content: "At Appsters, we build apps optimized for scale, security, and long-term performance. Our mobile app development services combine product thinking with tech-driven production, delivering software that users love and businesses rely on. From startups validating their first MVPs to enterprises expanding global ecosystems, we engineer custom app development solutions that integrate dynamically into your digital infrastructure. Every line of code we write serves a measurable outcome: faster adoption, fewer fallout issues, and greater value.",
+    BannerLogos: BannerLogos.src,
+    BannerBg: BannerBg.src,
+    BannerImg: <MobileAppBannerImg />,
+    fromtitle: "Let’s Discuss Your App Idea",
+    fromtext: "Share your app business objectives with our experts and create your custom app."
+}
+
+export const CuttingedgeContent = {
+    title: "Mobile App Development Services for Maximum Business Impact!",
+    text: "Our custom mobile app development services are designed to give startups and SMEs a first-mover advantage to quickly scale in their market!",
+    subtext: "Estimate Your App Project’s Cost Now!"
+}
+
+export const CuttingedgeList = [
+    {
+        title: (<>Android App <br />Development Services</>),
+        txt: (<>As a leading <Link href='/android-app-development-company'>Android app development agency</Link>, we use Kotlin, Java, and Jetpack Compose to build lightweight Android apps. Our applications enhance UX and functionality across smartphones, wearable devices, and TVs, providing exceptional design, look, and feel for diverse industries.</>),
+        links: "",
+    },
+    {
+        title: (<>iOS Application<br />Development Services</>),
+        txt: (<>Our <Link href='/ios-app-development-company'>iOS mobile development services</Link> utilize Swift and Xcode to build human-centered, easy-to-navigate apps for iPhone, iPad, Mac, Apple TV, and Apple Watch, delivering exceptional functionality and user experience across all Apple devices.</>),
+        links: "",
+    },
+    {
+        title: (<>Cross-Platform<br />Development Services</>),
+        txt: (<>Make your app accessible on iOS and Android with a write-once, deploy-anywhere cross-platform framework! Reduce development costs by 50% with our <Link href='/flutter-app-development'>Flutter</Link> and <Link href='/react-native-app-development'>React Native</Link> development models, delivering apps with a native-like experience.</>),
+        links: "",
+    },
+    {
+        title: (<>Mobile Web Apps<br />Development Services</>),
+        txt: "BitsWits helps businesses achieve 2X conversion rates with high-performance web solutions. We deliver scalable web portals, enterprise apps for better management, and customer-facing applications, including analytics apps and B2B eCommerce solutions, to enhance business growth and efficiency.",
+        links: "",
+    },
+    {
+        title: (<>Mobile Game<br />Development Services</>),
+        txt: (<>As a top-grade <Link href='/mobile-game-development-company'>mobile game development company</Link>, we use technologies like Unity and Unreal Engine to create adrenaline-pumping games in action, RPG, and sports! We offer flexible options, including full-cycle, co-development, and game porting services to meet the diverse needs of our clients.</>),
+        links: "",
+    }
+    , {
+        title: (<>Blockchain Mobile<br />App Services</>),
+        txt: "We are a top mobile app development company specializing in apps powered by blockchain technology, including decentralized networks, NFTs, and smart contracts. Our solutions enhance transparency, immutability, and automation for DeFi, ICOs, tokens, crypto exchanges, and gamification.",
+        links: "",
+    }
+    , {
+        title: (<>AR/VR App<br />App Services</>),
+        txt: "We build immersive AR/VR apps using tools like ARToolKit, Apple ARKit, Google ARCore, Unity, and Vuforia, covering sensor-based, location-based, and visual recognition solutions. With expertise in C# and Java, our developers create scalable applications to deliver exceptional results across various platforms!",
+        links: "",
+    }
+]
+
+export const caseStudiesContent = {
+    title: "Our Results-Driven Mobile Application Development Portfolio!",
+    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+}
+
+export const PortfolioData = {
+    title: "A Portfolio That Packs A Punch!",
+    content: `Every app we design solves a problem, scales intelligently, and performs. Appsters’ portfolio reflects versatility ranging from entertainment and gaming to enterprise-grade systems..`,
+}
+
+export const PortfolioDataList = [
+    {
+        title: "Switch Poker",
+        content: `Switch Poker redefined competitive poker for mobile. Built with a scalable real-time engine, the app allows players to join private or global tables with seamless multiplayer connectivity. Advanced anti-cheat systems, dynamic tournaments, and live global rankings keep engagement high. Integrated wallet and analytics modules provide real-time insights for users and admins alike.`,
+    },
+    {
+        title: "FitSphere",
+        content: `Personalized training plans, wearable sync, and progress tracking in one intuitive platform built for both casual users and professional trainers. Its gamified interface keeps users engaged and consistently hitting their fitness goals.`,
+    },
+    {
+        title: "DropTheBeat",
+        content: `Streaming app with adaptive sound quality and recommendation engine designed for users in regions with variable connectivity. It delivers a seamless listening experience, even in low-bandwidth environments.`,
+    },
+    {
+        title: "RightOps",
+        content: `Automation platform that reduces manual workload, tracks efficiency gains, and generates data insights for operational improvement. The tool integrates easily with existing systems, unlocking automation without disrupting workflows.`,
+    },
+    {
+        title: "Cars & Wraps",
+        content: `Marketplace app for buyers and dealers with real-time inventory updates, financing tools, and AR-based car wrap previews. Its data-driven matching system increases buyer-dealer conversions and reduces inventory turnaround time for wraps.`,
+    },
+    {
+        title: "PlayNest",
+        content: `Secure entertainment and education platform for kids, offering curated content, interactive games, and parental monitoring features. The app’s safety-first design ensures COPPA and GDPR compliance for peace of mind.`,
+    },
+    {
+        title: "TaskIt",
+        content: `Collaboration tool with integrated messaging, file sharing, and AI-driven task suggestions for distributed teams. It boosts team efficiency with real-time sync across devices and automated task prioritization.`,
+    },
+    {
+        title: "Gate",
+        content: `Open-world sandbox game where players build, trade, and explore in a fully simulated ecosystem. Powered by scalable servers, it supports massive concurrent players and real-time physics without lag.`,
+    },
+]
+
+
+export const NewTesti = {
+    title: "See Why Stakeholders, Entrepreneurs, & Businesses Choose Our App Development & Technology Solutions.",
+    content: (
+        <>
+           From founders to CTOs, businesses choose Appsters because every line of code serves a clear business purpose: growth, AI adaptability, and market edge. We measure success by the impact our solutions create, and our clients agree. From startups to global enterprises, clients trust our developers to engineer digital products that deliver progressive results. 
+        </>
+    ),
+}
+
+
+export const NewTestiList = [
+    {
+        content: `Our e-commerce app needed to handle traffic spikes of over 200k users per hour without latency issues. The team’s Android app development services included load testing at a scale most vendors never touch. The results speak for themselves, man, as checkout failures dropped by 72%, and revenue per session climbed. It’s rare to find developers who build with this level of foresight into concurrency and performance benchmarks.`,
+        Author: (<><strong>– Jonathan Finota, </strong> Founder & CXO</>),
+    },
+    {
+        content: `As a fintech founder, I needed a partner who could think in both code and compliance. Their custom app development services team built an encrypted transaction module that cut fraud incidents by 60%. Every sprint was handled like a boardroom deadline, strategic, transparent, and brutally efficient. Most mobile app development companies build fast; these people build smart. `,
+        Author: (<><strong>– Emma Liton Rogers, </strong> P2P Head</>),
+    },
+    {
+        content: `We migrated our entire education platform to a hybrid app, and their mobile app development solutions changed everything. The UI load time went from 6.4s to 1.9s, and retention improved by 41%. The real difference? Their obsession with data-driven performance. Every pixel and API call was backed by reasoning.    `,
+        Author: (<><strong> –  Nathan L. Reed, </strong> Head of Product</>),
+    },
+    {
+        content: `My logistics platform’s backend used to crumble under surge demand. Their custom Android app development services team rebuilt it using Node.js microservices, improving delivery-tracking accuracy by 84%. It’s more than development; it’s an architectural redesign of how we operate.`,
+        Author: (<><strong> – Khalid Almirah,   </strong> Founder</>),
+    },
+    {
+        content: `From strategy to launch, every milestone was backed by analytics and empathy. As a custom app development company, they don’t just deliver software; they deliver digital experiences that make sense to users and investors alike.`,
+        Author: (<><strong> –  Noah,   </strong> CMO</>),
+    },
+]
+
+export const caseStudiesList = [
+    {
+        title: "The Practice Pen",
+        description: "We designed Practice Pen as a skill development app that uses video-based learning and gamification. Users can upload practice videos, receive feedback, and compete in interactive challenges to win prizes, making learning fun and engaging.",
+        sliderImages: [slider1],
+    },
+    {
+        title: "Soul Scribe",
+        description: "We created Soul Scribe as a social networking app that serves as a digital diary, allowing users to invite friends and family to contribute to an online journal. Featuring a freemium subscription model with a complimentary family room option.",
+        sliderImages: [slider2],
+    },
+    {
+        title: "Crave Cuisine",
+        description: "We developed Crave Cuisine, a food delivery app that streamlines the process of selecting local eateries and placing orders. Enjoy convenient dining with a wide range of meal choices, all in one easy-to-use app.",
+        sliderImages: [slider3],
+    },
+    {
+        title: "Fitnow",
+        description: "We developed Fitnow as a user-friendly fitness app that allows users to select workouts, set goals, and customize routines with expert guidance. With a simple interface, Fitnow makes tracking progress and achieving fitness goals easy.",
+        sliderImages: [slider4],
+    },
+    {
+        title: "Route Rover",
+        description: "We created Route Rover, a navigation and route-planning app designed to optimize travel. Whether for daily commutes or road trips, users can discover efficient routes, avoid traffic, and explore new destinations with ease.",
+        sliderImages: [slider5],
+    }
+];
+
+export const AppIdeaContent = {
+    title: "Build Your MVP with a Winning Strategy!",
+    text: "Take the first step toward creating a cost-effective MVP. Ready to dominate? Book a free session and see how we build powerful apps!",
+}
+
+export const ComparisonData = {
+    title: (<><span className="">In-House Vs. Freelancers</span> – Comparative Analysis</>),
+}
+
+export const WhyChooseContent = {
+    title: "App Development Company Of Choice",
+    text: "BitsWits provides exceptional mobile application development services, combining quality, expertise, and efficiency. As a leading mobile app development agency, we create scalable, user-centric apps designed to drive business growth and deliver successful results. Here’s why you should partner with us."
+}
+
+export const WhyChooseList1 = [
+    {
+        Icon: <WhyChooseIcon03 />,
+        title: (<>End-to-End<br />Development</>),
+        description: "We offer complete mobile app solutions, from initial concept to final deployment, for smooth delivery and project success.",
+    },
+    {
+        Icon: <WhyChooseIcon01 />,
+        title: (<>100% <br /> Transparency</>),
+        description: "As a trustworthy mobile app development firm, we keep clients fully informed throughout the development process, promoting open collaboration.",
+    }
+];
+
+export const WhyChooseList2 = [
+    {
+        Icon: <WhyChooseIcon04 />,
+        title: (<>High Retention<br /> Rate</>),
+        description: "Our dedicated developers have been with us for years, providing stability and security for your mobile app projects.",
+    },
+    {
+        Icon: <WhyChooseIcon02 />,
+        title: (<>4.5/5 Average<br /> Rating</>),
+        description: " Our high ratings on Google Play and the App Store highlight our credibility as a mobile app development company in USA.",
+    }
+];
+
+export const ProcessContent = {
+    title: (<><span className="txtColorCenter"> Technology, Strategy, & Digital Reach</span> – A Battle-Tested Mobile App Development Process
+</>),
+    content: "Every successful mobile application begins with a structured, intelligent process. At Appsters, we follow a data-driven workflow that combines design thinking, technical precision, and continuous iteration. From research and wireframing to deployment and post-launch monitoring, our process ensures consistency, quality, and long-term scalability.",
+}
+
+export const ProcessList = [
+    {
+        title: "App Idea & Research",
+        txt: "Every dynamic app begins with a validated idea. As a full-cycle development company, Appsters conducts market analysis, competitor benchmarks, and feasibility audits to ensure your concept is both innovative and executable. This foundation minimizes downstream risk and builds confidence in investment and direction before a single line of code is written.",
+        icon: <Process01 />,
+
+    },
+    {
+        title: "UI/UX Strategy & Design",
+        txt: "Design is where your product begins to breathe. Appsters blends user psychology, motion dynamics, and functional design systems to create experiences that feel natural and stay consistent. Our design-first approach ensures your app doesn’t feel good but functions brilliantly as per your industry standards and defined objectives. ",
+        icon: <Process02 />,
+
+    },
+    {
+        title: "Architecture & Prototyping",
+        txt: "Wireframes reduce uncertainty and prevent rework, and every scalable app is born from robust architecture. Our engineers design frameworks that prioritize performance, modularity, and long-term adaptability. From microservices to monolith refactoring, we plan for future growth from the start to make sure your Android apps, iOS apps, and game apps stand the test of time.",
+        icon: <Process03 />,
+
+    },
+    {
+        title: "App Development & Engineering",
+        txt: "Appsters developers use Kotlin, Java, and Jetpack libraries to implement robust mobile apps. In the design and app development stage, the concepts become products. Appsters’ developers specialize in native and cross-platform builds, translating design into high-performance applications that are stable, secure, and easily maintainable.",
+        icon: <Process04 />,
+
+    },
+    {
+        title: "Integration & Backend Systems ",
+        txt: "Our mobile app development services and app solutions undergo automated regression testing, load testing, and device-fragmentation validation. We integrate seamlessly with APIs, payment gateways, CRMs, and cloud systems while ensuring data integrity and compliance. Every integration is tested to deliver reliability under real-world load.",
+        icon: <Process05 />,
+
+    },
+    {
+        title: "Quality Assurance & Launch",
+        txt: "Launching involves more than just submitting to the app store or the Play Store, and for our experts, testing is a parallel process. Appsters runs automated and manual testing frameworks to validate every feature across multiple devices, ensuring consistency, security, and zero-crash performance.",
+        icon: <Process06 />,
+
+    },
+    {
+        title: "Deployment",
+        txt: "We handle phased rollouts and enterprise MDM deployments, giving organizations confidence. At Appsters, A flawless launch is planned, not improvised. We handle everything from store submissions to rollout monitoring, ensuring your app launches smoothly and is ready for scale.",
+        icon: <Process07 />,
+
+    },
+    {
+        title: "Post-Launch Optimization & Support",
+        txt: "After launch, sustaining momentum is critical. As one of the best app makers, Appsters delivers continuous monitoring, OS security updates, and feature enhancements. Our optimization and support teams ensure your app evolves with its users, market shifts, and tech updates, turning maintenance into measurable growth.",
+        icon: <Process08 />,
+
+    },
+];
+
+export const ProcessTabs = [
+    {
+        title: "Planning",
+        content: {
+            heading: "Project Planning",
+            description:
+                <>In project planning, our business analysts collaborate with clients to accurately translate their business needs and <Link href='/blog/mobile-app-ideas'>mobile app ideas</Link> into a comprehensive project scope. We assign the right resources and work closely with stakeholders to determine accurate cost and time estimates, while also exploring various cost optimization options for efficient and effective project execution.</>,
+            imgSrc: IMG.src,
+        },
+    },
+    {
+        title: "Cost and Schedule",
+        content: {
+            heading: "Cost and Schedule",
+            description:
+                <>After the project planning phase, we focus on maintaining the <Link href='/blog/mobile-app-development-cost'>app development cost</Link> and time-frame integrity. Our mobile app development services include realistic project estimations and ongoing monitoring of expenditures and deadlines, consistently collaborating with clients to stay within budget and meet agreed-upon time frames as the project moves toward completion.</>,
+            imgSrc: IMG.src,
+
+        },
+    },
+    {
+        title: "Wireframes",
+        content: {
+            heading: "Wireframes",
+            description:
+                "We develop UI designs and wireframes following ISO 9241 guidelines, focusing on user journeys and intuitive workflows. Prioritizing user values, our team iterates on designs based on feedback to develop detailed mockups that capture the app’s functionality and visual appeal, shaping the final product.",
+            imgSrc: IMG.src,
+
+        },
+    },
+    {
+        title: "Prototype ",
+        content: {
+            heading: "Prototype Demo",
+            description:
+                "In the prototype demo phase, we create a working model of the app to finalize the design and get client approval. This allows clients to experience the look and feel, provide feedback, and refine the project scope to perfect the app before moving into development.",
+            imgSrc: IMG.src,
+
+        },
+    },
+    {
+        title: "Development",
+        content: {
+            heading: "Development",
+            description:
+                "After the prototype demo phase, we move into development, where our mobile app developers specialize in custom mobile app development using flexible modular architectures and agile methodologies. We release new builds every two weeks, provide comprehensive app documentation, and share regular progress reports, allowing the app to scale and adapt quickly to evolving project needs.",
+            imgSrc: IMG.src,
+
+        },
+    },
+    {
+        title: "Quality Control",
+        content: {
+            heading: "Quality Control",
+            description:
+                "In the quality control phase, we implement a quality management system backed by ISO 9001 standards. Our team conducts rigorous testing, including functional, performance, usability, security, and infrastructure tests, to identify potential issues. We thoroughly document results and refine the app to deliver a flawless final product.",
+            imgSrc: IMG.src,
+
+        },
+    },
+    {
+        title: "Deployment",
+        content: {
+            heading: "Deployment and Launch",
+            description:
+                "In the deployment and launch phase, we integrate all necessary components on a scheduled timeline for a smooth launch. We release the app on the Google Play Store or Apple App Store, monitor its performance, troubleshoot issues, and support a successful market entry with ongoing stability.",
+            imgSrc: IMG.src,
+
+        },
+    },
+];
+
+
+export const TechnologiesContent = {  
+    title: (<>A Mobile App Development Agency That <br />Engineers What Others Prototype.</>),
+    text: (<>At Appsters, technology is more than syntax as it’s a strategy in motion. We build mobile app development solutions that evolve, self-optimize, and scale in real time. Our engineers blend product sense with deep system architecture, delivering custom app development services that feel invisible when they’re running and impossible to ignore when they perform. We work across native and cross-platform stacks, including Swift, Kotlin, React Native, Flutter, Node.js, Python, Go, .NET Core, PostgreSQL, MongoDB, Firebase, AWS, GCP, Docker, Kubernetes, Azure, and for integrations, Web3, ARCore, the OpenAI API, and Blockchain SDKs. 
+    <ul className="pt-2 pb-2 ps-3">
+        <li className="textDecoDisc">Swift, Kotlin, Java, and Objective-C</li>
+        <li className="textDecoDisc">Flutter, React Native, Ionic</li>
+        <li className="textDecoDisc">AWS, Firebase, Azure for hosting</li>
+        <li className="textDecoDisc">AI, AR/VR, Blockchain integrations</li>
+    </ul>
+    What makes Appsters different from other mobile app development companies? We focus on innovation, user experience, and business growth while ensuring fast delivery and long-term scalability.
+    </>),
+    TechImg: TechImg.src
+}
+
+export const newCtaData = {
+    title: (<>Not Amateurs <span className="txtColor">But Experts –</span> Let’s Build Your Next Big Idea</>),
+    text: "Partner with the top app developers in USA to create apps that engage users and elevate your business. Let’s connect today to bring your vision to life!",
+}
+
+export const TechnologiesIcons = [
+    {
+        title: "iOS",
+        icons: TechIcon01.src,
+    },
+    {
+        title: "Android",
+        icons: TechIcon02.src,
+    },
+    {
+        title: "Flutter",
+        icons: TechIcon03.src,
+    },
+    {
+        title: "Kotlin",
+        icons: TechIcon04.src,
+    },
+    {
+        title: "Objective C",
+        icons: TechIcon05.src,
+    },
+    {
+        title: "ionic",
+        icons: TechIcon06.src,
+    },
+    {
+        title: "React Native",
+        icons: TechIcon07.src,
+    },
+    {
+        title: "Swift",
+        icons: TechIcon08.src,
+    },
+]
+
+export const TestimonialContent = {
+    title: "Client Testimonial",
+    TestiImg1: TestiImg1.src,
+    TestiImg2: TestiImg2.src,
+    TestiImg3: TestiImg3.src
+}
+
+export const TestimonialSLIDES = [
+    {
+        txt: "The team’s deep understanding of our business’s nature was impressive. Their technical knowledge was evident in ensuring the app functioned smoothly.",
+        name: "Joseph D’Amora",
+        position: "Director of Inside Sales",
+        img: Joseph,
+    },
+    {
+        txt: "BitsWits transformed my vision into a stunning, user-friendly app. I couldn’t be happier with the result and their professionalism.",
+        name: "Ryan Jaden",
+        position: "Technical Team Lead",
+        img: RyanJaden,
+    },
+    {
+        txt: "I am thoroughly satisfied with the project management provided by BitsWits. Their attention to detail and seamless communication made the entire process stress-free and efficient!",
+        name: "Kaylee Slone",
+        position: "Digital Marketing Manager",
+        img: KayleeSlone,
+    }
+    ,
+    {
+        txt: "Their tireless efforts in making the app not only responsive but also visually stunning were truly remarkable. BitsWits exceeded all our expectations!",
+        name: "Mauryo Jones",
+        position: "VP Safety, Health & Security",
+        img: MauryoJones,
+    },
+    {
+        txt: "They not only listened attentively to our needs but also provided valuable insights and suggestions. BitsWits truly understands how to turn ideas into successful apps!",
+        name: "James Moss",
+        position: "EVP Business Development",
+        img: KateBullock,
+    }
+]
+
+export const RisksContent = {
+    title: (<>Take No Risks <Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} /> Create An MVP & Be Confident On <Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} />  Your App!</>),
+    text: "Validate your app concept with minimal risk before launching a full-scale app!"
+}
+
+export const OffersContent = {
+    title: "Robust Mobile App Solutions That Grow With Your Business Curve.",
+    text: "As a custom app development company, we bring together leading app developers and strategists who understand what makes digital products thrive. From MVP mobile apps to pixel-perfect mobile apps UI/UX designing, and rigorous app testing, our mobile application development model is built for agility, scalability, and long-term performance.",
+}
+
+export const OffersTabs = [
+
+    {
+        title: "MVP Development",
+        content: {
+            heading: "MVP Development",
+            description:
+                "As a custom app development company, we specialize in building MVPs that validate both technology and traction. Our agile sprints deliver a fully functional prototype within 6–8 weeks, using a modular architecture that enables you to pivot quickly and scale even faster. From user testing to analytics-driven iteration, we help you find product-market fit through data, resulting in an MVP that’s technically solid, strategically positioned, and investor-ready from day one.",
+        },
+    },
+
+    {
+        title: "Mobile App Consulting",
+        content: {
+            heading: "Mobile App Consulting",
+            description:
+                "Behind every successful launch is a sound technical strategy. Our mobile app consulting team acts as your embedded CTO office, analyzing architecture, evaluating scalability constraints, and mapping technology choices to business goals. We benchmark your app against global standards, run infrastructure cost analyses, and define measurable KPIs for every phase. Whether you’re refactoring a legacy system or launching new mobile app  ",
+        },
+    },
+
+    {
+        title: "Mobile UI/UX Design",
+        content: {
+            heading: "Mobile UI/UX Design",
+            description:
+                "Interfaces don’t win users, but experiences do. Our mobile apps UI/UX designing process goes beyond visuals into behavioral analytics, accessibility, and cognitive load optimization. We use heatmaps, clickstream data, and A/B testing to inform every design decision, ensuring that form follows function and performance. From onboarding to retention loops, every pixel is designed to move metrics. It’s not design for users; it’s design that understands them.",
+
+        },
+    },
+    {
+        title: "Mobile Frontend & Backend Development",
+        content: {
+            heading: "Mobile Frontend & Backend Development",
+            description:
+                "Performance is a feature, and we build it in from day one. Our mobile application development team leverages Swift, Kotlin, Flutter, and React Native for front-end agility, supported by Node.js, Python, and Firebase for backend reliability. We architect scalable APIs, enable real-time data sync, and integrate DevOps pipelines for automated CI/CD delivery. Each app is built to handle concurrency, caching, and security at enterprise scale. In short: we don’t code to deploy; we code to endure.",
+
+        },
+    },
+    {
+        title: "App Testing & QA",
+        content: {
+            heading: "Testing and QA",
+            description:
+                "Quality assurance isn’t a phase for us as it’s a parallel process. Our app testing and QA workflows simulate real-world conditions across thousands of devices and network environments. Using automated testing suites, regression testing, and penetration testing, we detect bottlenecks before users ever experience them. Every release passes through load tests, compliance checks, and usability audits to ensure it is bulletproof. Because in mobile ecosystems, stability is the ultimate differentiator.",
+
+        },
+    },
+
+
+];
+
+export const FuelingContent = {
+    title: "In-App Features That Your Users Are Looking For!",
+    text: (<>As a leading mobile development agency, we deliver all the must-have features, from user-friendly interfaces to advanced security throughout the <Link href='/blog/application-development-life-cycle'> application development lifecycle</Link>,  creating apps that meet modern user needs and support business growth.</>),
+    subtitle: "Reduce Risk and Validate Your Idea With a Fast MVP Launch!",
+    subtext: "BitsWits takes a hands-on approach to guide your project, providing expertise and support at every stage!",
+    FuelingImg: FuelingImg.src
+}
+
+export const FuelingList = [
+    {
+        title: "Geolocation Management",
+        text: "We integrate geolocation features to enhance user experience with real-time tracking, location-based services, and navigation. Our expert-vetted developers create apps that provide personalized content, route optimization, and proximity alerts to boost engagement and functionality."
+    },
+    {
+        title: "Payments",
+        text: "As one of the trusted mobile app development companies, we implement secure payment solutions that support methods like credit cards, digital wallets, and in-app purchases. We also use reliable payment gateways, such as Stripe and PayPal, to create seamless, user-friendly transactions that enhance conversion rates."
+    },
+    {
+        title: "Messaging and Calling",
+        text: "We build robust messaging and voice/video calling features into apps, enabling real-time communication. Our team utilizes WebRTC, Twilio, and other APIs to deliver reliable, high-quality chat and calling experiences across all devices."
+    },
+    {
+        title: "Multi-device Synchronization",
+        text: "Hire mobile app developers from BitsWits to implement multi-device synchronization, allowing users to access data and continue activities seamlessly across devices. This approach enhances user convenience and engagement by providing a consistent experience across all platforms."
+    },
+    {
+        title: "Chatbots",
+        text: (<>As a top-tier <Link href='/ai-development-company'>AI development company</Link>, we design and integrate intelligent chatbots to provide instant customer support and engagement. Utilizing AI and NLP, our chatbots enhance user interaction, automate responses, and handle queries efficiently, improving overall customer satisfaction and retention.</>)
+    },
+    {
+        title: "Immersive Experience",
+        text: "We create immersive app experiences using AR, VR, and 3D graphics to engage users deeply. Our expertise includes developing interactive, visually appealing elements that captivate audiences and provide memorable, innovative experiences across various app categories."
+    },
+    {
+        title: "Push Notifications",
+        text: "Our team integrates push notifications to keep users informed and engaged. We develop customizable notification systems for personalized updates, promotional offers, and reminders, which drive user retention and enhance overall app engagement effectively."
+    },
+    {
+        title: "Scheduling and Booking",
+        text: "We build efficient scheduling and booking features, catering to various business needs such as appointments, reservations, and service bookings. As a leading mobile app agency, our expertise includes integrating calendar sync, reminders, and real-time availability, offering a seamless and user-friendly experience."
+    }
+];
+
+export const CtaEstimatedContent = {
+    subtitle: "App Development Costs: From Simple to Complex",
+    title: "Your App’s Cost, Simplified",
+    text: (<>Get an instant estimate for your app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
+    CtaEstimatedImg: CtaEstimatedImg.src
+}
+
+export const TechStackContent = {
+    title: "The Core of Our Mobile App Development Services | A Tech Stack is Built for the Bold",
+    text: "Modern frameworks. Smarter code. Stronger results. Trusted by app developers worldwide, Appsters is your next-generation mobile app development company, co-creating disruptive ecosystems and digital products. ",
+}
+
+export const TechStackTabs = [
+    {
+        title: "Design",
+        content: [
+            {
+                title: "Design",
+                heading: "Adobe XD",
+                img: TAB1_1.src,
+            },
+            {
+                heading: "Adobe Illustrator",
+                img: TAB1_2.src,
+            },
+            {
+                heading: "Balsamiq",
+                img: TAB1_3.src,
+            },
+            {
+                heading: "InVision",
+                img: TAB1_4.src,
+            },
+            {
+                heading: "Figma",
+                img: TAB1_5.src,
+            },
+            {
+                heading: "Adobe Photoshop",
+                img: TAB1_6.src,
+            },
+        ],
+    },
+    {
+        title: "Frontend",
+        content: [
+            {
+                title: "Frontend",
+                heading: "Flutter",
+                img: TAB2_1.src,
+            },
+            {
+                heading: "React Native",
+                img: TAB2_2.src,
+            },
+            {
+                heading: "Ionic",
+                img: TAB2_3.src,
+            },
+            {
+                heading: "Swift",
+                img: TAB2_4.src,
+            },
+            {
+                heading: "TypeScript",
+                img: TAB2_5.src,
+            },
+            {
+                heading: "Xamarin",
+                img: TAB2_6.src,
+            },
+            {
+                heading: "HTML5",
+                img: TAB2_7.src,
+            },
+            {
+                heading: "Kotlin",
+                img: TAB2_8.src,
+            },
+        ],
+    },
+    {
+        title: "Backend",
+        content: [
+            {
+                title: "Backend",
+                heading: "Laravel",
+                img: TAB3_1.src,
+            },
+            {
+                heading: "Node.js",
+                img: TAB3_2.src,
+            },
+            {
+                heading: ".NET Core",
+                img: TAB3_3.src,
+            },
+            {
+                heading: "Ruby on Rails",
+                img: TAB3_4.src,
+            },
+            {
+                heading: "Django",
+                img: TAB3_5.src,
+            },
+        ],
+    },
+    {
+        title: "Database",
+        content: [
+            {
+                title: "Database",
+                heading: "Firebase",
+                img: TAB4_1.src,
+            },
+            {
+                heading: "MongoDB",
+                img: TAB4_2.src,
+            },
+            {
+                heading: "MySQL",
+                img: TAB4_3.src,
+            },
+            {
+                heading: "Swift",
+                img: TAB4_4.src,
+            },
+            {
+                heading: "Oracle",
+                img: TAB4_5.src,
+            },
+            {
+                heading: "PostgreSQL",
+                img: TAB4_6.src,
+            },
+        ],
+    },
+    {
+        title: "Cloud",
+        content: [
+            {
+                title: "Cloud",
+                heading: "Google Cloud Platform",
+                img: TAB5_1.src,
+            },
+            {
+                heading: "AWS",
+                img: TAB5_2.src,
+            },
+            {
+                heading: "Linode",
+                img: TAB5_3.src,
+            },
+            {
+                heading: "IBM Cloud",
+                img: TAB5_4.src,
+            }, {
+                heading: "Vercel",
+                img: TAB5_5.src,
+            },
+            {
+                heading: "Microsoft Azure",
+                img: TAB5_6.src,
+            },
+            {
+                heading: "Firebase",
+                img: TAB5_7.src,
+            },
+        ],
+    },
+    {
+        title: "Framework",
+        content: [
+            {
+                title: "Framework",
+                heading: "React Native",
+                img: TAB6_1.src,
+            },
+            {
+                heading: "Flutter",
+                img: TAB6_2.src,
+            },
+            {
+                heading: "Ionic",
+                img: TAB6_3.src,
+            },
+            {
+                heading: "Xamarin",
+                img: TAB6_4.src,
+            },
+            {
+                heading: "Apache Cordova",
+                img: TAB6_5.src,
+            },
+            {
+                heading: "Android Studio",
+                img: TAB6_6.src,
+            },
+            {
+                heading: "Visual Studio",
+                img: TAB6_7.src,
+            },
+            {
+                heading: "Xcode",
+                img: TAB6_8.src,
+            },
+        ],
+    },
+];
+
+export const IndustriesContent = {
+    title: "Industries We Serve",
+    text: "One Codebase. Infinite Industries. Where Every Industry Finds Its Edge. ",
+}
+
+export const IndustriesList = [
+
+    {
+        icon: <FintechSVG />,
+        title: "Fintech",
+        txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
+        url: "/fintech-app-development",
+        img: Fintech.src,
+    },
+    {
+        icon: <EcommerceSVG />,
+        title: "Ecommerce",
+        txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
+        url: "/ecommerce-app-development",
+        img: Ecommerce.src,
+    },
+    {
+        icon: <HealthcareSVG />,
+        title: "Healthcare",
+        txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
+        url: "/healthcare-app-development-services",
+        img: Healthcare.src,
+    },
+    {
+        icon: <EducationSVG />,
+        title: "Education",
+        txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
+        url: "/education-app-development",
+        img: Education.src,
+    },
+    {
+        icon: <SocialSVG />,
+        title: "Social Media",
+        txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
+        url: "/social-media-app-development-company",
+        img: SocialMarketing.src,
+    },
+    {
+        icon: <RealEstateSVG />,
+        title: "Real Estate",
+        txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
+        url: "/real-estate-app-development-company",
+        img: RealEstate.src,
+    },
+    {
+        icon: <MusicSVG />,
+        title: "Music",
+        txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
+        url: "/music-app-development-company",
+        img: Music.src,
+    },
+    {
+        icon: <LogisticsSVG />,
+        title: "Logistics",
+        txt: "Our apps optimize fleet and shipment tracking. Integrated eCommerce lets businesses offer logistics to clients, boosting efficiency and operations.",
+        url: "/logistics-software-development",
+        img: Logistics.src,
+    },
+];
+
+export const IdeaCtaContent = {
+    title: (<><span>App Development That Turns</span><br /> Base Concepts Into Scalable Products.</>),
+    text: (<> Every app begins with an idea. At Appsters, we turn that idea into a living, breathing digital experience. Our development teams splice technology, performance, and creativity to deliver solutions and disruptive products that break barriers. </>),
+    formtitle: "Get Free Consultation"
+}
+
+export const IdeaCtaContent2 = {  
+
+    title: (<><span>The Market Never Waits.</span><br /> Are You Ready to Launch?</>),
+    text: (<> Let’s build your mobile future together. With Appsters, you get innovation, quality, and a dedicated team by your side.</>),
+    formtitle: "Get Free Consultation"
+}
+
+export const FaqsContent = {
+    title: "Frequently Asked Questions",
+}
+
+export const FaqsList = [
+    {
+        title: "What makes Appsters the right mobile app development company for my project?",
+        txt: "We combine proven experience, scalability, and creativity, delivering tailored application development services across industries."
+    },
+    {
+        title: "Do you offer custom android app development services?",
+        txt: "Yes, we specialize in custom android app development services with robust, scalable, and user-friendly solutions."
+    },
+    {
+        title: "What type of mobile app development solutions do you provide?",
+        txt: "We deliver end-to-end mobile app development solutions, from strategy and design to deployment and support."
+    },
+    {
+        title: "Why choose a custom app development company instead of freelancers?",
+        txt: "As a custom app development company, we bring full teams, expertise, and quality assurance—something freelancers or in-house hires often can’t provide."
+    }
+    ,
+    {
+        title: "What are application development services in mobile apps?",
+        txt: "Our application development services include consulting, design, coding, backend, QA, launch, and post-launch support."
+    },
+    {
+        title: "Do you offer mobile application services after launch?",
+        txt: "Yes, we provide continuous mobile application services, including updates, maintenance, and performance monitoring."
+    },
+]
+
+export const BlogsContent = {
+    title: "Our Related Blog Posts",
+}
+
+export const ChoiceData = {
+    title: (<>Why Choose Appsters As Your Mobile App Development Company</>),
+    content: "We’re more than coders — we’re your growth partners. Here’s why businesses choose us as their custom app development company and top app development agency:",
+}
+
+export const ChoiceDataList = [
+    {
+        txt: "Always available to resolve issues quickly.",
+        title: "24/7 Support",
+        Icon1: <ChoiceSVG1 />,
+    },
+    {
+        txt: "A strong track record across industries.",
+        title: "1500+ Apps Delivered",
+        Icon1: <ChoiceSVG2 />,
+    },
+    {
+        txt: "Skilled engineers, UI/UX designers, and strategists.",
+        title: "Expert Team",
+        Icon1: <ChoiceSVG3 />,
+    },
+    {
+        txt: "Transparent, iterative, and client-centric process.",
+        title: "Agile Development",
+        Icon1: <ChoiceSVG4 />,
+    },
+]
+
+export const BlogsList = [
+    {
+        title: "How Much Does It Cost to Develop an App in 2024?",
+        txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
+        cat: "Mobile App Development",
+        img: BlogsIMG01.src,
+        links: "https://www.bitswits.co/blog/mobile-app-development-cost",
+        date: "August 29,2024"
+    }, {
+        title: "Most Popular Mobile App Development Frameworks",
+        txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
+        cat: "Mobile App Development",
+        img: BlogsIMG02.src,
+        links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
+        date: "August 13,2024"
+    }, {
+        title: "Everything You Need to Know About Application Development Life Cycle",
+        txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
+        cat: "Mobile App Development",
+        img: BlogsIMG03.src,
+        links: "https://www.bitswits.co/blog/application-development-life-cycle",
+        date: "July 10,2024"
+    }
+]
+
+
+
+
