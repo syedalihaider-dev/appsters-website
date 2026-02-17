@@ -8,15 +8,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
-import icon1 from '/public/CapablitiesImgs/NFTgame/icon1.png'
-import icon2 from '/public/CapablitiesImgs/NFTgame/icon2.png'
-import icon3 from '/public/CapablitiesImgs/NFTgame/icon3.png'
-import icon4 from '/public/CapablitiesImgs/NFTgame/icon4.png'
-import icon5 from '/public/CapablitiesImgs/NFTgame/icon5.png'
-import icon6 from '/public/CapablitiesImgs/NFTgame/icon6.png'
-import icon7 from '/public/CapablitiesImgs/NFTgame/icon7.png'
-import icon8 from '/public/CapablitiesImgs/NFTgame/icon8.png'
-import icon9 from '/public/CapablitiesImgs/NFTgame/icon9.png'
+import icon1 from '@/public/CapablitiesImgs/NFTgame/icon1.png'
+import icon2 from '@/public/CapablitiesImgs/NFTgame/icon2.png'
+import icon3 from '@/public/CapablitiesImgs/NFTgame/icon3.png'
+import icon4 from '@/public/CapablitiesImgs/NFTgame/icon4.png'
+import icon5 from '@/public/CapablitiesImgs/NFTgame/icon5.png'
+import icon6 from '@/public/CapablitiesImgs/NFTgame/icon6.png'
+import icon7 from '@/public/CapablitiesImgs/NFTgame/icon7.png'
+import icon8 from '@/public/CapablitiesImgs/NFTgame/icon8.png'
+import icon9 from '@/public/CapablitiesImgs/NFTgame/icon9.png'
 
 
 const Capabilitiesnft = () => {
