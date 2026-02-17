@@ -8,15 +8,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
-import icon1 from '@/public/CapablitiesImgs/NFTgame/icon1.png'
-import icon2 from '@/public/CapablitiesImgs/NFTgame/icon2.png'
-import icon3 from '@/public/CapablitiesImgs/NFTgame/icon3.png'
-import icon4 from '@/public/CapablitiesImgs/NFTgame/icon4.png'
-import icon5 from '@/public/CapablitiesImgs/NFTgame/icon5.png'
-import icon6 from '@/public/CapablitiesImgs/NFTgame/icon6.png'
-import icon7 from '@/public/CapablitiesImgs/NFTgame/icon7.png'
-import icon8 from '@/public/CapablitiesImgs/NFTgame/icon8.png'
-import icon9 from '@/public/CapablitiesImgs/NFTgame/icon9.png'
+// Image paths as strings
+const icon1 = '/CapablitiesImgs/NFTgame/icon1.png'
+const icon2 = '/CapablitiesImgs/NFTgame/icon2.png'
+const icon3 = '/CapablitiesImgs/NFTgame/icon3.png'
+const icon4 = '/CapablitiesImgs/NFTgame/icon4.png'
+const icon5 = '/CapablitiesImgs/NFTgame/icon5.png'
+const icon6 = '/CapablitiesImgs/NFTgame/icon6.png'
+const icon7 = '/CapablitiesImgs/NFTgame/icon7.png'
+const icon8 = '/CapablitiesImgs/NFTgame/icon8.png'
+const icon9 = '/CapablitiesImgs/NFTgame/icon9.png'
 
 
 const Capabilitiesnft = () => {
@@ -74,7 +75,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
+                                            <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' width={1000} height={1000} />
                                         </div>
                                     </Col>
 
@@ -86,7 +87,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
+                                            <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' width={1000} height={1000} />
                                         </div>
                                     </Col>
 
@@ -98,7 +99,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid' />
+                                            <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid' width={1000} height={1000} />
                                         </div>
                                     </Col>
 
@@ -110,7 +111,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid' />
+                                            <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid' width={1000} height={1000} />
                                         </div>
                                     </Col>
 
@@ -124,7 +125,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid' />
+                                            <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid' width={1000} height={1000} />
                                         </div>
                                     </Col>
 
@@ -136,7 +137,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid' />
+                                            <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid' width={1000} height={1000} />
                                         </div>
                                     </Col>
 
@@ -148,7 +149,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon7} alt='BitsWits' className='img-fluid' />
+                                            <Image quality={75} src={icon7} alt='BitsWits' className='img-fluid' width={1000} height={1000} />
                                         </div>
                                     </Col>
 
@@ -160,7 +161,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon8} alt='BitsWits' className='img-fluid' />
+                                            <Image quality={75} src={icon8} alt='BitsWits' className='img-fluid' width={1000} height={1000} />
                                         </div>
                                     </Col>
 
@@ -172,7 +173,7 @@ const Capabilitiesnft = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon9} alt='BitsWits' className='img-fluid' />
+                                            <Image quality={75} src={icon9} alt='BitsWits' className='img-fluid' width={1000} height={1000} />
                                         </div>
                                     </Col>
 
