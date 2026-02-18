@@ -19,7 +19,7 @@ import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } fr
 const IMG = "/services/process/tab01.webp"
 
 //========= Technologies Images
-import TechImg from "media/services/techImg.webp"
+
 const TechIcon01 = "/services/tech/1.webp"
 const TechIcon02 = "/services/tech/2.webp"
 const TechIcon03 = "/services/tech/3.webp"
@@ -222,7 +222,7 @@ export const ProcessTabs = [
             heading: "App Idea & Research",
             description:
                 <>Every project begins with business intelligence. We analyze your idea’s viability, audience demand, market potential, competitive landscape, and risk factors, ensuring your React Native mobile applications are positioned for market relevance and sustainable growth. Our experts ensure your concept is backed by solid research and aligned with user expectations, setting the foundation to develop apps on React that succeed.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -231,7 +231,7 @@ export const ProcessTabs = [
             heading: "Strategic Planning & Consultation",
             description:
                 <>Every app starts with a roadmap. Through our React Native mobile app development services, we define goals, establish milestones, and design strategies that reduce risks and accelerate development cycles for enterprise-ready applications. We align roadmaps with KPIs, budget efficiency, and market timing, creating a plan that leadership can rely on for delivery accuracy and risk reduction.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -241,7 +241,7 @@ export const ProcessTabs = [
             heading: "Wireframing & Prototyping",
             description:
                 "Before writing a single line of code, our designers create prototypes and wireframes that visualize user journeys, test flows, and lock usability. This phase ensures that React Native mobile applications are intuitive, user-focused, and strategically aligned with business objectives. We guarantee that design concepts are validated with users before a single development sprint begins.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -251,7 +251,7 @@ export const ProcessTabs = [
             heading: "App Development",
             description:
                 "Our engineers code with performance in mind. They write clean, modular code optimized for performance. As a leading provider of React Native app development in the USA, we combine cross-platform compatibility with native-like speed, ensuring apps that users love and businesses rely on. We guarantee efficient code that maximizes long-term adaptability and minimizes future maintenance costs.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -261,7 +261,7 @@ export const ProcessTabs = [
             heading: "Expert QA & Testing",
             description:
                 <>Every release is solidified by multi-layer testing. Every build undergoes extensive QA cycles, including performance, security, and usability testing. With React Native mobile app development services, we deliver apps that meet enterprise-grade reliability standards, ensuring your application’s stability across every device and network condition.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -271,7 +271,7 @@ export const ProcessTabs = [
             heading: "Testing",
             description:
                 "The testing phase involves rigorous testing to make your React Native app robust and reliable. This includes quality assurance and infrastructure testing to identify and resolve potential issues. Each iteration is thoroughly documented, allowing us to refine the app and deliver a smooth user experience before the final release.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -281,7 +281,7 @@ export const ProcessTabs = [
             heading: "App Launch",
             description:
                 <>From app store guidelines to seamless rollouts, we manage every aspect of launch. Our expertise in React Native mobile applications ensures smooth submissions and approval processes across Android and iOS platforms. We manage every technical detail to optimize your organic visibility and adoption rate.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -292,49 +292,49 @@ export const TechnologiesContent = {
     text: (<><p>Every serious product needs a backbone built on strong tech decisions. Our react native app development solutions are engineered with React Native, Redux, TypeScript, GraphQL, Firebase, and CI/CD pipelines to power products that last. Through a custom react native app development service, we align architecture with long-term growth, standing apart from conventional React app development companies with precision engineering and future-ready builds.</p>
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -435,7 +435,7 @@ export const FuelingContent = {
     text: "We combine dynamic technologies with React Native to build high-impact, cross-platform mobile applications that operate seamlessly across all devices, enhancing performance and user experience.",
     subtitle: "Cut Costs, Not Corners, with React Native Development!",
     subtext: "Streamline your app development process and reduce costs with a single codebase approach.",
-    FuelingImg: FuelingImg.src
+    FuelingImg: FuelingImg
 }
 
 export const FuelingList = [
@@ -465,7 +465,7 @@ export const CtaEstimatedContent = {
     subtitle: "Go Native With The #1 React Native App Development Agency.",
     title: "Enterprise-Ready React Native Apps",
     text: (<>At scale, apps succeed when engineering rigor meets business strategy. That’s the philosophy driving our React Native application development practice. From seamless front-end execution to cloud-native backends, Appsters aligns every build with enterprise-grade expectations.</>),
-    CtaEstimatedImg: CtaEstimatedImg.src
+    CtaEstimatedImg: CtaEstimatedImg
 }
 
 export const TechStackContent = {
@@ -479,15 +479,15 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "React",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "JavaScript",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "TypeScript",
-                img: TAB1_3.src,
+                img: TAB1_3,
             }
         ],
     },
@@ -496,19 +496,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Redux",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "Redux Persist",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "Reduxsauce",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Reactotron",
-                img: TAB2_4.src,
+                img: TAB2_4,
             }
         ],
     },
@@ -517,23 +517,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "NativeBase",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "React Native Elements",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "UI Kitten",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "Bootstrap",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Ignite UI",
-                img: TAB3_5.src,
+                img: TAB3_5,
             }
         ],
     },
@@ -542,7 +542,7 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "React Navigation",
-                img: TAB4_1.src,
+                img: TAB4_1,
             }
         ],
     },
@@ -551,15 +551,15 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "RestAPI",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "GraphQL",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Apollo GraphQL",
-                img: TAB5_3.src,
+                img: TAB5_3,
             }
         ],
     },
@@ -568,15 +568,15 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Jest",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "Enzyme",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Detox",
-                img: TAB6_3.src,
+                img: TAB6_3,
             }
         ],
     }
@@ -594,56 +594,56 @@ export const IndustriesList = [
         title: "Ecommerce",
         txt: "We build ecommerce apps that sell more with frictionless checkouts, AI product recommendations, and mobile-first design. Our solutions handle scale effortlessly, from flash sales to global launches. Businesses get powerful dashboards, while shoppers get a personalized, smooth, and secure experience that turns carts into conversions.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We co-create secure, compliant fintech apps that simplify payments, investments, and trading. From blockchain-backed wallets to AI fraud detection, our solutions prioritize speed, trust, and transparency. We help financial institutions and startups scale confidently, turning complex transactions into seamless user journeys with powerful analytics and risk-free automation.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We develop HIPAA-compliant healthcare apps that bridge doctors, patients, and data. From telemedicine to AI-powered diagnostics, our solutions improve workflows, reduce wait times, and empower smarter, faster decision-making. Every feature is designed to keep patient privacy airtight while driving measurable results for hospitals, clinics, and health-tech startups.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "Our education apps gamify learning, power virtual classrooms, and track student progress. We integrate AR/VR modules, quizzes, and real-time assessments to boost engagement. Schools, universities, and ed-tech startups leverage our platforms to personalize teaching, improve retention, and make learning as interactive and rewarding as social media scrolling.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "We build social media platforms that are scalable, sticky, and secure. AI-driven feeds, privacy-first chat systems, and live content features drive engagement. Our architecture ensures your platform can handle viral moments without crashing, giving creators, communities, and brands a digital stage to connect and grow.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We design real estate apps that help buyers, sellers, and agents close deals faster. AR-powered property tours, AI-driven recommendations, and secure document management streamline every step. Our platforms keep listings fresh, negotiations quick, and users delighted, turning real estate buying and selling into a guided, data-driven experience.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "We power logistics apps with route optimization, GPS tracking, and real-time inventory sync. Our solutions cut costs, eliminate bottlenecks, and ensure every delivery meets its deadline. Carriers, 3PLs, and warehouses rely on us to bring transparency, speed, and automation to complex supply chains across industries.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "We create streaming apps, artist marketplaces, and licensing solutions that let music businesses scale and monetize. AI-powered recommendations, offline playback, and fan engagement features keep listeners hooked. Our process covers rights management, secure distribution, and seamless playback to hit the perfect balance between creativity, tech, and revenue.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
 ];
 
@@ -694,14 +694,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -709,7 +709,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }
