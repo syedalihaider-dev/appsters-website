@@ -2,109 +2,109 @@
 import Image from "next/image"
 
 // Bannar Images
-import BannerLogos from "media/services/bannerLogo.webp";
-import BannerBg from "media/services/bgBanner.webp";
+const BannerLogos = "/services/bannerLogo.webp";
+const BannerBg = "/services/bgBanner.webp";
 
 //========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png";
-import slider2 from "media/newmobileapp/slider-3.png";
-import slider3 from "media/newmobileapp/slider-5.png";
-import slider4 from "media/newmobileapp/slider-4.png";
-import slider5 from "media/newmobileapp/slider-1.png";
+const slider1 = "/newmobileapp/slider-2.png";
+const slider2 = "/newmobileapp/slider-3.png";
+const slider3 = "/newmobileapp/slider-5.png";
+const slider4 = "/newmobileapp/slider-4.png";
+const slider5 = "/newmobileapp/slider-1.png";
 
 //========= WhyChoose Images
 import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+const IMG = "/services/process/tab01.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/services/techImg.webp"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Risks Images
-import RisksIMG01 from "media/services/customImg01.webp"
-import RisksIMG02 from "media/services/customImg02.webp"
+const RisksIMG01 = "/services/customImg01.webp"
+const RisksIMG02 = "/services/customImg02.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= CtaEstimated Images
-import CtaEstimatedImg from "media/services/ctaImg.webp"
+const CtaEstimatedImg = "/services/ctaImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/04.webp";
-import TAB1_5 from "media/services/tech/tab1/05.webp";
-import TAB1_6 from "media/services/tech/tab1/06.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/06.webp";
-import TAB2_7 from "media/services/tech/tab2/07.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/04.webp";
-import TAB3_5 from "media/services/tech/tab3/05.webp";
-import TAB3_6 from "media/services/tech/tab3/05.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/05.webp";
-import TAB4_6 from "media/services/tech/tab4/06.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/05.webp";
-import TAB5_6 from "media/services/tech/tab5/06.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/05.webp";
-import TAB6_6 from "media/services/tech/tab6/06.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/services/tech/tab1/02.webp";
+const TAB1_3 = "/services/tech/tab1/03.webp";
+const TAB1_4 = "/services/tech/tab1/04.webp";
+const TAB1_5 = "/services/tech/tab1/05.webp";
+const TAB1_6 = "/services/tech/tab1/06.webp";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_2 = "/services/tech/tab2/02.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB2_5 = "/services/tech/tab2/05.webp";
+const TAB2_6 = "/services/tech/tab2/06.webp";
+const TAB2_7 = "/services/tech/tab2/07.webp";
+const TAB3_1 = "/services/tech/tab3/01.webp";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB3_3 = "/services/tech/tab3/03.webp";
+const TAB3_4 = "/services/tech/tab3/04.webp";
+const TAB3_5 = "/services/tech/tab3/05.webp";
+const TAB3_6 = "/services/tech/tab3/05.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB4_2 = "/services/tech/tab4/02.webp";
+const TAB4_3 = "/services/tech/tab4/03.webp";
+const TAB4_4 = "/services/tech/tab4/04.webp";
+const TAB4_5 = "/services/tech/tab4/05.webp";
+const TAB4_6 = "/services/tech/tab4/06.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB5_4 = "/services/tech/tab5/04.webp";
+const TAB5_5 = "/services/tech/tab5/05.webp";
+const TAB5_6 = "/services/tech/tab5/06.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
+const TAB6_4 = "/services/tech/tab6/04.webp";
+const TAB6_5 = "/services/tech/tab6/05.webp";
+const TAB6_6 = "/services/tech/tab6/06.webp";
 
 //========= Industries Images
 
 import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Logistics from "media/services/industry/Logistics.webp";
-import Music from "media/services/industry/music.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Logistics = "/services/industry/Logistics.webp";
+const Music = "/services/industry/music.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link";
 
 
@@ -112,8 +112,8 @@ export const BannerData = {
     subtitle: "Powerful Artificial Intelligence Apps",
     title: "AI App Development Company Turning Data Into Decisions & Disruptive Products.",
     content: "As an expanding AI app development company, we focus on outcomes, not experiments. Our AI application development services deliver production-ready apps that automate operations, sharpen decision-making, and accelerate growth. From predictive models to intelligent assistants, we create AI app solutions that plug into existing ecosystems with zero disruption. Every build is designed to scale, adapt, and keep your business ahead in competitive, data-driven markets.",
-    BannerLogos: BannerLogos.src,
-    BannerBg: BannerBg.src,
+    BannerLogos: BannerLogos,
+    BannerBg: BannerBg,
     fromtitle: "Let’s Discuss Your AI product Idea",
     fromtext: "Share your AI product objectives with our experts and create your custom AI product."
 }
@@ -238,7 +238,7 @@ export const ProcessTabs = [
             heading: "App Idea & Research",
             description:
                 <>Appsters combines market signals, user needs, and data feasibility to define a clear problem statement and success metrics. Teams conduct domain interviews, competitor analysis, and data audits to assess model viability. Early mapping of inputs, outputs, latency, and compliance constraints clarifies technical risk. Research yields a prioritized backlog, a minimum viable data pipeline plus instrumentation, and measurable KPIs to guide model selection and product scope. </>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -247,7 +247,7 @@ export const ProcessTabs = [
             heading: "Strategic Planning & Consultation",
             description:
                 "Our experts convert validated ideas into a delivery roadmap with milestones, resource allocation, and cost forecasts. Architects and product leads pick the technology stack, data platform, and model classes aligned to constraints. Integration points, API contracts, compliance checkpoints, and rollback procedures are scheduled. The plan defines sprint deliverables, acceptance criteria, QA gates, and escalation paths.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -257,7 +257,7 @@ export const ProcessTabs = [
             heading: "Wireframing & Prototyping",
             description:
                 <>At this stage, we convert product strategy into clickable experiences to validate user flows and model responses early. UX leads map interactions, error states, data inputs, and explainability surfaces so models present actionable outputs. Prototypes measure latency tolerances, edge case behavior, and user heuristics to inform UI adjustments before engineers commit code. Design deliverables include component libraries, accessibility checks, and integration specifications. </>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -267,7 +267,7 @@ export const ProcessTabs = [
             heading: "App Development",
             description:
                 "The app development stage turns architecture into production code using iterative sprints, peer review, and automated tests. Engineers implement microservices, containerized model serving, resilient data pipelines, and scalable APIs. CI CD creates reproducible artifacts while observability, tracing, and model metrics reveal performance and drift. Release strategies include canary deployments, automated rollback, and capacity planning. Security hardening and dependency controls reduce risk.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -277,7 +277,7 @@ export const ProcessTabs = [
             heading: "Expert QA & Testing",
             description:
                 "This particular stage combines automated test suites with domain-specific validation to protect production quality. QA engineers run unit, integration, system, and regression tests across device matrices and simulated networks. Model validation includes accuracy, bias audits, calibration, and adversarial checks to probe robustness. Performance benchmarks measure latency and throughput at scale for AI apps.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -287,7 +287,7 @@ export const ProcessTabs = [
             heading: "App Launch",
             description:
                 <>The final stage coordinates build validation, store submissions, telemetry, and go-to-market readiness to maximize early adoption. Release engineers produce signed artifacts and coordinate platform submissions while product and marketing prepare feature briefs and assets. Feature flags and staged rollouts enable rapid mitigation and safe experimentation. Monitoring captures crashes, latency, adoption, and retention while analytics feed immediate learnings to the roadmap. </>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -297,7 +297,7 @@ export const ProcessTabs = [
             heading: "Deployment",
             description:
                 "Deployment readies infrastructure and services for production load and resilience. DevOps provisions cloud resources with infrastructure as code, configures autoscaling policies, and enforces network segmentation. Blue-green and canary rollouts reduce impact during upgrades while data migration scripts safeguard integrity. Observability collects logs, traces, and metrics for fast debugging. Secrets management and key rotation protect credentials.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -307,7 +307,7 @@ export const ProcessTabs = [
             heading: "Maintenance & Support",
             description:
                 "The maintenance and support process keeps AI apps healthy and evolving. M/S teams monitor model drift, data quality, and system health with automated alerts. Scheduled retraining and model versioning prevent performance degradation, while security patching and dependency updates minimize exposure to vulnerabilities. SLA-backed on-call rotations, performance tuning, and cloud cost optimization ensure predictable operations.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     }
@@ -318,49 +318,49 @@ export const TechnologiesContent = {
     text: (<><p>Our AI app development agency combines app engineering, research, and scalable architecture. We integrate the best frameworks, languages, and platforms to accelerate delivery across all major ecosystems. Our team builds AI apps with iOS, Android, Flutter, React Native, and Kotlin, using cross-compatible toolchains for faster iteration. Backend intelligence is powered by TensorFlow, PyTorch, OpenAI APIs, and Vertex AI, all managed through Kubernetes and container orchestration for enhanced resilience.</p>
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -463,7 +463,7 @@ export const FuelingContent = {
     text: "Enhance your business growth across industries with our expansive AI and machine learning knowledge, driving success and innovation.",
     subtitle: "Maximize Business Growth with Intelligent AI Systems!",
     subtext: "Implement AI models that provide actionable insights and drive smart decisions.",
-    FuelingImg: FuelingImg.src
+    FuelingImg: FuelingImg
 }
 
 export const FuelingList = [
@@ -497,7 +497,7 @@ export const CtaEstimatedContent = {
     subtitle: "AI Application Development For Diverse Industries & Stacks.",
     title: "Build, Scale, & Lead with AI.",
     text: (<>Leverage our AI app developers who engineer reliability into every line of code. Appsters has delivered over 120 AI-driven apps with a 97% on-time launch rate and 42% faster deployment cycles. We design for scalability, compliance, and real-time performance. </>),
-    CtaEstimatedImg: CtaEstimatedImg.src
+    CtaEstimatedImg: CtaEstimatedImg
 }
 
 export const TechStackContent = {
@@ -511,31 +511,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Apache Hadoop",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Apache Spark",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Kafka",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "Airflow",
-                img: TAB1_4.src,
+                img: TAB1_4,
             },
             {
                 heading: "TensorFlow Extended",
-                img: TAB1_5.src,
+                img: TAB1_5,
             },
             {
                 heading: "Pandas",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
             {
                 heading: "NumPy",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
         ],
     },
@@ -544,31 +544,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "TensorFlow",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "PyTorch",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "Keras",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Scikit-learn",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: "XGBoost",
-                img: TAB2_5.src,
+                img: TAB2_5,
             },
             {
                 heading: "LightGBM",
-                img: TAB2_6.src,
+                img: TAB2_6,
             },
             {
                 heading: "CatBoost",
-                img: TAB2_7.src,
+                img: TAB2_7,
             }
         ],
     },
@@ -577,27 +577,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "SpaCy",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Natural Language Toolkit",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "Hugging Face Transformers",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "GPT-3",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "BERT",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
             {
                 heading: "Gensim",
-                img: TAB3_6.src,
+                img: TAB3_6,
             },
         ],
     },
@@ -606,27 +606,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "OpenCV",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "TensorFlow Object Detection API",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "YOLO",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "Detectron2",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "Dlib",
-                img: TAB4_5.src,
+                img: TAB4_5,
             },
             {
                 heading: "FaceNet",
-                img: TAB4_6.src,
+                img: TAB4_6,
             },
         ],
     },
@@ -635,26 +635,26 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Google Cloud AI Platform",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "AWS SageMaker",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Azure Machine Learning",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "IBM Watson",
-                img: TAB5_4.src,
+                img: TAB5_4,
             }, {
                 heading: "Google Cloud Storage",
-                img: TAB5_5.src,
+                img: TAB5_5,
             },
             {
                 heading: "Amazon S3",
-                img: TAB5_6.src,
+                img: TAB5_6,
             }
         ],
     },
@@ -663,27 +663,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Kubernetes",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "Docker",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Kubeflow",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "MLflow",
-                img: TAB6_4.src,
+                img: TAB6_4,
             },
             {
                 heading: "Jenkins",
-                img: TAB6_5.src,
+                img: TAB6_5,
             },
             {
                 heading: "GitLab CI/CD",
-                img: TAB6_6.src,
+                img: TAB6_6,
             }
         ],
     }
@@ -700,56 +700,56 @@ export const IndustriesList = [
         title: "Ecommerce",
         txt: "We build ecommerce apps that sell more with frictionless checkouts, AI product recommendations, and mobile-first design. Our solutions handle scale effortlessly, from flash sales to global launches. Businesses get powerful dashboards, while shoppers get a personalized, smooth, and secure experience that turns carts into conversions.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We co-create secure, compliant fintech apps that simplify payments, investments, and trading. From blockchain-backed wallets to AI fraud detection, our solutions prioritize speed, trust, and transparency. We help financial institutions and startups scale confidently, turning complex transactions into seamless user journeys with powerful analytics and risk-free automation.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We develop HIPAA-compliant healthcare apps that bridge doctors, patients, and data. From telemedicine to AI-powered diagnostics, our solutions improve workflows, reduce wait times, and empower smarter, faster decision-making. Every feature is designed to keep patient privacy airtight while driving measurable results for hospitals, clinics, and health-tech startups.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "Our education apps gamify learning, power virtual classrooms, and track student progress. We integrate AR/VR modules, quizzes, and real-time assessments to boost engagement. Schools, universities, and ed-tech startups leverage our platforms to personalize teaching, improve retention, and make learning as interactive and rewarding as social media scrolling.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "We build social media platforms that are scalable, sticky, and secure. AI-driven feeds, privacy-first chat systems, and live content features drive engagement. Our architecture ensures your platform can handle viral moments without crashing, giving creators, communities, and brands a digital stage to connect and grow.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We design real estate apps that help buyers, sellers, and agents close deals faster. AR-powered property tours, AI-driven recommendations, and secure document management streamline every step. Our platforms keep listings fresh, negotiations quick, and users delighted, turning real estate buying and selling into a guided, data-driven experience.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "We power logistics apps with route optimization, GPS tracking, and real-time inventory sync. Our solutions cut costs, eliminate bottlenecks, and ensure every delivery meets its deadline. Carriers, 3PLs, and warehouses rely on us to bring transparency, speed, and automation to complex supply chains across industries.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "We create streaming apps, artist marketplaces, and licensing solutions that let music businesses scale and monetize. AI-powered recommendations, offline playback, and fan engagement features keep listeners hooked. Our process covers rights management, secure distribution, and seamless playback to hit the perfect balance between creativity, tech, and revenue.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
 ];
 
@@ -800,14 +800,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -815,7 +815,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

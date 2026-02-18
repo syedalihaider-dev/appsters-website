@@ -1,120 +1,120 @@
 
 // Bannar Images
-import BannerBg from "media/industry/education/bgBanner.webp";
+const BannerBg = "/industry/education/bgBanner.webp";
 
 // IndustryCta Images
-import IndustryCtaImg from "media/industry/education/ctaImage.webp"
+const IndustryCtaImg = "/industry/education/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/education/industry/Industry01.webp"
-import IndustrySliderIMG02 from "media/industry/education/industry/Industry02.webp"
-import IndustrySliderIMG03 from "media/industry/education/industry/Industry03.webp"
-import IndustrySliderIMG04 from "media/industry/education/industry/Industry04.webp"
-import IndustrySliderIMG05 from "media/industry/education/industry/Industry05.webp"
+const IndustrySliderIMG01 = "/industry/education/industry/Industry01.webp"
+const IndustrySliderIMG02 = "/industry/education/industry/Industry02.webp"
+const IndustrySliderIMG03 = "/industry/education/industry/Industry03.webp"
+const IndustrySliderIMG04 = "/industry/education/industry/Industry04.webp"
+const IndustrySliderIMG05 = "/industry/education/industry/Industry05.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/industry/education/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/industry/education/techImg.webp"
 
 //========= Process Images
-import Process01 from "media/industry/education/processImg.webp"
-import Process02 from "media/industry/education/processImg.webp"
-import Process03 from "media/industry/education/processImg.webp"
-import Process04 from "media/industry/education/processImg.webp"
-import Process05 from "media/industry/education/processImg.webp"
-import Process06 from "media/industry/education/processImg.webp"
-import Process07 from "media/industry/education/processImg.webp"
+const Process01 = "/industry/education/processImg.webp"
+const Process02 = "/industry/education/processImg.webp"
+const Process03 = "/industry/education/processImg.webp"
+const Process04 = "/industry/education/processImg.webp"
+const Process05 = "/industry/education/processImg.webp"
+const Process06 = "/industry/education/processImg.webp"
+const Process07 = "/industry/education/processImg.webp"
 
 //========= WhyChoose Images
 import { EducationIcon01, EducationIcon02, EducationIcon03, EducationIcon04 } from "@/src/app/app-constants"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/education/fuelingImg.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
+const FuelingImg1 = "/industry/education/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/industry/techstack/Reactjs.svg";
-import TAB1_2 from "media/industry/techstack/Angular.svg";
-import TAB1_3 from "media/industry/techstack/Vuejs.svg";
-import TAB1_4 from "media/industry/techstack/HTML5.svg";
-import TAB1_5 from "media/industry/techstack/CSS3.svg";
-import TAB1_6 from "media/industry/techstack/JavaScript.svg";
-import TAB1_7 from "media/industry/techstack/Wordpress.svg";
-import TAB2_1 from "media/industry/techstack/Nodejs.svg";
-import TAB2_2 from "media/industry/techstack/Python.svg";
-import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";
-import TAB2_4 from "media/industry/techstack/Java.svg";
-import TAB2_5 from "media/industry/techstack/DotNET.svg";
-import TAB2_6 from "media/industry/techstack/PHP.svg";
+const TAB1_1 = "/industry/techstack/Reactjs.svg";
+const TAB1_2 = "/industry/techstack/Angular.svg";
+const TAB1_3 = "/industry/techstack/Vuejs.svg";
+const TAB1_4 = "/industry/techstack/HTML5.svg";
+const TAB1_5 = "/industry/techstack/CSS3.svg";
+const TAB1_6 = "/industry/techstack/JavaScript.svg";
+const TAB1_7 = "/industry/techstack/Wordpress.svg";
+const TAB2_1 = "/industry/techstack/Nodejs.svg";
+const TAB2_2 = "/industry/techstack/Python.svg";
+const TAB2_3 = "/industry/techstack/RubyOnRails.svg";
+const TAB2_4 = "/industry/techstack/Java.svg";
+const TAB2_5 = "/industry/techstack/DotNET.svg";
+const TAB2_6 = "/industry/techstack/PHP.svg";
 
-import TAB3_1 from "media/industry/techstack/Swift.svg";
-import TAB3_2 from "media/industry/techstack/Kotlin.svg";
-import TAB3_3 from "media/industry/techstack/ReactNative.svg";
-import TAB3_4 from "media/industry/techstack/Flutter.svg";
-import TAB3_5 from "media/industry/techstack/Xamarin.svg";
-import TAB3_6 from "media/industry/techstack/Ionic.svg";
+const TAB3_1 = "/industry/techstack/Swift.svg";
+const TAB3_2 = "/industry/techstack/Kotlin.svg";
+const TAB3_3 = "/industry/techstack/ReactNative.svg";
+const TAB3_4 = "/industry/techstack/Flutter.svg";
+const TAB3_5 = "/industry/techstack/Xamarin.svg";
+const TAB3_6 = "/industry/techstack/Ionic.svg";
 
-import TAB4_1 from "media/industry/techstack/MySQL.svg";
-import TAB4_2 from "media/industry/techstack/PostgreSQL.svg";
-import TAB4_3 from "media/industry/techstack/MongoDB.svg";
-import TAB4_4 from "media/industry/techstack/SQLite.svg";
-import TAB4_5 from "media/industry/techstack/Redis.svg";
-import TAB4_6 from "media/industry/techstack/Oracle.svg";
+const TAB4_1 = "/industry/techstack/MySQL.svg";
+const TAB4_2 = "/industry/techstack/PostgreSQL.svg";
+const TAB4_3 = "/industry/techstack/MongoDB.svg";
+const TAB4_4 = "/industry/techstack/SQLite.svg";
+const TAB4_5 = "/industry/techstack/Redis.svg";
+const TAB4_6 = "/industry/techstack/Oracle.svg";
 
-import TAB5_1 from "media/industry/techstack/AWS.svg";
-import TAB5_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
-import TAB5_3 from "media/industry/techstack/MicrosoftAzure.svg";
-import TAB5_4 from "media/industry/techstack/Heroku.svg";
-import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
-import TAB5_6 from "media/industry/techstack/Firebase.svg";
+const TAB5_1 = "/industry/techstack/AWS.svg";
+const TAB5_2 = "/industry/techstack/GoogleCloudPlatform.svg";
+const TAB5_3 = "/industry/techstack/MicrosoftAzure.svg";
+const TAB5_4 = "/industry/techstack/Heroku.svg";
+const TAB5_5 = "/industry/techstack/DigitalOcean.svg";
+const TAB5_6 = "/industry/techstack/Firebase.svg";
 
-import TAB6_1 from "media/industry/techstack/Stripe.svg";
-import TAB6_2 from "media/industry/techstack/PayPal.svg";
-import TAB6_3 from "media/industry/techstack/Braintree.svg";
-import TAB6_4 from "media/industry/techstack/Square.svg";
-import TAB6_5 from "media/industry/techstack/AuthorizeNet.svg";
-import TAB6_6 from "media/industry/techstack/ApplePay.svg";
+const TAB6_1 = "/industry/techstack/Stripe.svg";
+const TAB6_2 = "/industry/techstack/PayPal.svg";
+const TAB6_3 = "/industry/techstack/Braintree.svg";
+const TAB6_4 = "/industry/techstack/Square.svg";
+const TAB6_5 = "/industry/techstack/AuthorizeNet.svg";
+const TAB6_6 = "/industry/techstack/ApplePay.svg";
 
 //========= Industries Images
 import { FintechSVG, HealthcareSVG, AutomotiveSVG, SocialSVG, RealEstateSVG, EcommerceSVG, LogisticsSVG, MusicSVG } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Automotive from "media/services/industry/Automotive.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Logistics from "media/services/industry/Logistics.webp";
-import Music from "media/services/industry/music.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Automotive = "/services/industry/Automotive.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Logistics = "/services/industry/Logistics.webp";
+const Music = "/services/industry/music.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link";
 
 
 export const BannerData = {
     title: "A Future-Driven Education App Development Company Building Smarter Learning Products",
     content: "Curriculum evolves faster than systems follow. As an educational app development company, Appsters designs platforms that keep students engaged, teachers informed, and learning aligned across K–12, universities, and workforce training. ",
-    BannerBg: BannerBg.src,
+    BannerBg: BannerBg,
 }
 
 export const IndustryServiceContent = {
@@ -143,11 +143,11 @@ export const IndustryServiceList = [
         title: (<>LMS <br /> Development</>),
         txt: "Our learning management system development expertise covers full-scale academic administration: user roles, course creation, gradebooks, certificate generation, and content hosting. Appsters builds LMS platforms that integrate cleanly with SIS, CMS, and third-party learning APIs. The system stays fast, organized, and easy to manage across large schools and corporate environments.",
     }
-    
+
 ];
 
 export const IndustryCtaContent = {
-    image: IndustryCtaImg.src,
+    image: IndustryCtaImg,
     title: "Create Dynamic Learning Experiences with Powerful Apps!",
     text: "Join hands with BitsWits to push the boundaries of traditional learning, creating education apps that empower students and educators to achieve more together!",
 }
@@ -159,22 +159,22 @@ export const IndustrySliderContent = {
 
 export const IndustrySliderList = [
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG01,
         title: "Employee Engagement Apps",
         txt: "Our employee learning platforms help organizations train teams consistently. As part of our advanced Educational App Solutions, these apps include role-based lessons, skill-gap tracking, HR integrations, micro-learning flows, and certification workflows. Each module supports measurable outcomes and delivers a smooth UX for employees at every level.",
     },
     {
-        img: IndustrySliderIMG02.src,
+        img: IndustrySliderIMG02,
         title: "eLearning Apps For the Disabled",
         txt: "We create accessible eLearning apps for disabled learners with robust accessibility layers—voice navigation, sign-language modules, dyslexia-friendly fonts, color contrast controls, and motion-reduction options. Compliance with WCAG and ADA guidelines ensures every learner can interact confidently and independently.",
     },
     {
-        img: IndustrySliderIMG03.src,
+        img: IndustrySliderIMG03,
         title: "eLearning Apps for Disabled",
         txt: "We create eLearning apps for disabled audiences, making knowledge accessible through adaptive learning features. Our apps provide equal opportunities for all learners, regardless of their abilities, to gain valuable education.",
     },
     {
-        img: IndustrySliderIMG04.src,
+        img: IndustrySliderIMG04,
         title: "On-Demand Educational Apps",
         txt: "Our On-Demand Educational Apps offer instant access to tutoring, concept videos, scheduled classes, AI-powered doubt clearing, and personalized study plans. We design them for fast response, low friction, and scale-ready architecture. These platforms support K-12, university prep, and vocational learning.",
     }
@@ -252,47 +252,47 @@ export const TechnologiesContent = {
     title: "E-learning App Developers Building Reliable, Scalable Learning Stacks",
     text: (<>
         <p>At Appsters, our engineering stack is built for the real world of education delivery, where lesson flow, device variation, student attention, and institutional standards all collide in a single product that must run flawlessly every day.
-Our teams use Swift, Kotlin, Flutter, React Native, Unity, WebRTC, LTI support, SCORM packaging, AI-driven recommendation engines, and FERPA-friendly cloud infrastructures to develop mobile apps for students that behave predictably under load. 
-</p>
+            Our teams use Swift, Kotlin, Flutter, React Native, Unity, WebRTC, LTI support, SCORM packaging, AI-driven recommendation engines, and FERPA-friendly cloud infrastructures to develop mobile apps for students that behave predictably under load.
+        </p>
         <p>Unlike most educational app development companies, we integrate pedagogy, analytics, accessibility, and long-term scalability into one system so your learning product grows without breaking the experience.</p>
-       
+
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
@@ -307,7 +307,7 @@ export const ProcessTabs = [
         content: {
             heading: "LearnQuest ",
             description: (<>LearnQuest is an interactive early-learning platform designed for pre-K to grade 3 students. The app blends phonics, colors, math basics, and storytelling into guided learning paths. Adaptive difficulty keeps each child comfortably challenged, while parents and teachers receive clean progress dashboards. Built-in accessibility features support diverse learners, and low-latency interactions ensure attention stays on learning, not on navigating screens.</>),
-            imgSrc: Process01.src,
+            imgSrc: Process01,
         },
     },
     {
@@ -315,7 +315,7 @@ export const ProcessTabs = [
         content: {
             heading: "CampuCruze",
             description: (<>CampusCruze is a university-grade mobile learning ecosystem for lectures, assignments, attendance, and digital campus workflows. Students can access lesson recordings, take quizzes, join discussion rooms, and receive faculty updates in real time. A structured backend ensures stable performance during high-load events like exam periods. Designed with FERPA-friendly architecture, it keeps academic data protected while giving institutions the flexibility to scale effortlessly.</>),
-            imgSrc: Process02.src,
+            imgSrc: Process02,
         },
     },
     {
@@ -323,7 +323,7 @@ export const ProcessTabs = [
         content: {
             heading: "SkillForge",
             description: (<>SkillForge is an upskilling and micro-credentialing app built for working professionals. Users get structured learning tracks, practical projects, progress tracking, and certification workflows that sync with HR systems. Gamified assessments and real-time scoring help maintain engagement. The backend supports large organizations with high user concurrency, clean analytics pipelines, and expandable content libraries built for long-term retention.</>),
-            imgSrc: Process03.src,
+            imgSrc: Process03,
         },
     },
     {
@@ -331,10 +331,10 @@ export const ProcessTabs = [
         content: {
             heading: "ReadingGalaxy ",
             description: "ReadingGalaxy is an immersive reading and comprehension app powered by AR overlays and guided narration. Students explore stories spatially, interact with vocabulary prompts, and complete comprehension challenges in real-time. Built with accessibility in mind, it supports dyslexia-friendly modes, offline reading, and classroom-level assignments. Teachers can manage groups, push tasks, and monitor reading fluency development seamlessly.",
-            imgSrc: Process04.src,
+            imgSrc: Process04,
         },
     },
-    
+
 ];
 
 export const WhyChooseContent = {
@@ -414,7 +414,7 @@ export const OffersTabs = [
 export const FuelingContent1 = {
     title: "Advanced Integrations That Enhance Every Education App We Build",
     text: "Our integrations transform static learning tools into dynamic ecosystems. As an education app development company, we connect content systems, assessment engines, AI modules, and classroom workflows so teachers, students, and administrators experience a unified digital learning environment built for scale and longevity.",
-    FuelingImg1: FuelingImg1.src
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList1 = [
@@ -442,9 +442,9 @@ export const FuelingList1 = [
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -486,8 +486,8 @@ export const FuelingContent2 = {
     text: "Our education app development experts leverage innovation and advanced technology to deliver impactful solutions, embedding cutting-edge features that enhance the learning experience for educators and students.",
     subtitle: "Transform Learning with a Custom-Built Education App Today!",
     subtext: "Develop feature-rich apps that make learning accessible and engaging for students.",
-    FuelingImg: FuelingImg.src,
-    FuelingImg1: FuelingImg1.src
+    FuelingImg: FuelingImg,
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList2 = [
@@ -524,31 +524,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "React.js",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Angular",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Vue.js",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "HTML5",
-                img: TAB1_4.src,
+                img: TAB1_4,
             },
             {
                 heading: "CSS3",
-                img: TAB1_5.src,
+                img: TAB1_5,
             },
             {
                 heading: "JavaScript",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
             {
                 heading: "WordPress",
-                img: TAB1_7.src,
+                img: TAB1_7,
             }
         ],
     },
@@ -557,27 +557,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Node.js",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "Python",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Java",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: ".NET Core",
-                img: TAB2_5.src,
+                img: TAB2_5,
             },
             {
                 heading: "PHP",
-                img: TAB2_6.src,
+                img: TAB2_6,
             }
         ],
     },
@@ -586,27 +586,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Swift",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Kotlin",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "React Native",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "Flutter",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Xamarin",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
             {
                 heading: "Ionic",
-                img: TAB3_6.src,
+                img: TAB3_6,
             }
         ],
     },
@@ -615,27 +615,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "MySQL",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "MongoDB",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "SQLite",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "Redis",
-                img: TAB4_5.src,
+                img: TAB4_5,
             },
             {
                 heading: "Oracle",
-                img: TAB4_6.src,
+                img: TAB4_6,
             }
         ],
     },
@@ -644,27 +644,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "AWS",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "Google Cloud",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Microsoft Azure",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "Heroku",
-                img: TAB5_4.src,
+                img: TAB5_4,
             },
             {
                 heading: "DigitalOcean",
-                img: TAB5_5.src,
+                img: TAB5_5,
             },
             {
                 heading: "Firebase",
-                img: TAB5_6.src,
+                img: TAB5_6,
             }
         ],
     },
@@ -673,27 +673,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Stripe",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "PayPal",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Braintree",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "Square",
-                img: TAB6_4.src,
+                img: TAB6_4,
             },
             {
                 heading: "Authorize.Net",
-                img: TAB6_5.src,
+                img: TAB6_5,
             },
             {
                 heading: "Apple Pay",
-                img: TAB6_6.src,
+                img: TAB6_6,
             }
         ],
     }
@@ -710,57 +710,57 @@ export const IndustriesList = [
         title: "Ecommerce",
         txt: "We build ecommerce apps that sell more with frictionless checkouts, AI product recommendations, and mobile-first design. Our solutions handle scale effortlessly, from flash sales to global launches. Businesses get powerful dashboards, while shoppers get a personalized, smooth, and secure experience that turns carts into conversions.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We co-create secure, compliant fintech apps that simplify payments, investments, and trading. From blockchain-backed wallets to AI fraud detection, our solutions prioritize speed, trust, and transparency. We help financial institutions and startups scale confidently, turning complex transactions into seamless user journeys with powerful analytics and risk-free automation.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "We power logistics apps with route optimization, GPS tracking, and real-time inventory sync. Our solutions cut costs, eliminate bottlenecks, and ensure every delivery meets its deadline. Carriers, 3PLs, and warehouses rely on us to bring transparency, speed, and automation to complex supply chains across industries.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We develop HIPAA-compliant healthcare apps that bridge doctors, patients, and data. From telemedicine to AI-powered diagnostics, our solutions improve workflows, reduce wait times, and empower smarter, faster decision-making. Every feature is designed to keep patient privacy airtight while driving measurable results for hospitals, clinics, and health-tech startups.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
 
     {
         icon: <SocialSVG />,
         title: "Social Media",
-        txt: "We build social media platforms that are scalable, sticky, and secure. AI-driven feeds, privacy-first chat systems, and live content features drive engagement. Our architecture ensures your platform can handle viral moments without crashing, giving creators, communities, and brands a digital stage to connect and grow.",
+        txt: "We build social media platforms that are scalable, sticky, and secure. AI-driven feeds, privacy-first chat systems, and live content features drive engagement. Our architecture ensure your platform can handle viral moments without crashing, giving creators, communities, and brands a digital stage to connect and grow.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We design real estate apps that help buyers, sellers, and agents close deals faster. AR-powered property tours, AI-driven recommendations, and secure document management streamline every step. Our platforms keep listings fresh, negotiations quick, and users delighted, turning real estate buying and selling into a guided, data-driven experience.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "We create streaming apps, artist marketplaces, and licensing solutions that let music businesses scale and monetize. AI-powered recommendations, offline playback, and fan engagement features keep listeners hooked. Our process covers rights management, secure distribution, and seamless playback to hit the perfect balance between creativity, tech, and revenue.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
     {
         icon: <AutomotiveSVG />,
         title: "Automotive",
         txt: "From fleet management dashboards to car rental apps, we digitize automotive operations. IoT sensors, real-time tracking, and predictive maintenance keep vehicles safer and downtime lower. Our solutions put dealerships, logistics providers, and automakers in the driver’s seat of efficiency, customer experience, and future mobility innovation.",
         url: "/automotive-software-development",
-        img: Automotive.src,
+        img: Automotive,
     },
 ];
 
@@ -810,14 +810,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -825,7 +825,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import styles from "@/styles/components/ai/talk.module.scss";
 import { Container, Row, Col } from 'react-bootstrap';
-import VideoPoster from "media/videos/AiServices/AiServicesImg.webp";
+const VideoPoster = "/videos/AiServices/AiServicesImg.webp";
 
 const Talk = () => {
     const [selected, setSelected] = useState("");
@@ -71,7 +71,7 @@ const Talk = () => {
                 aria-label="Background video"
                 className={styles.bannerVideo}
                 playsInline
-                poster={VideoPoster.src}
+                poster={VideoPoster}
             >
                 <source src="/videos/AiServices/letsTalk.mp4" type="video/mp4" />
             </video>

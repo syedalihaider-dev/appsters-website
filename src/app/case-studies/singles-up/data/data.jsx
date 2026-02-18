@@ -1,35 +1,35 @@
 // Overview Images
-import OverviewImg from "media/casestudies/singles-up/OverviewImg.webp"
+const OverviewImg = "/casestudies/singles-up/OverviewImg.webp"
 
 // Features Images
-import FeaturesImg from "media/casestudies/singles-up/FeaturesLogo.webp"
+const FeaturesImg = "/casestudies/singles-up/FeaturesLogo.webp"
 
 // Problem Images
-import ProblemImg from "media/casestudies/singles-up/ProblemImg.webp"
+const ProblemImg = "/casestudies/singles-up/ProblemImg.webp"
 
 // Solution Images
-import SolutionImg from "media/casestudies/singles-up/SolutionImg.webp"
+const SolutionImg = "/casestudies/singles-up/SolutionImg.webp"
 
 // ScrollingSection Images
-import ScrollingSectionImg from "media/casestudies/singles-up/ScrollingImage.webp"
+const ScrollingSectionImg = "/casestudies/singles-up/ScrollingImage.webp"
 
 // TechStack Images
-import TechStackIcon01 from "media/casestudies/techIcon/React-Native.webp"
-import TechStackIcon02 from "media/casestudies/techIcon/Flutter.webp"
-import TechStackIcon03 from "media/casestudies/techIcon/Xamarin.webp"
-import TechStackIcon04 from "media/casestudies/techIcon/Swift.webp"
-import TechStackIcon05 from "media/casestudies/techIcon/Ionic.webp"
-import TechStackIcon06 from "media/casestudies/techIcon/AWS.webp"
-import TechStackIcon07 from "media/casestudies/techIcon/JavaScript.svg"
-import TechStackIcon08 from "media/casestudies/techIcon/Adobe-XD.webp"
-import TechStackIcon09 from "media/casestudies/techIcon/Adobe-Illustrator.webp"
-import TechStackIcon10 from "media/casestudies/techIcon/Adobe-Photoshop.webp"
-import TechStackIcon11 from "media/casestudies/techIcon/figma.webp"
-import TechStackIcon12 from "media/casestudies/techIcon/InVision.webp"
-import TechStackIcon13 from "media/casestudies/techIcon/Balsamiq.webp"
+const TechStackIcon01 = "/casestudies/techIcon/React-Native.webp"
+const TechStackIcon02 = "/casestudies/techIcon/Flutter.webp"
+const TechStackIcon03 = "/casestudies/techIcon/Xamarin.webp"
+const TechStackIcon04 = "/casestudies/techIcon/Swift.webp"
+const TechStackIcon05 = "/casestudies/techIcon/Ionic.webp"
+const TechStackIcon06 = "/casestudies/techIcon/AWS.webp"
+const TechStackIcon07 = "/casestudies/techIcon/JavaScript.svg"
+const TechStackIcon08 = "/casestudies/techIcon/Adobe-XD.webp"
+const TechStackIcon09 = "/casestudies/techIcon/Adobe-Illustrator.webp"
+const TechStackIcon10 = "/casestudies/techIcon/Adobe-Photoshop.webp"
+const TechStackIcon11 = "/casestudies/techIcon/figma.webp"
+const TechStackIcon12 = "/casestudies/techIcon/InVision.webp"
+const TechStackIcon13 = "/casestudies/techIcon/Balsamiq.webp"
 
 // Result Images
-import ResultImg from "media/casestudies/singles-up/ResultImg.webp"
+const ResultImg = "/casestudies/singles-up/ResultImg.webp"
 
 
 export const BannerData = {
@@ -38,14 +38,14 @@ export const BannerData = {
 }
 
 export const OverviewData = {
-    image: OverviewImg.src,
+    image: OverviewImg,
     subtitle: "Overview",
     title: "Single’s Up",
     content: "Single's Up is a location-based dating app designed to help individuals connect with potential partners nearby. Focusing on users in the same area, the app facilitates meaningful connections and encourages in-person interactions. With a user-friendly interface, Single's Up simplifies the journey to finding love right in your own neighborhood."
 }
 
 export const FeaturesData = {
-    image: FeaturesImg.src,
+    image: FeaturesImg,
     background: 'linear-gradient(180deg, #FF5CAA 10.5%, #E82080 100%)',
     subtitle: "Features",
     title: "Key Highlights of Single’s Up",
@@ -64,7 +64,7 @@ export const FeaturesBullets = [
 ]
 
 export const ProblemData = {
-    image: ProblemImg.src,
+    image: ProblemImg,
     subtitle: "The Problem",
     title: "Challenges the Client Faced",
     content: "The client sought to develop a dating app that emphasizes location-based connections, allowing users to find potential partners nearby. Creating a platform that encourages genuine interactions while addressing the need for privacy and user comfort in the dating landscape presented a unique challenge.",
@@ -84,7 +84,7 @@ export const CaseStudyctaData = {
 }
 
 export const SolutionData = {
-    image: SolutionImg.src,
+    image: SolutionImg,
     subtitle: "The Solution",
     title: "Our Approach to the Challenge",
     content: "We developed Single's Up as an engaging platform that connects users based on their geographical location. With a focus on ease of use and community, the app encourages real-life interactions while providing tools to build meaningful connections.",
@@ -99,7 +99,7 @@ export const SolutionBullets = [
 ]
 
 export const ScrollingSectionData = {
-    image: ScrollingSectionImg.src,
+    image: ScrollingSectionImg,
 }
 
 export const TechStackData = {
@@ -111,60 +111,60 @@ export const TechStackData = {
 export const TechStackList = [
     {
         title: "React Native",
-        icon: TechStackIcon01.src
+        icon: TechStackIcon01
     },
     {
         title: "Flutter",
-        icon: TechStackIcon02.src
+        icon: TechStackIcon02
     },
     {
         title: "Xamarin",
-        icon: TechStackIcon03.src
+        icon: TechStackIcon03
     },
     {
         title: "Swift",
-        icon: TechStackIcon04.src
+        icon: TechStackIcon04
     },
     {
         title: "Ionic",
-        icon: TechStackIcon05.src
+        icon: TechStackIcon05
     },
     {
         title: "AWS",
-        icon: TechStackIcon06.src
+        icon: TechStackIcon06
     },
     {
         title: "JavaScript",
-        icon: TechStackIcon07.src
+        icon: TechStackIcon07
     },
     {
         title: "Adobe-XD",
-        icon: TechStackIcon08.src
+        icon: TechStackIcon08
     },
     {
         title: "Adobe-Illustrator",
-        icon: TechStackIcon09.src
+        icon: TechStackIcon09
     },
     {
         title: "Adobe-Photoshop",
-        icon: TechStackIcon10.src
+        icon: TechStackIcon10
     },
     {
         title: "Figma",
-        icon: TechStackIcon11.src
+        icon: TechStackIcon11
     },
     {
         title: "InVision",
-        icon: TechStackIcon12.src
+        icon: TechStackIcon12
     },
     {
         title: "Balsamiq",
-        icon: TechStackIcon13.src
+        icon: TechStackIcon13
     }
 ]
 
 export const ResultData = {
-    background: `linear-gradient(270deg, rgba(232, 32, 128, 0.2) 2.4%, #E82080 59.93%),  url(${ResultImg.src})`,
+    background: `linear-gradient(270deg, rgba(232, 32, 128, 0.2) 2.4%, #E82080 59.93%),  url(${ResultImg})`,
     subtitle: "The Result",
     title: "The Impact We Delivered",
     content: "Single's Up quickly became a favorite for users seeking connections in their vicinity. Prioritizing local interactions and user experience has driven significant engagement and satisfaction within the community.",

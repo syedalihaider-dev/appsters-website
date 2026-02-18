@@ -1,28 +1,28 @@
 // Bannar Images
-import BannerLogos from "media/mobile-game-development-company/bannerLogo.webp"
-import BannerBg from "media/mobile-game-development-company/bannerIMG.webp"
+const BannerLogos = "/mobile-game-development-company/bannerLogo.webp"
+const BannerBg = "/mobile-game-development-company/bannerIMG.webp"
 
 // services Images
-import GameBg1 from "media/mobile-game-development-company/services/GameBg01.webp"
-import GameBg2 from "media/mobile-game-development-company/services/GameBg02.webp"
-import GameBg3 from "media/mobile-game-development-company/services/GameBg03.webp"
-import GameBg4 from "media/mobile-game-development-company/services/GameBg04.webp"
-import GameBg5 from "media/mobile-game-development-company/services/GameBg05.webp"
-import GameBg6 from "media/mobile-game-development-company/services/GameBg06.webp"
-import GameBg7 from "media/mobile-game-development-company/services/GameBg07.webp"
+const GameBg1 = "/mobile-game-development-company/services/GameBg01.webp"
+const GameBg2 = "/mobile-game-development-company/services/GameBg02.webp"
+const GameBg3 = "/mobile-game-development-company/services/GameBg03.webp"
+const GameBg4 = "/mobile-game-development-company/services/GameBg04.webp"
+const GameBg5 = "/mobile-game-development-company/services/GameBg05.webp"
+const GameBg6 = "/mobile-game-development-company/services/GameBg06.webp"
+const GameBg7 = "/mobile-game-development-company/services/GameBg07.webp"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Process Images
-import ProcessIMG from "media/services/process/tab01.webp"
+const ProcessIMG = "/services/process/tab01.webp"
 
 //========= WhyChoose Images
 import {
@@ -33,53 +33,53 @@ import {
 } from "@/src/app/app-constants"
 
 //========= ContentSec Images
-import ContentSecIMG1 from "media/mobile-game-development-company/imgContent1.webp"
-import ContentSecIMG2 from "media/mobile-game-development-company/imgContent2.webp"
+const ContentSecIMG1 = "/mobile-game-development-company/imgContent1.webp"
+const ContentSecIMG2 = "/mobile-game-development-company/imgContent2.webp"
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp"
-import TAB1_2 from "media/services/tech/tab1/02.webp"
-import TAB1_3 from "media/services/tech/tab1/03.webp"
-import TAB1_4 from "media/services/tech/tab1/04.webp"
-import TAB1_5 from "media/services/tech/tab1/05.webp"
-import TAB1_6 from "media/services/tech/tab1/06.webp"
-import TAB2_1 from "media/services/tech/tab2/01.webp"
-import TAB2_2 from "media/services/tech/tab2/02.webp"
-import TAB2_3 from "media/services/tech/tab2/03.webp"
-import TAB2_4 from "media/services/tech/tab2/04.webp"
-import TAB2_5 from "media/services/tech/tab2/05.webp"
-import TAB3_1 from "media/services/tech/tab3/01.webp"
-import TAB3_2 from "media/services/tech/tab3/02.webp"
-import TAB3_3 from "media/services/tech/tab3/03.webp"
-import TAB3_4 from "media/services/tech/tab3/04.webp"
-import TAB3_5 from "media/services/tech/tab3/05.webp"
-import TAB4_1 from "media/services/tech/tab4/01.webp"
-import TAB4_2 from "media/services/tech/tab4/02.webp"
-import TAB4_3 from "media/services/tech/tab4/03.webp"
-import TAB4_4 from "media/services/tech/tab4/04.webp"
-import TAB4_5 from "media/services/tech/tab4/05.webp"
-import TAB4_6 from "media/services/tech/tab4/06.webp"
-import TAB5_1 from "media/services/tech/tab5/01.webp"
-import TAB5_2 from "media/services/tech/tab5/02.webp"
-import TAB5_3 from "media/services/tech/tab5/03.webp"
-import TAB5_4 from "media/services/tech/tab5/04.webp"
-import TAB5_5 from "media/services/tech/tab5/05.webp"
-import TAB5_6 from "media/services/tech/tab5/06.webp"
-import TAB6_1 from "media/services/tech/tab6/01.webp"
-import TAB6_2 from "media/services/tech/tab6/02.webp"
-import TAB6_3 from "media/services/tech/tab6/03.webp"
-import TAB6_4 from "media/services/tech/tab6/04.webp"
-import TAB6_5 from "media/services/tech/tab6/05.webp"
-import TAB6_6 from "media/services/tech/tab6/06.webp"
-import TAB6_7 from "media/services/tech/tab6/07.webp"
+const TAB1_1 = "/services/tech/tab1/01.webp"
+const TAB1_2 = "/services/tech/tab1/02.webp"
+const TAB1_3 = "/services/tech/tab1/03.webp"
+const TAB1_4 = "/services/tech/tab1/04.webp"
+const TAB1_5 = "/services/tech/tab1/05.webp"
+const TAB1_6 = "/services/tech/tab1/06.webp"
+const TAB2_1 = "/services/tech/tab2/01.webp"
+const TAB2_2 = "/services/tech/tab2/02.webp"
+const TAB2_3 = "/services/tech/tab2/03.webp"
+const TAB2_4 = "/services/tech/tab2/04.webp"
+const TAB2_5 = "/services/tech/tab2/05.webp"
+const TAB3_1 = "/services/tech/tab3/01.webp"
+const TAB3_2 = "/services/tech/tab3/02.webp"
+const TAB3_3 = "/services/tech/tab3/03.webp"
+const TAB3_4 = "/services/tech/tab3/04.webp"
+const TAB3_5 = "/services/tech/tab3/05.webp"
+const TAB4_1 = "/services/tech/tab4/01.webp"
+const TAB4_2 = "/services/tech/tab4/02.webp"
+const TAB4_3 = "/services/tech/tab4/03.webp"
+const TAB4_4 = "/services/tech/tab4/04.webp"
+const TAB4_5 = "/services/tech/tab4/05.webp"
+const TAB4_6 = "/services/tech/tab4/06.webp"
+const TAB5_1 = "/services/tech/tab5/01.webp"
+const TAB5_2 = "/services/tech/tab5/02.webp"
+const TAB5_3 = "/services/tech/tab5/03.webp"
+const TAB5_4 = "/services/tech/tab5/04.webp"
+const TAB5_5 = "/services/tech/tab5/05.webp"
+const TAB5_6 = "/services/tech/tab5/06.webp"
+const TAB6_1 = "/services/tech/tab6/01.webp"
+const TAB6_2 = "/services/tech/tab6/02.webp"
+const TAB6_3 = "/services/tech/tab6/03.webp"
+const TAB6_4 = "/services/tech/tab6/04.webp"
+const TAB6_5 = "/services/tech/tab6/05.webp"
+const TAB6_6 = "/services/tech/tab6/06.webp"
+const TAB6_7 = "/services/tech/tab6/07.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link"
 
 export const BannerData = {
@@ -87,8 +87,8 @@ export const BannerData = {
   title: "A Web3 Game Development Company Creating Playable Economies.",
   content:
     "We build blockchain-native Web3 games that reward players with real ownership, predictable economies, and clear monetization paths. Our engineers design on-chain logic, secure smart contracts, and scalable off-chain services, enabling games to handle real traffic and marketplaces. Our designers focus on retention loops, balanced progression, and token sinks so that play leads to measurable revenue. Experience fused analytics and telemetry in your app gameplay to track economic health and player behavior.",
-  BannerLogos: BannerLogos.src,
-  BannerBg: BannerBg.src,
+  BannerLogos: BannerLogos,
+  BannerBg: BannerBg,
 }
 
 export const ProjectdiscussContent = {
@@ -106,7 +106,7 @@ export const ServicesList = [
     title: "Full-Cycle Web3 Game Development",
     txt: "Our full-cycle teams design game rules, on-chain settlement, off-chain services, and live-ops playbooks. Appsters’ Web3 game developers define token flows, economic sinks, and anti-abuse controls before code lands. We test load, simulate markets, and run audits so launch windows do not become failure modes. We also provide operator dashboards and moderation tools. The result: economies that sustain trading while player experience stays responsive. ",
     links: "",
-    Img: GameBg1.src,
+    Img: GameBg1,
   },
   {
     title: "Web3 Game Porting",
@@ -150,9 +150,9 @@ export const ServicesList = [
 
 export const TestimonialContent = {
   title: "Client Testimonials",
-  TestiImg1: TestiImg1.src,
-  TestiImg2: TestiImg2.src,
-  TestiImg3: TestiImg3.src,
+  TestiImg1: TestiImg1,
+  TestiImg2: TestiImg2,
+  TestiImg3: TestiImg3,
 }
 
 export const TestimonialSLIDES = [
@@ -207,7 +207,7 @@ export const ContentSecContent = {
       </p>
     </>
   ),
-  ContentSecIMG: ContentSecIMG1.src,
+  ContentSecIMG: ContentSecIMG1,
 }
 
 export const ProcessContent = {
@@ -222,7 +222,7 @@ export const ProcessTabs = [
       heading: "MetaRacers",
       description:
         "MetaRacers puts player-owned cars at the center of competitive racing. Each vehicle is an NFT that players upgrade, tune, and trade. Appsters built the real-time physics layer, low-latency matchmaking, and on-chain settlement for race winnings. We balanced in-game progression with token rewards so skill matters more than spend. Operators get dashboards to monitor liquidity and spot market imbalances before they affect play.",
-      imgSrc: ProcessIMG.src,
+      imgSrc: ProcessIMG,
     },
   },
   {
@@ -231,7 +231,7 @@ export const ProcessTabs = [
       heading: "FroForge",
       description:
         "FroForge lets players design land, build structures, and mint ownership on-chain. Players claim parcels, create assets, and form micro-economies. Appsters implemented the asset registry, cross-chain minting options, and a content moderation workflow so creators can publish with confidence. We focused on making land mechanics transparent and auditable while keeping creation tools familiar to non-technical users, so communities grow without hitting technical friction.",
-      imgSrc: ProcessIMG.src,
+      imgSrc: ProcessIMG,
     },
   },
   {
@@ -240,7 +240,7 @@ export const ProcessTabs = [
       heading: "BlitzArena",
       description:
         "BlitzArena blends esports-style matches with token incentives for ranked play. Players enter quick matches, earn rewards, and level up gear stored as tradable assets. Appsters engineered the match server logic, microtransaction flow, and Layer-2 settlement to cut transaction costs during peak events. Tournament organizers receive reliable payout reports and fraud detection signals so competitive integrity stays high while monetization scales.",
-      imgSrc: ProcessIMG.src,
+      imgSrc: ProcessIMG,
     },
   },
   {
@@ -249,7 +249,7 @@ export const ProcessTabs = [
       heading: "DriftMonsters",
       description:
         "DriftMonsters centers on vehicle ownership, rentals, and community-driven competitions. Players buy, lease, or rent cars and skins, and hosts run timed events to reward participation. Appsters implemented secure rental contracts, marketplace filters, and a lightweight replication system so ownership changes reflect quickly in-game without blocking performance. Mobile wallet onboarding and instant previewing of rented vehicles make participation smooth for casual players. ",
-      imgSrc: ProcessIMG.src,
+      imgSrc: ProcessIMG,
     },
   },
   {
@@ -258,7 +258,7 @@ export const ProcessTabs = [
       heading: "Splice Hunt",
       description:
         "Splice Hunt mixes AR missions with collectible progression tied to real locations. Players complete nearby objectives, claim token rewards, and unlock gear linked to on-chain metadata. Appsters focused on robust geo-fencing, token-drop validation, and privacy-safe location handling. We tuned AR overlays for low-latency rendering and built merchant-facing tools so local partners can create events that drive real-world engagement and measurable retention.",
-      imgSrc: ProcessIMG.src,
+      imgSrc: ProcessIMG,
     },
   },
   {
@@ -267,7 +267,7 @@ export const ProcessTabs = [
       heading: "GuildVerse",
       description:
         "GuildVerse gives guilds control over treasury, rules, and shared assets through on-chain governance. Guild leaders propose content drops and vote on revenue splits. Appsters designed the guild contract model, staking mechanics, and treasury safeguards so groups can manage funds with clear audit trails. We shipped a suite of admin tools for moderators and a compact UX for members to propose and vote without leaving the game client.",
-      imgSrc: ProcessIMG.src,
+      imgSrc: ProcessIMG,
     },
   },
   {
@@ -276,7 +276,7 @@ export const ProcessTabs = [
       heading: "The Quest",
       description:
         "The Quest ties item evolution to time and player actions. Artifacts change attributes when players perform specific quests or when real-world time milestones occur. Appsters integrated reliable oracles for timed triggers, implemented safe upgrade paths for on-chain assets, and provided rollback plans for event failures. Story-driven design pairs with clear on-chain proofs so collectors trace an item’s history as part of the narrative.",
-      imgSrc: ProcessIMG.src,
+      imgSrc: ProcessIMG,
     },
   },
 ]
@@ -389,20 +389,20 @@ export const ContentSecLGContent = {
   text: (
     <>
       <p>
-        logic, with IPFS, GraphQL, and AWS for storage and APIs. Unlike most Web3 game development companies, we design ecosystems that stay adaptable as chains evolve. Our Web3 game development services pair clean on-chain architecture with fast off-chain processing, ensuring smooth gameplay, transparent token flows, and measurable business 
+        logic, with IPFS, GraphQL, and AWS for storage and APIs. Unlike most Web3 game development companies, we design ecosystems that stay adaptable as chains evolve. Our Web3 game development services pair clean on-chain architecture with fast off-chain processing, ensuring smooth gameplay, transparent token flows, and measurable business
       </p>
       <p>
-        performance across every release of our Web3 game apps. We take a tech-first, results-driven approach to Web3 game development services, shipping game systems that studios can operate confidently after launch. 
+        performance across every release of our Web3 game apps. We take a tech-first, results-driven approach to Web3 game development services, shipping game systems that studios can operate confidently after launch.
       </p>
     </>
   ),
-  BGIMG: ContentSecIMG2.src,
+  BGIMG: ContentSecIMG2,
 }
 
 export const IdeaCtaContent = {
   title: (
     <>
-      Hire Web3 Game Developers Who 
+      Hire Web3 Game Developers Who
       <br /> Ship Real Immersive Gameplay.
     </>
   ),
@@ -430,7 +430,7 @@ export const TechStackTabs = [
     content: [
       {
         heading: "Unity",
-        img: TAB1_1.src,
+        img: TAB1_1,
       },
       {
         heading: "Unreal Engine",
@@ -623,7 +623,7 @@ export const FuelingContent = {
   subtitle: "Build the Next Big Mobile Game with Expert Developers!",
   subtext:
     "Deliver smooth, immersive gameplay that keeps players hooked and coming back.",
-  FuelingImg: FuelingImg.src,
+  FuelingImg: FuelingImg,
 }
 
 export const FuelingList = [
@@ -693,7 +693,7 @@ export const BlogsList = [
     title: "How Much Does It Cost to Develop an App in 2024?",
     txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
     cat: "Mobile App Development",
-    img: BlogsIMG01.src,
+    img: BlogsIMG01,
     links: "https://www.bitswits.co/blog/mobile-app-development-cost",
     date: "August 29,2024",
   },

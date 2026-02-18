@@ -2,16 +2,16 @@
 import Image from "next/image"
 
 // Bannar Images
-import BannerLogos from "media/services/bannerLogo.webp";
-import BannerBg from "media/services/bgBanner.webp";
+const BannerLogos = "/services/bannerLogo.webp";
+const BannerBg = "/services/bgBanner.webp";
 
 
 //========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png";
-import slider2 from "media/newmobileapp/slider-3.png";
-import slider3 from "media/newmobileapp/slider-5.png";
-import slider4 from "media/newmobileapp/slider-4.png";
-import slider5 from "media/newmobileapp/slider-1.png";
+const slider1 = "/newmobileapp/slider-2.png";
+const slider2 = "/newmobileapp/slider-3.png";
+const slider3 = "/newmobileapp/slider-5.png";
+const slider4 = "/newmobileapp/slider-4.png";
+const slider5 = "/newmobileapp/slider-1.png";
 
 //========= WhyChoose Images
 import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
@@ -20,106 +20,106 @@ import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } fr
 import { Process01, Process02, Process03, Process04, Process05, Process06, Process07, Process08 } from "@/src/app/app-constants"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+const IMG = "/services/process/tab01.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/services/techImg.webp"
 
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Risks Images
-import RisksIMG01 from "media/services/customImg01.webp"
-import RisksIMG02 from "media/services/customImg02.webp"
+const RisksIMG01 = "/services/customImg01.webp"
+const RisksIMG02 = "/services/customImg02.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= CtaEstimated Images
-import CtaEstimatedImg from "media/services/ctaImg.webp"
+const CtaEstimatedImg = "/services/ctaImg.webp"
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/04.webp";
-import TAB1_5 from "media/services/tech/tab1/05.webp";
-import TAB1_6 from "media/services/tech/tab1/06.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/06.webp";
-import TAB2_7 from "media/services/tech/tab2/07.webp";
-import TAB2_8 from "media/services/tech/tab2/08.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/04.webp";
-import TAB3_5 from "media/services/tech/tab3/05.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/05.webp";
-import TAB4_6 from "media/services/tech/tab4/06.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/05.webp";
-import TAB5_6 from "media/services/tech/tab5/06.webp";
-import TAB5_7 from "media/services/tech/tab5/07.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/05.webp";
-import TAB6_6 from "media/services/tech/tab6/06.webp";
-import TAB6_7 from "media/services/tech/tab6/07.webp";
-import TAB6_8 from "media/services/tech/tab6/08.webp";
-import TAB7_1 from "media/services/tech/tab7/01.webp";
-import TAB7_2 from "media/services/tech/tab7/02.webp";
-import TAB7_3 from "media/services/tech/tab7/03.webp";
-import TAB7_4 from "media/services/tech/tab7/04.webp";
-import TAB7_5 from "media/services/tech/tab7/05.webp";
-import TAB7_6 from "media/services/tech/tab7/06.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/services/tech/tab1/02.webp";
+const TAB1_3 = "/services/tech/tab1/03.webp";
+const TAB1_4 = "/services/tech/tab1/04.webp";
+const TAB1_5 = "/services/tech/tab1/05.webp";
+const TAB1_6 = "/services/tech/tab1/06.webp";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_2 = "/services/tech/tab2/02.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB2_5 = "/services/tech/tab2/05.webp";
+const TAB2_6 = "/services/tech/tab2/06.webp";
+const TAB2_7 = "/services/tech/tab2/07.webp";
+const TAB2_8 = "/services/tech/tab2/08.webp";
+const TAB3_1 = "/services/tech/tab3/01.webp";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB3_3 = "/services/tech/tab3/03.webp";
+const TAB3_4 = "/services/tech/tab3/04.webp";
+const TAB3_5 = "/services/tech/tab3/05.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB4_2 = "/services/tech/tab4/02.webp";
+const TAB4_3 = "/services/tech/tab4/03.webp";
+const TAB4_4 = "/services/tech/tab4/04.webp";
+const TAB4_5 = "/services/tech/tab4/05.webp";
+const TAB4_6 = "/services/tech/tab4/06.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB5_4 = "/services/tech/tab5/04.webp";
+const TAB5_5 = "/services/tech/tab5/05.webp";
+const TAB5_6 = "/services/tech/tab5/06.webp";
+const TAB5_7 = "/services/tech/tab5/07.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
+const TAB6_4 = "/services/tech/tab6/04.webp";
+const TAB6_5 = "/services/tech/tab6/05.webp";
+const TAB6_6 = "/services/tech/tab6/06.webp";
+const TAB6_7 = "/services/tech/tab6/07.webp";
+const TAB6_8 = "/services/tech/tab6/08.webp";
+const TAB7_1 = "/services/tech/tab7/01.webp";
+const TAB7_2 = "/services/tech/tab7/02.webp";
+const TAB7_3 = "/services/tech/tab7/03.webp";
+const TAB7_4 = "/services/tech/tab7/04.webp";
+const TAB7_5 = "/services/tech/tab7/05.webp";
+const TAB7_6 = "/services/tech/tab7/06.webp";
 
 //========= Industries Images
-import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, SocialSVG, ChoiceSVG1, ChoiceSVG2, ChoiceSVG3, ChoiceSVG4, ChoiceSVG5, ChoiceSVG6, ChoiceSVG7, ChoiceSVG8,  } from "@/src/app/app-constants";
+import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, SocialSVG, ChoiceSVG1, ChoiceSVG2, ChoiceSVG3, ChoiceSVG4, ChoiceSVG5, ChoiceSVG6, ChoiceSVG7, ChoiceSVG8, } from "@/src/app/app-constants";
 
 import { MobileAppBannerImg } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Logistics from "media/services/industry/Logistics.webp";
-import Music from "media/services/industry/music.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Logistics = "/services/industry/Logistics.webp";
+const Music = "/services/industry/music.webp";
 
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link";
 
 
@@ -127,8 +127,8 @@ export const BannerData = {
     subtitle: "Top App Developers in the USA",
     title: "A Mobile App Development Company That Builds What Businesses Actually Need.",
     content: "At Appsters, we build apps optimized for scale, security, and long-term performance. Our mobile app development services combine product thinking with tech-driven production, delivering software that users love and businesses rely on. From startups validating their first MVPs to enterprises expanding global ecosystems, we engineer custom app development solutions that integrate dynamically into your digital infrastructure. Every line of code we write serves a measurable outcome: faster adoption, fewer fallout issues, and greater value.",
-    BannerLogos: BannerLogos.src,
-    BannerBg: BannerBg.src,
+    BannerLogos: BannerLogos,
+    BannerBg: BannerBg,
     BannerImg: <MobileAppBannerImg />,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
@@ -228,7 +228,7 @@ export const NewTesti = {
     title: "See Why Stakeholders, Entrepreneurs, & Businesses Choose Our App Development & Technology Solutions.",
     content: (
         <>
-           From founders to CTOs, businesses choose Appsters because every line of code serves a clear business purpose: growth, AI adaptability, and market edge. We measure success by the impact our solutions create, and our clients agree. From startups to global enterprises, clients trust our developers to engineer digital products that deliver progressive results. 
+            From founders to CTOs, businesses choose Appsters because every line of code serves a clear business purpose: growth, AI adaptability, and market edge. We measure success by the impact our solutions create, and our clients agree. From startups to global enterprises, clients trust our developers to engineer digital products that deliver progressive results.
         </>
     ),
 }
@@ -327,7 +327,7 @@ export const WhyChooseList2 = [
 
 export const ProcessContent = {
     title: (<><span className="txtColorCenter"> Technology, Strategy, & Digital Reach</span> – A Battle-Tested Mobile App Development Process
-</>),
+    </>),
     content: "Every successful mobile application begins with a structured, intelligent process. At Appsters, we follow a data-driven workflow that combines design thinking, technical precision, and continuous iteration. From research and wireframing to deployment and post-launch monitoring, our process ensures consistency, quality, and long-term scalability.",
 }
 
@@ -389,7 +389,7 @@ export const ProcessTabs = [
             heading: "Project Planning",
             description:
                 <>In project planning, our business analysts collaborate with clients to accurately translate their business needs and <Link href='/blog/mobile-app-ideas'>mobile app ideas</Link> into a comprehensive project scope. We assign the right resources and work closely with stakeholders to determine accurate cost and time estimates, while also exploring various cost optimization options for efficient and effective project execution.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -398,7 +398,7 @@ export const ProcessTabs = [
             heading: "Cost and Schedule",
             description:
                 <>After the project planning phase, we focus on maintaining the <Link href='/blog/mobile-app-development-cost'>app development cost</Link> and time-frame integrity. Our mobile app development services include realistic project estimations and ongoing monitoring of expenditures and deadlines, consistently collaborating with clients to stay within budget and meet agreed-upon time frames as the project moves toward completion.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -408,7 +408,7 @@ export const ProcessTabs = [
             heading: "Wireframes",
             description:
                 "We develop UI designs and wireframes following ISO 9241 guidelines, focusing on user journeys and intuitive workflows. Prioritizing user values, our team iterates on designs based on feedback to develop detailed mockups that capture the app’s functionality and visual appeal, shaping the final product.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -418,7 +418,7 @@ export const ProcessTabs = [
             heading: "Prototype Demo",
             description:
                 "In the prototype demo phase, we create a working model of the app to finalize the design and get client approval. This allows clients to experience the look and feel, provide feedback, and refine the project scope to perfect the app before moving into development.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -428,7 +428,7 @@ export const ProcessTabs = [
             heading: "Development",
             description:
                 "After the prototype demo phase, we move into development, where our mobile app developers specialize in custom mobile app development using flexible modular architectures and agile methodologies. We release new builds every two weeks, provide comprehensive app documentation, and share regular progress reports, allowing the app to scale and adapt quickly to evolving project needs.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -438,7 +438,7 @@ export const ProcessTabs = [
             heading: "Quality Control",
             description:
                 "In the quality control phase, we implement a quality management system backed by ISO 9001 standards. Our team conducts rigorous testing, including functional, performance, usability, security, and infrastructure tests, to identify potential issues. We thoroughly document results and refine the app to deliver a flawless final product.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -448,25 +448,25 @@ export const ProcessTabs = [
             heading: "Deployment and Launch",
             description:
                 "In the deployment and launch phase, we integrate all necessary components on a scheduled timeline for a smooth launch. We release the app on the Google Play Store or Apple App Store, monitor its performance, troubleshoot issues, and support a successful market entry with ongoing stability.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
 ];
 
 
-export const TechnologiesContent = {  
+export const TechnologiesContent = {
     title: (<>A Mobile App Development Agency That <br />Engineers What Others Prototype.</>),
-    text: (<>At Appsters, technology is more than syntax as it’s a strategy in motion. We build mobile app development solutions that evolve, self-optimize, and scale in real time. Our engineers blend product sense with deep system architecture, delivering custom app development services that feel invisible when they’re running and impossible to ignore when they perform. We work across native and cross-platform stacks, including Swift, Kotlin, React Native, Flutter, Node.js, Python, Go, .NET Core, PostgreSQL, MongoDB, Firebase, AWS, GCP, Docker, Kubernetes, Azure, and for integrations, Web3, ARCore, the OpenAI API, and Blockchain SDKs. 
-    <ul className="pt-2 pb-2 ps-3">
-        <li className="textDecoDisc">Swift, Kotlin, Java, and Objective-C</li>
-        <li className="textDecoDisc">Flutter, React Native, Ionic</li>
-        <li className="textDecoDisc">AWS, Firebase, Azure for hosting</li>
-        <li className="textDecoDisc">AI, AR/VR, Blockchain integrations</li>
-    </ul>
-    What makes Appsters different from other mobile app development companies? We focus on innovation, user experience, and business growth while ensuring fast delivery and long-term scalability.
+    text: (<>At Appsters, technology is more than syntax as it’s a strategy in motion. We build mobile app development solutions that evolve, self-optimize, and scale in real time. Our engineers blend product sense with deep system architecture, delivering custom app development services that feel invisible when they’re running and impossible to ignore when they perform. We work across native and cross-platform stacks, including Swift, Kotlin, React Native, Flutter, Node.js, Python, Go, .NET Core, PostgreSQL, MongoDB, Firebase, AWS, GCP, Docker, Kubernetes, Azure, and for integrations, Web3, ARCore, the OpenAI API, and Blockchain SDKs.
+        <ul className="pt-2 pb-2 ps-3">
+            <li className="textDecoDisc">Swift, Kotlin, Java, and Objective-C</li>
+            <li className="textDecoDisc">Flutter, React Native, Ionic</li>
+            <li className="textDecoDisc">AWS, Firebase, Azure for hosting</li>
+            <li className="textDecoDisc">AI, AR/VR, Blockchain integrations</li>
+        </ul>
+        What makes Appsters different from other mobile app development companies? We focus on innovation, user experience, and business growth while ensuring fast delivery and long-term scalability.
     </>),
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const newCtaData = {
@@ -477,43 +477,43 @@ export const newCtaData = {
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
 export const TestimonialContent = {
     title: "Client Testimonial",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -616,7 +616,7 @@ export const FuelingContent = {
     text: (<>As a leading mobile development agency, we deliver all the must-have features, from user-friendly interfaces to advanced security throughout the <Link href='/blog/application-development-life-cycle'> application development lifecycle</Link>,  creating apps that meet modern user needs and support business growth.</>),
     subtitle: "Reduce Risk and Validate Your Idea With a Fast MVP Launch!",
     subtext: "BitsWits takes a hands-on approach to guide your project, providing expertise and support at every stage!",
-    FuelingImg: FuelingImg.src
+    FuelingImg: FuelingImg
 }
 
 export const FuelingList = [
@@ -658,7 +658,7 @@ export const CtaEstimatedContent = {
     subtitle: "App Development Costs: From Simple to Complex",
     title: "Your App’s Cost, Simplified",
     text: (<>Get an instant estimate for your app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
-    CtaEstimatedImg: CtaEstimatedImg.src
+    CtaEstimatedImg: CtaEstimatedImg
 }
 
 export const TechStackContent = {
@@ -673,27 +673,27 @@ export const TechStackTabs = [
             {
                 title: "Design",
                 heading: "Adobe XD",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Adobe Illustrator",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Balsamiq",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "InVision",
-                img: TAB1_4.src,
+                img: TAB1_4,
             },
             {
                 heading: "Figma",
-                img: TAB1_5.src,
+                img: TAB1_5,
             },
             {
                 heading: "Adobe Photoshop",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
         ],
     },
@@ -703,35 +703,35 @@ export const TechStackTabs = [
             {
                 title: "Frontend",
                 heading: "Flutter",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "React Native",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "Ionic",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Swift",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: "TypeScript",
-                img: TAB2_5.src,
+                img: TAB2_5,
             },
             {
                 heading: "Xamarin",
-                img: TAB2_6.src,
+                img: TAB2_6,
             },
             {
                 heading: "HTML5",
-                img: TAB2_7.src,
+                img: TAB2_7,
             },
             {
                 heading: "Kotlin",
-                img: TAB2_8.src,
+                img: TAB2_8,
             },
         ],
     },
@@ -741,23 +741,23 @@ export const TechStackTabs = [
             {
                 title: "Backend",
                 heading: "Laravel",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Node.js",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: ".NET Core",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Django",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
         ],
     },
@@ -767,27 +767,27 @@ export const TechStackTabs = [
             {
                 title: "Database",
                 heading: "Firebase",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "MongoDB",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "MySQL",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "Swift",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "Oracle",
-                img: TAB4_5.src,
+                img: TAB4_5,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB4_6.src,
+                img: TAB4_6,
             },
         ],
     },
@@ -935,7 +935,7 @@ export const IdeaCtaContent = {
     formtitle: "Get Free Consultation"
 }
 
-export const IdeaCtaContent2 = {  
+export const IdeaCtaContent2 = {
 
     title: (<><span>The Market Never Waits.</span><br /> Are You Ready to Launch?</>),
     text: (<> Let’s build your mobile future together. With Appsters, you get innovation, quality, and a dedicated team by your side.</>),

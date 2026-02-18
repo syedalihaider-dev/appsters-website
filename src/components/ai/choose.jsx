@@ -1,10 +1,10 @@
 import styles from "@/styles/components/ai/choose.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import BGIMG from "media/videos/AiServices/whyChooseBg.webp";
+const BGIMG = "/videos/AiServices/whyChooseBg.webp";
 const Choose = () => {
     return (
         <section className={`pt-100 ${styles.whyChooseSection}`}>
-            <Container className={styles.whyChooseContainer} style={{ backgroundImage: `url(${BGIMG.src})` }}>
+            <Container className={styles.whyChooseContainer} style={{ backgroundImage: `url(${BGIMG})` }}>
                 <Row>
                     <Col md={6} className="m-auto text-center">
                         <div className="subTitle txtColorCenter">n8n ai agent development</div>

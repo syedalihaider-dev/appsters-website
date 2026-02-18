@@ -1,12 +1,12 @@
 import styles from "@/styles/components/ai/vision.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import BannerPoster from "media/videos/AiServices/VisionVideo.webp";
-import Visionbg from "media/videos/AiServices/Visionbg.webp";
+const BannerPoster = "/videos/AiServices/VisionVideo.webp";
+const Visionbg = "/videos/AiServices/Visionbg.webp";
 import ButtonCommon from "@/src/components/common/button"
 const Vision = () => {
     return (
         <section className={`${styles.visionSection} `}>
-            <Container className={`h-100 ${styles.VisionContainer}`} style={{ backgroundImage: `url(${Visionbg.src})` }}>
+            <Container className={`h-100 ${styles.VisionContainer}`} style={{ backgroundImage: `url(${Visionbg})` }}>
                 <Row className="h-100">
                     <Col md={5} className="my-auto">
                         <div className={styles.Visionwrap}>
@@ -18,7 +18,7 @@ const Vision = () => {
                                 aria-label="Background video"
                                 className={styles.VisionVideo}
                                 playsInline
-                                poster={BannerPoster.src}
+                                poster={BannerPoster}
                             >
                                 <source src="/videos/AiServices/VisionVideo.mp4" type="video/mp4" />
                             </video>

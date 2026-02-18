@@ -2,15 +2,15 @@
 import Image from "next/image"
 
 // Bannar Images
-import BannerLogos from "media/services/bannerLogo.webp"
-import BannerBg from "media/services/bgBanner.webp"
+const BannerLogos = "/services/bannerLogo.webp"
+const BannerBg = "/services/bgBanner.webp"
 
 //========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png"
-import slider2 from "media/newmobileapp/slider-3.png"
-import slider3 from "media/newmobileapp/slider-5.png"
-import slider4 from "media/newmobileapp/slider-4.png"
-import slider5 from "media/newmobileapp/slider-1.png"
+const slider1 = "/newmobileapp/slider-2.png"
+const slider2 = "/newmobileapp/slider-3.png"
+const slider3 = "/newmobileapp/slider-5.png"
+const slider4 = "/newmobileapp/slider-4.png"
+const slider5 = "/newmobileapp/slider-1.png"
 
 //========= WhyChoose Images
 import {
@@ -21,86 +21,86 @@ import {
 } from "@/src/app/app-constants"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+const IMG = "/services/process/tab01.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/services/techImg.webp"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Risks Images
-import RisksIMG01 from "media/services/customImg01.webp"
-import RisksIMG02 from "media/services/customImg02.webp"
+const RisksIMG01 = "/services/customImg01.webp"
+const RisksIMG02 = "/services/customImg02.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= CtaEstimated Images
-import CtaEstimatedImg from "media/services/ctaImg.webp"
+const CtaEstimatedImg = "/services/ctaImg.webp"
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp"
-import TAB1_2 from "media/services/tech/tab1/02.webp"
-import TAB1_3 from "media/services/tech/tab1/03.webp"
-import TAB1_4 from "media/services/tech/tab1/04.webp"
-import TAB1_5 from "media/services/tech/tab1/05.webp"
-import TAB1_6 from "media/services/tech/tab1/06.webp"
-import TAB2_1 from "media/services/tech/tab2/01.webp"
-import TAB2_2 from "media/services/tech/tab2/02.webp"
-import TAB2_3 from "media/services/tech/tab2/03.webp"
-import TAB2_4 from "media/services/tech/tab2/04.webp"
-import TAB2_5 from "media/services/tech/tab2/05.webp"
-import TAB2_6 from "media/services/tech/tab2/06.webp"
-import TAB2_7 from "media/services/tech/tab2/07.webp"
-import TAB2_8 from "media/services/tech/tab2/08.webp"
-import TAB3_1 from "media/services/tech/tab3/01.webp"
-import TAB3_2 from "media/services/tech/tab3/02.webp"
-import TAB3_3 from "media/services/tech/tab3/03.webp"
-import TAB3_4 from "media/services/tech/tab3/04.webp"
-import TAB3_5 from "media/services/tech/tab3/05.webp"
-import TAB4_1 from "media/services/tech/tab4/01.webp"
-import TAB4_2 from "media/services/tech/tab4/02.webp"
-import TAB4_3 from "media/services/tech/tab4/03.webp"
-import TAB4_4 from "media/services/tech/tab4/04.webp"
-import TAB4_5 from "media/services/tech/tab4/05.webp"
-import TAB4_6 from "media/services/tech/tab4/06.webp"
-import TAB5_1 from "media/services/tech/tab5/01.webp"
-import TAB5_2 from "media/services/tech/tab5/02.webp"
-import TAB5_3 from "media/services/tech/tab5/03.webp"
-import TAB5_4 from "media/services/tech/tab5/04.webp"
-import TAB5_5 from "media/services/tech/tab5/05.webp"
-import TAB5_6 from "media/services/tech/tab5/06.webp"
-import TAB5_7 from "media/services/tech/tab5/07.webp"
-import TAB6_1 from "media/services/tech/tab6/01.webp"
-import TAB6_2 from "media/services/tech/tab6/02.webp"
-import TAB6_3 from "media/services/tech/tab6/03.webp"
-import TAB6_4 from "media/services/tech/tab6/04.webp"
-import TAB6_5 from "media/services/tech/tab6/05.webp"
-import TAB6_6 from "media/services/tech/tab6/06.webp"
-import TAB6_7 from "media/services/tech/tab6/07.webp"
-import TAB6_8 from "media/services/tech/tab6/08.webp"
-import TAB7_1 from "media/services/tech/tab7/01.webp"
-import TAB7_2 from "media/services/tech/tab7/02.webp"
-import TAB7_3 from "media/services/tech/tab7/03.webp"
-import TAB7_4 from "media/services/tech/tab7/04.webp"
-import TAB7_5 from "media/services/tech/tab7/05.webp"
-import TAB7_6 from "media/services/tech/tab7/06.webp"
+const TAB1_1 = "/services/tech/tab1/01.webp"
+const TAB1_2 = "/services/tech/tab1/02.webp"
+const TAB1_3 = "/services/tech/tab1/03.webp"
+const TAB1_4 = "/services/tech/tab1/04.webp"
+const TAB1_5 = "/services/tech/tab1/05.webp"
+const TAB1_6 = "/services/tech/tab1/06.webp"
+const TAB2_1 = "/services/tech/tab2/01.webp"
+const TAB2_2 = "/services/tech/tab2/02.webp"
+const TAB2_3 = "/services/tech/tab2/03.webp"
+const TAB2_4 = "/services/tech/tab2/04.webp"
+const TAB2_5 = "/services/tech/tab2/05.webp"
+const TAB2_6 = "/services/tech/tab2/06.webp"
+const TAB2_7 = "/services/tech/tab2/07.webp"
+const TAB2_8 = "/services/tech/tab2/08.webp"
+const TAB3_1 = "/services/tech/tab3/01.webp"
+const TAB3_2 = "/services/tech/tab3/02.webp"
+const TAB3_3 = "/services/tech/tab3/03.webp"
+const TAB3_4 = "/services/tech/tab3/04.webp"
+const TAB3_5 = "/services/tech/tab3/05.webp"
+const TAB4_1 = "/services/tech/tab4/01.webp"
+const TAB4_2 = "/services/tech/tab4/02.webp"
+const TAB4_3 = "/services/tech/tab4/03.webp"
+const TAB4_4 = "/services/tech/tab4/04.webp"
+const TAB4_5 = "/services/tech/tab4/05.webp"
+const TAB4_6 = "/services/tech/tab4/06.webp"
+const TAB5_1 = "/services/tech/tab5/01.webp"
+const TAB5_2 = "/services/tech/tab5/02.webp"
+const TAB5_3 = "/services/tech/tab5/03.webp"
+const TAB5_4 = "/services/tech/tab5/04.webp"
+const TAB5_5 = "/services/tech/tab5/05.webp"
+const TAB5_6 = "/services/tech/tab5/06.webp"
+const TAB5_7 = "/services/tech/tab5/07.webp"
+const TAB6_1 = "/services/tech/tab6/01.webp"
+const TAB6_2 = "/services/tech/tab6/02.webp"
+const TAB6_3 = "/services/tech/tab6/03.webp"
+const TAB6_4 = "/services/tech/tab6/04.webp"
+const TAB6_5 = "/services/tech/tab6/05.webp"
+const TAB6_6 = "/services/tech/tab6/06.webp"
+const TAB6_7 = "/services/tech/tab6/07.webp"
+const TAB6_8 = "/services/tech/tab6/08.webp"
+const TAB7_1 = "/services/tech/tab7/01.webp"
+const TAB7_2 = "/services/tech/tab7/02.webp"
+const TAB7_3 = "/services/tech/tab7/03.webp"
+const TAB7_4 = "/services/tech/tab7/04.webp"
+const TAB7_5 = "/services/tech/tab7/05.webp"
+const TAB7_6 = "/services/tech/tab7/06.webp"
 
 //========= Industries Images
 import {
@@ -113,19 +113,19 @@ import {
   RealEstateSVG,
   SocialSVG,
 } from "@/src/app/app-constants"
-import Ecommerce from "media/services/industry/Ecommerce.webp"
-import Fintech from "media/services/industry/Fintech.webp"
-import Healthcare from "media/services/industry/Healthcare.webp"
-import Education from "media/services/industry/Education.webp"
-import SocialMarketing from "media/services/industry/SocialMarketing.webp"
-import RealEstate from "media/services/industry/RealEstate.webp"
-import Logistics from "media/services/industry/Logistics.webp"
-import Music from "media/services/industry/music.webp"
+const Ecommerce = "/services/industry/Ecommerce.webp"
+const Fintech = "/services/industry/Fintech.webp"
+const Healthcare = "/services/industry/Healthcare.webp"
+const Education = "/services/industry/Education.webp"
+const SocialMarketing = "/services/industry/SocialMarketing.webp"
+const RealEstate = "/services/industry/RealEstate.webp"
+const Logistics = "/services/industry/Logistics.webp"
+const Music = "/services/industry/music.webp"
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link"
 
 export const BannerData = {
@@ -133,8 +133,8 @@ export const BannerData = {
   title: "Leading Enterprise App Development Company",
   content:
     "As a trusted enterprise application development company, we build secure, scalable solutions that optimize workflows and drive measurable growth. Our tailored apps align with your strategic objectives and transform challenges into innovation for the digital age",
-  BannerLogos: BannerLogos.src,
-  BannerBg: BannerBg.src,
+  BannerLogos: BannerLogos,
+  BannerBg: BannerBg,
   fromtitle: "Let’s Discuss Your App Idea",
   fromtext:
     "Share your app business objectives with our experts and create your custom app.",
@@ -405,7 +405,7 @@ export const ProcessTabs = [
           cut value at an efficient cost.
         </>
       ),
-      imgSrc: IMG.src,
+      imgSrc: IMG,
     },
   },
   {
@@ -423,7 +423,7 @@ export const ProcessTabs = [
           expectations and business needs.
         </>
       ),
-      imgSrc: IMG.src,
+      imgSrc: IMG,
     },
   },
   {
@@ -432,7 +432,7 @@ export const ProcessTabs = [
       heading: "Design and Prototyping ",
       description:
         "We enhance intuitive and eye-catching user interface designs. Prototypes preview the app’s functionality and flow, demonstrating its offerings. During this process, all stakeholders can visualize the end product and give feedback, resulting in a user-friendly design that will satisfy the business. ",
-      imgSrc: IMG.src,
+      imgSrc: IMG,
     },
   },
   {
@@ -441,7 +441,7 @@ export const ProcessTabs = [
       heading: "Development ",
       description:
         "Our development team uses advanced technologies and best practices to develop robust and scalable enterprise applications. We focus on performance, security, and efficiency as primary aspects of functionality and deliver each feature in a manner that precisely meets the requirements of the business. Throughout the development process, you get to know every development update.",
-      imgSrc: IMG.src,
+      imgSrc: IMG,
     },
   },
   {
@@ -450,7 +450,7 @@ export const ProcessTabs = [
       heading: "Testing and Quality Assurance ",
       description:
         "We test thoroughly to find and fix those anticipated bugs before deploying an application. The quality assurance specialists run several stringent tests across their spectrum: functionality, security, and performance tests over the application according to the industry’s highest standards. This makes the user experience seamless and voids errors during deployment. ",
-      imgSrc: IMG.src,
+      imgSrc: IMG,
     },
   },
   {
@@ -459,7 +459,7 @@ export const ProcessTabs = [
       heading: "Deployment and Support",
       description:
         "Once the app has been built, we help deploy it without any hitch through the required security measures. Our job doesn't stop at that after the deployment. Still, it continues with maintenance and support to fix any problems that may arise while using the application, making upgrades, and ensuring continuing healthy application performance as your business grows.",
-      imgSrc: IMG.src,
+      imgSrc: IMG,
     },
   },
   {
@@ -468,7 +468,7 @@ export const ProcessTabs = [
       heading: "Deployment and Launch",
       description:
         "In the deployment and launch phase, we integrate all necessary components on a scheduled timeline for a smooth launch. We release the app on the Google Play Store or Apple App Store, monitor its performance, troubleshoot issues, and support a successful market entry with ongoing stability.",
-      imgSrc: IMG.src,
+      imgSrc: IMG,
     },
   },
 ]
@@ -490,13 +490,13 @@ export const TechnologiesContent = {
       </p>
     </>
   ),
-  TechImg: TechImg.src,
+  TechImg: TechImg,
 }
 
 export const TechnologiesIcons = [
   {
     title: "iOS",
-    icons: TechIcon01.src,
+    icons: TechIcon01,
   },
   {
     title: "Android",
@@ -530,9 +530,9 @@ export const TechnologiesIcons = [
 
 export const TestimonialContent = {
   title: "Client Testimonial",
-  TestiImg1: TestiImg1.src,
-  TestiImg2: TestiImg2.src,
-  TestiImg3: TestiImg3.src,
+  TestiImg1: TestiImg1,
+  TestiImg2: TestiImg2,
+  TestiImg3: TestiImg3,
 }
 
 export const TestimonialSLIDES = [
@@ -643,7 +643,7 @@ export const FuelingContent = {
   subtitle: "Reduce Risk and Validate Your Idea With a Fast MVP Launch!",
   subtext:
     "BitsWits takes a hands-on approach to guide your project, providing expertise and support at every stage!",
-  FuelingImg: FuelingImg.src,
+  FuelingImg: FuelingImg,
 }
 
 export const FuelingList = [
@@ -697,7 +697,7 @@ export const CtaEstimatedContent = {
       Ready for a precise quote? Contact us today! .
     </>
   ),
-  CtaEstimatedImg: CtaEstimatedImg.src,
+  CtaEstimatedImg: CtaEstimatedImg,
 }
 
 export const TechStackContent = {
@@ -717,7 +717,7 @@ export const TechStackTabs = [
     content: [
       {
         heading: "Adobe XD",
-        img: TAB1_1.src,
+        img: TAB1_1,
       },
       {
         heading: "Adobe Illustrator",
@@ -944,56 +944,56 @@ export const IndustriesList = [
     title: "Fintech",
     txt: "We create secure banking mobile applications related to investment tracking and finance management with real-time data and smooth running operations to keep track of personal finances and have proper information.",
     url: "/fintech-app-development",
-    img: Fintech.src,
+    img: Fintech,
   },
   {
     icon: <EcommerceSVG />,
     title: "Ecommerce",
     txt: "At BitsWits, we build powerful e-commerce apps that help transform your business by providing the best shopping experiences, improving customer engagement, and creating strong sales platforms that promote growth and success.",
     url: "/ecommerce-app-development",
-    img: Ecommerce.src,
+    img: Ecommerce,
   },
   {
     icon: <HealthcareSVG />,
     title: "Healthcare",
     txt: "Our custom development of enterprise applications improves healthcare service delivery, patient care, and medical management efficiencies. This empowers us to innovate and create solutions that simplify operations and give patients a better healthcare experience.",
     url: "/healthcare-app-development-services",
-    img: Healthcare.src,
+    img: Healthcare,
   },
   {
     icon: <EducationSVG />,
     title: "Education",
     txt: "We are innovating the educational sector by providing online learning apps, virtual classrooms, and management systems, improving educational experiences, and creating an engaging environment for students and educators.",
     url: "/education-app-development",
-    img: Education.src,
+    img: Education,
   },
   {
     icon: <SocialSVG />,
     title: "Social Media",
     txt: "We design vibrant social media applications with live messaging, content sharing, and personalized feeds to improve user engagement and community development and create a seamless digital experience.",
     url: "/social-media-app-development-company",
-    img: SocialMarketing.src,
+    img: SocialMarketing,
   },
   {
     icon: <RealEstateSVG />,
     title: "Real Estate",
     txt: "Features in real estate apps allow effective communication, and a higher quality of services offered improves users' experiences with smoother transactions involving sellers and agents seamlessly with buyers.",
     url: "/real-estate-app-development-company",
-    img: RealEstate.src,
+    img: RealEstate,
   },
   {
     icon: <MusicSVG />,
     title: "Music",
     txt: "Music apps are all about streaming, personalized playlists, and social sharing, making every moment of listening more enjoyable and suited to your taste through seamless music discovery, enjoyment, and interaction.",
     url: "/music-app-development-company",
-    img: Music.src,
+    img: Music,
   },
   {
     icon: <LogisticsSVG />,
     title: "Logistics",
     txt: "We develop logistics apps for fleet and shipment optimization, with built-in eCommerce features to assist businesses in running operations and even selling logistics services directly to the client for effective, streamlined delivery.",
     url: "/logistics-software-development",
-    img: Logistics.src,
+    img: Logistics,
   },
 ]
 
@@ -1048,7 +1048,7 @@ export const BlogsList = [
     title: "How Much Does It Cost to Develop an App in 2024?",
     txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
     cat: "Mobile App Development",
-    img: BlogsIMG01.src,
+    img: BlogsIMG01,
     links: "https://www.bitswits.co/blog/mobile-app-development-cost",
     date: "August 29,2024",
   },

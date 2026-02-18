@@ -1,35 +1,35 @@
 // Overview Images
-import OverviewImg from "media/casestudies/soul-scribe/OverviewImg.webp"
+const OverviewImg = "/casestudies/soul-scribe/OverviewImg.webp"
 
 // Features Images
-import FeaturesImg from "media/casestudies/soul-scribe/FeaturesLogo.webp"
+const FeaturesImg = "/casestudies/soul-scribe/FeaturesLogo.webp"
 
 // Problem Images
-import ProblemImg from "media/casestudies/soul-scribe/ProblemImg.webp"
+const ProblemImg = "/casestudies/soul-scribe/ProblemImg.webp"
 
 // Solution Images
-import SolutionImg from "media/casestudies/soul-scribe/SolutionImg.webp"
+const SolutionImg = "/casestudies/soul-scribe/SolutionImg.webp"
 
 // ScrollingSection Images
-import ScrollingSectionImg from "media/casestudies/soul-scribe/ScrollingImage.webp"
+const ScrollingSectionImg = "/casestudies/soul-scribe/ScrollingImage.webp"
 
 // TechStack Images
-import TechStackIcon01 from "media/casestudies/techIcon/React-Native.webp"
-import TechStackIcon02 from "media/casestudies/techIcon/Flutter.webp"
-import TechStackIcon03 from "media/casestudies/techIcon/Xamarin.webp"
-import TechStackIcon04 from "media/casestudies/techIcon/Swift.webp"
-import TechStackIcon05 from "media/casestudies/techIcon/Ionic.webp"
-import TechStackIcon06 from "media/casestudies/techIcon/AWS.webp"
-import TechStackIcon07 from "media/casestudies/techIcon/JavaScript.svg"
-import TechStackIcon08 from "media/casestudies/techIcon/Adobe-XD.webp"
-import TechStackIcon09 from "media/casestudies/techIcon/Adobe-Illustrator.webp"
-import TechStackIcon10 from "media/casestudies/techIcon/Adobe-Photoshop.webp"
-import TechStackIcon11 from "media/casestudies/techIcon/figma.webp"
-import TechStackIcon12 from "media/casestudies/techIcon/InVision.webp"
-import TechStackIcon13 from "media/casestudies/techIcon/Balsamiq.webp"
+const TechStackIcon01 = "/casestudies/techIcon/React-Native.webp"
+const TechStackIcon02 = "/casestudies/techIcon/Flutter.webp"
+const TechStackIcon03 = "/casestudies/techIcon/Xamarin.webp"
+const TechStackIcon04 = "/casestudies/techIcon/Swift.webp"
+const TechStackIcon05 = "/casestudies/techIcon/Ionic.webp"
+const TechStackIcon06 = "/casestudies/techIcon/AWS.webp"
+const TechStackIcon07 = "/casestudies/techIcon/JavaScript.svg"
+const TechStackIcon08 = "/casestudies/techIcon/Adobe-XD.webp"
+const TechStackIcon09 = "/casestudies/techIcon/Adobe-Illustrator.webp"
+const TechStackIcon10 = "/casestudies/techIcon/Adobe-Photoshop.webp"
+const TechStackIcon11 = "/casestudies/techIcon/figma.webp"
+const TechStackIcon12 = "/casestudies/techIcon/InVision.webp"
+const TechStackIcon13 = "/casestudies/techIcon/Balsamiq.webp"
 
 // Result Images
-import ResultImg from "media/casestudies/soul-scribe/ResultImg.webp"
+const ResultImg = "/casestudies/soul-scribe/ResultImg.webp"
 
 export const BannerData = {
     subtitle: "Soul Scribe",
@@ -37,14 +37,14 @@ export const BannerData = {
 }
 
 export const OverviewData = {
-    image: OverviewImg.src,
+    image: OverviewImg,
     subtitle: "Overview",
     title: "Soul Scribe",
     content: "Soul Scribe isn’t just another app — it’s a digital diary built for meaningful connections. Designed to capture life’s moments, Soul Scribe invites friends and family to be part of your story, transforming personal memories into shared experiences. It’s where journaling meets social connection, creating deeper bonds through everyday moments."
 }
 
 export const FeaturesData = {
-    image: FeaturesImg.src,
+    image: FeaturesImg,
     background: 'linear-gradient(180deg, #BACCFF -14.33%, #4D77EE 51.25%, #2C4488 131.4%)',
     boxShadow: '15px 20px 40px rgba(43, 83, 142, 0.3)',
     subtitle: "Features",
@@ -63,7 +63,7 @@ export const FeaturesBullets = [
 ]
 
 export const ProblemData = {
-    image: ProblemImg.src,
+    image: ProblemImg,
     subtitle: "The Problem",
     title: "Challenges the Client Faced.",
     content: "The client needed a platform where users could document personal memories while inviting friends and family to join in. They wanted to create an app that balanced privacy with social interaction, offering a seamless, intuitive experience for users to collaborate and share memories in a private, controlled environment.",
@@ -83,7 +83,7 @@ export const CaseStudyctaData = {
 }
 
 export const SolutionData = {
-    image: SolutionImg.src,
+    image: SolutionImg,
     subtitle: "The Solution",
     title: "Our Approach to the Challenge.",
     content: "We designed a digital diary that blends journaling and social interaction effortlessly. Soul Scribe allows users to document their memories and share them with friends and family in a private, collaborative space, creating a meaningful, interactive experience that elevates traditional journaling.",
@@ -98,7 +98,7 @@ export const SolutionBullets = [
 ]
 
 export const ScrollingSectionData = {
-    image: ScrollingSectionImg.src,
+    image: ScrollingSectionImg,
 }
 
 export const TechStackData = {
@@ -110,60 +110,60 @@ export const TechStackData = {
 export const TechStackList = [
     {
         title: "React Native",
-        icon: TechStackIcon01.src
+        icon: TechStackIcon01
     },
     {
         title: "Flutter",
-        icon: TechStackIcon02.src
+        icon: TechStackIcon02
     },
     {
         title: "Xamarin",
-        icon: TechStackIcon03.src
+        icon: TechStackIcon03
     },
     {
         title: "Swift",
-        icon: TechStackIcon04.src
+        icon: TechStackIcon04
     },
     {
         title: "Ionic",
-        icon: TechStackIcon05.src
+        icon: TechStackIcon05
     },
     {
         title: "AWS",
-        icon: TechStackIcon06.src
+        icon: TechStackIcon06
     },
     {
         title: "JavaScript",
-        icon: TechStackIcon07.src
+        icon: TechStackIcon07
     },
     {
         title: "Adobe-XD",
-        icon: TechStackIcon08.src
+        icon: TechStackIcon08
     },
     {
         title: "Adobe-Illustrator",
-        icon: TechStackIcon09.src
+        icon: TechStackIcon09
     },
     {
         title: "Adobe-Photoshop",
-        icon: TechStackIcon10.src
+        icon: TechStackIcon10
     },
     {
         title: "Figma",
-        icon: TechStackIcon11.src
+        icon: TechStackIcon11
     },
     {
         title: "InVision",
-        icon: TechStackIcon12.src
+        icon: TechStackIcon12
     },
     {
         title: "Balsamiq",
-        icon: TechStackIcon13.src
+        icon: TechStackIcon13
     }
 ]
 
 export const ResultData = {
-    background: `linear-gradient(270deg, rgba(77, 119, 238, 0.1) 2.4%, #4D77EE 65.63%), url(${ResultImg.src})`,
+    background: `linear-gradient(270deg, rgba(77, 119, 238, 0.1) 2.4%, #4D77EE 65.63%), url(${ResultImg})`,
     subtitle: "The Result",
     title: "The Impact We Delivered.",
     content: "Soul Scribe quickly became a standout platform, blending personal journaling with social sharing in a seamless way. The app fostered deeper connections, enhanced user engagement, and provided a collaborative space where users could document and share their memories, ultimately driving significant growth and long-term user satisfaction.",

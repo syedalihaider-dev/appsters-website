@@ -2,96 +2,96 @@
 import Image from "next/image"
 
 // Bannar Images
-import BannerLogos from "media/services/bannerLogo.webp";
-import BannerBg from "media/services/bgBanner.webp";
+const BannerLogos = "/services/bannerLogo.webp";
+const BannerBg = "/services/bgBanner.webp";
 
 //========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png";
-import slider2 from "media/newmobileapp/slider-3.png";
-import slider3 from "media/newmobileapp/slider-5.png";
-import slider4 from "media/newmobileapp/slider-4.png";
-import slider5 from "media/newmobileapp/slider-1.png";
+const slider1 = "/newmobileapp/slider-2.png";
+const slider2 = "/newmobileapp/slider-3.png";
+const slider3 = "/newmobileapp/slider-5.png";
+const slider4 = "/newmobileapp/slider-4.png";
+const slider5 = "/newmobileapp/slider-1.png";
 
 //========= WhyChoose Images
 import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+const IMG = "/services/process/tab01.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/services/techImg.webp"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Risks Images
-import RisksIMG01 from "media/services/customImg01.webp"
-import RisksIMG02 from "media/services/customImg02.webp"
+const RisksIMG01 = "/services/customImg01.webp"
+const RisksIMG02 = "/services/customImg02.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= CtaEstimated Images
-import CtaEstimatedImg from "media/services/ctaImg.webp"
+const CtaEstimatedImg = "/services/ctaImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/04.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/04.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/services/tech/tab1/02.webp";
+const TAB1_3 = "/services/tech/tab1/03.webp";
+const TAB1_4 = "/services/tech/tab1/04.webp";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_2 = "/services/tech/tab2/02.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB3_1 = "/services/tech/tab3/01.webp";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB3_3 = "/services/tech/tab3/03.webp";
+const TAB3_4 = "/services/tech/tab3/04.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB4_2 = "/services/tech/tab4/02.webp";
+const TAB4_3 = "/services/tech/tab4/03.webp";
+const TAB4_4 = "/services/tech/tab4/04.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB5_4 = "/services/tech/tab5/04.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
+const TAB6_4 = "/services/tech/tab6/04.webp";
 
 //========= Industries Images
 
 import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Logistics from "media/services/industry/Logistics.webp";
-import Music from "media/services/industry/music.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Logistics = "/services/industry/Logistics.webp";
+const Music = "/services/industry/music.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link";
 
 
@@ -99,8 +99,8 @@ export const BannerData = {
     subtitle: "Play-To-Earn NFT Game Development",
     title: "NFT Game Development Company Building Player-Owned Game Worlds ",
     content: "Players care about value, studios care about stability. We design NFT game development services that turn assets into utility, not noise. You get audited contracts, fast marketplaces, and clear telemetry for retention, trading volume, and fraud signals. Our teams ship NFT games that load quickly, scale under traffic, and keep ownership verifiable. At Appsters, we take a tech-first, results-driven approach to NFT app development and let the numbers speak for themselves.",
-    BannerLogos: BannerLogos.src,
-    BannerBg: BannerBg.src,
+    BannerLogos: BannerLogos,
+    BannerBg: BannerBg,
     fromtitle: "Let’s Discuss Game Idea",
     fromtext: "Share your game objectives with our experts and create your custom game."
 }
@@ -221,7 +221,7 @@ export const ProcessTabs = [
             heading: "Game Idea & Research",
             description:
                 "We start by proving the concept with data. As an NFT game development firm, we test desirability, feasibility, and viability in parallel: audience fit, chain and wallet choices, and cost-to-serve. The outcome is a scoped core loop, a realistic timeline, and a clear risk map that lets stakeholders greenlight production with confidence.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -230,7 +230,7 @@ export const ProcessTabs = [
             heading: "Designing",
             description:
                 "Design defines how players learn, earn, and stay. Each NFT game development service sprint turns wireframes into testable flows and token rules into balanced reward paths. We shape onboarding, inventory, marketplace, and upgrade logic so the first session feels friendly and depth reveals gradually. By the end, you hold a validated blueprint ready for engineering.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -239,7 +239,7 @@ export const ProcessTabs = [
             heading: "Concept Art",
             description:
                 "Art direction sets the tone and readability. We hire NFT game designers who design for beauty and for engine limits, ensuring silhouettes read at gameplay scale, palettes carry rarity cues, and styles compress cleanly. Concept packs coordinate with 3D, animation, and economy, so visual identity supports metadata, tiers, and long-term content plans from the start. ",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -248,7 +248,7 @@ export const ProcessTabs = [
             heading: "Asset Creation",
             description:
                 "Assets must look great and mint cleanly. Our NFT game makers build models, rigs, textures, and animations sized for phones and desktops, with metadata that maps to ERC-721 or ERC-1155. We version every file, run compression checks, and validate rarity tags so items render fast, trade reliably, and stay future-proof across engines and marketplaces.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -257,7 +257,7 @@ export const ProcessTabs = [
             heading: " Game Development",
             description:
                 "We connect responsive gameplay with verifiable ownership. To build your NFT game app, we implement core loops, audited contracts, wallet flows, and a marketplace system backed by a scalable backend. Client code stays lean, off-chain services handle speed, on-chain records secure rights. We document integrations and run load drills so launch windows stay predictable.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -266,7 +266,7 @@ export const ProcessTabs = [
             heading: "Testing ",
             description:
                 "Quality is more than “it runs.” As an NFT game development company, we test code paths, contract behavior, and economy stability under real device and network conditions. Automated suites catch regressions, security reviews harden key flows, and playtests surface friction before mainnet. The goal is simple: ship builds you can trust at scale.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -275,7 +275,7 @@ export const ProcessTabs = [
             heading: "Deployment",
             description:
                 "Releases move in controlled phases. Each NFT game development service rollout promotes from testnet to mainnet with monitored contracts, coordinated store updates, and observability from day one. We configure nodes, CDNs, and liquidity so trading feels instant, then stage cohorts and keep rollback paths ready so growth never risks stability.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
 ];
@@ -285,13 +285,13 @@ export const TechnologiesContent = {
     text: (<><p>Appsters’ technology stack combines modern game engines, secure blockchain frameworks, and real-time analytics pipelines. Appsters ships on Unity and Unreal with Solidity, Node.js, and Layer 2 for speed and cost control. We wire telemetry, fraud checks, and CI so builds stay stable. As one of the trusted NFT game development companies, we cover wallet flows, marketplaces, and audited contracts for play-to-earn NFT games that scale, recover fast, and operate with clear, operator-grade dashboards and alerts. Our NFT game development services workflow unites creative freedom with enterprise-grade deployment pipelines designed for long-term operation and measurable growth.</p>
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
@@ -325,9 +325,9 @@ export const TechnologiesIcons = [
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -424,7 +424,7 @@ export const FuelingContent = {
     text: "BitsWits is one of the best NFT game development companies that leverage blockchain technology to build NFT games for a wild variety of genres. ",
     subtitle: "Build Next-Gen NFT Games that Drive Player Engagement!",
     subtext: "Create engaging, player-driven experiences with unique digital ownership rewards.",
-    FuelingImg: FuelingImg.src
+    FuelingImg: FuelingImg
 }
 
 export const FuelingList = [
@@ -458,7 +458,7 @@ export const CtaEstimatedContent = {
     subtitle: "Ship Faster. Scale Without Chaos. Go Forward.",
     title: "Scalable Future-Ready NFT Game Development",
     text: (<>Our NFT game builders design, develop, and deploy titles that keep users engaged and economies stable. We align gameplay, wallets, and marketplaces with audited contracts so teams track retention, grow liquidity, expand confidently, and scale operations across mobile, desktop, and cloud platforms. Every release is built to last and ready to expand.</>),
-    CtaEstimatedImg: CtaEstimatedImg.src
+    CtaEstimatedImg: CtaEstimatedImg
 }
 
 export const TechStackContent = {
@@ -472,7 +472,7 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Buildbox",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Unreal Engine",
@@ -607,7 +607,7 @@ export const IndustriesList = [
         title: "Ecommerce",
         txt: "We build ecommerce apps that sell more with frictionless checkouts, AI product recommendations, and mobile-first design. Our solutions handle scale effortlessly, from flash sales to global launches. Businesses get powerful dashboards, while shoppers get a personalized, smooth, and secure experience that turns carts into conversions.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
@@ -707,7 +707,7 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {

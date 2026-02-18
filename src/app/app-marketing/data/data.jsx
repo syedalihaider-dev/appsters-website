@@ -9,30 +9,30 @@ import { ArtificialIntelligence, BigData, Blockchain, FinTech, InternetOfThings,
 
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
-import testiIcon1 from "media/app-marketing/testimonial/trustpilot.svg"
-import testiIconActive1 from "media/app-marketing/testimonial/trustpilot-white.svg"
-import testiIcon2 from "media/app-marketing/testimonial/google.svg"
-import testiIconActive2 from "media/app-marketing/testimonial/google-white.svg"
-import testiIcon3 from "media/app-marketing/testimonial/clutch.svg"
-import testiIconActive3 from "media/app-marketing/testimonial/clutch-white.svg"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
+const testiIcon1 = "/app-marketing/testimonial/trustpilot.svg"
+const testiIconActive1 = "/app-marketing/testimonial/trustpilot-white.svg"
+const testiIcon2 = "/app-marketing/testimonial/google.svg"
+const testiIconActive2 = "/app-marketing/testimonial/google-white.svg"
+const testiIcon3 = "/app-marketing/testimonial/clutch.svg"
+const testiIconActive3 = "/app-marketing/testimonial/clutch-white.svg"
 
-import Indus01 from "media/app-marketing/industry/1.webp"
-import Indus02 from "media/app-marketing/industry/2.webp"
-import Indus03 from "media/app-marketing/industry/3.webp"
-import Indus04 from "media/app-marketing/industry/4.webp"
-import Indus05 from "media/app-marketing/industry/5.webp"
-import Indus06 from "media/app-marketing/industry/6.webp"
-import Indus07 from "media/app-marketing/industry/7.webp"
-import Indus08 from "media/app-marketing/industry/8.webp"
-import Indus09 from "media/app-marketing/industry/9.webp"
+const Indus01 = "/app-marketing/industry/1.webp"
+const Indus02 = "/app-marketing/industry/2.webp"
+const Indus03 = "/app-marketing/industry/3.webp"
+const Indus04 = "/app-marketing/industry/4.webp"
+const Indus05 = "/app-marketing/industry/5.webp"
+const Indus06 = "/app-marketing/industry/6.webp"
+const Indus07 = "/app-marketing/industry/7.webp"
+const Indus08 = "/app-marketing/industry/8.webp"
+const Indus09 = "/app-marketing/industry/9.webp"
 
 export const BannerData = {
     title: (<>Manage Your App Marketing </>),
@@ -58,40 +58,40 @@ export const DigitalCtaContent = {
 export const IndustriesSlides = [
     {
         title: "Social Media",
-        Img: Indus01.src,
+        Img: Indus01,
     },
     {
         title: "Music",
-        Img: Indus02.src,
+        Img: Indus02,
     },
     {
         title: "Education",
-        Img: Indus03.src,
+        Img: Indus03,
     },
     {
         title: "FinTech",
-        Img: Indus04.src,
+        Img: Indus04,
 
     },
     {
         title: "Healthcare",
-        Img: Indus05.src,
+        Img: Indus05,
     },
     {
         title: "Automotive",
-        Img: Indus06.src,
+        Img: Indus06,
     },
     {
         title: "Real Estate",
-        Img: Indus07.src,
+        Img: Indus07,
     },
     {
         title: "eCommerce",
-        Img: Indus08.src,
+        Img: Indus08,
     },
     {
         title: "Logistics",
-        Img: Indus09.src,
+        Img: Indus09,
     }
 
 ]
@@ -100,9 +100,9 @@ export const ExtendedServicesContent = {
     subtitle: "Reviews",
     title: "Hear Directly From Our Clients!",
     content: "Our clients' feedback reflects our commitment to results-driven strategies, sharing how our expertise and support have transformed their app growth and performance.",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 
@@ -171,8 +171,8 @@ export const TestimonialSLIDES = [
         position: "— CMO / FitTrack Solutions",
         img: Joseph,
         content: {
-            iconActive: testiIconActive1.src,
-            icon: testiIcon1.src,
+            iconActive: testiIconActive1,
+            icon: testiIcon1,
             txt: "We were struggling to get the right users, and BitsWits really helped us shift gears. They dug into our data, reworked our ad strategy, and within a few months, we started seeing a noticeable uptick in quality installs.",
         },
     },
@@ -181,8 +181,8 @@ export const TestimonialSLIDES = [
         position: "— PM / FinSave",
         img: RyanJaden,
         content: {
-            iconActive: testiIconActive2.src,
-            icon: testiIcon2.src,
+            iconActive: testiIconActive2,
+            icon: testiIcon2,
             txt: "BitsWits brought fresh ideas to our app marketing. They paid attention to the details and adjusted things quickly. Our engagement numbers moved up steadily, and it was clear their approach was working.",
         },
     },
@@ -191,8 +191,8 @@ export const TestimonialSLIDES = [
         position: "— CEO, HealthNow",
         img: KayleeSlone,
         content: {
-            iconActive: testiIconActive3.src,
-            icon: testiIcon3.src,
+            iconActive: testiIconActive3,
+            icon: testiIcon3,
             txt: "App store optimization can feel like a guessing game, but BitsWits showed why they’re the best mobile app marketing company. They improved our visibility and drove more traffic without the usual trial and error.",
         }
     },
@@ -202,8 +202,8 @@ export const TestimonialSLIDES = [
         img: MauryoJones,
         content: {
             txt: "BitsWits didn’t give us any false promises—just solid, practical advice that made a real difference. They kept refining our campaigns, and we saw better retention and engagement across the board.",
-            iconActive: testiIconActive1.src,
-            icon: testiIcon1.src,
+            iconActive: testiIconActive1,
+            icon: testiIcon1,
         }
     }
 ]

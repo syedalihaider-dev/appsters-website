@@ -1,8 +1,8 @@
 "use client"
 import styles from "@/styles/components/ai/feature.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
-import BGIMG from "media/videos/BgImage.webp";
-import BGFeature from "media/videos/bgFeature.webp";
+const BGIMG = "/videos/BgImage.webp";
+const BGFeature = "/videos/bgFeature.webp";
 import { Feature01 } from "@/src/app/app-constants";
 
 const Feature = () => {
@@ -15,7 +15,7 @@ const Feature = () => {
         }
     };
     return (
-        <section className={`${styles.featureSection} p-100`} style={{ backgroundImage: `url(${BGFeature.src})` }}>
+        <section className={`${styles.featureSection} p-100`} style={{ backgroundImage: `url(${BGFeature})` }}>
             <Container>
                 <Row>
                     <Col lg={6} md={7} className="m-auto text-center">
@@ -28,7 +28,7 @@ const Feature = () => {
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
-                                style={{ backgroundImage: `url(${BGIMG.src})` }}
+                                style={{ backgroundImage: `url(${BGIMG})` }}
                             >
                                 <div className={styles.featureBox}><Feature01 /></div>
                             </div>
@@ -40,7 +40,7 @@ const Feature = () => {
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
-                                style={{ backgroundImage: `url(${BGIMG.src})` }}
+                                style={{ backgroundImage: `url(${BGIMG})` }}
                             >
                                 <div className={styles.featureBox}><Feature01 /></div>
                             </div>
@@ -52,7 +52,7 @@ const Feature = () => {
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
-                                style={{ backgroundImage: `url(${BGIMG.src})` }}
+                                style={{ backgroundImage: `url(${BGIMG})` }}
                             >
                                 <div className={styles.featureBox}><Feature01 /></div>
                             </div>
@@ -64,7 +64,7 @@ const Feature = () => {
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
-                                style={{ backgroundImage: `url(${BGIMG.src})` }}
+                                style={{ backgroundImage: `url(${BGIMG})` }}
                             >
                                 <div className={styles.featureBox}><Feature01 /></div>
                             </div>
@@ -77,7 +77,7 @@ const Feature = () => {
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
-                                style={{ backgroundImage: `url(${BGIMG.src})` }}
+                                style={{ backgroundImage: `url(${BGIMG})` }}
                             >
                                 <div className={styles.featureBox}><Feature01 /></div>
                             </div>
@@ -89,7 +89,7 @@ const Feature = () => {
                         <div className={styles.featureItem}>
                             <div
                                 className={styles.featureIcon}
-                                style={{ backgroundImage: `url(${BGIMG.src})` }}
+                                style={{ backgroundImage: `url(${BGIMG})` }}
                             >
                                 <div className={styles.featureBox}><Feature01 /></div>
                             </div>

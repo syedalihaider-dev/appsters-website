@@ -1,10 +1,10 @@
 "use client"
 import styles from "@/styles/components/ai/casestudies.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
-import Case01 from "media/videos/AiServices/case/img01.webp"
-import Case02 from "media/videos/AiServices/case/img02.webp"
-import Case03 from "media/videos/AiServices/case/img03.webp"
-import Case04 from "media/videos/AiServices/case/img04.webp"
+const Case01 = "/videos/AiServices/case/img01.webp"
+const Case02 = "/videos/AiServices/case/img02.webp"
+const Case03 = "/videos/AiServices/case/img03.webp"
+const Case04 = "/videos/AiServices/case/img04.webp"
 import Image from "next/image"
 import { ServiceArrow } from "@/src/app/app-constants"
 
@@ -45,7 +45,7 @@ const CaseStudies = () => {
                         </Col>
                         <Col lg={8} md={12}>
                             <div className={styles.caseStudiesImage}>
-                                <Image src={Case01.src} alt="Healthcare Case Study" fill />
+                                <Image src={Case01} alt="Healthcare Case Study" fill />
                             </div>
                             <div className={styles.viewServices}>
                                 <div className={styles.arrowIcon}><ServiceArrow /></div>
@@ -74,7 +74,7 @@ const CaseStudies = () => {
                         </Col>
                         <Col lg={8} md={12}>
                             <div className={styles.caseStudiesImage}>
-                                <Image src={Case02.src} alt="Healthcare Case Study" fill />
+                                <Image src={Case02} alt="Healthcare Case Study" fill />
                             </div>
                             <div className={styles.viewServices}>
                                 <div className={styles.arrowIcon}><ServiceArrow /></div>
@@ -103,7 +103,7 @@ const CaseStudies = () => {
                         </Col>
                         <Col lg={8} md={12}>
                             <div className={styles.caseStudiesImage}>
-                                <Image src={Case03.src} alt="Healthcare Case Study" fill />
+                                <Image src={Case03} alt="Healthcare Case Study" fill />
                             </div>
                             <div className={styles.viewServices}>
                                 <div className={styles.arrowIcon}><ServiceArrow /></div>
@@ -132,7 +132,7 @@ const CaseStudies = () => {
                         </Col>
                         <Col lg={8} md={12}>
                             <div className={styles.caseStudiesImage}>
-                                <Image src={Case04.src} alt="Healthcare Case Study" fill />
+                                <Image src={Case04} alt="Healthcare Case Study" fill />
                             </div>
                             <div className={styles.viewServices}>
                                 <div className={styles.arrowIcon}><ServiceArrow /></div>

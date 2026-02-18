@@ -2,94 +2,94 @@
 import Image from "next/image"
 
 // Bannar Images
-import BannerLogos from "media/services/bannerLogo.webp";
-import BannerBg from "media/services/bgBanner.webp";
+const BannerLogos = "/services/bannerLogo.webp";
+const BannerBg = "/services/bgBanner.webp";
 
 //========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png";
-import slider2 from "media/newmobileapp/slider-3.png";
-import slider3 from "media/newmobileapp/slider-5.png";
-import slider4 from "media/newmobileapp/slider-4.png";
-import slider5 from "media/newmobileapp/slider-1.png";
+const slider1 = "/newmobileapp/slider-2.png";
+const slider2 = "/newmobileapp/slider-3.png";
+const slider3 = "/newmobileapp/slider-5.png";
+const slider4 = "/newmobileapp/slider-4.png";
+const slider5 = "/newmobileapp/slider-1.png";
 
 //========= WhyChoose Images
 import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+const IMG = "/services/process/tab01.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/services/techImg.webp"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Risks Images
-import RisksIMG01 from "media/services/customImg01.webp"
-import RisksIMG02 from "media/services/customImg02.webp"
+const RisksIMG01 = "/services/customImg01.webp"
+const RisksIMG02 = "/services/customImg02.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= CtaEstimated Images
-import CtaEstimatedImg from "media/services/ctaImg.webp"
+const CtaEstimatedImg = "/services/ctaImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/04.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/services/tech/tab1/02.webp";
+const TAB1_3 = "/services/tech/tab1/03.webp";
+const TAB1_4 = "/services/tech/tab1/04.webp";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_2 = "/services/tech/tab2/02.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB3_1 = "/services/tech/tab3/01.webp";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB4_2 = "/services/tech/tab4/02.webp";
+const TAB4_3 = "/services/tech/tab4/03.webp";
+const TAB4_4 = "/services/tech/tab4/04.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
+const TAB6_4 = "/services/tech/tab6/04.webp";
 
 
 //========= Industries Images
 
 import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Logistics from "media/services/industry/Logistics.webp";
-import Music from "media/services/industry/music.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Logistics = "/services/industry/Logistics.webp";
+const Music = "/services/industry/music.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link";
 
 
@@ -97,8 +97,8 @@ export const BannerData = {
     subtitle: "Robust Blockchain Game Development",
     title: "Blockchain Game Development Company For Scalable Ownership Systems",
     content: "At Appsters, our Blockchain game development leverages decentralized technologies to enable secure, transparent gameplay, allowing for digital ownership and an innovative monetization model. Experience Blockchain game development services that combine audited smart contracts, performant clients, and reliable off-chain services, enabling blockchain games to run fast, verify ownership, and withstand traffic spikes. We design token rules, custody flows, and marketplaces, then rehearse drops on testnets. Telemetry tracks liquidity, retention, and fraud, allowing operators to tune rewards with evidence and plan expansions without disrupting live players.",
-    BannerLogos: BannerLogos.src,
-    BannerBg: BannerBg.src,
+    BannerLogos: BannerLogos,
+    BannerBg: BannerBg,
     fromtitle: "Let’s Discuss Game Idea",
     fromtext: "Share your game objectives with our experts and create your custom game."
 }
@@ -113,7 +113,7 @@ export const CuttingedgeList = [
     {
         title: (<>Custom Blockchain <br />Game Development</>),
         txt: (<>Our Blockchain game developers start with the core loop and economy map, then bind ownership and trading to mechanics that reward real play. We document token supply, sinks, and governance before code lands. Client logic stays responsive while on-chain records secure rights. We stage to testnets, run audits, and ship dashboards for liquidity, fraud, and cohort health so roadmaps adjust with data, not guesswork.
-</>),
+        </>),
         links: "",
     },
     {
@@ -224,7 +224,7 @@ export const ProcessTabs = [
             heading: "Game Idea & Research",
             description:
                 <>We turn concepts into evidence. As a Blockchain game development firm, we validate audience fit, chain selection, and cost to serve before code. We map the core loop, size risks, and agree on measurable KPIs so you can build your Blockchain game app with a clear path to launch and growth. We document assumptions and prove them with quick prototypes. Stakeholders sign off with numbers.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -233,7 +233,7 @@ export const ProcessTabs = [
             heading: "Designing",
             description:
                 "Design defines how players learn, earn, and return. Our Blockchain game development service turns wireframes into testable flows and token rules into balanced reward paths. We keep onboarding simple, economies fair, and inventory usable, then validate with short playtests so teams commit engineering effort where it matters. Each revision reduces the friction you would otherwise pay for later. We freeze specs only after they survive device tests.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -243,7 +243,7 @@ export const ProcessTabs = [
             heading: "Concept Art",
             description:
                 "Visuals set identity and readability. We hire Blockchain game designers who plan silhouettes, palettes, and readability at gameplay scale. Concept packs align with economy tiers and metadata, so art survives minting and still looks right on phones and desktop. Style guides keep later content consistent and efficient. Art choices support rarity cues and UX clarity. What looks great in a trailer must still read in combat.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -253,7 +253,7 @@ export const ProcessTabs = [
             heading: "Asset Creation",
             description:
                 <>Assets must look great and mint cleanly. Our Blockchain game makers model, rig, texture, and animate within budgets that run on real devices. We embed metadata and rarity, version every file, and validate export presets so items render fast, trade reliably, and remain compatible across engines and marketplaces. We test assets where they live: in scenes, under load. Every export includes provenance and rollback points.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -263,7 +263,7 @@ export const ProcessTabs = [
             heading: "Game Development",
             description:
                 "We connect responsive play with verifiable ownership. To build your Blockchain game app, we implement core loops, audited contracts, wallet flows, and marketplace systems behind scalable services. Sensitive actions commit on the chain; speed-critical paths stay off-chain. Documentation and load drills keep launch windows predictable. Engineers share the same source of truth as producers. Every feature ships behind flags with a tested rollback. ",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -273,7 +273,7 @@ export const ProcessTabs = [
             heading: "Testing",
             description:
                 "Quality goes beyond “it runs.” As a Blockchain game development company, we test gameplay, contracts, and economic stability under device and network variations. Automated suites catch regressions; security reviews harden flows; playtests surface friction before mainnet. The goal is simple: ship builds you can trust at scale. We simulate drops, outages, and latency spikes ahead of time. Results drive fixes, not meeting slides.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -283,7 +283,7 @@ export const ProcessTabs = [
             heading: "Deployment",
             description:
                 "Releases move in controlled phases. Our Blockchain game development service promotes building from testnet to mainnet with monitored contracts, coordinated store updates, and observability from day one. We set up nodes, CDNs, and liquidity so trading feels instant, then stage cohorts with rollback ready. Launch days stay calm by design. Operators see green lights in dashboards before they press go.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -295,49 +295,49 @@ export const TechnologiesContent = {
         Appsters runs on a stack built for longevity. As one of the few Blockchain game development companies operating at enterprise scale, we combine Unity, Unreal, Solidity, Node.js, and Subgraph indexing with automated CI/CD pipelines. Our Blockchain game development services include modular SDKs, custom wallet APIs, and audit-ready architecture, so studios ship stable Blockchain game apps instead of one-off experiments. We deliver reproducible builds, measurable latency, and systems that any in-house team can later maintain without vendor lock-in.
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -434,7 +434,7 @@ export const FuelingContent = {
     text: "We capitalize on pioneering technologies to make extraordinary games that help your brand escalate to higher levels. Discover how these innovations amplify user experiences & improve game functionality.",
     subtitle: "Build the Future of Gaming with Blockchain-Powered Game Development!",
     subtext: "Design engaging, decentralized games that enhance player interaction and rewards.",
-    FuelingImg: FuelingImg.src
+    FuelingImg: FuelingImg
 }
 
 export const FuelingList = [
@@ -468,7 +468,7 @@ export const CtaEstimatedContent = {
     subtitle: "From Prototype to Player Scale",
     title: "Secure Multi-Chain Blockchain Game Development",
     text: (<>Our Blockchain game builders combine production discipline with blockchain fluency. We architect gameplay, contracts, and infrastructure together so launches run cleanly, scale under pressure, and keep players’ trust. Every release leaves behind documentation, tooling, and monitoring that make the next update easier, faster, and safer to deploy.</>),
-    CtaEstimatedImg: CtaEstimatedImg.src
+    CtaEstimatedImg: CtaEstimatedImg
 }
 
 export const TechStackContent = {
@@ -482,19 +482,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Unity",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Unreal Engine",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "WebGL",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "Three.js",
-                img: TAB1_4.src,
+                img: TAB1_4,
             }
         ],
     },
@@ -503,19 +503,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Node.js",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "Python",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "Golang",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "C++",
-                img: TAB2_4.src,
+                img: TAB2_4,
             }
         ],
     },
@@ -524,11 +524,11 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Unity",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Unreal Engine",
-                img: TAB3_2.src,
+                img: TAB3_2,
             }
         ],
     },
@@ -537,19 +537,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "IPFS",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "MongoDB",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "AudaFirebase Realtime Databasecity",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB4_4.src,
+                img: TAB4_4,
             }
         ],
     },
@@ -558,15 +558,15 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "AWS",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "Google Cloud",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Microsoft Azure",
-                img: TAB5_3.src,
+                img: TAB5_3,
             }
         ],
     },
@@ -575,19 +575,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Truffle",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "Hardhat",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "MythX",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "Mocha",
-                img: TAB6_4.src,
+                img: TAB6_4,
             }
         ],
     },
@@ -603,56 +603,56 @@ export const IndustriesList = [
         title: "Ecommerce",
         txt: "We build ecommerce apps that sell more with frictionless checkouts, AI product recommendations, and mobile-first design. Our solutions handle scale effortlessly, from flash sales to global launches. Businesses get powerful dashboards, while shoppers get a personalized, smooth, and secure experience that turns carts into conversions.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We co-create secure, compliant fintech apps that simplify payments, investments, and trading. From blockchain-backed wallets to AI fraud detection, our solutions prioritize speed, trust, and transparency. We help financial institutions and startups scale confidently, turning complex transactions into seamless user journeys with powerful analytics and risk-free automation.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We develop HIPAA-compliant healthcare apps that bridge doctors, patients, and data. From telemedicine to AI-powered diagnostics, our solutions improve workflows, reduce wait times, and empower smarter, faster decision-making. Every feature is designed to keep patient privacy airtight while driving measurable results for hospitals, clinics, and health-tech startups.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "Our education apps gamify learning, power virtual classrooms, and track student progress. We integrate AR/VR modules, quizzes, and real-time assessments to boost engagement. Schools, universities, and ed-tech startups leverage our platforms to personalize teaching, improve retention, and make learning as interactive and rewarding as social media scrolling.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "We build social media platforms that are scalable, sticky, and secure. AI-driven feeds, privacy-first chat systems, and live content features drive engagement. Our architecture ensures your platform can handle viral moments without crashing, giving creators, communities, and brands a digital stage to connect and grow..",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We design real estate apps that help buyers, sellers, and agents close deals faster. AR-powered property tours, AI-driven recommendations, and secure document management streamline every step. Our platforms keep listings fresh, negotiations quick, and users delighted, turning real estate buying and selling into a guided, data-driven experience.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "We power logistics apps with route optimization, GPS tracking, and real-time inventory sync. Our solutions cut costs, eliminate bottlenecks, and ensure every delivery meets its deadline. Carriers, 3PLs, and warehouses rely on us to bring transparency, speed, and automation to complex supply chains across industries.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "We create streaming apps, artist marketplaces, and licensing solutions that let music businesses scale and monetize. AI-powered recommendations, offline playback, and fan engagement features keep listeners hooked. Our process covers rights management, secure distribution, and seamless playback to hit the perfect balance between creativity, tech, and revenue.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
 ];
 
@@ -686,13 +686,13 @@ export const FaqsList = [
     {
         title: "How do you prevent economic inflation and bot abuse?",
         txt: (<>
-           We cap supply, pace emissions, and add sinks tied to play. Our teams hire Blockchain game developers who implement device signals, rate limits, proof-of-play checks, and treasury controls. Designers then tune rewards against real liquidity and churn, not guesses.
+            We cap supply, pace emissions, and add sinks tied to play. Our teams hire Blockchain game developers who implement device signals, rate limits, proof-of-play checks, and treasury controls. Designers then tune rewards against real liquidity and churn, not guesses.
         </>)
     },
     {
         title: "What post-launch support do you provide?",
         txt: (<>
-           Live-ops, patches, contract versioning, and growth experiments. Appsters, among the top Blockchain game makers, monitors cohorts, ARPU, crash-free sessions, and market depth. We schedule seasonal drops, run audits, and keep compliance current so the game evolves without risking player trust.
+            Live-ops, patches, contract versioning, and growth experiments. Appsters, among the top Blockchain game makers, monitors cohorts, ARPU, crash-free sessions, and market depth. We schedule seasonal drops, run audits, and keep compliance current so the game evolves without risking player trust.
         </>)
     }
 ]
@@ -706,7 +706,7 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     },
@@ -714,7 +714,7 @@ export const BlogsList = [
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     },
@@ -722,7 +722,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

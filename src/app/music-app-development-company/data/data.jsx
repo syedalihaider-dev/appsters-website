@@ -1,114 +1,114 @@
 
 
 // Bannar Images
-import BannerBg from "media/industry/music/bgBanner.webp";
+const BannerBg = "/industry/music/bgBanner.webp";
 // IndustryCta Images
-import IndustryCtaImg from "media/industry/music/ctaImage.webp"
+const IndustryCtaImg = "/industry/music/ctaImage.webp"
 // Location Images
-import IndustrySliderIMG01 from "media/industry/music/industry/Industry01.webp"
-import IndustrySliderIMG02 from "media/industry/music/industry/Industry02.webp"
-import IndustrySliderIMG03 from "media/industry/music/industry/Industry03.webp"
-import IndustrySliderIMG04 from "media/industry/music/industry/Industry04.webp"
-import IndustrySliderIMG05 from "media/industry/music/industry/Industry05.webp"
+const IndustrySliderIMG01 = "/industry/music/industry/Industry01.webp"
+const IndustrySliderIMG02 = "/industry/music/industry/Industry02.webp"
+const IndustrySliderIMG03 = "/industry/music/industry/Industry03.webp"
+const IndustrySliderIMG04 = "/industry/music/industry/Industry04.webp"
+const IndustrySliderIMG05 = "/industry/music/industry/Industry05.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/industry/music/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/industry/music/techImg.webp"
 
 //========= Process Images
-import Process01 from "media/industry/music/processImg.webp"
-import Process02 from "media/industry/music/processImg.webp"
-import Process03 from "media/industry/music/processImg.webp"
-import Process04 from "media/industry/music/processImg.webp"
-import Process05 from "media/industry/music/processImg.webp"
-import Process06 from "media/industry/music/processImg.webp"
-import Process07 from "media/industry/music/processImg.webp"
+const Process01 = "/industry/music/processImg.webp"
+const Process02 = "/industry/music/processImg.webp"
+const Process03 = "/industry/music/processImg.webp"
+const Process04 = "/industry/music/processImg.webp"
+const Process05 = "/industry/music/processImg.webp"
+const Process06 = "/industry/music/processImg.webp"
+const Process07 = "/industry/music/processImg.webp"
 
 //========= WhyChoose Images
 import { MusicIcon01, MusicIcon02, MusicIcon03, MusicIcon04 } from "@/src/app/app-constants"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/music/fuelingImg.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
+const FuelingImg1 = "/industry/music/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/industry/techstack/Reactjs.svg";
-import TAB1_2 from "media/industry/techstack/Angular.svg";
-import TAB1_3 from "media/industry/techstack/Vuejs.svg";
-import TAB1_4 from "media/industry/techstack/HTML5.svg";
-import TAB1_5 from "media/industry/techstack/CSS3.svg";
-import TAB1_6 from "media/industry/techstack/JavaScript.svg";
-import TAB2_1 from "media/industry/techstack/Nodejs.svg";
-import TAB2_2 from "media/industry/techstack/Python.svg";
-import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";
-import TAB2_4 from "media/industry/techstack/Java.svg";
-import TAB2_5 from "media/industry/techstack/DotNET.svg";
-import TAB2_6 from "media/industry/techstack/PHP.svg";
-import TAB3_1 from "media/industry/techstack/Swift.svg";
-import TAB3_2 from "media/industry/techstack/Kotlin.svg";
-import TAB3_3 from "media/industry/techstack/ReactNative.svg";
-import TAB3_4 from "media/industry/techstack/Flutter.svg";
-import TAB3_5 from "media/industry/techstack/Xamarin.svg";
-import TAB3_6 from "media/industry/techstack/Ionic.svg";
-import TAB4_1 from "media/industry/techstack/MySQL.svg";
-import TAB4_2 from "media/industry/techstack/PostgreSQL.svg";
-import TAB4_3 from "media/industry/techstack/MongoDB.svg";
-import TAB4_4 from "media/industry/techstack/SQLite.svg";
-import TAB4_5 from "media/industry/techstack/Redis.svg";
-import TAB4_6 from "media/industry/techstack/Oracle.svg";
-import TAB5_1 from "media/industry/techstack/AWS.svg";
-import TAB5_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
-import TAB5_3 from "media/industry/techstack/MicrosoftAzure.svg";
-import TAB5_4 from "media/industry/techstack/Heroku.svg";
-import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
-import TAB5_6 from "media/industry/techstack/Firebase.svg";
-import TAB6_1 from "media/industry/techstack/GoogleMapsAPI.svg";
-import TAB6_2 from "media/industry/techstack/MLSIntegration.svg";
-import TAB6_3 from "media/industry/techstack/PropertyListingAPIs.svg";
-import TAB6_4 from "media/industry/techstack/Stripe-PayPal.svg";
-import TAB6_5 from "media/industry/techstack/CRMSystems.svg";
-import TAB6_6 from "media/industry/techstack/DataAnalyticsTools.svg";
+const TAB1_1 = "/industry/techstack/Reactjs.svg";
+const TAB1_2 = "/industry/techstack/Angular.svg";
+const TAB1_3 = "/industry/techstack/Vuejs.svg";
+const TAB1_4 = "/industry/techstack/HTML5.svg";
+const TAB1_5 = "/industry/techstack/CSS3.svg";
+const TAB1_6 = "/industry/techstack/JavaScript.svg";
+const TAB2_1 = "/industry/techstack/Nodejs.svg";
+const TAB2_2 = "/industry/techstack/Python.svg";
+const TAB2_3 = "/industry/techstack/RubyOnRails.svg";
+const TAB2_4 = "/industry/techstack/Java.svg";
+const TAB2_5 = "/industry/techstack/DotNET.svg";
+const TAB2_6 = "/industry/techstack/PHP.svg";
+const TAB3_1 = "/industry/techstack/Swift.svg";
+const TAB3_2 = "/industry/techstack/Kotlin.svg";
+const TAB3_3 = "/industry/techstack/ReactNative.svg";
+const TAB3_4 = "/industry/techstack/Flutter.svg";
+const TAB3_5 = "/industry/techstack/Xamarin.svg";
+const TAB3_6 = "/industry/techstack/Ionic.svg";
+const TAB4_1 = "/industry/techstack/MySQL.svg";
+const TAB4_2 = "/industry/techstack/PostgreSQL.svg";
+const TAB4_3 = "/industry/techstack/MongoDB.svg";
+const TAB4_4 = "/industry/techstack/SQLite.svg";
+const TAB4_5 = "/industry/techstack/Redis.svg";
+const TAB4_6 = "/industry/techstack/Oracle.svg";
+const TAB5_1 = "/industry/techstack/AWS.svg";
+const TAB5_2 = "/industry/techstack/GoogleCloudPlatform.svg";
+const TAB5_3 = "/industry/techstack/MicrosoftAzure.svg";
+const TAB5_4 = "/industry/techstack/Heroku.svg";
+const TAB5_5 = "/industry/techstack/DigitalOcean.svg";
+const TAB5_6 = "/industry/techstack/Firebase.svg";
+const TAB6_1 = "/industry/techstack/GoogleMapsAPI.svg";
+const TAB6_2 = "/industry/techstack/MLSIntegration.svg";
+const TAB6_3 = "/industry/techstack/PropertyListingAPIs.svg";
+const TAB6_4 = "/industry/techstack/Stripe-PayPal.svg";
+const TAB6_5 = "/industry/techstack/CRMSystems.svg";
+const TAB6_6 = "/industry/techstack/DataAnalyticsTools.svg";
 
 //========= Industries Images
 import { EcommerceSVG, EducationSVG, LogisticsSVG, AutomotiveSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG, } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Logistics from "media/services/industry/Logistics.webp";
-import Automotive from "media/services/industry/Automotive.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Logistics = "/services/industry/Logistics.webp";
+const Automotive = "/services/industry/Automotive.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link";
 
 
 export const BannerData = {
     title: "Music App Development Company for High-Performance Streaming Apps",
     content: "Say hello to next-gen music app development services. Build your music streaming paradise to compete with giants like Spotify, and Apple Music. Connect with millions of souls excited to groove to their favorite music through your own music app. .",
-    BannerBg: BannerBg.src,
+    BannerBg: BannerBg,
 }
 
 export const IndustryServiceContent = {
@@ -144,7 +144,7 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
-    image: IndustryCtaImg.src,
+    image: IndustryCtaImg,
     title: "Time to Build an Amazing Music App",
     text: "BitsWits offers swift development for music streaming apps. Share your vision, and our team of talented developers will help you carry it to its ultimate destination.",
 }
@@ -156,27 +156,27 @@ export const IndustrySliderContent = {
 
 export const IndustrySliderList = [
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG01,
         title: "On-the-go Offline Streaming",
         txt: "Users benefit with music apps that offer uninterrupted offline streaming. Users can listen to their favorite music albums on-the-go. This one feature has been the reason for success of major music streaming apps today.",
     },
     {
-        img: IndustrySliderIMG02.src,
+        img: IndustrySliderIMG02,
         title: "Buffer-FREE Audio Streaming",
         txt: "BitsWits as a music app development company ensures that our music applications feature the best quality of hardware and software, enabling users to stream music audio buffer-free. It makes up for a perfect streaming experience.",
     },
     {
-        img: IndustrySliderIMG03.src,
+        img: IndustrySliderIMG03,
         title: "Chromecast Support",
         txt: "All music applications come with a dedicated Chromecast support. It allows users to plug and play their favorite music, stream live shows, and join in virtual concerts from the comfort of their homes.",
     },
     {
-        img: IndustrySliderIMG04.src,
+        img: IndustrySliderIMG04,
         title: "Hi-Fi Streaming",
         txt: "Our music streaming app development team has solid expertise with hi-fi streaming for music audio. Therefore, your end users can experience the exact sound quality of live and recorded tracks at a glance.",
     },
     {
-        img: IndustrySliderIMG05.src,
+        img: IndustrySliderIMG05,
         title: "Airplay Support",
         txt: "We integrate all apps with super-fast Airplay support, enabling Apple users to seamlessly switch between Apple devices at a glance. This one feature makes our apps even more competitive with leading brands.",
     },
@@ -239,41 +239,41 @@ export const TechnologiesContent = {
         <p>Contact us to get an instant breakdown of your app cost!</p>
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
@@ -288,7 +288,7 @@ export const ProcessTabs = [
         content: {
             heading: "Documenting and Planning",
             description: (<>We start with a music industry-specific discovery call to understand your  <Link href='/blog/mobile-app-ideas'>mobile app idea</Link>, user demographics, and platform needs. After a thorough analysis, we document your requirements, evaluate the <Link href=''>app development cost</Link>, and create a feature roadmap, including real-time audio streaming, user playlists, and rights management systems. Communication is key throughout, keeping you informed at every stage.</>),
-            imgSrc: Process01.src,
+            imgSrc: Process01,
         },
     },
     {
@@ -296,7 +296,7 @@ export const ProcessTabs = [
         content: {
             heading: "Wireframing and Prototyping",
             description: (<>Before design begins, we<Link href='/blog/guide-to-creating-mobile-app-wireframes'> develop wireframes </Link>and prototypes using tools like Figma and Adobe XD to visually map out the app's user experience flow, including features like music libraries, offline listening, and audio compression systems. This step helps refine the user journey and streamline app functionality.</>),
-            imgSrc: Process02.src,
+            imgSrc: Process02,
         },
     },
     {
@@ -304,7 +304,7 @@ export const ProcessTabs = [
         content: {
             heading: "Music App Designing",
             description: "Our UX designers focus on audio-centric user interfaces, integrating features like custom equalizers, cross-platform compatibility, and immersive visualizers. By modeling state-of-the-art UI designs seen in top-tier music streaming platforms, we ensure the design aligns with both your brand and industry standards, providing a seamless and engaging user experience.",
-            imgSrc: Process03.src,
+            imgSrc: Process03,
         },
     },
     {
@@ -312,7 +312,7 @@ export const ProcessTabs = [
         content: {
             heading: "Developing the Music App",
             description: (<>Our music app developers bring your design to life through robust frontend and <Link href='/blog/guide-mobile-app-backend-development'> backend development, </Link>building a scalable architecture for real-time streaming, multi-format audio support, and API integration with platforms like Spotify, Apple Music, and SoundCloud. We ensure the backend is optimized to handle high-volume audio streaming and user data efficiently.</>),
-            imgSrc: Process04.src,
+            imgSrc: Process04,
         },
     },
     {
@@ -320,7 +320,7 @@ export const ProcessTabs = [
         content: {
             heading: "Running QA Testing",
             description: "Our music app development services involve rigorous load testing, latency checks, and bitrate optimization to ensure your app delivers high-quality audio experiences. The QA team also focuses on industry-specific compliance like music licensing, DRM (Digital Rights Management), and content delivery networks to maintain performance integrity.",
-            imgSrc: Process05.src,
+            imgSrc: Process05,
         },
     },
     {
@@ -328,7 +328,7 @@ export const ProcessTabs = [
         content: {
             heading: "Deploying for Launch",
             description: (<>Once testing is complete, we proceed with a structured launch, including<Link href='/blog/how-to-publish-an-app-to-google-play-store'> publishing the app on the Google Play Store </Link> or App Store and deploying it across web platforms. Our deployment process incorporates App Store Optimization (ASO) to maximize visibility and ensure a smooth, impactful launch. Timelines vary based on feature customization and music rights integration.</>),
-            imgSrc: Process06.src,
+            imgSrc: Process06,
         },
     },
     {
@@ -336,7 +336,7 @@ export const ProcessTabs = [
         content: {
             heading: "Maintenance for Optimization",
             description: "Our post-launch services ensure your music app remains competitive with ongoing audio compression updates, streaming performance enhancements, and integration of new features like AI-powered recommendations and social sharing tools. Regular security patches and music catalog updates keep your platform fresh and engaging for users.",
-            imgSrc: Process07.src,
+            imgSrc: Process07,
         },
     },
 ];
@@ -418,7 +418,7 @@ export const OffersTabs = [
 export const FuelingContent1 = {
     title: "Benefits of Custom Music Mobile App Development",
     text: "BitsWits is known for building highly optimized custom music app solutions. Our music application development services have been touted for building robust solutions that have made millions for our respective clients.",
-    FuelingImg1: FuelingImg1.src
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList1 = [
@@ -450,9 +450,9 @@ export const FuelingList1 = [
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -494,8 +494,8 @@ export const FuelingContent2 = {
     text: "BitsWits utilizes a range of advanced technologies including cloud computing, blockchain, AI, IoT, Sound recognition features, and even intelligent gamification for our top-notch music streaming applications.",
     subtitle: "Launch a Music Streaming App Today to Rake in Millions for Your Business Tomorrow",
     subtext: "Build a blockbuster music streaming app to serve millions of music lovers around the globe with your partner, BitsWits.",
-    FuelingImg: FuelingImg.src,
-    FuelingImg1: FuelingImg1.src
+    FuelingImg: FuelingImg,
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList2 = [
@@ -524,27 +524,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "React.js",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Angular",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Vue.js",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "HTML5",
-                img: TAB1_4.src,
+                img: TAB1_4,
             },
             {
                 heading: "CSS3",
-                img: TAB1_5.src,
+                img: TAB1_5,
             },
             {
                 heading: "JavaScript",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
         ],
     },
@@ -553,27 +553,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Node.js",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "Python",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Java",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: ".NET Core",
-                img: TAB2_5.src,
+                img: TAB2_5,
             },
             {
                 heading: "PHP",
-                img: TAB2_6.src,
+                img: TAB2_6,
             },
         ],
     },
@@ -582,27 +582,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Swift",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Kotlin",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "React Native",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "Flutter",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Xamarin",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
             {
                 heading: "Ionic",
-                img: TAB3_6.src,
+                img: TAB3_6,
             },
         ],
     },
@@ -611,27 +611,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "MySQL",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "MongoDB",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "SQLite",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "Redis",
-                img: TAB4_5.src,
+                img: TAB4_5,
             },
             {
                 heading: "Oracle",
-                img: TAB4_6.src,
+                img: TAB4_6,
             },
         ],
     },
@@ -640,27 +640,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "AWS",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "Google Cloud Platform",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Microsoft Azure",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "Heroku",
-                img: TAB5_4.src,
+                img: TAB5_4,
             },
             {
                 heading: "DigitalOcean",
-                img: TAB5_5.src,
+                img: TAB5_5,
             },
             {
                 heading: "Firebase",
-                img: TAB5_6.src,
+                img: TAB5_6,
             },
         ],
     },
@@ -669,27 +669,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Google Maps API",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "MLS Integration",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Property Listing APIs",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "Payment Gateways",
-                img: TAB6_4.src,
+                img: TAB6_4,
             },
             {
                 heading: "CRM Systems",
-                img: TAB6_5.src,
+                img: TAB6_5,
             },
             {
                 heading: "Data Analytics Tools",
-                img: TAB6_6.src,
+                img: TAB6_6,
             },
         ],
     }
@@ -705,56 +705,56 @@ export const IndustriesList = [
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "We build logistics apps for fleet and shipment optimization. Built-in eCommerce lets businesses manage and sell logistics services directly to clients.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
     {
         icon: <AutomotiveSVG />,
         title: "Automotive",
         txt: "Custom automotive apps streamline vehicle management, customer service, and dealership operations. Simplify bookings, maintenance tracking, and user engagement.",
         url: "/automotive-software-development",
-        img: Automotive.src,
+        img: Automotive,
     },
 
 ];
@@ -797,7 +797,7 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {

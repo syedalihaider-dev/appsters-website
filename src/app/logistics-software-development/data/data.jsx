@@ -1,119 +1,119 @@
 
 
 // Bannar Images
-import BannerBg from "media/industry/logistics/bgBanner.webp";
+const BannerBg = "/industry/logistics/bgBanner.webp";
 
 // IndustryCta Images
-import IndustryCtaImg from "media/industry/logistics/ctaImage.webp"
+const IndustryCtaImg = "/industry/logistics/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/logistics/industry/Industry01.webp"
-import IndustrySliderIMG02 from "media/industry/logistics/industry/Industry02.webp"
-import IndustrySliderIMG03 from "media/industry/logistics/industry/Industry03.webp"
-import IndustrySliderIMG04 from "media/industry/logistics/industry/Industry04.webp"
-import IndustrySliderIMG05 from "media/industry/logistics/industry/Industry05.webp"
-import IndustrySliderIMG06 from "media/industry/logistics/industry/Industry06.webp"
+const IndustrySliderIMG01 = "/industry/logistics/industry/Industry01.webp"
+const IndustrySliderIMG02 = "/industry/logistics/industry/Industry02.webp"
+const IndustrySliderIMG03 = "/industry/logistics/industry/Industry03.webp"
+const IndustrySliderIMG04 = "/industry/logistics/industry/Industry04.webp"
+const IndustrySliderIMG05 = "/industry/logistics/industry/Industry05.webp"
+const IndustrySliderIMG06 = "/industry/logistics/industry/Industry06.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/industry/logistics/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/industry/logistics/techImg.webp"
 
 //========= Process Images
-import IMG from "media/industry/logistics/processImg.webp"
+const IMG = "/industry/logistics/processImg.webp"
 
 
 //========= WhyChoose Images
 import { LogisticsIcon01, LogisticsIcon02, LogisticsIcon03, LogisticsIcon04 } from "@/src/app/app-constants"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/logistics/fuelingImg.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
+const FuelingImg1 = "/industry/logistics/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/industry/techstack/Angular.svg";
-import TAB1_2 from "media/industry/techstack/JavaScript.svg";
-import TAB1_3 from "media/industry/techstack/Reactjs.svg";
-import TAB1_4 from "media/industry/techstack/Bootstrap.svg";
-import TAB1_5 from "media/industry/techstack/Vuejs.svg";
-import TAB1_6 from "media/industry/techstack/HTML5-CSS3.svg";
-import TAB1_7 from "media/industry/techstack/TypeScript.svg";
-import TAB1_8 from "media/industry/techstack/Svelte.svg";
-import TAB2_1 from "media/industry/techstack/Nodejs.svg";
-import TAB2_2 from "media/industry/techstack/Python.svg";
-import TAB2_3 from "media/industry/techstack/Expressjs.svg";
-import TAB2_4 from "media/industry/techstack/Java.svg";
-import TAB2_5 from "media/industry/techstack/SpringBoot.svg";
-import TAB2_6 from "media/industry/techstack/Go.svg";
-import TAB2_7 from "media/industry/techstack/RubyOnRails.svg";
-import TAB2_8 from "media/industry/techstack/DotNET.svg";
-import TAB3_1 from "media/industry/techstack/MySQL.svg";
-import TAB3_2 from "media/industry/techstack/Oracle.svg";
-import TAB3_3 from "media/industry/techstack/MongoDB.svg";
-import TAB3_4 from "media/industry/techstack/PostgreSQL.svg";
-import TAB3_5 from "media/industry/techstack/MSSQL.svg";
-import TAB3_6 from "media/industry/techstack/Redis.svg";
-import TAB3_7 from "media/industry/techstack/CouchDB.svg";
-import TAB4_1 from "media/industry/techstack/AWS.svg";
-import TAB4_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
-import TAB4_3 from "media/industry/techstack/MicrosoftAzure.svg";
-import TAB4_4 from "media/industry/techstack/IBMCloud.svg";
-import TAB4_5 from "media/industry/techstack/DigitalOcean.svg";
-import TAB4_6 from "media/industry/techstack/Heroku.svg";
-import TAB5_1 from "media/industry/techstack/ApacheKafka.svg";
-import TAB5_2 from "media/industry/techstack/AmazonElasticSearch.svg";
-import TAB5_3 from "media/industry/techstack/MongoDB.svg";
-import TAB5_4 from "media/industry/techstack/AmazonDocumentDB.svg";
-import TAB5_5 from "media/industry/techstack/DynamoDB.svg";
-import TAB5_6 from "media/industry/techstack/ApacheHadoop.svg";
-import TAB5_7 from "media/industry/techstack/ApacheSpark.svg";
-import TAB6_1 from "media/industry/techstack/Kubernet.svg";
-import TAB6_2 from "media/industry/techstack/Jenkins.svg";
-import TAB6_3 from "media/industry/techstack/Chef.svg";
-import TAB6_4 from "media/industry/techstack/Maven.svg";
-import TAB6_5 from "media/industry/techstack/Docker.svg";
-import TAB6_6 from "media/industry/techstack/Ansible.svg";
-import TAB6_7 from "media/industry/techstack/Terraform.svg";
-import TAB6_8 from "media/industry/techstack/GitLabCI-CD.svg";
+const TAB1_1 = "/industry/techstack/Angular.svg";
+const TAB1_2 = "/industry/techstack/JavaScript.svg";
+const TAB1_3 = "/industry/techstack/Reactjs.svg";
+const TAB1_4 = "/industry/techstack/Bootstrap.svg";
+const TAB1_5 = "/industry/techstack/Vuejs.svg";
+const TAB1_6 = "/industry/techstack/HTML5-CSS3.svg";
+const TAB1_7 = "/industry/techstack/TypeScript.svg";
+const TAB1_8 = "/industry/techstack/Svelte.svg";
+const TAB2_1 = "/industry/techstack/Nodejs.svg";
+const TAB2_2 = "/industry/techstack/Python.svg";
+const TAB2_3 = "/industry/techstack/Expressjs.svg";
+const TAB2_4 = "/industry/techstack/Java.svg";
+const TAB2_5 = "/industry/techstack/SpringBoot.svg";
+const TAB2_6 = "/industry/techstack/Go.svg";
+const TAB2_7 = "/industry/techstack/RubyOnRails.svg";
+const TAB2_8 = "/industry/techstack/DotNET.svg";
+const TAB3_1 = "/industry/techstack/MySQL.svg";
+const TAB3_2 = "/industry/techstack/Oracle.svg";
+const TAB3_3 = "/industry/techstack/MongoDB.svg";
+const TAB3_4 = "/industry/techstack/PostgreSQL.svg";
+const TAB3_5 = "/industry/techstack/MSSQL.svg";
+const TAB3_6 = "/industry/techstack/Redis.svg";
+const TAB3_7 = "/industry/techstack/CouchDB.svg";
+const TAB4_1 = "/industry/techstack/AWS.svg";
+const TAB4_2 = "/industry/techstack/GoogleCloudPlatform.svg";
+const TAB4_3 = "/industry/techstack/MicrosoftAzure.svg";
+const TAB4_4 = "/industry/techstack/IBMCloud.svg";
+const TAB4_5 = "/industry/techstack/DigitalOcean.svg";
+const TAB4_6 = "/industry/techstack/Heroku.svg";
+const TAB5_1 = "/industry/techstack/ApacheKafka.svg";
+const TAB5_2 = "/industry/techstack/AmazonElasticSearch.svg";
+const TAB5_3 = "/industry/techstack/MongoDB.svg";
+const TAB5_4 = "/industry/techstack/AmazonDocumentDB.svg";
+const TAB5_5 = "/industry/techstack/DynamoDB.svg";
+const TAB5_6 = "/industry/techstack/ApacheHadoop.svg";
+const TAB5_7 = "/industry/techstack/ApacheSpark.svg";
+const TAB6_1 = "/industry/techstack/Kubernet.svg";
+const TAB6_2 = "/industry/techstack/Jenkins.svg";
+const TAB6_3 = "/industry/techstack/Chef.svg";
+const TAB6_4 = "/industry/techstack/Maven.svg";
+const TAB6_5 = "/industry/techstack/Docker.svg";
+const TAB6_6 = "/industry/techstack/Ansible.svg";
+const TAB6_7 = "/industry/techstack/Terraform.svg";
+const TAB6_8 = "/industry/techstack/GitLabCI-CD.svg";
 
 //========= Industries Images
 import { FintechSVG, MusicSVG, AutomotiveSVG, EcommerceSVG, EducationSVG, HealthcareSVG, RealEstateSVG, SocialSVG, } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Automotive from "media/services/industry/Automotive.webp";
-import Music from "media/services/industry/music.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Automotive = "/services/industry/Automotive.webp";
+const Music = "/services/industry/music.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 
 
 export const BannerData = {
     title: "Future-Ready Logistics Software Development Company for Efficient Systems",
     content: "BitsWits is a results-focused logistics software development company committed to streamlining workflows, reducing costs, and overcoming operational challenges. We optimize transportation processes and fleet management, helping your logistics operations run smoothly and efficiently for enhanced overall productivity.",
-    BannerBg: BannerBg.src,
+    BannerBg: BannerBg,
 }
 
 export const IndustryServiceContent = {
@@ -149,7 +149,7 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
-    image: IndustryCtaImg.src,
+    image: IndustryCtaImg,
     title: "Streamline Your Logistics with Advanced Software Solutions!",
     text: "Join BitsWits to optimize your supply chain and fleet management for faster, more efficient logistics operations.",
 }
@@ -161,32 +161,32 @@ export const IndustrySliderContent = {
 
 export const IndustrySliderList = [
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG01,
         title: "Inventory Management",
         txt: "Our inventory management solutions offer real-time visibility and control over stock levels, enabling accurate demand forecasting and efficient replenishment processes. With advanced inventory tracking, businesses can meet customer demand seamlessly while optimizing overall logistics operations."
     },
     {
-        img: IndustrySliderIMG02.src,
+        img: IndustrySliderIMG02,
         title: "Warehouse Management",
         txt: "We provide warehouse management solutions that improve inventory control and streamline order fulfillment. Our system enhances operational efficiency through agile picking and packing processes, helping businesses boost productivity and achieve better warehouse performance."
     },
     {
-        img: IndustrySliderIMG03.src,
+        img: IndustrySliderIMG03,
         title: "Transportation Management",
         txt: "As a leading transportation software development company, we optimize fleet management with intelligent routing and real-time shipment tracking. Our transportation software development services provide visibility and control, reducing costs and improving delivery times."
     },
     {
-        img: IndustrySliderIMG04.src,
+        img: IndustrySliderIMG04,
         title: "Fleet Management",
         txt: "We offer fleet management solutions utilizing GPS and RFID technologies for real-time tracking, route optimization, and maintenance scheduling. Our system enhances fleet operations, improving efficiency and reducing downtime for logistics businesses."
     },
     {
-        img: IndustrySliderIMG05.src,
+        img: IndustrySliderIMG05,
         title: "Order Management",
         txt: "Our order management solutions streamline order fulfillment with real-time inventory tracking, precise shipping, and efficient handling of on-demand requests. These systems optimize fleet allocation, driving smoother logistics operations and improved performance."
     },
     {
-        img: IndustrySliderIMG06.src,
+        img: IndustrySliderIMG06,
         title: "Supply Chain Management",
         txt: "We develop custom supply chain management software incorporating blockchain and IoT, enhancing visibility, optimizing inventory, and making logistics operations more responsive for improved efficiency and seamless supply chain management."
     },
@@ -269,41 +269,41 @@ export const TechnologiesContent = {
         <p>Use the <strong>free cost calculator</strong> by BitsWits to get a tailored estimate for your logistics software project.</p>
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
@@ -319,7 +319,7 @@ export const ProcessTabs = [
             heading: "Discovery and Initial Planning",
             description:
                 "Our custom logistics software development begins with a comprehensive requirements-gathering phase. We collaborate with key stakeholders to conduct a logistics process audit, define KPIs, and develop a scalable solution architecture. This phase includes detailed market analysis and risk management to ensure smooth project execution.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -328,7 +328,7 @@ export const ProcessTabs = [
             heading: "In-Depth Analysis and Strategic Planning",
             description:
                 "The next step focuses on conducting an operational workflow analysis to refine project scope and logistics system specifications. This phase aligns the solution with supply chain dynamics, creating a detailed roadmap that outlines timelines and milestone-based deliverables to drive operational efficiencies.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -337,7 +337,7 @@ export const ProcessTabs = [
             heading: "User Interface and Architecture Design",
             description:
                 "In the logistics software design phase, we focus on creating a logistics-centric UI with a role-based interface, enhancing usability for warehouse managers, fleet operators, and dispatch teams. The microservices architecture offers scalability, adapting seamlessly to growing logistics demands.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -346,7 +346,7 @@ export const ProcessTabs = [
             heading: " Agile Development and Code Implementation",
             description:
                 "The development team utilizes agile sprints to build high-performance systems with cloud-native technologies and languages like Python, Java, and Node.js. Our logistics software developers achieve efficient results using containerization and real-time collaboration tools, reducing time-to-market.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -355,7 +355,7 @@ export const ProcessTabs = [
             heading: "Comprehensive Testing and Quality Assurance",
             description:
                 "In this phase, comprehensive end-to-end system validation takes place, focusing on load testing, route optimization accuracy, and real-time tracking integration. Automated testing tools like Selenium, integrated with a CI/CD pipeline, maintain the highest standards of reliability and scalability.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -364,7 +364,7 @@ export const ProcessTabs = [
             heading: "Seamless Deployment and System Launch",
             description:
                 "After successful testing, a phased deployment strategy minimizes disruptions. The team manages the software rollout and compliance with logistics industry regulations, while monitoring performance during the transition to live operations for smooth integration with existing infrastructure.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -373,7 +373,7 @@ export const ProcessTabs = [
             heading: "Continuous Maintenance and Software Updates",
             description:
                 "Post-launch, continuous performance monitoring and regular software updates keep the platform aligned with logistics trends and business needs. Maintenance includes real-time data integration updates, feature enhancements, and predictive analytics upgrades to support long-term success.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
 ];
@@ -460,7 +460,7 @@ export const OffersTabs = [
 export const FuelingContent1 = {
     title: "Logistics Software Integration for Enhanced Workflow and Performance",
     text: "Logistics software integration improves workflow efficiency and overall performance by connecting various systems, streamlining processes, and enhancing data flow. These integrated solutions drive better operational control and enable more effective logistics management.",
-    FuelingImg1: FuelingImg1.src
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList1 = [
@@ -489,9 +489,9 @@ export const FuelingList1 = [
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -533,8 +533,8 @@ export const FuelingContent2 = {
     text: "BitsWits prioritizes security and regulatory compliance in logistics software, delivering solutions that safeguard data and meet industry-specific standards for seamless operations",
     subtitle: "Optimize Your Logistics with Custom Software Solutions Today!",
     subtext: "Develop scalable, efficient software to streamline your logistics operations and enhance supply chain management.",
-    FuelingImg: FuelingImg.src,
-    FuelingImg1: FuelingImg1.src
+    FuelingImg: FuelingImg,
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList2 = [
@@ -571,35 +571,35 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "AngularJS",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "JavaScript",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "React",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "Bootstrap",
-                img: TAB1_4.src,
+                img: TAB1_4,
             },
             {
                 heading: "Vue.js",
-                img: TAB1_5.src,
+                img: TAB1_5,
             },
             {
                 heading: "HTML5/CSS3",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
             {
                 heading: "TypeScript",
-                img: TAB1_7.src,
+                img: TAB1_7,
             },
             {
                 heading: "Svelte",
-                img: TAB1_8.src,
+                img: TAB1_8,
             },
         ],
     },
@@ -608,35 +608,35 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Node.js",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "Python",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "Express.js",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Java",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: "Spring Boot",
-                img: TAB2_5.src,
+                img: TAB2_5,
             },
             {
                 heading: "Go",
-                img: TAB2_6.src,
+                img: TAB2_6,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB2_7.src,
+                img: TAB2_7,
             },
             {
                 heading: ".NET Core",
-                img: TAB2_8.src,
+                img: TAB2_8,
             },
         ],
     },
@@ -645,31 +645,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "MySQL",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Oracle",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "MongoDB",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Microsoft SQL Server",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
             {
                 heading: "Redis",
-                img: TAB3_6.src,
+                img: TAB3_6,
             },
             {
                 heading: "CouchDB",
-                img: TAB3_7.src,
+                img: TAB3_7,
             },
         ],
     },
@@ -678,27 +678,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Amazon Web Services ",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "Google Cloud Platform ",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "Microsoft Azure",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "IBM Cloud",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "DigitalOcean",
-                img: TAB4_5.src,
+                img: TAB4_5,
             },
             {
                 heading: "Heroku",
-                img: TAB4_6.src,
+                img: TAB4_6,
             },
         ],
     },
@@ -707,31 +707,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Apache Kafka",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "Amazon ElasticSearch",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "MongoDB",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "Amazon DocumentDB",
-                img: TAB5_4.src,
+                img: TAB5_4,
             },
             {
                 heading: "DynamoDB",
-                img: TAB5_5.src,
+                img: TAB5_5,
             },
             {
                 heading: "Apache Hadoop",
-                img: TAB5_6.src,
+                img: TAB5_6,
             },
             {
                 heading: "Apache Spark",
-                img: TAB5_7.src,
+                img: TAB5_7,
             },
         ],
     },
@@ -740,35 +740,35 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Kubernetes",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "Jenkins",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Chef",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "Maven",
-                img: TAB6_4.src,
+                img: TAB6_4,
             },
             {
                 heading: "Docker",
-                img: TAB6_5.src,
+                img: TAB6_5,
             },
             {
                 heading: "Ansible",
-                img: TAB6_6.src,
+                img: TAB6_6,
             },
             {
                 heading: "Terraform",
-                img: TAB6_7.src,
+                img: TAB6_7,
             },
             {
                 heading: "GitLab CI/CD",
-                img: TAB6_8.src,
+                img: TAB6_8,
             },
         ],
     }
@@ -785,58 +785,58 @@ export const IndustriesList = [
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <AutomotiveSVG />,
         title: "Automotive",
         txt: "Custom automotive apps streamline vehicle management, customer service, and dealership operations. Simplify bookings, maintenance tracking, and user engagement.",
         url: "/automotive-software-development",
-        img: Automotive.src,
+        img: Automotive,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
     {
         icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
-    
+
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
-   
+
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
 
 ];
@@ -904,14 +904,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -919,7 +919,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

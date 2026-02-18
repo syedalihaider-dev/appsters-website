@@ -1,81 +1,81 @@
 
 // Bannar Images
-import BannerLogos from "media/mobile-game-development-company/bannerLogo.webp"
-import BannerBg from "media/mobile-game-development-company/bannerIMG.webp"
+const BannerLogos = "/mobile-game-development-company/bannerLogo.webp";
+const BannerBg = "/mobile-game-development-company/bannerIMG.webp";
 
 // services Images
-import GameBg1 from "media/mobile-game-development-company/services/GameBg01.webp"
-import GameBg2 from "media/mobile-game-development-company/services/GameBg02.webp"
-import GameBg3 from "media/mobile-game-development-company/services/GameBg03.webp"
-import GameBg4 from "media/mobile-game-development-company/services/GameBg04.webp"
-import GameBg5 from "media/mobile-game-development-company/services/GameBg05.webp"
-import GameBg6 from "media/mobile-game-development-company/services/GameBg06.webp"
-import GameBg7 from "media/mobile-game-development-company/services/GameBg07.webp"
+const GameBg1 = "/mobile-game-development-company/services/GameBg01.webp";
+const GameBg2 = "/mobile-game-development-company/services/GameBg02.webp";
+const GameBg3 = "/mobile-game-development-company/services/GameBg03.webp";
+const GameBg4 = "/mobile-game-development-company/services/GameBg04.webp";
+const GameBg5 = "/mobile-game-development-company/services/GameBg05.webp";
+const GameBg6 = "/mobile-game-development-company/services/GameBg06.webp";
+const GameBg7 = "/mobile-game-development-company/services/GameBg07.webp";
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Process Images
-import ProcessIMG from "media/services/process/tab01.webp"
+const ProcessIMG = "/services/process/tab01.webp"
 
 //========= WhyChoose Images
 import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
 
 //========= ContentSec Images
-import ContentSecIMG1 from "media/mobile-game-development-company/imgContent1.webp"
-import ContentSecIMG2 from "media/mobile-game-development-company/imgContent2.webp"
+const ContentSecIMG1 = "/mobile-game-development-company/imgContent1.webp"
+const ContentSecIMG2 = "/mobile-game-development-company/imgContent2.webp"
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/04.webp";
-import TAB1_5 from "media/services/tech/tab1/05.webp";
-import TAB1_6 from "media/services/tech/tab1/06.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/04.webp";
-import TAB3_5 from "media/services/tech/tab3/05.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/05.webp";
-import TAB4_6 from "media/services/tech/tab4/06.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/05.webp";
-import TAB5_6 from "media/services/tech/tab5/06.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/05.webp";
-import TAB6_6 from "media/services/tech/tab6/06.webp";
-import TAB6_7 from "media/services/tech/tab6/07.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/services/tech/tab1/02.webp";
+const TAB1_3 = "/services/tech/tab1/03.webp";
+const TAB1_4 = "/services/tech/tab1/04.webp";
+const TAB1_5 = "/services/tech/tab1/05.webp";
+const TAB1_6 = "/services/tech/tab1/06.webp";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_2 = "/services/tech/tab2/02.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB2_5 = "/services/tech/tab2/05.webp";
+const TAB3_1 = "/services/tech/tab3/01.webp";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB3_3 = "/services/tech/tab3/03.webp";
+const TAB3_4 = "/services/tech/tab3/04.webp";
+const TAB3_5 = "/services/tech/tab3/05.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB4_2 = "/services/tech/tab4/02.webp";
+const TAB4_3 = "/services/tech/tab4/03.webp";
+const TAB4_4 = "/services/tech/tab4/04.webp";
+const TAB4_5 = "/services/tech/tab4/05.webp";
+const TAB4_6 = "/services/tech/tab4/06.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB5_4 = "/services/tech/tab5/04.webp";
+const TAB5_5 = "/services/tech/tab5/05.webp";
+const TAB5_6 = "/services/tech/tab5/06.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
+const TAB6_4 = "/services/tech/tab6/04.webp";
+const TAB6_5 = "/services/tech/tab6/05.webp";
+const TAB6_6 = "/services/tech/tab6/06.webp";
+const TAB6_7 = "/services/tech/tab6/07.webp";
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link"
 
 
@@ -84,8 +84,8 @@ export const BannerData = {
     subtitle: "Interactive & Power-Packed Mobile Games",
     title: "Mobile Game Development Company Building Games For Real-World Scale",
     content: "Every mobile title competes for seconds of attention and gigabytes of patience. Appsters builds experiences that survive both. Appsters delivers mobile game development services that keep frame rates steady, inputs crisp, and loops worth repeating. Our game apps launch fast, read device limits correctly, and pair economy rules with fair progression. We test on real networks, profile on real hardware, and size content for real storage. You get a title that survives launch traffic, supports live events, and still feels great on a mid-range phone.",
-    BannerLogos: BannerLogos.src,
-    BannerBg: BannerBg.src,
+    BannerLogos: BannerLogos,
+    BannerBg: BannerBg,
 }
 
 export const ProjectdiscussContent = {
@@ -103,45 +103,45 @@ export const ServicesList = [
         title: "2D Mobile Game App Development",
         txt: (<>Our 2D mobile game developers ship titles that feel snappy on day one and day ninety. We keep draw calls low, animation timings tight, and UI readable on small screens. Asset pipelines produce crisp art at tiny sizes. Input latency stays low even on busy scenes. You get levels that load instantly, loops that reward mastery, and content drops that slot into the same clean build system.</>),
         links: "",
-        Img: GameBg1.src
+        Img: GameBg1
     },
     {
         title: "3D Mobile Game App Development",
         txt: (<>Great 3D mobile game apps respect GPU budgets. We plan worlds with LOD, occlusion, and streaming baked in. Shaders stay efficient, physics matches device limits, battery strain is monitored and fixed before submission. The result is a visual profile that looks premium on flagships and still holds 60 fps on mid-tier devices with crowds, particles, and UI stacked together.</>),
         links: "",
-        Img: GameBg2.src
+        Img: GameBg2
     },
     {
         title: "Blockchain Game App Development",
         txt: (<>Our blockchain game app development service keeps play first and ownership verifiable. Wallet flows stay simple, contracts map to on-screen actions, and trades clear fast without freezing inputs. We stage to testnets, run audits, and leave dashboards that track liquidity and failed calls. Your team sees where rewards land and how they affect retention, then tunes with proof.</>),
         links: "",
-        Img: GameBg3.src
+        Img: GameBg3
     },
     {
         title: "AR/VR Game Development",
         txt: "Serious AR/VR game app development starts with comfort budgets. We pick interactions that remain stable across rooms, hands, and light conditions. Foveated rendering and smart culling keep frames steady. Onboarding teaches safely and fast, and asset sizes respect headset limits. Producers get scene checklists and test routes so content teams can add chapters without breaking comfort or tracking.",
         links: "",
-        Img: GameBg4.src
+        Img: GameBg4
     },
     {
         title: "Web3 Game Development",
         txt: "Our web3 mobile games hide complexity and show value. Wallets connect without friction, items carry clear metadata, and governance lives behind sane menus. We log the signals that matter, not every click. Players feel progress, and operators see cohort movement, floor swings, and fraud patterns in the same view. Changes land in phases, not as risky jumps.",
         links: "",
-        Img: GameBg5.src
+        Img: GameBg5
     },
     {
         title: "Metaverse Game App Development",
         txt: "Real Metaverse game development means persistence that behaves. Avatars, spaces, and items share one identity layer across clients. Movement feels natural, and ownership stays legitimate. We build creator tools that respect moderation and royalties. Events run to capacity without dropping participants. Studio teams gain controls for queues, limits, and recovery, then scale worlds with confidence.",
         links: "",
-        Img: GameBg6.src
+        Img: GameBg6
     }
-]
+];
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -191,7 +191,7 @@ export const ContentSecContent = {
         <p>We implement strategies such as <strong>in-game events, social features,</strong> and <strong>loyalty programs</strong> to enhance player engagement and retention. </p>
         <p>These tactics help your game attract attention and maintain player interest, creating an interactive and compelling gaming experience.</p>
     </>),
-    ContentSecIMG: ContentSecIMG1.src
+    ContentSecIMG: ContentSecIMG1
 }
 
 export const ProcessContent = {
@@ -206,7 +206,7 @@ export const ProcessTabs = [
             heading: "Eggi Peggi",
             description:
                 "Eggi Peggi is a precision arcade puzzler built for quick hands and short sessions. Players tap, match, and chase the board while adaptive tuning stretches challenge without cheap spikes. A lightweight engine keeps frames steady on older phones and new flagships. Onboarding takes seconds. Day-one and day-seven targets stay in sight. The build fits tight data plans, which helps hyper-casual reach and fast monetization cycles.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
         },
     },
     {
@@ -215,7 +215,7 @@ export const ProcessTabs = [
             heading: "Swift Beat Play",
             description:
                 "Swift Beat Play blends rhythm timing with clean tactile input. Players hit beats to open new tracks and tougher charts. A custom timing core trims input and audio delay so the sync feels right on real devices. The backend scales for live playlists, head-to-head rooms, and seasonal drops. It suits long arcs of engagement and music-friendly in-app purchases that people actually use.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -225,7 +225,7 @@ export const ProcessTabs = [
             heading: "Crocodile Dundee",
             description:
                 "Crocodile Dundee is an endless runner that grows with the player. Lush 3D lanes use procedural terrain and live weather, so each run feels new. Global boards and rotating goals keep competition moving. Efficient rendering and tuned shaders protect battery and frame rate. Controls stay crisp when scenes get busy. The loop stays fair and sticky across age groups without swollen downloads.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -235,7 +235,7 @@ export const ProcessTabs = [
             heading: "Jumping Penguin",
             description:
                 "Jumping Penguin is a tap-and-play adventure made for broad reach. Collision maps are tight, jump arcs read cleanly, and rewards ramp in a way that feels earned. Asset delivery stays lean, so budget phones run it well. A dynamic scoring model pairs with adaptive difficulty and bright art. The result is simple fun that travels well and keeps people replaying.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -245,7 +245,7 @@ export const ProcessTabs = [
             heading: "Silemy’s Adventures",
             description:
                 "Silemy’s Adventures is a side-scrolling fantasy RPG with layered quests and timing-based combat. Players collect rare gear, tune builds, and unlock deeper story beats as skill rises. The design favors mobile sessions but still supports bosses, trading, and exploration. Visual cues carry the narrative. Progression feels meaningful, and players come back to see what the next chapter asks of them.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -255,7 +255,7 @@ export const ProcessTabs = [
             heading: "Meteor Chase",
             description:
                 "Meteor Chase is a sci-fi shooter running on real-time multiplayer code. Players weave through shifting star fields, avoid meteor swarms, and coordinate against hostile fleets. GPU-aware effects hold steady frame times. Matchmaking keeps latency in check during peak hours. Power-up routes, seasonal events, and ranked ladders create a competitive loop that rewards practice and repeat runs.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -265,7 +265,7 @@ export const ProcessTabs = [
             heading: "Pokerbust",
             description:
                 "PokerBust is a social casino built on secure, scalable tables. Hand logic resolves quickly, and anti-cheat tools protect fairness without slowing play. The economy supports tournaments, live hosts, and progressive jackpots with clear odds and pacing. Smart matchmaking seats players at the right skill level. Chat and clubs keep people around for another set, not just another hand.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -359,9 +359,9 @@ export const ContentSecLGContent = {
     title: "Tech Stack That Drives Our Mobile Game Development Agency.",
     text: (<>
         <p>As a mobile game development agency, we ship on Unity and Unreal, wire Photon or Mirror for real-time play, and run PlayFab or custom Node.js backends for live ops. Compared with most mobile game development companies, we build toolchains that cut iteration time and prevent fragile handoffs. Our mobile game development services include subgraph indexing, CI with automated device runs, and profiling that keeps game apps fast on budget phones and flagships alike.</p>
-       
+
     </>),
-    BGIMG: ContentSecIMG2.src
+    BGIMG: ContentSecIMG2
 }
 
 export const IdeaCtaContent = {
@@ -381,39 +381,39 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Unity",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Unreal Engine",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Godot",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "Cocos2d-x",
-                img: TAB1_4.src,
+                img: TAB1_4,
             },
             {
                 heading: "CryEngine",
-                img: TAB1_5.src,
+                img: TAB1_5,
             },
             {
                 heading: "Buildbox",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
             {
                 heading: "Phaser",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
             {
                 heading: "Construct",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
             {
                 heading: "PlayCanvas",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
         ],
     },
@@ -422,23 +422,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "C# ",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "C++",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "GDScript",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Lua",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: "Python",
-                img: TAB2_5.src,
+                img: TAB2_5,
             }
         ],
     },
@@ -447,31 +447,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Blender",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Maya",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "Adobe Photoshop",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "Adobe Illustrator",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Adobe After Effects",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
             {
                 heading: "Spine",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Three.js",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
         ],
     },
@@ -480,27 +480,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "FMOD",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "Wwise",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "Audacity",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "Logic Pro X",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "Ableton Live",
-                img: TAB4_5.src,
+                img: TAB4_5,
             },
             {
                 heading: "V",
-                img: TAB4_6.src,
+                img: TAB4_6,
             },
         ],
     },
@@ -509,26 +509,26 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Visual Studio",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "Rider",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Xcode",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "Android Studio",
-                img: TAB5_4.src,
+                img: TAB5_4,
             }, {
                 heading: "MonoDevelop",
-                img: TAB5_5.src,
+                img: TAB5_5,
             },
             {
                 heading: "IntelliJ IDEA",
-                img: TAB5_6.src,
+                img: TAB5_6,
             },
         ],
     },
@@ -537,31 +537,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "TestFlight",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "Firebase Test Lab",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Appium",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "GameAnalytics",
-                img: TAB6_4.src,
+                img: TAB6_4,
             },
             {
                 heading: "Unity Analytics",
-                img: TAB6_5.src,
+                img: TAB6_5,
             },
             {
                 heading: "Google Analytics",
-                img: TAB6_6.src,
+                img: TAB6_6,
             },
             {
                 heading: "Photon",
-                img: TAB6_7.src,
+                img: TAB6_7,
             }
         ],
     },
@@ -572,7 +572,7 @@ export const FuelingContent = {
     text: "As a premier mobile game development agency, we create customized game apps for all genres and game types. Here are the types of mobile games we develop:",
     subtitle: "Build the Next Big Mobile Game with Expert Developers!",
     subtext: "Deliver smooth, immersive gameplay that keeps players hooked and coming back.",
-    FuelingImg: FuelingImg.src
+    FuelingImg: FuelingImg
 }
 
 export const FuelingList = [
@@ -642,14 +642,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -657,7 +657,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

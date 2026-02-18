@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import Head from "next/head";
 import Image from "next/image";
-import BannerPoster from "media/videos/AiServices/AiServicesImg.webp";
+const BannerPoster = "/videos/AiServices/AiServicesImg.webp";
 import ButtonCommon from "@/src/components/common/button"
 
 //intial comment
@@ -72,7 +72,7 @@ const Banner = () => {
                         <Col md={6} className="my-auto">
                             {!showVideo ? (
                                 <Image
-                                    src={BannerPoster.src}
+                                    src={BannerPoster}
                                     alt="Banner background"
                                     className={styles.bannerImg}
                                     decoding="async"
@@ -89,7 +89,7 @@ const Banner = () => {
                                     aria-label="Background video"
                                     className={styles.bannerVideo}
                                     playsInline
-                                    poster={BannerPoster.src}
+                                    poster={BannerPoster}
                                 >
                                     <source src="/videos/AiServices/AiServicesVideo.mp4" type="video/mp4" />
                                 </video>

@@ -1,35 +1,35 @@
 // Bannar Images
-import BannerBg from "media/industry/taxi/bgBanner.webp"
+const BannerBg = "/industry/taxi/bgBanner.webp"
 
 // IndustryCta Images
-import IndustryCtaImg from "media/industry/taxi/ctaImage.webp"
+const IndustryCtaImg = "/industry/taxi/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/taxi/industry/Industry01.webp"
-import IndustrySliderIMG02 from "media/industry/taxi/industry/Industry02.webp"
-import IndustrySliderIMG03 from "media/industry/taxi/industry/Industry03.webp"
-import IndustrySliderIMG04 from "media/industry/taxi/industry/Industry04.webp"
-import IndustrySliderIMG05 from "media/industry/taxi/industry/Industry05.webp"
-import IndustrySliderIMG06 from "media/industry/taxi/industry/Industry06.webp"
-import IndustrySliderIMG07 from "media/industry/taxi/industry/Industry07.webp"
-import IndustrySliderIMG08 from "media/industry/taxi/industry/Industry08.webp"
-import IndustrySliderIMG09 from "media/industry/taxi/industry/Industry09.webp"
-import IndustrySliderIMG10 from "media/industry/taxi/industry/Industry10.webp"
-import IndustrySliderIMG11 from "media/industry/taxi/industry/Industry11.webp"
+const IndustrySliderIMG01 = "/industry/taxi/industry/Industry01.webp"
+const IndustrySliderIMG02 = "/industry/taxi/industry/Industry02.webp"
+const IndustrySliderIMG03 = "/industry/taxi/industry/Industry03.webp"
+const IndustrySliderIMG04 = "/industry/taxi/industry/Industry04.webp"
+const IndustrySliderIMG05 = "/industry/taxi/industry/Industry05.webp"
+const IndustrySliderIMG06 = "/industry/taxi/industry/Industry06.webp"
+const IndustrySliderIMG07 = "/industry/taxi/industry/Industry07.webp"
+const IndustrySliderIMG08 = "/industry/taxi/industry/Industry08.webp"
+const IndustrySliderIMG09 = "/industry/taxi/industry/Industry09.webp"
+const IndustrySliderIMG10 = "/industry/taxi/industry/Industry10.webp"
+const IndustrySliderIMG11 = "/industry/taxi/industry/Industry11.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/industry/taxi//techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/industry/taxi//techImg.webp"
 
 //========= Process Images
-import IMG from "media/industry/taxi/processImg.webp"
+const IMG = "/industry/taxi/processImg.webp"
 
 //========= WhyChoose Images
 import {
@@ -40,51 +40,51 @@ import {
 } from "@/src/app/app-constants"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/taxi/fuelingImg.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
+const FuelingImg1 = "/industry/taxi/fuelingImg.webp"
 
 //========= TechStack Images
-import TAB1_1 from "media/industry/techstack/Kotlin.svg"
-import TAB1_2 from "media/industry/techstack/Swift.svg"
-import TAB1_3 from "media/industry/techstack/Java.svg"
-import TAB1_4 from "media/industry/techstack/Objective-C.svg"
-import TAB1_5 from "media/industry/techstack/Dart.svg"
-import TAB1_6 from "media/industry/techstack/JavaScript.svg"
-import TAB2_1 from "media/industry/techstack/Firebase-Cloud-Messaging.svg"
-import TAB2_2 from "media/industry/techstack/Apple-Push-Notifications.svg"
-import TAB2_3 from "media/industry/techstack/Google-Cloud-Messaging.svg"
-import TAB2_4 from "media/industry/techstack/OneSignal.svg"
-import TAB3_1 from "media/industry/techstack/MongoDB.svg"
-import TAB3_2 from "media/industry/techstack/MySQL.svg"
-import TAB3_3 from "media/industry/techstack/Firebase.svg"
-import TAB3_4 from "media/industry/techstack/SQLite.svg"
-import TAB3_5 from "media/industry/techstack/Core-Data.svg"
-import TAB3_6 from "media/industry/techstack/PostgreSQL.svg"
-import TAB4_1 from "media/industry/techstack/Amazon-S3.svg"
-import TAB4_2 from "media/industry/techstack/Google-Cloud-Storage.svg"
-import TAB4_3 from "media/industry/techstack/Firebase-Storage.svg"
-import TAB4_4 from "media/industry/techstack/Azure-Server.svg"
-import TAB4_5 from "media/industry/techstack/iCloud.svg"
-import TAB5_1 from "media/industry/techstack/Android-Studio.svg"
-import TAB5_2 from "media/industry/techstack/Xcode.svg"
-import TAB5_3 from "media/industry/techstack/Visual-Studio.svg"
-import TAB5_4 from "media/industry/techstack/IntelliJ-IDEA.svg"
-import TAB5_5 from "media/industry/techstack/Eclipse.svg"
-import TAB6_1 from "media/industry/techstack/Google-Analytics-Firebase.svg"
-import TAB6_2 from "media/industry/techstack/MixPanel.svg"
-import TAB6_3 from "media/industry/techstack/flurry.svg"
-import TAB6_4 from "media/industry/techstack/Firebase-Analytics.svg"
-import TAB6_5 from "media/industry/techstack/App-Analytics.svg"
+const TAB1_1 = "/industry/techstack/Kotlin.svg"
+const TAB1_2 = "/industry/techstack/Swift.svg"
+const TAB1_3 = "/industry/techstack/Java.svg"
+const TAB1_4 = "/industry/techstack/Objective-C.svg"
+const TAB1_5 = "/industry/techstack/Dart.svg"
+const TAB1_6 = "/industry/techstack/JavaScript.svg"
+const TAB2_1 = "/industry/techstack/Firebase-Cloud-Messaging.svg"
+const TAB2_2 = "/industry/techstack/Apple-Push-Notifications.svg"
+const TAB2_3 = "/industry/techstack/Google-Cloud-Messaging.svg"
+const TAB2_4 = "/industry/techstack/OneSignal.svg"
+const TAB3_1 = "/industry/techstack/MongoDB.svg"
+const TAB3_2 = "/industry/techstack/MySQL.svg"
+const TAB3_3 = "/industry/techstack/Firebase.svg"
+const TAB3_4 = "/industry/techstack/SQLite.svg"
+const TAB3_5 = "/industry/techstack/Core-Data.svg"
+const TAB3_6 = "/industry/techstack/PostgreSQL.svg"
+const TAB4_1 = "/industry/techstack/Amazon-S3.svg"
+const TAB4_2 = "/industry/techstack/Google-Cloud-Storage.svg"
+const TAB4_3 = "/industry/techstack/Firebase-Storage.svg"
+const TAB4_4 = "/industry/techstack/Azure-Server.svg"
+const TAB4_5 = "/industry/techstack/iCloud.svg"
+const TAB5_1 = "/industry/techstack/Android-Studio.svg"
+const TAB5_2 = "/industry/techstack/Xcode.svg"
+const TAB5_3 = "/industry/techstack/Visual-Studio.svg"
+const TAB5_4 = "/industry/techstack/IntelliJ-IDEA.svg"
+const TAB5_5 = "/industry/techstack/Eclipse.svg"
+const TAB6_1 = "/industry/techstack/Google-Analytics-Firebase.svg"
+const TAB6_2 = "/industry/techstack/MixPanel.svg"
+const TAB6_3 = "/industry/techstack/flurry.svg"
+const TAB6_4 = "/industry/techstack/Firebase-Analytics.svg"
+const TAB6_5 = "/industry/techstack/App-Analytics.svg"
 
 //========= Industries Images
 import {
@@ -97,19 +97,19 @@ import {
   RealEstateSVG,
   SocialSVG,
 } from "@/src/app/app-constants"
-import Ecommerce from "media/services/industry/Ecommerce.webp"
-import Fintech from "media/services/industry/Fintech.webp"
-import Music from "media/services/industry/music.webp"
-import Education from "media/services/industry/Education.webp"
-import SocialMarketing from "media/services/industry/SocialMarketing.webp"
-import RealEstate from "media/services/industry/RealEstate.webp"
-import Automotive from "media/services/industry/Automotive.webp"
-import Logistics from "media/services/industry/Logistics.webp"
+const Ecommerce = "/services/industry/Ecommerce.webp"
+const Fintech = "/services/industry/Fintech.webp"
+const Music = "/services/industry/music.webp"
+const Education = "/services/industry/Education.webp"
+const SocialMarketing = "/services/industry/SocialMarketing.webp"
+const RealEstate = "/services/industry/RealEstate.webp"
+const Automotive = "/services/industry/Automotive.webp"
+const Logistics = "/services/industry/Logistics.webp"
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link"
 
 export const BannerData = {
@@ -117,7 +117,7 @@ export const BannerData = {
     "Build Marketplace-Ready Mobility Platforms With A Taxi App Development Company.",
   content:
     "As a ride booking app development company, Appsters builds dispatch-first mobility apps with accurate ETAs, smart matching, secure payments, and driver supply controls that hold up under real-world traffic and peak demand.",
-  BannerBg: BannerBg.src,
+  BannerBg: BannerBg,
 }
 
 export const IndustryServiceContent = {
@@ -133,7 +133,7 @@ export const IndustryServiceList = [
   {
     title: (
       <>
-        Automated Driver &  
+        Automated Driver &
         <br /> Fleet Management{" "}
       </>
     ),
@@ -146,7 +146,7 @@ export const IndustryServiceList = [
   {
     title: (
       <>
-        Real Time  
+        Real Time
         <br /> GPS Integration{" "}
       </>
     ),
@@ -160,13 +160,13 @@ export const IndustryServiceList = [
     title: (
       <>
         {" "}
-        AI Route 
+        AI Route
         <br /> Optimization{" "}
       </>
     ),
     txt: (
       <>
-       Routes should reflect reality, not just the shortest distance. We implement AI-driven routing that learns from trip history, traffic patterns, pickup friction, and cancellation points. The system proposes better driver positioning, smarter pickup sequencing, and reduced empty return legs. As part of our Taxi app development services, optimization improves turnaround time and keeps supply where demand actually spikes, especially during events and rush-hour windows.
+        Routes should reflect reality, not just the shortest distance. We implement AI-driven routing that learns from trip history, traffic patterns, pickup friction, and cancellation points. The system proposes better driver positioning, smarter pickup sequencing, and reduced empty return legs. As part of our Taxi app development services, optimization improves turnaround time and keeps supply where demand actually spikes, especially during events and rush-hour windows.
       </>
     ),
   },
@@ -174,7 +174,7 @@ export const IndustryServiceList = [
     title: (
       <>
         {" "}
-        In-App Notifications  
+        In-App Notifications
         <br /> & Communication{" "}
       </>
     ),
@@ -189,7 +189,7 @@ export const IndustryServiceList = [
     title: (
       <>
         {" "}
-        Airport  
+        Airport
         <br /> Taxi App{" "}
       </>
     ),
@@ -203,7 +203,7 @@ export const IndustryServiceList = [
     title: (
       <>
         {" "}
-        Carpool 
+        Carpool
         <br /> App{" "}
       </>
     ),
@@ -216,7 +216,7 @@ export const IndustryServiceList = [
 ]
 
 export const IndustryCtaContent = {
-  image: IndustryCtaImg.src,
+  image: IndustryCtaImg,
   title: "Build the Next Uber with BitsWits!",
   text: "From booking accuracy to real-time tracking, BitsWits delivers taxi apps that optimize your operations and customer experiences.",
 }
@@ -238,7 +238,7 @@ export const IndustrySliderContent = {
 
 export const IndustrySliderList = [
   {
-    img: IndustrySliderIMG01.src,
+    img: IndustrySliderIMG01,
     title: "Ride-Hailing/Ride-Sharing App",
     txt: "BitsWits delivers ride-hailing and ride-sharing app solutions built like Uber. As a leading ride sharing app development company, we design apps to optimize ride requests, enhance passenger-driver interactions, and improve service efficiency in the competitive on-demand market.",
   },
@@ -367,10 +367,10 @@ export const TechnologiesContent = {
   text: (
     <>
       <p>
-        Appsters builds with the tools that keep dispatch fast and systems observable. We develop mobile taxi apps using Kotlin, Swift, Flutter, Node.js, Postgres, Redis, Kafka, and cloud autoscaling, with map SDKs and routing engines tuned for city traffic. 
+        Appsters builds with the tools that keep dispatch fast and systems observable. We develop mobile taxi apps using Kotlin, Swift, Flutter, Node.js, Postgres, Redis, Kafka, and cloud autoscaling, with map SDKs and routing engines tuned for city traffic.
       </p>
       <p>
-        We ship telemetry, alerts, and operator dashboards from day one, so teams see supply gaps, cancellation spikes, and payment failures before users complain. We harden identity, pricing rules, and payout flows for peak demand and high churn windows. 
+        We ship telemetry, alerts, and operator dashboards from day one, so teams see supply gaps, cancellation spikes, and payment failures before users complain. We harden identity, pricing rules, and payout flows for peak demand and high churn windows.
       </p>
       <p>
         We also optimize background location, battery use, and network fallbacks so tracking stays accurate in dense zones and weak coverage.
@@ -378,13 +378,13 @@ export const TechnologiesContent = {
     </>
   ),
 
-  TechImg: TechImg.src,
+  TechImg: TechImg,
 }
 
 export const TechnologiesIcons = [
   {
     title: "iOS",
-    icons: TechIcon01.src,
+    icons: TechIcon01,
   },
   {
     title: "Android",
@@ -436,7 +436,7 @@ export const ProcessTabs = [
           Metro Hop is a city-scale taxi platform built around fast matching and clean driver workflows. Riders see accurate ETAs, live driver approach, and transparent pricing. Drivers get trip previews, intelligent routing, and controlled queue logic. Admin teams manage surge zones, shift coverage, and cancellation behavior through dashboards that reflect real streets. The app supports multi-city expansion without reworking the core.
         </>
       ),
-      imgSrc: IMG.src,
+      imgSrc: IMG,
     },
   },
   {
@@ -448,7 +448,7 @@ export const ProcessTabs = [
           FleetLine Cab Manager focuses on fleet-first operations for owners running large driver networks. The platform handles driver onboarding, document verification, vehicle assignment, and maintenance reminders. Dispatch tools prioritize availability and proximity to reduce dead miles. Operators see utilization, idle time, and peak demand maps. Built-in payouts, trip reporting, and fraud monitoring keep the business stable as volume grows.
         </>
       ),
-      imgSrc: IMG.src,
+      imgSrc: IMG,
     },
   },
   {
@@ -460,7 +460,7 @@ export const ProcessTabs = [
           RideBolt Corporate is a controlled mobility app designed for business rides and policy-driven bookings. Employees book quickly within approved rules. Admins set spending limits, ride types, pickup zones, and time windows. Finance teams get invoice-ready exports, cost center breakdowns, and full audit trails. The result is corporate mobility that feels simple to users and predictable to procurement.
         </>
       ),
-      imgSrc: IMG.src,
+      imgSrc: IMG,
     },
   },
   {
@@ -472,7 +472,7 @@ export const ProcessTabs = [
           BlackLane is a premium booking experience for limousine and chauffeur services. It supports advanced scheduling, airport pickup tracking, event pricing, vehicle tiers, and client preferences. Drivers receive itinerary details, waiting instructions, and professional communication tools. Operations teams manage allocations, service quality, and last-minute adjustments without chaos. The product is designed to feel premium while staying operationally tight.
         </>
       ),
-      imgSrc: IMG.src,
+      imgSrc: IMG,
     },
   },
 ]
@@ -587,7 +587,7 @@ export const OffersTabs = [
 export const FuelingContent1 = {
   title: "Advanced Mobility Tech That Separates Leading Taxi Platforms",
   text: "Modern mobility wins on intelligence. As a Taxi app development company, Appsters engineers real-time systems that predict demand, protect transactions, and keep tracking accurate under city noise. Our ride-hailing app development teams integrate AI, cloud infrastructure, and clean APIs so operations teams gain control, drivers stay productive, and riders trust ETAs.",
-  FuelingImg1: FuelingImg1.src,
+  FuelingImg1: FuelingImg1,
 }
 
 export const FuelingList1 = [
@@ -615,9 +615,9 @@ export const FuelingList1 = [
 
 export const TestimonialContent = {
   title: "Client Testimonials",
-  TestiImg1: TestiImg1.src,
-  TestiImg2: TestiImg2.src,
-  TestiImg3: TestiImg3.src,
+  TestiImg1: TestiImg1,
+  TestiImg2: TestiImg2,
+  TestiImg3: TestiImg3,
 }
 
 export const TestimonialSLIDES = [
@@ -666,8 +666,8 @@ export const FuelingContent2 = {
   subtitle: "Develop a Cutting-Edge Taxi App to Revolutionize Ride-Booking!",
   subtext:
     "Our apps are designed to provide smooth booking, real-time updates, and flexible payment solutions for a seamless experience.",
-  FuelingImg: FuelingImg.src,
-  FuelingImg1: FuelingImg1.src,
+  FuelingImg: FuelingImg,
+  FuelingImg1: FuelingImg1,
 }
 
 export const FuelingList2 = [
@@ -721,7 +721,7 @@ export const TechStackTabs = [
     content: [
       {
         heading: "Kotlin",
-        img: TAB1_1.src,
+        img: TAB1_1,
       },
       {
         heading: "Swift",
@@ -939,7 +939,7 @@ export const IndustriesList = [
 export const IdeaCtaContent = {
   title: (
     <>
-      The Market Never Waits. 
+      The Market Never Waits.
       <br /> Are You Ready to Launch?
     </>
   ),
@@ -997,7 +997,7 @@ export const BlogsList = [
     title: "How Much Does It Cost to Develop an App in 2024?",
     txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
     cat: "Mobile App Development",
-    img: BlogsIMG01.src,
+    img: BlogsIMG01,
     links: "https://www.bitswits.co/blog/mobile-app-development-cost",
     date: "August 29,2024",
   },

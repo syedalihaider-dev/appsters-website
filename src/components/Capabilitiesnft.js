@@ -19,7 +19,6 @@ const icon7 = '/CapablitiesImgs/NFTgame/icon7.png'
 const icon8 = '/CapablitiesImgs/NFTgame/icon8.png'
 const icon9 = '/CapablitiesImgs/NFTgame/icon9.png'
 
-
 const Capabilitiesnft = () => {
 
     var awardslogo = {

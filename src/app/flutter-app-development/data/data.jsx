@@ -2,98 +2,98 @@
 import Image from "next/image"
 
 // Bannar Images
-import BannerLogos from "media/services/bannerLogo.webp";
-import BannerBg from "media/services/bgBanner.webp";
+const BannerLogos = "/services/bannerLogo.webp";
+const BannerBg = "/services/bgBanner.webp";
 
 //========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png";
-import slider2 from "media/newmobileapp/slider-3.png";
-import slider3 from "media/newmobileapp/slider-5.png";
-import slider4 from "media/newmobileapp/slider-4.png";
-import slider5 from "media/newmobileapp/slider-1.png";
+const slider1 = "/newmobileapp/slider-2.png";
+const slider2 = "/newmobileapp/slider-3.png";
+const slider3 = "/newmobileapp/slider-5.png";
+const slider4 = "/newmobileapp/slider-4.png";
+const slider5 = "/newmobileapp/slider-1.png";
 
 //========= WhyChoose Images
 import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+const IMG = "/services/process/tab01.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/services/techImg.webp"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Risks Images
-import RisksIMG01 from "media/services/customImg01.webp"
-import RisksIMG02 from "media/services/customImg02.webp"
+const RisksIMG01 = "/services/customImg01.webp"
+const RisksIMG02 = "/services/customImg02.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= CtaEstimated Images
-import CtaEstimatedImg from "media/services/ctaImg.webp"
+const CtaEstimatedImg = "/services/ctaImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/industry/techstack/Flutter.svg";
-import TAB1_3 from "media/industry/techstack/Flutter.svg";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/06.webp";
-import TAB2_7 from "media/services/tech/tab2/07.webp";
-import TAB3_1 from "media/industry/techstack/Firebase.svg";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/04.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/industry/techstack/Flutter.svg";
+const TAB1_3 = "/industry/techstack/Flutter.svg";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_2 = "/services/tech/tab2/02.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB2_5 = "/services/tech/tab2/05.webp";
+const TAB2_6 = "/services/tech/tab2/06.webp";
+const TAB2_7 = "/services/tech/tab2/07.webp";
+const TAB3_1 = "/industry/techstack/Firebase.svg";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB3_3 = "/services/tech/tab3/03.webp";
+const TAB3_4 = "/services/tech/tab3/04.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB4_2 = "/services/tech/tab4/02.webp";
+const TAB4_3 = "/services/tech/tab4/03.webp";
+const TAB4_4 = "/services/tech/tab4/04.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB5_4 = "/services/tech/tab5/04.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
+const TAB6_4 = "/services/tech/tab6/04.webp";
 
 //========= Industries Images
 
 import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Logistics from "media/services/industry/Logistics.webp";
-import Music from "media/services/industry/music.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Logistics = "/services/industry/Logistics.webp";
+const Music = "/services/industry/music.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link";
 
 
@@ -101,8 +101,8 @@ export const BannerData = {
     subtitle: "Top Flutter App Developers in the USA",
     title: "A Flutter App Development Company That Delivers Scale & Performance. ",
     content: "Launch high-performance products with Flutter app development services that halve release cycles and preserve native performance. Our Flutter app solutions prioritize maintainable architecture, reproducible tests, and measurable KPIs to boost adoption, simplify integrations, and deliver predictable scalability across iOS and Android platforms for both startups and enterprises.",
-    BannerLogos: BannerLogos.src,
-    BannerBg: BannerBg.src,
+    BannerLogos: BannerLogos,
+    BannerBg: BannerBg,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }
@@ -227,7 +227,7 @@ export const ProcessTabs = [
             heading: "App Idea & Research",
             description:
                 <>We validate concepts through competitive benchmarking, user research, and feasibility analysis. Market insights guide architectural decisions such as database selection, API mapping, and scalability strategies. This early diligence prevents costly rework and anchors your vision in technical realities. Our Flutter app development services in the USA make sure each idea is engineered for adoption and market impact.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -236,7 +236,7 @@ export const ProcessTabs = [
             heading: "Strategic Planning & Consultation",
             description:
                 <>Planning transforms concepts into executable roadmaps; therefore, we create a blueprint with sprint cycles, release phases, risk mitigation plans, and compliance mapping. Data flows, integration points, and CI/CD pipelines are clearly defined. This ensures alignment between product goals and system design. As a trusted Flutter app development agency, Appsters establishes governance and milestones that keep delivery on track and measurable at every phase.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -246,7 +246,7 @@ export const ProcessTabs = [
             heading: "Wireframing & Prototyping",
             description:
                 <>We translate strategies into interactive prototypes with widget-level precision. Wireframes map user journeys, screen transitions, and state management flows, while high-fidelity designs simulate real interactions. Stakeholders validate UI and UX before code is written, eliminating uncertainty later. Prototypes accelerate consensus, improve collaboration, and enable us to develop a Flutter app that aligns with both user behavior and technical constraints.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -256,7 +256,7 @@ export const ProcessTabs = [
             heading: "App Development",
             description:
                 "Engineering execution turns blueprints into production-grade systems. Codebases are modular, tested, and version-controlled for maintainability. Our top Flutter app developers implement business logic, API integrations, authentication workflows, and UI layers with strict coding standards. Continuous integration pipelines automate builds and regression checks, while stakeholders receive live demos for visibility. This ensures that every Flutter app meets enterprise-quality benchmarks before testing.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -266,7 +266,7 @@ export const ProcessTabs = [
             heading: "Expert QA & Testing",
             description:
                 "We conduct functional, regression, integration, and performance testing across fragmented device ecosystems. Load testing, crash simulations, and security audits validate resilience under real-world conditions. QA reports track coverage, defects, and fixes with full transparency. This rigor differentiates us as a Flutter mobile app development company committed to shipping defect-free, enterprise-ready applications at scale.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -276,7 +276,7 @@ export const ProcessTabs = [
             heading: "App Launch",
             description:
                 "We oversee App Store and Play Store submissions, optimize metadata, and manage staggered rollouts to mitigate risk. Analytics pipelines are set up from day one to capture KPIs like session length, crash-free rate, and retention. Our Flutter app development firm ensures launches are smooth, compliant, and optimized for immediate market impact.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -286,7 +286,7 @@ export const ProcessTabs = [
             heading: "Deployment",
             description:
                 <>We configure infrastructure, integrate monitoring tools, and enforce rollback protocols to guarantee uptime. Build pipelines to promote artifacts from staging to production with minimal disruption. Deployment strategies are aligned with business needs, from phased releases to global rollouts. For enterprises looking to develop a Flutter app, this guarantees stability under complex operating environments.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -295,52 +295,52 @@ export const ProcessTabs = [
 export const TechnologiesContent = {
     title: "Flutter App Development Agency Built on Modern Stacks & Leading Benchmarks.",
     text: (<><p>Performance and reliability start with the right stack. Appsters, as a custom Flutter app development company, builds using Dart, Firebase, GraphQL, AWS, Docker, and Kubernetes. Our Flutter app development solutions integrate CI/CD pipelines, automated testing, and security-driven design from day one. Unlike other Flutter app development companies, we architect applications for maintainability and measurable efficiency, ensuring every build is technically sound, scalable across platforms, and ready for long-term enterprise adoption and definitive results.</p>
-       
+
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -443,7 +443,7 @@ export const FuelingContent = {
     text: "We pair backend technologies and databases with Flutter to enhance mobile apps, providing seamless integration and robust performance for superior user experiences.",
     subtitle: "Accelerate Your App Launch with Flutter’s Cross-Platform Efficiency!",
     subtext: "Develop high-performance apps with seamless user experience across multiple platforms.",
-    FuelingImg: FuelingImg.src
+    FuelingImg: FuelingImg
 }
 
 export const FuelingList = [
@@ -473,7 +473,7 @@ export const CtaEstimatedContent = {
     subtitle: "Go Beyond Cross-Platform With Flutter App Development ",
     title: "High-Value Flutter Development",
     text: (<>Leverage the experience of our seasoned Flutter mobile app developers to engineer applications built for enterprise reliability and startup speed. At Appsters, Flutter apps are architected for measurable ROI, reduced maintenance costs, faster release cycles, and long-term scalability that outperforms standard cross-platform builds.</>),
-    CtaEstimatedImg: CtaEstimatedImg.src
+    CtaEstimatedImg: CtaEstimatedImg
 }
 
 export const TechStackContent = {
@@ -487,15 +487,15 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Dart",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Flutter SDK",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Flutter Framework",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
         ],
     },
@@ -504,31 +504,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Material",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "Cupertino",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "MediaQuery",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Theme",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: "Localization",
-                img: TAB2_5.src,
+                img: TAB2_5,
             },
             {
                 heading: "Flutter SVG",
-                img: TAB2_6.src,
+                img: TAB2_6,
             },
             {
                 heading: "Syncfusion Charts",
-                img: TAB2_7.src,
+                img: TAB2_7,
             }
         ],
     },
@@ -537,19 +537,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Firebase",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Firestore",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "Firebase Cloud Storage",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "SQLite",
-                img: TAB3_4.src,
+                img: TAB3_4,
             }
         ],
     },
@@ -558,19 +558,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Get & Provider",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "Riverpod",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "Dio",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "Http",
-                img: TAB4_4.src,
+                img: TAB4_4,
             }
         ],
     },
@@ -579,19 +579,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Android Studio",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "IntelliJ IDEA",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Dart Plugins",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "Flutter Local Notifications",
-                img: TAB5_4.src,
+                img: TAB5_4,
             }
         ],
     },
@@ -600,19 +600,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Shared Preferences",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "Image Picker",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Url Launcher",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "Git ",
-                img: TAB6_4.src,
+                img: TAB6_4,
             }
         ],
     }
@@ -631,63 +631,63 @@ export const IndustriesList = [
         title: "Ecommerce",
         txt: "We build ecommerce apps that sell more with frictionless checkouts, AI product recommendations, and mobile-first design. Our solutions handle scale effortlessly, from flash sales to global launches. Businesses get powerful dashboards, while shoppers get a personalized, smooth, and secure experience that turns carts into conversions.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We co-create secure, compliant fintech apps that simplify payments, investments, and trading. From blockchain-backed wallets to AI fraud detection, our solutions prioritize speed, trust, and transparency. We help financial institutions and startups scale confidently, turning complex transactions into seamless user journeys with powerful analytics and risk-free automation.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We develop HIPAA-compliant healthcare apps that bridge doctors, patients, and data. From telemedicine to AI-powered diagnostics, our solutions improve workflows, reduce wait times, and empower smarter, faster decision-making. Every feature is designed to keep patient privacy airtight while driving measurable results for hospitals, clinics, and health-tech startups.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "Our education apps gamify learning, power virtual classrooms, and track student progress. We integrate AR/VR modules, quizzes, and real-time assessments to boost engagement. Schools, universities, and ed-tech startups leverage our platforms to personalize teaching, improve retention, and make learning as interactive and rewarding as social media scrolling.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "We build social media platforms that are scalable, sticky, and secure. AI-driven feeds, privacy-first chat systems, and live content features drive engagement. Our architecture ensures your platform can handle viral moments without crashing, giving creators, communities, and brands a digital stage to connect and grow.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We design real estate apps that help buyers, sellers, and agents close deals faster. AR-powered property tours, AI-driven recommendations, and secure document management streamline every step. Our platforms keep listings fresh, negotiations quick, and users delighted, turning real estate buying and selling into a guided, data-driven experience.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "We power logistics apps with route optimization, GPS tracking, and real-time inventory sync. Our solutions cut costs, eliminate bottlenecks, and ensure every delivery meets its deadline. Carriers, 3PLs, and warehouses rely on us to bring transparency, speed, and automation to complex supply chains across industries.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "We create streaming apps, artist marketplaces, and licensing solutions that let music businesses scale and monetize. AI-powered recommendations, offline playback, and fan engagement features keep listeners hooked. Our process covers rights management, secure distribution, and seamless playback to hit the perfect balance between creativity, tech, and revenue.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
 ];
 
 
 export const IdeaCtaContent = {
     title: (<>The Market Never Waits.
-<br />  Are You Ready to Launch?</>),
+        <br />  Are You Ready to Launch?</>),
     text: (<> App <span>Idea!</span></>),
     formtitle: (<>Let’s Create An Amazing<br /> Flutter App Together!</>)
 }
@@ -734,14 +734,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -749,7 +749,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

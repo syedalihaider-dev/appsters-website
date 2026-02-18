@@ -1,42 +1,43 @@
 //Clients
-import Client01 from "media/aiServices/clientsLogo/01.webp";
-import Client02 from "media/aiServices/clientsLogo/02.webp";
-import Client03 from "media/aiServices/clientsLogo/03.webp";
-import Client04 from "media/aiServices/clientsLogo/04.webp";
-import Client05 from "media/aiServices/clientsLogo/05.webp";
-import Client06 from "media/aiServices/clientsLogo/06.webp";
-import Client07 from "media/aiServices/clientsLogo/07.webp";
-import Client08 from "media/aiServices/clientsLogo/06.webp";
-import Client09 from "media/aiServices/clientsLogo/09.webp";
+//Clients
+const Client01 = "/aiServices/clientsLogo/01.webp";
+const Client02 = "/aiServices/clientsLogo/02.webp";
+const Client03 = "/aiServices/clientsLogo/03.webp";
+const Client04 = "/aiServices/clientsLogo/04.webp";
+const Client05 = "/aiServices/clientsLogo/05.webp";
+const Client06 = "/aiServices/clientsLogo/06.webp";
+const Client07 = "/aiServices/clientsLogo/07.webp";
+const Client08 = "/aiServices/clientsLogo/06.webp";
+const Client09 = "/aiServices/clientsLogo/09.webp";
 import Link from "next/link";
 
 export const ClientImages = [
     {
-        Img: Client01.src,
+        Img: Client01,
     },
     {
-        Img: Client02.src,
+        Img: Client02,
     },
     {
-        Img: Client03.src,
+        Img: Client03,
     },
     {
-        Img: Client04.src,
+        Img: Client04,
     },
     {
-        Img: Client05.src,
+        Img: Client05,
     },
     {
-        Img: Client06.src,
+        Img: Client06,
     },
     {
-        Img: Client07.src,
+        Img: Client07,
     },
     {
-        Img: Client08.src,
+        Img: Client08,
     },
     {
-        Img: Client09.src,
+        Img: Client09,
     },
 ];
 

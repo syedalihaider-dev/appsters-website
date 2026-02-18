@@ -4,16 +4,15 @@ import styles from "@/styles/DubaiBrandTrust.module.css";
 // Swiper
 import "swiper/css";
 // Images
-import BrandOne from "media/newdubai/single-brands.png";
-import BrandTwo from "media/newdubai/single-brands1.png";
+const BrandOne = "/newdubai/single-brands.png";
+const BrandTwo = "/newdubai/single-brands1.png";
 
 const DubaiBrandTrust = ({ padding, rtl }) => {
   return (
     <>
       <section
-        className={`${styles.brandTrustSec} ${
-          padding ? styles.paddingTop : ""
-        }`}
+        className={`${styles.brandTrustSec} ${padding ? styles.paddingTop : ""
+          }`}
       >
         <div className={`${styles.overFlow} container`}>
           <Row>
@@ -27,28 +26,32 @@ const DubaiBrandTrust = ({ padding, rtl }) => {
                     src={BrandOne}
                     alt='This image shows about the companies that are our partners'
                     loading='lazy'
-                    sizes='100vw'
+                    width={1000}
+                    height={100}
                     className='w-100 h-auto'
                   />
                   <Image
                     src={BrandTwo}
                     alt='This image shows about the companies that are our partners'
                     loading='lazy'
-                    sizes='100vw'
+                    width={1000}
+                    height={100}
                     className='w-100 h-auto'
                   />
                   <Image
                     src={BrandOne}
                     alt='This image shows about the companies that are our partners'
                     loading='lazy'
-                    sizes='100vw'
+                    width={1000}
+                    height={100}
                     className='w-100 h-auto'
                   />
                   <Image
                     src={BrandTwo}
                     alt='This image shows about the companies that are our partners'
                     loading='lazy'
-                    sizes='100vw'
+                    width={1000}
+                    height={100}
                     className='w-100 h-auto'
                   />
                 </div>

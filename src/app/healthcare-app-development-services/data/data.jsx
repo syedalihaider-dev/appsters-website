@@ -1,114 +1,114 @@
 
 
 // Bannar Images
-import BannerBg from "media/industry/health/bgBanner.webp";
+const BannerBg = "/industry/health/bgBanner.webp";
 
 // IndustryCta Images
-import IndustryCtaImg from "media/industry/health/ctaImage.webp"
+const IndustryCtaImg = "/industry/health/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/health/industry/Industry01.webp"
-import IndustrySliderIMG02 from "media/industry/health/industry/Industry02.webp"
-import IndustrySliderIMG03 from "media/industry/health/industry/Industry03.webp"
-import IndustrySliderIMG04 from "media/industry/health/industry/Industry04.webp"
-import IndustrySliderIMG05 from "media/industry/health/industry/Industry05.webp"
-import IndustrySliderIMG06 from "media/industry/health/industry/Industry06.webp"
+const IndustrySliderIMG01 = "/industry/health/industry/Industry01.webp"
+const IndustrySliderIMG02 = "/industry/health/industry/Industry02.webp"
+const IndustrySliderIMG03 = "/industry/health/industry/Industry03.webp"
+const IndustrySliderIMG04 = "/industry/health/industry/Industry04.webp"
+const IndustrySliderIMG05 = "/industry/health/industry/Industry05.webp"
+const IndustrySliderIMG06 = "/industry/health/industry/Industry06.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/industry/health/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/industry/health/techImg.webp"
 
 //========= Process Images
-import IMG from "media/industry/health/processImg.webp"
+const IMG = "/industry/health/processImg.webp"
 
 //========= WhyChoose Images
 import { HealthCareIcon01, HealthCareIcon02, HealthCareIcon03, HealthCareIcon04, } from "@/src/app/app-constants"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/health/fuelingImg.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
+const FuelingImg1 = "/industry/health/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/04.webp";
-import TAB1_5 from "media/services/tech/tab1/05.webp";
-import TAB1_6 from "media/services/tech/tab1/06.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/06.webp";
-import TAB2_7 from "media/services/tech/tab2/07.webp";
-import TAB2_8 from "media/services/tech/tab2/08.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/04.webp";
-import TAB3_5 from "media/services/tech/tab3/05.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/05.webp";
-import TAB4_6 from "media/services/tech/tab4/06.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/05.webp";
-import TAB5_6 from "media/services/tech/tab5/06.webp";
-import TAB5_7 from "media/services/tech/tab5/07.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/05.webp";
-import TAB6_6 from "media/services/tech/tab6/06.webp";
-import TAB6_7 from "media/services/tech/tab6/07.webp";
-import TAB6_8 from "media/services/tech/tab6/08.webp";
-import TAB7_1 from "media/services/tech/tab7/01.webp";
-import TAB7_2 from "media/services/tech/tab7/02.webp";
-import TAB7_3 from "media/services/tech/tab7/03.webp";
-import TAB7_4 from "media/services/tech/tab7/04.webp";
-import TAB7_5 from "media/services/tech/tab7/05.webp";
-import TAB7_6 from "media/services/tech/tab7/06.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/services/tech/tab1/02.webp";
+const TAB1_3 = "/services/tech/tab1/03.webp";
+const TAB1_4 = "/services/tech/tab1/04.webp";
+const TAB1_5 = "/services/tech/tab1/05.webp";
+const TAB1_6 = "/services/tech/tab1/06.webp";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_2 = "/services/tech/tab2/02.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB2_5 = "/services/tech/tab2/05.webp";
+const TAB2_6 = "/services/tech/tab2/06.webp";
+const TAB2_7 = "/services/tech/tab2/07.webp";
+const TAB2_8 = "/services/tech/tab2/08.webp";
+const TAB3_1 = "/services/tech/tab3/01.webp";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB3_3 = "/services/tech/tab3/03.webp";
+const TAB3_4 = "/services/tech/tab3/04.webp";
+const TAB3_5 = "/services/tech/tab3/05.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB4_2 = "/services/tech/tab4/02.webp";
+const TAB4_3 = "/services/tech/tab4/03.webp";
+const TAB4_4 = "/services/tech/tab4/04.webp";
+const TAB4_5 = "/services/tech/tab4/05.webp";
+const TAB4_6 = "/services/tech/tab4/06.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB5_4 = "/services/tech/tab5/04.webp";
+const TAB5_5 = "/services/tech/tab5/05.webp";
+const TAB5_6 = "/services/tech/tab5/06.webp";
+const TAB5_7 = "/services/tech/tab5/07.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
+const TAB6_4 = "/services/tech/tab6/04.webp";
+const TAB6_5 = "/services/tech/tab6/05.webp";
+const TAB6_6 = "/services/tech/tab6/06.webp";
+const TAB6_7 = "/services/tech/tab6/07.webp";
+const TAB6_8 = "/services/tech/tab6/08.webp";
+const TAB7_1 = "/services/tech/tab7/01.webp";
+const TAB7_2 = "/services/tech/tab7/02.webp";
+const TAB7_3 = "/services/tech/tab7/03.webp";
+const TAB7_4 = "/services/tech/tab7/04.webp";
+const TAB7_5 = "/services/tech/tab7/05.webp";
+const TAB7_6 = "/services/tech/tab7/06.webp";
 
 //========= Industries Images
 import { LogisticsSVG, MusicSVG, EcommerceSVG, AutomotiveSVG, EducationSVG, FintechSVG, RealEstateSVG, SocialSVG, } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Music from "media/services/industry/music.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Automotive from "media/services/industry/Automotive.webp";
-import Logistics from "media/services/industry/Logistics.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Music = "/services/industry/music.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Automotive = "/services/industry/Automotive.webp";
+const Logistics = "/services/industry/Logistics.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import BannerNewImg from "@/public/home/banner-1.webp"
 import Link from "next/link";
 import Image from "next/image";
@@ -117,7 +117,7 @@ import Image from "next/image";
 export const BannerData = {
     title: "A Healthcare App Development Company Delivering Real Clinical Impact.",
     content: "As your leading healthcare mobile app development company, we develop secure, standards-aligned apps for clinics, healthcare setups, telehealth, and startups, utilizing the best-in-class industry practices. ",
-    BannerBg: BannerBg.src,
+    BannerBg: BannerBg,
     BannerImg: <Image src={BannerNewImg} />,
 }
 
@@ -155,7 +155,7 @@ export const IndustryServiceList = [
 
 
 export const IndustryCtaContent = {
-    image: IndustryCtaImg.src,
+    image: IndustryCtaImg,
     title: "Streamline Patient Care with Healthcare Apps",
     text: "Innovate with secure, reliable healthcare apps! Partner with BitsWits to develop apps that streamline patient care, improve communication, and enhance healthcare delivery. ",
 }
@@ -167,32 +167,32 @@ export const IndustrySliderContent = {
 
 export const IndustrySliderList = [
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG01,
         title: "Healthcare CRM",
         txt: "Appsters develops CRM systems that help healthcare teams manage leads, referrals, and patient journeys through clean dashboards and HIPAA-aligned communication tools. Our healthcare app development services include role-based permissions, workflow automation, and audit logging to keep interactions compliant, traceable, and easy to manage across clinical and non-clinical teams."
     },
     {
-        img: IndustrySliderIMG02.src,
+        img: IndustrySliderIMG02,
         title: "Medical Billing Software",
         txt: "We build billing platforms that simplify claims, eligibility checks, and payment posting. Each health care mobile application streamlines coding rules, integrates payer APIs, and reduces clerical errors through validation logic. Finance teams gain visibility into outstanding claims, denials, and reimbursements while administrators get cleaner reporting and faster resolution cycles."
     },
     {
-        img: IndustrySliderIMG03.src,
+        img: IndustrySliderIMG03,
         title: "Patient Engagement Software",
         txt: "Appsters creates systems designed to increase adherence and support communication. These medical apps for patients facilitate logging, reminders, symptom tracking, educational content, and secure chat. Providers gain real-time insight into progress, enabling smarter care adjustments and fewer missed follow-ups."
     },
     {
-        img: IndustrySliderIMG04.src,
+        img: IndustrySliderIMG04,
         title: "Medical Device Integration",
         txt: "Our integration modules connect FDA-cleared devices, sensors, and monitors to mobile interfaces. As a healthcare app developer team, we manage BLE pairing, calibration workflows, and compliant data transmission. Clinicians receive accurate readings; patients get a simplified setup and clear guidance throughout the process."
     },
     {
-        img: IndustrySliderIMG05.src,
+        img: IndustrySliderIMG05,
         title: "Wearable Integration",
         txt: "We sync data from wearables into structured patient profiles. As a wellness apps engineering team, we map heart rate, sleep patterns, activity, and biometric signals into dashboards that patients and providers can actually interpret. Alerts, anomalies, and trends become clear, actionable insights instead of raw numbers."
     },
     {
-        img: IndustrySliderIMG06.src,
+        img: IndustrySliderIMG06,
         title: "Hospital Management Software",
         txt: "Appsters builds modern systems that support admissions, scheduling, bed management, and internal communication. Our medical app development approach keeps admin tasks clean and traceable, reducing friction between departments. Hospitals gain structured workflows, reliable uptime, and analytics that support operational decisions."
     },
@@ -265,41 +265,41 @@ export const TechnologiesContent = {
         <p>We test encryption, throughput, and uptime early so apps for doctors & patients behave predictably under real-world load. Documentation stays clear enough for future vendors and in-house teams to extend safely.</p>
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
@@ -315,7 +315,7 @@ export const ProcessTabs = [
             heading: "Discovery Phase",
             description:
                 <>Our process begins with a discovery phase, where we take the time to understand your healthcare goals and <Link href='/blog/mobile-app-ideas'>  mobile app idea. </Link> We gather insights into the challenges you face daily, whether it’s improving patient engagement, streamlining appointments, or managing data securely. During this phase, we also evaluate the <Link href='/blog/mobile-app-development-cost'>app development cost</Link> to ensure the solution aligns with your budget and delivers maximum value for your practice.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -324,7 +324,7 @@ export const ProcessTabs = [
             heading: "Documentation of the Project",
             description:
                 "After gathering all your specific requirements, we create detailed documentation of the project. This document outlines the technical and functional aspects in detail with both side views so that every detail concerning the app is clearly discussed. We believe in full transparency and collaboration throughout the project. All design decisions and integrations are documented, so the development of the app is always in line with your vision.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -333,7 +333,7 @@ export const ProcessTabs = [
             heading: "UI/UX Design",
             description:
                 <>While the term 'design' often refers to aesthetics, it also defines how an application will feel for the user. As part of the process, our UI/UX healthcare app design team focuses on <Link href='/blog/guide-to-creating-mobile-app-wireframes'>creating wireframes</Link> that map out the user journey. We work collaboratively with you to craft an intuitive, user-friendly app tailored to the needs of your practice, ensuring the interface is smooth and easy to use for your patients.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -342,7 +342,7 @@ export const ProcessTabs = [
             heading: "Development",
             description:
                 <>During the development phase, we focus on both frontend and  <Link href='/blog/guide-mobile-app-backend-development'>backend development</Link>, building your app incrementally using agile methodologies. This approach allows for ongoing feedback and testing, ensuring the app remains flexible and adaptable to new requirements or changes. Since healthcare is an evolving field, we ensure the app can scale with your practice’s growth. Throughout the cycle, we keep you informed every step of the way.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -351,7 +351,7 @@ export const ProcessTabs = [
             heading: "Quality Assurance",
             description:
                 "Healthcare quality and reliability are serious matters. We keep our QA team testing all functionality, performance, and security-related things to your app very seriously. We identify and solve potential problems before launching the app, ensuring it provides a seamless experience. Our healthcare app developers ensure your app is fully compliant with regulations such as HIPAA so you can breathe a sigh of relief from day one.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -360,7 +360,7 @@ export const ProcessTabs = [
             heading: "Launch",
             description:
                 <>Once your application has passed rigorous QA checks, it’s time for the launch. We handle the entire process, including <Link href='/blog/how-to-publish-an-app-to-google-play-store'>publishing your app on Google Play Store</Link> or App Store and monitoring its initial performance. We're with you throughout the launch to address any issues promptly, ensuring the app integrates smoothly into your practice.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -369,7 +369,7 @@ export const ProcessTabs = [
             heading: "Support post-launch",
             description:
                 "We provide ongoing post-launch support to keep your app running super smoothly. Such support might be in the form of updates, bug fixes, or enhancement of features; we are here to make sure your app is always fully functional and inline with the latest healthcare standards and technology. We stay connected to help your application adapt to ever-changing practice needs.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
 ];
@@ -456,7 +456,7 @@ export const OffersTabs = [
 export const FuelingContent1 = {
     title: "Benefits of Building a Healthcare App",
     text: "Creating a healthcare app through our development services offers significant advantages, from enhanced patient care to operational efficiencies.",
-    FuelingImg1: FuelingImg1.src
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList1 = [
@@ -484,9 +484,9 @@ export const FuelingList1 = [
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -528,8 +528,8 @@ export const FuelingContent2 = {
     text: (<>Appsters operates as a healthcare app development company built on engineering discipline, regulatory clarity, and real-world clinical logic. Our teams design systems that support clinicians, automate workflows, and keep data secure. Every build blends mature architecture with scalable infrastructure, making medical app development predictable, measurable, and safe across patient & doctor mobile apps.</>),
     subtitle: "Explore the Future of Healthcare with Innovative Technologies",
     subtext: "Schedule a consultation today to see how our healthcare app development company can transform your mobile healthcare applications and enhance patient outcomes.",
-    FuelingImg: FuelingImg.src,
-    FuelingImg1: FuelingImg1.src
+    FuelingImg: FuelingImg,
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList2 = [
@@ -567,27 +567,27 @@ export const TechStackTabs = [
             {
                 title: "Design",
                 heading: "Adobe XD",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Adobe Illustrator",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Balsamiq",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "InVision",
-                img: TAB1_4.src,
+                img: TAB1_4,
             },
             {
                 heading: "Figma",
-                img: TAB1_5.src,
+                img: TAB1_5,
             },
             {
                 heading: "Adobe Photoshop",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
         ],
     },
@@ -597,35 +597,35 @@ export const TechStackTabs = [
             {
                 title: "Frontend",
                 heading: "Flutter",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "React Native",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "Ionic",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Swift",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: "TypeScript",
-                img: TAB2_5.src,
+                img: TAB2_5,
             },
             {
                 heading: "Xamarin",
-                img: TAB2_6.src,
+                img: TAB2_6,
             },
             {
                 heading: "HTML5",
-                img: TAB2_7.src,
+                img: TAB2_7,
             },
             {
                 heading: "Kotlin",
-                img: TAB2_8.src,
+                img: TAB2_8,
             },
         ],
     },
@@ -635,23 +635,23 @@ export const TechStackTabs = [
             {
                 title: "Backend",
                 heading: "Laravel",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Node.js",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
-                heading: ".NET Core",
-                img: TAB3_3.src,
+                heading: " .NET Core",
+                img: TAB3_3,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Django",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
         ],
     },
@@ -661,27 +661,27 @@ export const TechStackTabs = [
             {
                 title: "Database",
                 heading: "Firebase",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "MongoDB",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "MySQL",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "Swift",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "Oracle",
-                img: TAB4_5.src,
+                img: TAB4_5,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB4_6.src,
+                img: TAB4_6,
             },
         ],
     },
@@ -691,30 +691,30 @@ export const TechStackTabs = [
             {
                 title: "Cloud",
                 heading: "Google Cloud Platform",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "AWS",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Linode",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "IBM Cloud",
-                img: TAB5_4.src,
+                img: TAB5_4,
             }, {
                 heading: "Vercel",
-                img: TAB5_5.src,
+                img: TAB5_5,
             },
             {
                 heading: "Microsoft Azure",
-                img: TAB5_6.src,
+                img: TAB5_6,
             },
             {
                 heading: "Firebase",
-                img: TAB5_7.src,
+                img: TAB5_7,
             },
         ],
     },
@@ -724,35 +724,35 @@ export const TechStackTabs = [
             {
                 title: "Framework",
                 heading: "React Native",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "Flutter",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Ionic",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "Xamarin",
-                img: TAB6_4.src,
+                img: TAB6_4,
             },
             {
                 heading: "Apache Cordova",
-                img: TAB6_5.src,
+                img: TAB6_5,
             },
             {
                 heading: "Android Studio",
-                img: TAB6_6.src,
+                img: TAB6_6,
             },
             {
                 heading: "Visual Studio",
-                img: TAB6_7.src,
+                img: TAB6_7,
             },
             {
                 heading: "Xcode",
-                img: TAB6_8.src,
+                img: TAB6_8,
             },
         ],
     },
@@ -769,56 +769,56 @@ export const IndustriesList = [
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "Our apps optimize fleet and shipment tracking. Integrated eCommerce lets businesses offer logistics to clients, boosting efficiency and operations.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
     {
         icon: <AutomotiveSVG />,
         title: "Automotive",
         txt: "Custom automotive apps streamline vehicle management, customer service, and dealership operations. Simplify bookings, maintenance tracking, and user engagement.",
         url: "/automotive-software-development",
-        img: Automotive.src,
+        img: Automotive,
     },
 ];
 
@@ -845,8 +845,8 @@ export const FaqsList = [
         title: "Can Appsters build wellness apps that integrate wearables and monitoring devices?",
         txt: (<>
             <p>Yes. Our engineers sync biometrics, motion data, and vitals from Apple, Fitbit, Garmin, and medical-grade sensors. As a wellness app specialist, we normalize device data, build risk alerts, and ensure providers receive accurate, clinically aligned insights for preventive or remote monitoring. </p>
-            
-            
+
+
         </>)
     },
     {
@@ -878,14 +878,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -893,7 +893,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

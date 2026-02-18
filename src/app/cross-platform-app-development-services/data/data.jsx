@@ -2,100 +2,100 @@
 import Image from "next/image"
 
 // Bannar Images
-import BannerLogos from "media/services/bannerLogo.webp";
-import BannerBg from "media/services/bgBanner.webp";
+const BannerLogos = "/services/bannerLogo.webp";
+const BannerBg = "/services/bgBanner.webp";
 
 //========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png";
-import slider2 from "media/newmobileapp/slider-3.png";
-import slider3 from "media/newmobileapp/slider-5.png";
-import slider4 from "media/newmobileapp/slider-4.png";
-import slider5 from "media/newmobileapp/slider-1.png";
+const slider1 = "/newmobileapp/slider-2.png";
+const slider2 = "/newmobileapp/slider-3.png";
+const slider3 = "/newmobileapp/slider-5.png";
+const slider4 = "/newmobileapp/slider-4.png";
+const slider5 = "/newmobileapp/slider-1.png";
 
 //========= WhyChoose Images
 import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+const IMG = "/services/process/tab01.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/services/techImg.webp"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Risks Images
-import RisksIMG01 from "media/services/customImg01.webp"
-import RisksIMG02 from "media/services/customImg02.webp"
+const RisksIMG01 = "/services/customImg01.webp"
+const RisksIMG02 = "/services/customImg02.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= CtaEstimated Images
-import CtaEstimatedImg from "media/services/ctaImg.webp"
+const CtaEstimatedImg = "/services/ctaImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/04.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/04.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/04.webp";
-import TAB3_5 from "media/services/tech/tab3/04.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/services/tech/tab1/02.webp";
+const TAB1_3 = "/services/tech/tab1/03.webp";
+const TAB1_4 = "/services/tech/tab1/04.webp";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_2 = "/services/tech/tab2/02.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB2_5 = "/services/tech/tab2/04.webp";
+const TAB3_1 = "/services/tech/tab3/01.webp";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB3_3 = "/services/tech/tab3/03.webp";
+const TAB3_4 = "/services/tech/tab3/04.webp";
+const TAB3_5 = "/services/tech/tab3/04.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB4_2 = "/services/tech/tab4/02.webp";
+const TAB4_3 = "/services/tech/tab4/03.webp";
+const TAB4_4 = "/services/tech/tab4/04.webp";
+const TAB4_5 = "/services/tech/tab4/04.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB5_4 = "/services/tech/tab5/04.webp";
+const TAB5_5 = "/services/tech/tab5/04.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
+const TAB6_4 = "/services/tech/tab6/04.webp";
 
 //========= Industries Images
 
 import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Logistics from "media/services/industry/Logistics.webp";
-import Music from "media/services/industry/music.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Logistics = "/services/industry/Logistics.webp";
+const Music = "/services/industry/music.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link";
 
 
@@ -103,8 +103,8 @@ export const BannerData = {
     subtitle: "Intelligent Cross-Platform Apps",
     title: "A Cross-Platform App Development Company For Every Industry.",
     content: "As a cross-platform app development company, we engineer shared codebases that behave natively, integrate seamlessly, and scale intelligently. Through our cross-platform application development services, Appsters reimagines fragmented user touchpoints into cohesive, high-performing ecosystems using Flutter, React Native, and Xamarin. We focus on clean builds, reduced time-to-market, and product stability, ensuring every app delivers a unified and consistent experience across iOS, Android, and the web. ",
-    BannerLogos: BannerLogos.src,
-    BannerBg: BannerBg.src,
+    BannerLogos: BannerLogos,
+    BannerBg: BannerBg,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }
@@ -144,7 +144,7 @@ export const CuttingedgeList = [
     {
         title: (<>Cross-Platform <br />App Optimization</>),
         txt: (<>We specialize in optimizing cross-platform apps to improve performance bottlenecks and reduce resource consumption. Our developers fine-tune rendering engines, API layers, and caching logic to guarantee faster loading times and smoother animation cycles without increasing build complexity. By leveraging analytics-driven insights and runtime diagnostics, we continuously refine the code performance to maximize responsiveness.
-    </>),
+        </>),
         links: "",
     },
 ]
@@ -229,7 +229,7 @@ export const ProcessTabs = [
         content: {
             heading: "App Idea & Research",
             description: (<>Our strategists combine market intelligence, user segmentation, and competitive mapping to shape a data-backed foundation. Early validation ensures your concept meets both technical and business feasibility benchmarks before moving into execution. We identify success KPIs, platform dependencies, and future scalability needs from day one. Every idea is refined through structured brainstorming and validated assumptions to minimize risk before design begins.</>),
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -237,7 +237,7 @@ export const ProcessTabs = [
         content: {
             heading: "Strategic Planning & Consultation",
             description: (<>In this phase, our consultants translate your validated idea into a measurable roadmap. Using insights from our analysts, we define milestones, tech stack selection, and resourcing strategies to align business timelines with delivery goals. As a cross-platform app development firm, we emphasize transparency, risk mitigation, and predictable iteration planning to ensure seamless alignment across all stakeholders. Each decision, from stack choice to resource bandwidth, is guided by measurable business impact and long-term maintainability.</>),
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -245,7 +245,7 @@ export const ProcessTabs = [
         content: {
             heading: "Wireframing & Prototyping",
             description: "Before writing a single line of code, our design teams create high-fidelity wireframes and interactive prototypes. These blueprints allow stakeholders to visualize flows, user journeys, and interface logic. By integrating usability feedback early, our cross-platform app makers ensure the app’s architecture supports smooth handoffs between platforms and consistent UX delivery. Every prototype is tested against real-world interaction models to ensure both efficiency and user delight.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -253,7 +253,7 @@ export const ProcessTabs = [
         content: {
             heading: "App Development",
             description: "Once prototypes are approved, engineers build your cross-platform app using modern frameworks like Flutter, React Native, and Ionic. We emphasize maintainable architecture, reusable components, and continuous integration pipelines for faster development cycles. Our modular coding structure ensures effortless future updates without affecting runtime performance or platform consistency. Developers collaborate closely with QA and DevOps teams for synchronized, incremental, and fail-safe deployment readiness.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -261,7 +261,7 @@ export const ProcessTabs = [
         content: {
             heading: "Expert QA & Testing",
             description: "Quality is a parallel process. Through multi-environment testing and device labs, we evaluate performance, accessibility, and compatibility across hardware profiles. From functional and regression testing to automation scripting, our QA specialists guarantee every release meets strict performance benchmarks for a seamless experience across platforms. Every bug, lag, or performance bottleneck is resolved through a zero-defect release approach, ensuring flawless functionality post-launch.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -269,7 +269,7 @@ export const ProcessTabs = [
         content: {
             heading: "App Launch",
             description: "Appsters coordinates every phase of go-live planning with precision. We prepare release builds, handle platform submissions, and validate app store compliance for smooth approvals. Each app launch is supported by real-time monitoring and rollback strategies that ensure uninterrupted transitions from staging to production with zero downtime or data disruption. Our team also manages metadata, app descriptions, and visual assets to boost discoverability and early adoption.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -277,7 +277,7 @@ export const ProcessTabs = [
         content: {
             heading: "Deployment",
             description: (<>We ensure every deployment meets enterprise-level delivery standards. Continuous monitoring and load testing precede every production push to eliminate latency issues. As part of our cross-platform app development service, we manage containerization, cloud configurations, and performance metrics, ensuring your app remains robust, traceable, and ready for scale. Each deployment includes environment isolation, rollback contingencies, and version tracking for complete operational transparency.</>),
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
 ];
@@ -287,49 +287,49 @@ export const TechnologiesContent = {
     text: (<><p>At Appsters, we push beyond conventional frameworks to engineer cross-platform apps that perform, adapt, and evolve. Unlike most cross-platform app development companies, our engineering teams merge innovation with reliability, building unified codebases in Flutter, React Native, and Xamarin that function natively across devices. Through intelligent automation and robust architecture, we build adaptable cross-platform apps powered by clean architecture, strong security layers, and intelligent automation, making our cross-platform app development services faster, more reliable, and future-ready.</p>
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -419,7 +419,7 @@ export const FuelingContent = {
     text: "Choosing the right technology stack for cross-platform app development is pivotal. Here’s a deeper dive into the standout options, each offering unique strengths to align with diverse project requirements.",
     subtitle: "Create Versatile Apps with Cross-Platform Development for Greater Flexibility!",
     subtext: "Our expert team builds apps that work seamlessly on iOS, Android, and more.",
-    FuelingImg: FuelingImg.src
+    FuelingImg: FuelingImg
 }
 
 export const FuelingList = [
@@ -449,7 +449,7 @@ export const CtaEstimatedContent = {
     subtitle: "Launch Everywhere With Appsters.",
     title: "Cross-Platform Innovation Accelerated",
     text: (<>At Appsters, we combine technical rigor with creative intelligence to transform business challenges into scalable digital products. Our cross-platform app developers build performance-driven applications that deliver native-like fluidity, enterprise security, and adaptable architecture. </>),
-    CtaEstimatedImg: CtaEstimatedImg.src
+    CtaEstimatedImg: CtaEstimatedImg
 }
 
 export const TechStackContent = {
@@ -463,19 +463,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Flutter",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "React Native",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Xamarin",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "Ionic",
-                img: TAB1_4.src,
+                img: TAB1_4,
             }
         ],
     },
@@ -484,23 +484,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Node.js",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "Python",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Firebase",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: ".NET Core",
-                img: TAB2_5.src,
+                img: TAB2_5,
             }
         ],
     },
@@ -509,23 +509,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Flutter",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "React Native",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "Xamarin",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "Ionic",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Kotlin Multiplatform",
-                img: TAB3_5.src,
+                img: TAB3_5,
             }
         ],
     },
@@ -534,23 +534,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Firebase Realtime Database",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "SQLite",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "MySQL",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "Realm",
-                img: TAB4_5.src,
+                img: TAB4_5,
             }
         ],
     },
@@ -559,23 +559,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "AWS",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "Google Cloud Platform",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Microsoft Azure",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "Firebase",
-                img: TAB5_4.src,
+                img: TAB5_4,
             },
             {
                 heading: "Heroku",
-                img: TAB5_5.src,
+                img: TAB5_5,
             }
         ],
     },
@@ -584,19 +584,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Appium",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "Firebase Test Lab",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "XCTest",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "Selenium",
-                img: TAB6_4.src,
+                img: TAB6_4,
             }
         ],
     }
@@ -610,66 +610,65 @@ export const IndustriesContent = {
 
 export const IndustriesList = [
     {
-        icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We build ecommerce apps that sell more with frictionless checkouts, AI product recommendations, and mobile-first design. Our solutions handle scale effortlessly, from flash sales to global launches. Businesses get powerful dashboards, while shoppers get a personalized, smooth, and secure experience that turns carts into conversions.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We co-create secure, compliant fintech apps that simplify payments, investments, and trading. From blockchain-backed wallets to AI fraud detection, our solutions prioritize speed, trust, and transparency. We help financial institutions and startups scale confidently, turning complex transactions into seamless user journeys with powerful analytics and risk-free automation.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We develop HIPAA-compliant healthcare apps that bridge doctors, patients, and data. From telemedicine to AI-powered diagnostics, our solutions improve workflows, reduce wait times, and empower smarter, faster decision-making. Every feature is designed to keep patient privacy airtight while driving measurable results for hospitals, clinics, and health-tech startups.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "Our education apps gamify learning, power virtual classrooms, and track student progress. We integrate AR/VR modules, quizzes, and real-time assessments to boost engagement. Schools, universities, and ed-tech startups leverage our platforms to personalize teaching, improve retention, and make learning as interactive and rewarding as social media scrolling.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "We build social media platforms that are scalable, sticky, and secure. AI-driven feeds, privacy-first chat systems, and live content features drive engagement. Our architecture ensures your platform can handle viral moments without crashing, giving creators, communities, and brands a digital stage to connect and grow.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We design real estate apps that help buyers, sellers, and agents close deals faster. AR-powered property tours, AI-driven recommendations, and secure document management streamline every step. Our platforms keep listings fresh, negotiations quick, and users delighted, turning real estate buying and selling into a guided, data-driven experience.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "We power logistics apps with route optimization, GPS tracking, and real-time inventory sync. Our solutions cut costs, eliminate bottlenecks, and ensure every delivery meets its deadline. Carriers, 3PLs, and warehouses rely on us to bring transparency, speed, and automation to complex supply chains across industries.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "We create streaming apps, artist marketplaces, and licensing solutions that let music businesses scale and monetize. AI-powered recommendations, offline playback, and fan engagement features keep listeners hooked. Our process covers rights management, secure distribution, and seamless playback to hit the perfect balance between creativity, tech, and revenue.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
 ];
 
 export const IdeaCtaContent = {
-    title: (<>The Market Never Waits. 
-<br /> Are You Ready to Launch?</>),
+    title: (<>The Market Never Waits.
+        <br /> Are You Ready to Launch?</>),
     text: (<> App <span>Idea!</span></>),
     formtitle: (<>Let’s Create An <br /> Amazing App Together!</>)
 }
@@ -714,14 +713,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -729,7 +728,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

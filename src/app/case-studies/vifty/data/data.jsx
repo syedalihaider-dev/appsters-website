@@ -1,35 +1,35 @@
 // Overview Images
-import overview from "media/casestudies/Vifty/OverviewImg.webp"
+const overview = "/casestudies/Vifty/OverviewImg.webp"
 
 // Features Images
-import features from "media/casestudies/Vifty/FeaturesLogo.webp"
+const features = "/casestudies/Vifty/FeaturesLogo.webp"
 
 // Problem Images
-import problem from "media/casestudies/Vifty/ProblemImg.webp"
+const problem = "/casestudies/Vifty/ProblemImg.webp"
 
 // Solution Images
-import solution from "media/casestudies/Vifty/SolutionImg.webp"
+const solution = "/casestudies/Vifty/SolutionImg.webp"
 
 // ScrollingSection Images
-import scrolling from "media/casestudies/Vifty/ScrollingImg.webp"
+const scrolling = "/casestudies/Vifty/ScrollingImg.webp"
 
 // TechStack Images
-import TechStackIcon01 from "media/casestudies/techIcon/React-Native.webp"
-import TechStackIcon02 from "media/casestudies/techIcon/Flutter.webp"
-import TechStackIcon03 from "media/casestudies/techIcon/Xamarin.webp"
-import TechStackIcon04 from "media/casestudies/techIcon/Swift.webp"
-import TechStackIcon05 from "media/casestudies/techIcon/Ionic.webp"
-import TechStackIcon06 from "media/casestudies/techIcon/AWS.webp"
-import TechStackIcon07 from "media/casestudies/techIcon/JavaScript.svg"
-import TechStackIcon08 from "media/casestudies/techIcon/Adobe-XD.webp"
-import TechStackIcon09 from "media/casestudies/techIcon/Adobe-Illustrator.webp"
-import TechStackIcon10 from "media/casestudies/techIcon/Adobe-Photoshop.webp"
-import TechStackIcon11 from "media/casestudies/techIcon/figma.webp"
-import TechStackIcon12 from "media/casestudies/techIcon/InVision.webp"
-import TechStackIcon13 from "media/casestudies/techIcon/Balsamiq.webp"
+const TechStackIcon01 = "/casestudies/techIcon/React-Native.webp"
+const TechStackIcon02 = "/casestudies/techIcon/Flutter.webp"
+const TechStackIcon03 = "/casestudies/techIcon/Xamarin.webp"
+const TechStackIcon04 = "/casestudies/techIcon/Swift.webp"
+const TechStackIcon05 = "/casestudies/techIcon/Ionic.webp"
+const TechStackIcon06 = "/casestudies/techIcon/AWS.webp"
+const TechStackIcon07 = "/casestudies/techIcon/JavaScript.svg"
+const TechStackIcon08 = "/casestudies/techIcon/Adobe-XD.webp"
+const TechStackIcon09 = "/casestudies/techIcon/Adobe-Illustrator.webp"
+const TechStackIcon10 = "/casestudies/techIcon/Adobe-Photoshop.webp"
+const TechStackIcon11 = "/casestudies/techIcon/figma.webp"
+const TechStackIcon12 = "/casestudies/techIcon/InVision.webp"
+const TechStackIcon13 = "/casestudies/techIcon/Balsamiq.webp"
 
 // Result Images
-import result from "media/casestudies/Vifty/ResultImg.webp"
+const result = "/casestudies/Vifty/ResultImg.webp"
 
 export const BannerData = {
     subtitle: "Vifty",
@@ -37,14 +37,14 @@ export const BannerData = {
 }
 
 export const OverviewData = {
-    image: overview.src,
+    image: overview,
     subtitle: "Overview",
     title: "VIFTY",
     content: "VIFTY is a unique platform designed to connect service providers with consumers, facilitating interactions that allow users to earn while helping others. By offering a space for skill sharing and community support, VIFTY empowers users to make meaningful connections and generate income effortlessly."
 }
 
 export const FeaturesData = {
-    image: features.src,
+    image: features,
     background: 'linear-gradient(180deg, #7268DB -14.33%, #1B1464 86.95%, #1B1464 131.4%)',
     boxShadow: '15px 20px 40px rgba(43, 83, 142, 0.3)',
     subtitle: "Features",
@@ -101,7 +101,7 @@ export const SolutionBullets = [
 ]
 
 export const ScrollingSectionData = {
-    image: scrolling.src,
+    image: scrolling,
 }
 
 export const TechStackData = {
@@ -113,60 +113,60 @@ export const TechStackData = {
 export const TechStackList = [
     {
         title: "React Native",
-        icon: TechStackIcon01.src
+        icon: TechStackIcon01
     },
     {
         title: "Flutter",
-        icon: TechStackIcon02.src
+        icon: TechStackIcon02
     },
     {
         title: "Xamarin",
-        icon: TechStackIcon03.src
+        icon: TechStackIcon03
     },
     {
         title: "Swift",
-        icon: TechStackIcon04.src
+        icon: TechStackIcon04
     },
     {
         title: "Ionic",
-        icon: TechStackIcon05.src
+        icon: TechStackIcon05
     },
     {
         title: "AWS",
-        icon: TechStackIcon06.src
+        icon: TechStackIcon06
     },
     {
         title: "JavaScript",
-        icon: TechStackIcon07.src
+        icon: TechStackIcon07
     },
     {
         title: "Adobe-XD",
-        icon: TechStackIcon08.src
+        icon: TechStackIcon08
     },
     {
         title: "Adobe-Illustrator",
-        icon: TechStackIcon09.src
+        icon: TechStackIcon09
     },
     {
         title: "Adobe-Photoshop",
-        icon: TechStackIcon10.src
+        icon: TechStackIcon10
     },
     {
         title: "Figma",
-        icon: TechStackIcon11.src
+        icon: TechStackIcon11
     },
     {
         title: "InVision",
-        icon: TechStackIcon12.src
+        icon: TechStackIcon12
     },
     {
         title: "Balsamiq",
-        icon: TechStackIcon13.src
+        icon: TechStackIcon13
     }
 ]
 
 export const ResultData = {
-    background: `linear-gradient(270deg, rgba(246, 136, 37, 0) -7.2%, rgba(246, 136, 37, 0.55) 25.99%, #EB3171 76.61%), url(${result.src})`,
+    background: `linear-gradient(270deg, rgba(246, 136, 37, 0) -7.2%, rgba(246, 136, 37, 0.55) 25.99%, #EB3171 76.61%), url(${result})`,
     subtitle: "The Result",
     title: "The Impact We Delivered.",
     content: "VIFTY rapidly gained traction as a trusted platform for connecting service providers with consumers. By prioritizing user experience and community support, the app has driven significant engagement and satisfaction among its users.",

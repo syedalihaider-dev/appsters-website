@@ -2,107 +2,107 @@
 import Image from "next/image"
 
 // Bannar Images
-import BannerLogos from "media/services/bannerLogo.webp";
-import BannerBg from "media/services/bgBanner.webp";
+const BannerLogos = "/services/bannerLogo.webp";
+const BannerBg = "/services/bgBanner.webp";
 
 //========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png";
-import slider2 from "media/newmobileapp/slider-3.png";
-import slider3 from "media/newmobileapp/slider-5.png";
-import slider4 from "media/newmobileapp/slider-4.png";
-import slider5 from "media/newmobileapp/slider-1.png";
+const slider1 = "/newmobileapp/slider-2.png";
+const slider2 = "/newmobileapp/slider-3.png";
+const slider3 = "/newmobileapp/slider-5.png";
+const slider4 = "/newmobileapp/slider-4.png";
+const slider5 = "/newmobileapp/slider-1.png";
 
 //========= WhyChoose Images
 import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+const IMG = "/services/process/tab01.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/services/techImg.webp"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Risks Images
-import RisksIMG01 from "media/services/customImg01.webp"
-import RisksIMG02 from "media/services/customImg02.webp"
+const RisksIMG01 = "/services/customImg01.webp"
+const RisksIMG02 = "/services/customImg02.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= CtaEstimated Images
-import CtaEstimatedImg from "media/services/ctaImg.webp"
+const CtaEstimatedImg = "/services/ctaImg.webp"
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/03.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/03.webp";
-import TAB5_6 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/services/tech/tab1/02.webp";
+const TAB1_3 = "/services/tech/tab1/03.webp";
+const TAB1_4 = "/services/tech/tab1/01.webp";
+const TAB1_5 = "/services/tech/tab1/02.webp";
+const TAB1_6 = "/services/tech/tab1/03.webp";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_2 = "/services/tech/tab2/02.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB2_5 = "/services/tech/tab2/05.webp";
+const TAB2_6 = "/services/tech/tab2/05.webp";
+const TAB3_1 = "/services/tech/tab3/01.webp";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB3_3 = "/services/tech/tab3/03.webp";
+const TAB3_4 = "/services/tech/tab3/01.webp";
+const TAB3_5 = "/services/tech/tab3/02.webp";
+const TAB3_6 = "/services/tech/tab3/03.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB4_2 = "/services/tech/tab4/02.webp";
+const TAB4_3 = "/services/tech/tab4/03.webp";
+const TAB4_4 = "/services/tech/tab4/04.webp";
+const TAB4_5 = "/services/tech/tab4/03.webp";
+const TAB4_6 = "/services/tech/tab4/04.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB5_4 = "/services/tech/tab5/04.webp";
+const TAB5_5 = "/services/tech/tab5/03.webp";
+const TAB5_6 = "/services/tech/tab5/04.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
+const TAB6_4 = "/services/tech/tab6/04.webp";
+const TAB6_5 = "/services/tech/tab6/02.webp";
+const TAB6_6 = "/services/tech/tab6/03.webp";
 
 //========= Industries Images
 
 import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Logistics from "media/services/industry/Logistics.webp";
-import Music from "media/services/industry/music.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Logistics = "/services/industry/Logistics.webp";
+const Music = "/services/industry/music.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link";
 
 
@@ -110,8 +110,8 @@ export const BannerData = {
     subtitle: "QBest Android Application Developers",
     title: "An Android App Development Company That Moves Markets.",
     content: "Built for scale, trusted by leaders, and engineered for long-term adaptability, our Android application development services deliver powerful architectures, optimized performance, and business outcomes that stand the test of scale. Appsters creates Android app solutions designed for high concurrency, clean integrations, and measurable business impact, so your app works for today and evolves for tomorrow.",
-    BannerLogos: BannerLogos.src,
-    BannerBg: BannerBg.src,
+    BannerLogos: BannerLogos,
+    BannerBg: BannerBg,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }
@@ -123,12 +123,12 @@ export const CuttingedgeContent = {
 }
 
 export const CuttingedgeList = [
-    { 
+    {
         title: (<>Android App  <br />Consulting</>),
         txt: "Scaling an Android product without architectural foresight often creates expensive technical debt. Appsters’ senior Android app developers step in early to map system design, evaluate architecture choices, integration challenges, and long-term maintenance costs. The goal is to prevent hidden bottlenecks and ensure the Android product roadmap aligns with your organizational growth and infrastructure capabilities. ",
         links: "",
     },
-    {  
+    {
         title: (<>UI/UX Design  <br />for Android Apps </>),
         txt: "A visually appealing interface that lags on mid-tier devices costs adoption. Our Android app designers build experiences that balance aesthetics with lightweight performance, accessibility, and Android-specific interaction patterns, ensuring design never slows down your release cycles or frustrates end-users.",
         links: "",
@@ -200,12 +200,12 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon03 />,  
+        Icon: <WhyChooseIcon03 />,
         title: (<>Round-the-Clock  <br />Engineering Support</>),
         description: "Our reliable Android app development agency keeps you covered beyond business hours. Our teams monitor performance, resolve integration hurdles, and handle sudden traffic events at any time. CTOs trust us for continuity that minimizes downtime and ensures business-critical applications remain operational at all times. We provide SLA-backed on-call rotations and predictive monitoring.",
     },
     {
-        Icon: <WhyChooseIcon01 />, 
+        Icon: <WhyChooseIcon01 />,
         title: (<>2000+ Android   <br />Apps Delivered</>),
         description: "With over 2000 deployments, our Android app development company has repeatedly proven its ability to build complex products. From consumer apps to enterprise ecosystems, we deliver tested solutions that meet compliance standards and maintain reliability under real-world conditions to counter technical pitfalls. ",
     }
@@ -237,7 +237,7 @@ export const ProcessTabs = [
             heading: "App Idea & Research",
             description:
                 <>Every strong Android app begins with validated ideas. As an Android app development company, Appsters conducts market analysis, competitor benchmarks, and technical feasibility checks. This ensures leadership teams move forward with concepts that are both innovative and executable, saving time and budget in later development cycles. We build a data-backed foundation before any line of code is written. </>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -246,7 +246,7 @@ export const ProcessTabs = [
             heading: "Strategic Planning & Consultation ",
             description:
                 <>Strategy determines whether an app scales or stalls. Our Android app development agency aligns engineering roadmaps with business objectives. We cover architecture choices, compliance requirements, and integration points. The goal is to create a technical plan that leadership can rely on for delivery accuracy and risk reduction. This strategic phase mitigates technical debt and ensures long-term viability.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -256,7 +256,7 @@ export const ProcessTabs = [
             heading: "Wireframing & Prototyping ",
             description:
                 "Wireframes reduce uncertainty and prevent rework. Recognized as one of the best Android app makers, Appsters builds prototypes that test usability before development. This phase identifies friction points, validates assumptions, and ensures product teams and stakeholders share a clear understanding of the final experience. We guarantee design concepts are validated with users before a single development sprint begins. ",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -266,7 +266,7 @@ export const ProcessTabs = [
             heading: "App Development",
             description:
                 <>When it’s time to develop an Android app, our engineers use reliable architecture, modular code, and disciplined pipelines. Appsters developers use Kotlin, Java, and Jetpack libraries to implement robust Android applications. Continuous integration, automated code reviews, and documentation keep the product adaptable for future growth. Our dedication to clean, modular code maximizes long-term adaptability and minimizes future maintenance costs.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -276,7 +276,7 @@ export const ProcessTabs = [
             heading: "Expert QA & Testing ",
             description:
                 "Our Android app solutions go through automated regression, load testing, and device-fragmentation validation. QA teams simulate real-world conditions, from poor connectivity to large traffic spikes, to ensure the app performs for every user, every time. This technical rigor guarantees the application's stability across every device and network condition.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -286,7 +286,7 @@ export const ProcessTabs = [
             heading: "App Launch",
             description:
                 "Launching involves more than Play Store submission. As a seasoned Android app development company, we prepare beta rollouts, performance monitoring, and analytics setups. This ensures the application enters the market with both stability and visibility, minimizing early failures or missed insights. We manage every technical detail to optimize your organic visibility and adoption rate. ",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -296,7 +296,7 @@ export const ProcessTabs = [
             heading: " Deployment ",
             description:
                 "We handle phased rollouts and enterprise MDM deployments, giving organizations confidence. As an Android app development agency, we automate deployment pipelines for faster updates and rollback safety nets. This means updates and patches can be shipped without compromising live environments, giving leadership confidence in post-launch stability. Our automated pipeline allows for critical patches to be deployed in minutes, not hours.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -307,49 +307,49 @@ export const TechnologiesContent = {
     text: (<><p>After launch, sustaining momentum is critical. As one of the best Android app makers, Appsters delivers continuous monitoring, security updates for OS changes, and feature enhancements. This proactive maintenance keeps applications aligned with evolving OS versions, devices, business needs, and user expectations long after the launch. Our SLA-backed support ensures your application remains competitive and fully compliant indefinitely.</p>
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
 export const TestimonialContent = {
     title: "Client Testimonials ",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -444,7 +444,7 @@ export const OffersTabs = [
 
         },
     },
-    
+
 ];
 
 export const FuelingContent = {
@@ -452,7 +452,7 @@ export const FuelingContent = {
     text: "At BitsWits, we integrate cutting-edge technologies to craft standout Android apps, offering bespoke solutions across diverse industries. Explore how these innovations elevate user experiences and amplify app capabilities.",
     subtitle: "Launch a High-Performance Android App with Flawless User Experience!",
     subtext: "Our developers can build intuitive, engaging apps that are designed for maximum performance and scalability.",
-    FuelingImg: FuelingImg.src
+    FuelingImg: FuelingImg
 }
 
 export const FuelingList = [
@@ -482,7 +482,7 @@ export const CtaEstimatedContent = {
     subtitle: "Android App Development Costs: From Simple to Complex",
     title: "Your App’s Cost, Simplified",
     text: (<>Get an instant estimate for your Android app’s development based on its complexity. Android apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today!</>),
-    CtaEstimatedImg: CtaEstimatedImg.src
+    CtaEstimatedImg: CtaEstimatedImg
 }
 
 export const TechStackContent = {
@@ -496,27 +496,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Kotlin",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Java",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Jetpack Compose",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "Android SDK",
-                img: TAB1_4.src,
+                img: TAB1_4,
             },
             {
                 heading: "Material Design",
-                img: TAB1_5.src,
+                img: TAB1_5,
             },
             {
                 heading: "React Native",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
         ],
     },
@@ -525,27 +525,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Node.js",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "Java",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "Python",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Firebase",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB2_5.src,
+                img: TAB2_5,
             },
             {
                 heading: "GraphQL",
-                img: TAB2_6.src,
+                img: TAB2_6,
             }
         ],
     },
@@ -554,27 +554,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Kotlin",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Flutter",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "React Native",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "Xamarin",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Ionic",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
             {
                 heading: "NativeScript",
-                img: TAB3_6.src,
+                img: TAB3_6,
             },
         ],
     },
@@ -583,27 +583,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Room Database",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "SQLite",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "Firebase Realtime Database",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "MongoDB",
-                img: TAB4_5.src,
+                img: TAB4_5,
             },
             {
                 heading: "Realm",
-                img: TAB4_6.src,
+                img: TAB4_6,
             },
         ],
     },
@@ -612,27 +612,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "AWS",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "GCP",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Azure",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "Firebase",
-                img: TAB5_4.src,
+                img: TAB5_4,
             },
             {
                 heading: "Heroku",
-                img: TAB5_5.src,
+                img: TAB5_5,
             },
             {
                 heading: "DigitalOcean",
-                img: TAB5_6.src,
+                img: TAB5_6,
             },
         ],
     },
@@ -641,27 +641,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Espresso",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "JUnit",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Robolectric",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "Firebase",
-                img: TAB6_4.src,
+                img: TAB6_4,
             },
             {
                 heading: "Appium",
-                img: TAB6_5.src,
+                img: TAB6_5,
             },
             {
                 heading: "Selenium",
-                img: TAB6_6.src,
+                img: TAB6_6,
             },
         ],
     }
@@ -679,63 +679,63 @@ export const IndustriesList = [
         title: "Ecommerce",
         txt: "We build ecommerce apps that sell more with frictionless checkouts, AI product recommendations, and mobile-first design. Our solutions handle scale effortlessly, from flash sales to global launches. Businesses get powerful dashboards, while shoppers get a personalized, smooth, and secure experience that turns carts into conversions.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We co-create secure, compliant fintech apps that simplify payments, investments, and trading. From blockchain-backed wallets to AI fraud detection, our solutions prioritize speed, trust, and transparency. We help financial institutions and startups scale confidently, turning complex transactions into seamless user journeys with powerful analytics and risk-free automation.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We develop HIPAA-compliant healthcare apps that bridge doctors, patients, and data. From telemedicine to AI-powered diagnostics, our solutions improve workflows, reduce wait times, and empower smarter, faster decision-making. Every feature is designed to keep patient privacy airtight while driving measurable results for hospitals, clinics, and health-tech startups.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "Our education apps gamify learning, power virtual classrooms, and track student progress. We integrate AR/VR modules, quizzes, and real-time assessments to boost engagement. Schools, universities, and ed-tech startups leverage our platforms to personalize teaching, improve retention, and make learning as interactive and rewarding as social media scrolling.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "We build social media platforms that are scalable, sticky, and secure. AI-driven feeds, privacy-first chat systems, and live content features drive engagement. Our architecture ensures your platform can handle viral moments without crashing, giving creators, communities, and brands a digital stage to connect and grow.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We design real estate apps that help buyers, sellers, and agents close deals faster. AR-powered property tours, AI-driven recommendations, and secure document management streamline every step. Our platforms keep listings fresh, negotiations quick, and users delighted, turning real estate buying and selling into a guided, data-driven experience.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "We power logistics apps with route optimization, GPS tracking, and real-time inventory sync. Our solutions cut costs, eliminate bottlenecks, and ensure every delivery meets its deadline. Carriers, 3PLs, and warehouses rely on us to bring transparency, speed, and automation to complex supply chains across industries.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "We create streaming apps, artist marketplaces, and licensing solutions that let music businesses scale and monetize. AI-powered recommendations, offline playback, and fan engagement features keep listeners hooked. Our process covers rights management, secure distribution, and seamless playback to hit the perfect balance between creativity, tech, and revenue.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
     // {
     //     icon: <MusicSVG />,
     //     title: "Automotive",
     //     txt: "From fleet management dashboards to car rental apps, we digitize automotive operations. IoT sensors, real-time tracking, and predictive maintenance keep vehicles safer and downtime lower. Our solutions put dealerships, logistics providers, and automakers in the driver’s seat of efficiency, customer experience, and future mobility innovation.",
     //     url: "/music-app-development-company",
-    //     img: Music.src,
+    //     img: Music,
     // },
 ];
 
@@ -786,14 +786,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -801,7 +801,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

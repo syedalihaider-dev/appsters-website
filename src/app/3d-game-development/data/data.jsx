@@ -1,81 +1,81 @@
 
 // Bannar Images
-import BannerLogos from "media/mobile-game-development-company/bannerLogo.webp"
-import BannerBg from "media/3d-game/bannerIMG.webp"
+const BannerLogos = "/mobile-game-development-company/bannerLogo.webp"
+const BannerBg = "/3d-game/bannerIMG.webp"
 
 // services Images
-import GameBg1 from "media/3d-game/services/GameBg01.webp"
-import GameBg2 from "media/3d-game/services/GameBg02.webp"
-import GameBg3 from "media/3d-game/services/GameBg03.webp"
-import GameBg4 from "media/3d-game/services/GameBg04.webp"
-import GameBg5 from "media/3d-game/services/GameBg05.webp"
-import GameBg6 from "media/3d-game/services/GameBg06.webp"
+const GameBg1 = "/3d-game/services/GameBg01.webp"
+const GameBg2 = "/3d-game/services/GameBg02.webp"
+const GameBg3 = "/3d-game/services/GameBg03.webp"
+const GameBg4 = "/3d-game/services/GameBg04.webp"
+const GameBg5 = "/3d-game/services/GameBg05.webp"
+const GameBg6 = "/3d-game/services/GameBg06.webp"
 
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Process Images
-import ProcessIMG from "media/3d-game/img.webp"
+const ProcessIMG = "/3d-game/img.webp"
 
 //========= WhyChoose Images
 import { GameIcon01, GameIcon02, GameIcon03, GameIcon04 } from "@/src/app/app-constants"
 
 //========= ContentSec Images
-import ContentSecIMG1 from "media/3d-game/imgContent1.webp"
-import ContentSecIMG2 from "media/3d-game/imgContent2.webp"
+const ContentSecIMG1 = "/3d-game/imgContent1.webp"
+const ContentSecIMG2 = "/3d-game/imgContent2.webp"
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/04.webp";
-import TAB1_5 from "media/services/tech/tab1/05.webp";
-import TAB1_6 from "media/services/tech/tab1/06.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/04.webp";
-import TAB3_5 from "media/services/tech/tab3/05.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/05.webp";
-import TAB4_6 from "media/services/tech/tab4/06.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/05.webp";
-import TAB5_6 from "media/services/tech/tab5/06.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/05.webp";
-import TAB6_6 from "media/services/tech/tab6/06.webp";
-import TAB6_7 from "media/services/tech/tab6/07.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/services/tech/tab1/02.webp";
+const TAB1_3 = "/services/tech/tab1/03.webp";
+const TAB1_4 = "/services/tech/tab1/04.webp";
+const TAB1_5 = "/services/tech/tab1/05.webp";
+const TAB1_6 = "/services/tech/tab1/06.webp";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_2 = "/services/tech/tab2/02.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB2_5 = "/services/tech/tab2/05.webp";
+const TAB3_1 = "/services/tech/tab3/01.webp";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB3_3 = "/services/tech/tab3/03.webp";
+const TAB3_4 = "/services/tech/tab3/04.webp";
+const TAB3_5 = "/services/tech/tab3/05.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB4_2 = "/services/tech/tab4/02.webp";
+const TAB4_3 = "/services/tech/tab4/03.webp";
+const TAB4_4 = "/services/tech/tab4/04.webp";
+const TAB4_5 = "/services/tech/tab4/05.webp";
+const TAB4_6 = "/services/tech/tab4/06.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB5_4 = "/services/tech/tab5/04.webp";
+const TAB5_5 = "/services/tech/tab5/05.webp";
+const TAB5_6 = "/services/tech/tab5/06.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
+const TAB6_4 = "/services/tech/tab6/04.webp";
+const TAB6_5 = "/services/tech/tab6/05.webp";
+const TAB6_6 = "/services/tech/tab6/06.webp";
+const TAB6_7 = "/services/tech/tab6/07.webp";
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link"
 
 
@@ -84,8 +84,8 @@ export const BannerData = {
     subtitle: "Quickly – Efficiently – Effortlessly",
     title: "3D Game Development Company",
     content: "BitsWits is a premium-grade 3D game development company that creates immersive 3D games for PC, consoles, mobile, and VR/AR. Utilizing Unity and Unreal Engine, our results-driven 3D game development services ensure exceptional visuals and implement monetization strategies to boost engagement and drive ROI by 30%.",
-    BannerLogos: BannerLogos.src,
-    BannerBg: BannerBg.src,
+    BannerLogos: BannerLogos,
+    BannerBg: BannerBg,
     ImgBanner: "yes"
 }
 
@@ -104,45 +104,45 @@ export const ServicesList = [
         title: "Full-Cycle Game Development",
         txt: (<>Access top talents and the latest trends with our full-cycle 3D game development services. We can create any genre using Unity and Unreal Engine, delivering immersive experiences from concept to completion.</>),
         links: "",
-        Img: GameBg1.src
+        Img: GameBg1
     },
     {
         title: "3D Art",
         txt: (<>We create visually appealing and eye-catching designs. Our skilled 3D artists develop detailed character models and expansive game worlds that captivate and engage players.</>),
         links: "",
-        Img: GameBg2.src
+        Img: GameBg2
     },
     {
         title: "AAA Art",
         txt: "Our advanced artists and top experts use Maya and Blender to create hyper realistic characters, environments, weapons, and vehicles. Each asset is designed to match your game's level and perfectly complement the storyline.",
         links: "",
-        Img: GameBg3.src
+        Img: GameBg3
     },
     {
         title: "3D Animation",
         txt: "3D animation involves complex tasks that our top experts handle with precision. As a custom 3D game development company, we deliver streamlined animation and incomparable design, ensuring every movement or interaction captivates players.",
         links: "",
-        Img: GameBg4.src
+        Img: GameBg4
     },
     {
         title: "3D Game UI/UX Design ",
         txt: "Our interface artists create optimal architecture for the best UX. We focus on UX-driven design, ensuring easy navigation, responsive interfaces, and seamless integration with game programming for an engaging player experience.",
         links: "",
-        Img: GameBg5.src
+        Img: GameBg5
     },
     {
         title: "3D Game QA Testing",
         txt: "Our experienced testers identify and resolve errors or shortcomings before release, ensuring a flawless gaming experience. We rigorously test every aspect to guarantee your game meets the highest quality standards.",
         links: "",
-        Img: GameBg6.src
+        Img: GameBg6
     }
 ]
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -192,7 +192,7 @@ export const ContentSecContent = {
         <p>As a leading 3D game development company in the USA, we bring a wealth of experience to the table.Our team is skilled in the latest technologies and game engines, allowing us to push the boundaries of what’s possible in gaming.</p>
         <p>Partner with the best 3D game development company to turn your ideas into the best immersive experiences in high- quality games that captivate players and raise the bar in the gaming industry.</p>
     </>),
-    ContentSecIMG: ContentSecIMG1.src
+    ContentSecIMG: ContentSecIMG1
 }
 
 export const ProcessContent = {
@@ -207,7 +207,7 @@ export const ProcessTabs = [
             heading: "Conceptualization",
             description:
                 "Our 3D game development services begin with thorough conceptualization, involving detailed research and analysis. We brainstorm ideas to create an initial game concept, focusing on an intuitive UI/UX. Our 3D game developers work closely with clients to polish the concept, ensuring it aligns with their vision and goals, setting the foundation for a successful project.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
         },
     },
     {
@@ -216,7 +216,7 @@ export const ProcessTabs = [
             heading: "Design Documentation",
             description:
                 "We create a comprehensive Game Design Document (GDD) during this phase. This includes storyboarding, concept art, wireframes, and UX flow. Our 3D game developers detail the game’s mechanics, basic core loop, and cut scenes, ensuring a clear and structured plan that guides the entire development process.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -226,7 +226,7 @@ export const ProcessTabs = [
             heading: "3D Game Design",
             description:
                 "Our 3D game design phase brings concepts to life with high-quality visuals and engaging gameplay mechanics. We focus on creating immersive environments, detailed characters, and dynamic animations. Using advanced tools, our 3D game developers ensure each element complements the game's overall aesthetic and enhances the player experience.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -236,7 +236,7 @@ export const ProcessTabs = [
             heading: "3D Game Development",
             description:
                 "During development, we build the game using robust and scalable solutions. As one of the best 3D game development companies, our technical teams integrate art assets, codes, and modules within the chosen game engines. We prioritize structured code and optimization, ensuring the game runs smoothly across all platforms. This phase transforms the design into a playable reality.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -246,7 +246,7 @@ export const ProcessTabs = [
             heading: "System Integrity Check",
             description:
                 "A crucial technical stage, the system integrity check involves a thorough review of all codes, modules, and systems. Our 3D game developers conduct extensive QA tests to ensure robust performance and eliminate bugs. This process guarantees that the game’s infrastructure is solid and ready for further testing.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -256,7 +256,7 @@ export const ProcessTabs = [
             heading: "Testing",
             description:
                 "Our standard game testing phase includes multiple rounds of quality assurance to identify and fix any issues. We conduct gameplay tests, performance analysis, and user feedback sessions. This comprehensive testing ensures the game is polished, user-friendly, and free from technical glitches before its official launch.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -266,7 +266,7 @@ export const ProcessTabs = [
             heading: "Launch Preparation",
             description:
                 "In the final phase, we focus on launch preparation, optimizing the game for release. Our experts handle post-launch strategies, live-ops support, and retention rate analysis. We ensure a seamless transition from development to live gameplay, providing continuous support to maximize the game's success in the market.",
-            imgSrc: ProcessIMG.src,
+            imgSrc: ProcessIMG,
 
         },
     },
@@ -364,7 +364,7 @@ export const ContentSecLGContent = {
         <p>As a leading 3D game development company in USA, we proudly provide games that appeal to the audience and outshine the competition.</p>
         <p>Ready to get started? We can’t wait to hear your ideas.</p>
     </>),
-    BGIMG: ContentSecIMG2.src
+    BGIMG: ContentSecIMG2
 }
 
 export const IdeaCtaContent = {
@@ -384,39 +384,39 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Unity",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Unreal Engine",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Godot",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "Cocos2d-x",
-                img: TAB1_4.src,
+                img: TAB1_4,
             },
             {
                 heading: "CryEngine",
-                img: TAB1_5.src,
+                img: TAB1_5,
             },
             {
                 heading: "Buildbox",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
             {
                 heading: "Phaser",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
             {
                 heading: "Construct",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
             {
                 heading: "PlayCanvas",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
         ],
     },
@@ -425,23 +425,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "C# ",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "C++",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "GDScript",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Lua",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: "Python",
-                img: TAB2_5.src,
+                img: TAB2_5,
             }
         ],
     },
@@ -450,31 +450,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Blender",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Maya",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "Adobe Photoshop",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "Adobe Illustrator",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Adobe After Effects",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
             {
                 heading: "Spine",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Three.js",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
         ],
     },
@@ -483,27 +483,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "FMOD",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "Wwise",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "Audacity",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "Logic Pro X",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "Ableton Live",
-                img: TAB4_5.src,
+                img: TAB4_5,
             },
             {
                 heading: "V",
-                img: TAB4_6.src,
+                img: TAB4_6,
             },
         ],
     },
@@ -512,26 +512,26 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Visual Studio",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "Rider",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Xcode",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "Android Studio",
-                img: TAB5_4.src,
+                img: TAB5_4,
             }, {
                 heading: "MonoDevelop",
-                img: TAB5_5.src,
+                img: TAB5_5,
             },
             {
                 heading: "IntelliJ IDEA",
-                img: TAB5_6.src,
+                img: TAB5_6,
             },
         ],
     },
@@ -540,31 +540,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "TestFlight",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "Firebase Test Lab",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Appium",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "GameAnalytics",
-                img: TAB6_4.src,
+                img: TAB6_4,
             },
             {
                 heading: "Unity Analytics",
-                img: TAB6_5.src,
+                img: TAB6_5,
             },
             {
                 heading: "Google Analytics",
-                img: TAB6_6.src,
+                img: TAB6_6,
             },
             {
                 heading: "Photon",
-                img: TAB6_7.src,
+                img: TAB6_7,
             }
         ],
     },
@@ -575,7 +575,7 @@ export const FuelingContent = {
     text: "Our diverse 3D game development services are customized for all genres. We have expertise spanning a wide range of game types to captivate players.",
     subtitle: "Build the Next Big Mobile Game with Expert Developers!",
     subtext: "Deliver smooth, immersive gameplay that keeps players hooked and coming back.",
-    FuelingImg: FuelingImg.src
+    FuelingImg: FuelingImg
 }
 
 export const FuelingList = [
@@ -645,14 +645,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -660,7 +660,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

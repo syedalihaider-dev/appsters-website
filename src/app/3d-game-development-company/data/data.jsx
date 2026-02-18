@@ -2,113 +2,113 @@
 import Image from "next/image"
 
 // Bannar Images
-import BannerLogos from "media/services/bannerLogo.webp";
-import BannerBg from "media/services/bgBanner.webp";
+const BannerLogos = "/services/bannerLogo.webp";
+const BannerBg = "/services/bgBanner.webp";
 
 //========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png";
-import slider2 from "media/newmobileapp/slider-3.png";
-import slider3 from "media/newmobileapp/slider-5.png";
-import slider4 from "media/newmobileapp/slider-4.png";
-import slider5 from "media/newmobileapp/slider-1.png";
+const slider1 = "/newmobileapp/slider-2.png";
+const slider2 = "/newmobileapp/slider-3.png";
+const slider3 = "/newmobileapp/slider-5.png";
+const slider4 = "/newmobileapp/slider-4.png";
+const slider5 = "/newmobileapp/slider-1.png";
 
 //========= WhyChoose Images
 import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+const IMG = "/services/process/tab01.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/services/techImg.webp"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Risks Images
-import RisksIMG01 from "media/services/customImg01.webp"
-import RisksIMG02 from "media/services/customImg02.webp"
+const RisksIMG01 = "/services/customImg01.webp"
+const RisksIMG02 = "/services/customImg02.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= CtaEstimated Images
-import CtaEstimatedImg from "media/services/ctaImg.webp"
+const CtaEstimatedImg = "/services/ctaImg.webp"
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/03.webp";
-import TAB5_6 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/services/tech/tab1/02.webp";
+const TAB1_3 = "/services/tech/tab1/03.webp";
+const TAB1_4 = "/services/tech/tab1/01.webp";
+const TAB1_5 = "/services/tech/tab1/02.webp";
+const TAB1_6 = "/services/tech/tab1/03.webp";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB2_5 = "/services/tech/tab2/05.webp";
+const TAB2_6 = "/services/tech/tab2/05.webp";
+const TAB3_1 = "/services/tech/tab3/01.webp";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB3_3 = "/services/tech/tab3/03.webp";
+const TAB3_4 = "/services/tech/tab3/01.webp";
+const TAB3_5 = "/services/tech/tab3/02.webp";
+const TAB3_6 = "/services/tech/tab3/03.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB4_2 = "/services/tech/tab4/02.webp";
+const TAB4_3 = "/services/tech/tab4/03.webp";
+const TAB4_4 = "/services/tech/tab4/04.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB5_4 = "/services/tech/tab5/04.webp";
+const TAB5_5 = "/services/tech/tab5/03.webp";
+const TAB5_6 = "/services/tech/tab5/04.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
+const TAB6_4 = "/services/tech/tab6/04.webp";
+const TAB6_5 = "/services/tech/tab6/02.webp";
+const TAB6_6 = "/services/tech/tab6/03.webp";
 
 //========= Industries Images
 
 import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Logistics from "media/services/industry/Logistics.webp";
-import Music from "media/services/industry/music.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Logistics = "/services/industry/Logistics.webp";
+const Music = "/services/industry/music.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link";
 
 
-export const BannerData = {  
+export const BannerData = {
     subtitle: "#1 3D Game Developers in the USA",
     title: "Break Dimensions & Realities With Our 3D Game Development Company.",
     content: "Creating extraordinary 3D worlds takes more than technical skill; it demands an understanding of how visual depth, movement, and interaction come together to form experiences that feel alive. As a 3D game development company, Appsters specializes in delivering scalable and high-performance 3D game apps that perform seamlessly across platforms and genres. Our advanced 3D game development services bring cinematic depth, real-time rendering, and smooth gameplay together to create experiences that move.",
-    BannerLogos: BannerLogos.src,
-    BannerBg: BannerBg.src,
+    BannerLogos: BannerLogos,
+    BannerBg: BannerBg,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }
@@ -233,7 +233,7 @@ export const ProcessTabs = [
             heading: "Game Idea & Research",
             description:
                 <>Before we open an engine or model a scene, our experts conduct deep research, analyzing player behavior, genre benchmarks, and emerging technologies to define what will make your idea thrive. As a 3D game development firm, we validate concepts through gameplay loops, feasibility testing, and early performance forecasting. This ensures creative originality meets commercial logic and long-term scalability. Our strategy makes your concept market-ready before a single asset is designed.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -242,7 +242,7 @@ export const ProcessTabs = [
             heading: "Designing",
             description:
                 <>Our 3D game designers translate creative vision into an interactive structure. Our designers map mechanics, define user flows, and visualize spatial interactions to ensure every motion, object, and interface is intuitive and immersive. Every camera angle, movement, and trigger is mapped to maintain emotional rhythm and gameplay flow. We integrate physics, balance mechanics, and navigation early in the pipeline to reduce revisions and improve flow. This is where we build environments that feel natural and rewarding. Appsters' approach ensures the design anticipates user behavior, optimizing transitions, responsiveness, and interaction pathways for an uninterrupted experience that keeps players engaged longer.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -252,7 +252,7 @@ export const ProcessTabs = [
             heading: "Concept Art",
             description:
                 "This stage defines the world’s identity. Our 3D game makers visualize emotional tone, atmospheric depth, and environmental storytelling through mood boards and digital sketches. Each design choice reinforces the theme and story architecture. The art direction established here guides the creative cohesion of every future asset, keeping the visual narrative unified and impactful across the entire build. We ensure the visual identity accelerates marketing efforts and solidifies brand appeal.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -262,7 +262,7 @@ export const ProcessTabs = [
             heading: "Asset Creation",
             description:
                 <>From weapons to worlds, our artists build high-definition 3D assets that balance fidelity and optimization for mobile GPUs. Each model undergoes aggressive polycount management, rigging, and texture compression to ensure flawless gameplay performance. With deep experience across Unity and Unreal, we create adaptive assets that load fast, look sharp, and run seamlessly in every format. This is the true backbone of a 3D game development service focused on technical art fidelity.</>,
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -272,7 +272,7 @@ export const ProcessTabs = [
             heading: "Game Development",
             description:
                 "This is where it all comes alive. Our developers integrate code, mechanics, and assets to shape a responsive 3D ecosystem. Using Unity, Unreal, and proprietary pipelines, we ensure performance tuning, multiplayer sync, and cross-platform parity from day one. Businesses trust Appsters to build their 3D game apps because we deliver precision-driven engineering coupled with creative rhythm and execution speed across both iOS and Android.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -282,7 +282,7 @@ export const ProcessTabs = [
             heading: "Testing",
             description:
                 "No 3D title leaves our pipeline without deep technical validation. Our QA teams conduct regression, load, and usability testing on multiple hardware sets to ensure consistent performance. From FPS stability to GPU optimization, every parameter is monitored to deliver bug-free execution. That’s what makes Appsters a 3D game development firm known for reliability, mitigating launch risk, and guaranteeing player satisfaction across various mobile devices.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -292,7 +292,7 @@ export const ProcessTabs = [
             heading: "Deployment",
             description:
                 "Once perfected, we ensure your 3D game is optimized for each store and platform. Our engineers handle build signing, version control, and live environment integration. We also implement analytics SDKs for performance tracking post-launch. Appsters handles every layer of distribution, ensuring your title goes live seamlessly. This is a hallmark of a global 3D game development agency focused on market entry success for the App Store and Google Play.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
 
         },
     },
@@ -303,49 +303,49 @@ export const TechnologiesContent = {
     text: (<><p>At Appsters, every pixel carries intent. As a leading 3D game development agency, we rely on future-grade technology that transforms ideas into interactive universes. Our stack unites Unity’s real-time power, Unreal Engine’s dynamic realism, Blender’s advanced modeling, and Houdini’s procedural control to create fully optimized 3D game apps for any screen, system, or scale. Unlike conventional 3D game development companies, we design adaptable ecosystems, where every environment, character, and texture is algorithmically refined for precision motion, seamless loading, and cinematic fidelity. With end-to-end 3D game development services, </p>
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -446,7 +446,7 @@ export const FuelingContent = {
     text: "We leverage emerging technologies to build impressive iOS apps, offering tailored solutions across various industries. Discover how these technologies enhance user experiences and boost app functionality.",
     subtitle: "Launch a High-Performance iOS App with Flawless User Experience!",
     subtext: "Our developers can build intuitive, engaging apps that are designed for maximum performance and scalability.",
-    FuelingImg: FuelingImg.src
+    FuelingImg: FuelingImg
 }
 
 export const FuelingList = [
@@ -476,7 +476,7 @@ export const CtaEstimatedContent = {
     subtitle: "It’s Time to Build Your Universe.",
     title: "Game Development for Innovators",
     text: (<>Appsters is here to build playable revolutions. We engineer ecosystems that engage, monetize, and evolve. Appsters’ 3D game builders specialize in scalable architectures, real-time responsiveness, and immersive gameplay loops tailored for today’s multi-device audience. From concept to live operations, our team ensures every interaction feels smooth, stable, and unforgettable. From a console-level adventure, a studio’s flagship title, a mobile-ready multiplayer world, or a startup’s first viral hit, we create games that scale, perform, and inspire global audiences to play and keep playing.</>),
-    CtaEstimatedImg: CtaEstimatedImg.src
+    CtaEstimatedImg: CtaEstimatedImg
 }
 
 export const TechStackContent = {
@@ -490,27 +490,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "SwiftUI",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "UIKit",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Swift",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "Objective-C",
-                img: TAB1_4.src,
+                img: TAB1_4,
             },
             {
                 heading: "Combine",
-                img: TAB1_5.src,
+                img: TAB1_5,
             },
             {
                 heading: "React Native",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
         ],
     },
@@ -519,27 +519,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Node.js",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "Python",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB2_5.src,
+                img: TAB2_5,
             },
             {
                 heading: "Firebase",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: ".NET Core",
-                img: TAB2_6.src,
+                img: TAB2_6,
             },
             {
                 heading: "GraphQL",
-                img: TAB2_6.src,
+                img: TAB2_6,
             },
         ],
     },
@@ -548,27 +548,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Swift",
-                img: TAB3_6.src,
+                img: TAB3_6,
             },
             {
                 heading: "Kotlin Multiplatform",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Flutter",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "React Native",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "Xamarin",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Ionic",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
         ],
     },
@@ -577,27 +577,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "CoreData",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "Realm",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "SQLite",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "Firebase Realtime Database",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "MySQL",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
         ],
     },
@@ -606,27 +606,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "AWS ",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "Google Cloud Platform",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Microsoft Azure",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "Firebase",
-                img: TAB5_4.src,
+                img: TAB5_4,
             },
             {
                 heading: "Heroku",
-                img: TAB5_5.src,
+                img: TAB5_5,
             },
             {
                 heading: "DigitalOcean",
-                img: TAB5_6.src,
+                img: TAB5_6,
             },
         ],
     },
@@ -635,27 +635,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "XCTest",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "TestFlight",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Appium",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "Firebase Test Lab",
-                img: TAB6_4.src,
+                img: TAB6_4,
             },
             {
                 heading: "JUnit",
-                img: TAB6_5.src,
+                img: TAB6_5,
             },
             {
                 heading: "Selenium",
-                img: TAB6_6.src,
+                img: TAB6_6,
             },
         ],
     }
@@ -673,56 +673,56 @@ export const IndustriesList = [
         title: "Ecommerce",
         txt: "We build ecommerce apps that sell more with frictionless checkouts, AI product recommendations, and mobile-first design. Our solutions handle scale effortlessly, from flash sales to global launches. Businesses get powerful dashboards, while shoppers get a personalized, smooth, and secure experience that turns carts into conversions.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We co-create secure, compliant fintech apps that simplify payments, investments, and trading. From blockchain-backed wallets to AI fraud detection, our solutions prioritize speed, trust, and transparency. We help financial institutions and startups scale confidently, turning complex transactions into seamless user journeys with powerful analytics and risk-free automation.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We develop HIPAA-compliant healthcare apps that bridge doctors, patients, and data. From telemedicine to AI-powered diagnostics, our solutions improve workflows, reduce wait times, and empower smarter, faster decision-making. Every feature is designed to keep patient privacy airtight while driving measurable results for hospitals, clinics, and health-tech startups.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "Our education apps gamify learning, power virtual classrooms, and track student progress. We integrate AR/VR modules, quizzes, and real-time assessments to boost engagement. Schools, universities, and ed-tech startups leverage our platforms to personalize teaching, improve retention, and make learning as interactive and rewarding as social media scrolling.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "We build social media platforms that are scalable, sticky, and secure. AI-driven feeds, privacy-first chat systems, and live content features drive engagement. Our architecture ensures your platform can handle viral moments without crashing, giving creators, communities, and brands a digital stage to connect and grow.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We design real estate apps that help buyers, sellers, and agents close deals faster. AR-powered property tours, AI-driven recommendations, and secure document management streamline every step. Our platforms keep listings fresh, negotiations quick, and users delighted, turning real estate buying and selling into a guided, data-driven experience.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "We power logistics apps with route optimization, GPS tracking, and real-time inventory sync. Our solutions cut costs, eliminate bottlenecks, and ensure every delivery meets its deadline. Carriers, 3PLs, and warehouses rely on us to bring transparency, speed, and automation to complex supply chains across industries.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "We create streaming apps, artist marketplaces, and licensing solutions that let music businesses scale and monetize. AI-powered recommendations, offline playback, and fan engagement features keep listeners hooked. Our process covers rights management, secure distribution, and seamless playback to hit the perfect balance between creativity, tech, and revenue.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
 ];
 
@@ -773,14 +773,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -788,7 +788,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

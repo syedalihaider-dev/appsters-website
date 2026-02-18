@@ -1,108 +1,108 @@
 
 
 // Bannar Images
-import BannerBg from "media/industry/sports/bgBanner.webp";
+const BannerBg = "/industry/sports/bgBanner.webp";
 
 // IndustryCta Images
-import IndustryCtaImg from "media/industry/sports/ctaImage.webp"
+const IndustryCtaImg = "/industry/sports/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/sports/industry/Industry01.webp"
-import IndustrySliderIMG02 from "media/industry/sports/industry/Industry02.webp"
-import IndustrySliderIMG03 from "media/industry/sports/industry/Industry03.webp"
-import IndustrySliderIMG04 from "media/industry/sports/industry/Industry04.webp"
-import IndustrySliderIMG05 from "media/industry/sports/industry/Industry05.webp"
-import IndustrySliderIMG06 from "media/industry/sports/industry/Industry06.webp"
-import IndustrySliderIMG07 from "media/industry/sports/industry/Industry07.webp"
+const IndustrySliderIMG01 = "/industry/sports/industry/Industry01.webp"
+const IndustrySliderIMG02 = "/industry/sports/industry/Industry02.webp"
+const IndustrySliderIMG03 = "/industry/sports/industry/Industry03.webp"
+const IndustrySliderIMG04 = "/industry/sports/industry/Industry04.webp"
+const IndustrySliderIMG05 = "/industry/sports/industry/Industry05.webp"
+const IndustrySliderIMG06 = "/industry/sports/industry/Industry06.webp"
+const IndustrySliderIMG07 = "/industry/sports/industry/Industry07.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/industry/sports/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/industry/sports/techImg.webp"
 
 //========= Process Images
-import IMG from "media/industry/sports/processImg.webp"
+const IMG = "/industry/sports/processImg.webp"
 
 //========= WhyChoose Images
 import { SportsIcon01, SportsIcon02, SportsIcon03, SportsIcon04, } from "@/src/app/app-constants"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/sports/fuelingImg.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
+const FuelingImg1 = "/industry/sports/fuelingImg.webp"
 
 
 
 //========= Frontend TechStack
-import TAB1_1 from "media/industry/techstack/frontend/ReactNative.svg";
-import TAB1_2 from "media/industry/techstack/frontend/Flutter.svg";
-import TAB1_3 from "media/industry/techstack/frontend/Swift.svg";
-import TAB1_4 from "media/industry/techstack/frontend/Kotlin.svg";
-import TAB1_5 from "media/industry/techstack/frontend/Ionic.svg";
-import TAB1_6 from "media/industry/techstack/frontend/Xamarin.svg";
+const TAB1_1 = "/industry/techstack/frontend/ReactNative.svg";
+const TAB1_2 = "/industry/techstack/frontend/Flutter.svg";
+const TAB1_3 = "/industry/techstack/frontend/Swift.svg";
+const TAB1_4 = "/industry/techstack/frontend/Kotlin.svg";
+const TAB1_5 = "/industry/techstack/frontend/Ionic.svg";
+const TAB1_6 = "/industry/techstack/frontend/Xamarin.svg";
 //========= Backend TechStack
-import TAB2_1 from "media/industry/techstack/backend/Nodejs.svg";
-import TAB2_2 from "media/industry/techstack/backend/Django.svg";
-import TAB2_3 from "media/industry/techstack/backend/RubyOnRails.svg";
-import TAB2_4 from "media/industry/techstack/backend/Java.svg";
-import TAB2_5 from "media/industry/techstack/backend/PHP.svg";
-import TAB2_6 from "media/industry/techstack/backend/Laravel.svg";
-import TAB2_7 from "media/industry/techstack/backend/Python.svg";
+const TAB2_1 = "/industry/techstack/backend/Nodejs.svg";
+const TAB2_2 = "/industry/techstack/backend/Django.svg";
+const TAB2_3 = "/industry/techstack/backend/RubyOnRails.svg";
+const TAB2_4 = "/industry/techstack/backend/Java.svg";
+const TAB2_5 = "/industry/techstack/backend/PHP.svg";
+const TAB2_6 = "/industry/techstack/backend/Laravel.svg";
+const TAB2_7 = "/industry/techstack/backend/Python.svg";
 //========= Database TechStack
-import TAB3_1 from "media/industry/techstack/database/SQLite.svg";
-import TAB3_2 from "media/industry/techstack/database/Firebase.svg";
-import TAB3_3 from "media/industry/techstack/database/MongoDB.svg";
-import TAB3_4 from "media/industry/techstack/database/PostgreSQL.svg";
-import TAB3_5 from "media/industry/techstack/database/Redis.svg";
+const TAB3_1 = "/industry/techstack/database/SQLite.svg";
+const TAB3_2 = "/industry/techstack/database/Firebase.svg";
+const TAB3_3 = "/industry/techstack/database/MongoDB.svg";
+const TAB3_4 = "/industry/techstack/database/PostgreSQL.svg";
+const TAB3_5 = "/industry/techstack/database/Redis.svg";
 //========= Cloud TechStack
-import TAB4_1 from "media/industry/techstack/cloud/AWS.svg";
-import TAB4_2 from "media/industry/techstack/cloud/MicrosoftAzure.svg";
-import TAB4_3 from "media/industry/techstack/cloud/GoogleCloudPlatform.svg";
-import TAB4_4 from "media/industry/techstack/cloud/IBMCloud.svg";
+const TAB4_1 = "/industry/techstack/cloud/AWS.svg";
+const TAB4_2 = "/industry/techstack/cloud/MicrosoftAzure.svg";
+const TAB4_3 = "/industry/techstack/cloud/GoogleCloudPlatform.svg";
+const TAB4_4 = "/industry/techstack/cloud/IBMCloud.svg";
 //========= Payment TechStack
-import TAB5_1 from "media/industry/techstack/payment/Stripe.svg";
-import TAB5_2 from "media/industry/techstack/payment/PayPal.svg";
-import TAB5_3 from "media/industry/techstack/payment/Square.svg";
-import TAB5_4 from "media/industry/techstack/payment/ApplePay.svg";
-import TAB5_5 from "media/industry/techstack/payment/GooglePay.svg";
-import TAB5_6 from "media/industry/techstack/payment/Braintree.svg";
+const TAB5_1 = "/industry/techstack/payment/Stripe.svg";
+const TAB5_2 = "/industry/techstack/payment/PayPal.svg";
+const TAB5_3 = "/industry/techstack/payment/Square.svg";
+const TAB5_4 = "/industry/techstack/payment/ApplePay.svg";
+const TAB5_5 = "/industry/techstack/payment/GooglePay.svg";
+const TAB5_6 = "/industry/techstack/payment/Braintree.svg";
 
 //========= Industries Images
 import { LogisticsSVG, MusicSVG, EcommerceSVG, AutomotiveSVG, EducationSVG, FintechSVG, RealEstateSVG, SocialSVG, } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Music from "media/services/industry/music.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Automotive from "media/services/industry/Automotive.webp";
-import Logistics from "media/services/industry/Logistics.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Music = "/services/industry/music.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Automotive = "/services/industry/Automotive.webp";
+const Logistics = "/services/industry/Logistics.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 
 
 export const BannerData = {
     title: "Pro Sports App Development Company for On and Off-Field Excellence!",
     content: "BitsWits is a leading sports app development company creating tech-driven solutions for sports clubs, leagues, and fitness brands. Our sports app developers design engaging apps that enhance productivity, expand reach, and boost viewership for millions of athletes, coaches, and fans worldwide.",
-    BannerBg: BannerBg.src,
+    BannerBg: BannerBg,
 }
 
 export const IndustryServiceContent = {
@@ -139,7 +139,7 @@ export const IndustryServiceList = [
 
 
 export const IndustryCtaContent = {
-    image: IndustryCtaImg.src,
+    image: IndustryCtaImg,
     title: "Create a Winning Sports App with BitsWits!",
     text: "From training to fan engagement, BitsWits designs apps that meet the demands of sports teams, leagues, and fitness brands.",
 }
@@ -151,7 +151,7 @@ export const IndustrySliderContent = {
 
 export const IndustrySliderList = [
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG01,
         title: "Apps For Sport Institutes",
         txt: "Our sports app developers create custom apps for sports institutes, featuring student management, training modules, and real-time feedback tools, enhancing athlete development and administrative efficiency."
     },
@@ -264,13 +264,13 @@ export const TechnologiesContent = {
         <p>Contact us for a detailed estimate of your sports app development project!</p>
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
@@ -313,7 +313,7 @@ export const ProcessTabs = [
         content: {
             heading: "App Planning",
             description: "Our sports mobile app development process begins with a comprehensive analysis of your mobile app idea, defining user demographics, and aligning objectives with sports industry standards. We outline essential features like live scoring, player tracking, and fan engagement tools while estimating the app development cost, choosing platforms, and integrating APIs suited for sports software development.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -322,7 +322,7 @@ export const ProcessTabs = [
             heading: "App Design",
             description:
                 "In our sports app design phase, we focus on creating wireframes and intuitive interfaces that match the sports industry’s needs. Prototypes highlight features like live match updates, interactive athlete profiles, and performance metrics. User testing with coaches, athletes, and fans refines the design for an optimal user experience.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -330,7 +330,7 @@ export const ProcessTabs = [
         content: {
             heading: "App Development",
             description: "Our developers undertake frontend and backend development using microservices architecture, integrating features such as live streaming, ticket booking, and performance tracking. Advanced technologies support real-time data processing, which is essential for apps focused on athlete and fan engagement.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -338,7 +338,7 @@ export const ProcessTabs = [
         content: {
             heading: "App Testing",
             description: "Rigorous testing ensures stability, scalability, and security. We simulate high-traffic sports events to test app performance under pressure. QA experts conduct load testing, data integrity checks, and security audits to verify the app’s capability to handle large user volumes securely.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -346,7 +346,7 @@ export const ProcessTabs = [
         content: {
             heading: "Deployment",
             description: "We deploy the app across selected platforms. We publish the app on Google Play Store or App Store, and follow all platform-specific guidelines. Our team manages the transition from development to live status, enhancing app store visibility for impactful launches.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -354,7 +354,7 @@ export const ProcessTabs = [
         content: {
             heading: "App Launch",
             description: "We launch a beta version or MVP to gather real-time feedback from coaches, athletes, and fans. This feedback helps us refine features like match predictions, player stats monitoring, and fan interaction before the full release.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
     {
@@ -363,7 +363,7 @@ export const ProcessTabs = [
             heading: "Maintenance and Support",
             description:
                 "We provide ongoing maintenance and support, including real-time monitoring and user feedback analysis. Our team consistently updates the app with new features, improvements, and bug fixes, keeping it aligned with the latest advancements in sports tech.",
-            imgSrc: IMG.src,
+            imgSrc: IMG,
         },
     },
 ];
@@ -446,7 +446,7 @@ export const OffersTabs = [
 export const FuelingContent1 = {
     title: "Comprehensive Sports App Integration for All-Around Success",
     text: "Sports app integration involves adding digital features to traditional sports experiences, enhancing athlete performance, fan engagement, and team management. Our custom sports app development solutions cater to diverse needs within the sports industry.",
-    FuelingImg1: FuelingImg1.src
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList1 = [
@@ -478,9 +478,9 @@ export const FuelingList1 = [
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -522,8 +522,8 @@ export const FuelingContent2 = {
     text: "As a leading sports app development company, we use cutting-edge technology to deliver impactful sports solutions, embedding advanced features that elevate athlete performance, enhance fan engagement, and optimize team management.",
     subtitle: "Bring the Stadium to Mobile with a Powerful Sports App!",
     subtext: "Join hands with BitsWits to develop apps that integrate advanced technology, supporting athletes, teams, and fans through every aspect of the sports experience.",
-    FuelingImg: FuelingImg.src,
-    FuelingImg1: FuelingImg1.src
+    FuelingImg: FuelingImg,
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList2 = [
@@ -564,7 +564,7 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "React Native",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Flutter",
@@ -711,7 +711,7 @@ export const IndustriesList = [
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <FintechSVG />,
@@ -842,7 +842,7 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     },

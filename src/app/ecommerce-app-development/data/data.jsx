@@ -1,122 +1,124 @@
 
 
 // Bannar Images
-import BannerBg from "media/industry/ecommerce/bgBanner.webp";
+const BannerBg = "/industry/ecommerce/bgBanner.webp";
 
 // IndustryCta Images
-import IndustryCtaImg from "media/industry/ecommerce/ctaImage.webp"
+const IndustryCtaImg = "/industry/ecommerce/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/ecommerce/industry/Industry01.webp"
-import IndustrySliderIMG02 from "media/industry/ecommerce/industry/Industry02.webp"
-import IndustrySliderIMG03 from "media/industry/ecommerce/industry/Industry03.webp"
-import IndustrySliderIMG04 from "media/industry/ecommerce/industry/Industry04.webp"
-import IndustrySliderIMG05 from "media/industry/ecommerce/industry/Industry05.webp"
-import IndustrySliderIMG06 from "media/industry/ecommerce/industry/Industry06.webp"
+const IndustrySliderIMG01 = "/industry/ecommerce/industry/Industry01.webp"
+const IndustrySliderIMG02 = "/industry/ecommerce/industry/Industry02.webp"
+const IndustrySliderIMG03 = "/industry/ecommerce/industry/Industry03.webp"
+const IndustrySliderIMG04 = "/industry/ecommerce/industry/Industry04.webp"
+const IndustrySliderIMG05 = "/industry/ecommerce/industry/Industry05.webp"
+const IndustrySliderIMG06 = "/industry/ecommerce/industry/Industry06.webp"
 
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/industry/ecommerce/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/industry/ecommerce/techImg.webp"
 
 //========= Process Images
-import Process01 from "media/industry/ecommerce/processImg.webp"
-import Process02 from "media/industry/ecommerce/processImg.webp"
-import Process03 from "media/industry/ecommerce/processImg.webp"
-import Process04 from "media/industry/ecommerce/processImg.webp"
-import Process05 from "media/industry/ecommerce/processImg.webp"
-import Process06 from "media/industry/ecommerce/processImg.webp"
-import Process07 from "media/industry/ecommerce/processImg.webp"
+const Process01 = "/industry/ecommerce/processImg.webp"
+const Process02 = "/industry/ecommerce/processImg.webp"
+const Process03 = "/industry/ecommerce/processImg.webp"
+const Process04 = "/industry/ecommerce/processImg.webp"
+const Process05 = "/industry/ecommerce/processImg.webp"
+const Process06 = "/industry/ecommerce/processImg.webp"
+const Process07 = "/industry/ecommerce/processImg.webp"
 
 //========= WhyChoose Images
 import { EcommerceIcon01, EcommerceIcon02, EcommerceIcon03, EcommerceIcon04 } from "@/src/app/app-constants"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/ecommerce/fuelingImg.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
+const FuelingImg1 = "/industry/ecommerce/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/industry/techstack/Reactjs.svg";
-import TAB1_2 from "media/industry/techstack/Angular.svg";
-import TAB1_3 from "media/industry/techstack/Vuejs.svg";
-import TAB1_4 from "media/industry/techstack/HTML5.svg";
-import TAB1_5 from "media/industry/techstack/CSS3.svg";
-import TAB1_6 from "media/industry/techstack/JavaScript.svg";
-import TAB1_7 from "media/industry/techstack/Wordpress.svg";
-import TAB2_1 from "media/industry/techstack/Nodejs.svg";
-import TAB2_2 from "media/industry/techstack/Python.svg";
-import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";
-import TAB2_4 from "media/industry/techstack/Java.svg";
-import TAB2_5 from "media/industry/techstack/DotNET.svg";
-import TAB2_6 from "media/industry/techstack/PHP.svg";
+//========= TechStack Images
+const TAB1_1 = "/industry/techstack/Reactjs.svg";
+const TAB1_2 = "/industry/techstack/Angular.svg";
+const TAB1_3 = "/industry/techstack/Vuejs.svg";
+const TAB1_4 = "/industry/techstack/HTML5.svg";
+const TAB1_5 = "/industry/techstack/CSS3.svg";
+const TAB1_6 = "/industry/techstack/JavaScript.svg";
+const TAB1_7 = "/industry/techstack/Wordpress.svg";
+const TAB2_1 = "/industry/techstack/Nodejs.svg";
+const TAB2_2 = "/industry/techstack/Python.svg";
+const TAB2_3 = "/industry/techstack/RubyOnRails.svg";
+const TAB2_4 = "/industry/techstack/Java.svg";
+const TAB2_5 = "/industry/techstack/DotNET.svg";
+const TAB2_6 = "/industry/techstack/PHP.svg";
 
-import TAB3_1 from "media/industry/techstack/Swift.svg";
-import TAB3_2 from "media/industry/techstack/Kotlin.svg";
-import TAB3_3 from "media/industry/techstack/ReactNative.svg";
-import TAB3_4 from "media/industry/techstack/Flutter.svg";
-import TAB3_5 from "media/industry/techstack/Xamarin.svg";
-import TAB3_6 from "media/industry/techstack/Ionic.svg";
+const TAB3_1 = "/industry/techstack/Swift.svg";
+const TAB3_2 = "/industry/techstack/Kotlin.svg";
+const TAB3_3 = "/industry/techstack/ReactNative.svg";
+const TAB3_4 = "/industry/techstack/Flutter.svg";
+const TAB3_5 = "/industry/techstack/Xamarin.svg";
+const TAB3_6 = "/industry/techstack/Ionic.svg";
 
-import TAB4_1 from "media/industry/techstack/MySQL.svg";
-import TAB4_2 from "media/industry/techstack/PostgreSQL.svg";
-import TAB4_3 from "media/industry/techstack/MongoDB.svg";
-import TAB4_4 from "media/industry/techstack/SQLite.svg";
-import TAB4_5 from "media/industry/techstack/Redis.svg";
-import TAB4_6 from "media/industry/techstack/Oracle.svg";
+const TAB4_1 = "/industry/techstack/MySQL.svg";
+const TAB4_2 = "/industry/techstack/PostgreSQL.svg";
+const TAB4_3 = "/industry/techstack/MongoDB.svg";
+const TAB4_4 = "/industry/techstack/SQLite.svg";
+const TAB4_5 = "/industry/techstack/Redis.svg";
+const TAB4_6 = "/industry/techstack/Oracle.svg";
 
-import TAB5_1 from "media/industry/techstack/AWS.svg";
-import TAB5_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
-import TAB5_3 from "media/industry/techstack/MicrosoftAzure.svg";
-import TAB5_4 from "media/industry/techstack/Heroku.svg";
-import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
-import TAB5_6 from "media/industry/techstack/Firebase.svg";
+const TAB5_1 = "/industry/techstack/AWS.svg";
+const TAB5_2 = "/industry/techstack/GoogleCloudPlatform.svg";
+const TAB5_3 = "/industry/techstack/MicrosoftAzure.svg";
+const TAB5_4 = "/industry/techstack/Heroku.svg";
+const TAB5_5 = "/industry/techstack/DigitalOcean.svg";
+const TAB5_6 = "/industry/techstack/Firebase.svg";
 
-import TAB6_1 from "media/industry/techstack/Stripe.svg";
-import TAB6_2 from "media/industry/techstack/PayPal.svg";
-import TAB6_3 from "media/industry/techstack/Braintree.svg";
-import TAB6_4 from "media/industry/techstack/Square.svg";
-import TAB6_5 from "media/industry/techstack/AuthorizeNet.svg";
-import TAB6_6 from "media/industry/techstack/ApplePay.svg";
+const TAB6_1 = "/industry/techstack/Stripe.svg";
+const TAB6_2 = "/industry/techstack/PayPal.svg";
+const TAB6_3 = "/industry/techstack/Braintree.svg";
+const TAB6_4 = "/industry/techstack/Square.svg";
+const TAB6_5 = "/industry/techstack/AuthorizeNet.svg";
+const TAB6_6 = "/industry/techstack/ApplePay.svg";
 
 //========= Industries Images
 import { FintechSVG, HealthcareSVG, AutomotiveSVG, MusicSVG, EducationSVG, SocialSVG, RealEstateSVG, RideHailingSVG, TravelSVG, LogisticsSVG } from "@/src/app/app-constants";
-import Logistics from "media/services/industry/Logistics.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Automotive from "media/services/industry/Automotive.webp";
-import Music from "media/services/industry/music.webp";
+//========= Industries Images
+const Logistics = "/services/industry/Logistics.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Automotive = "/services/industry/Automotive.webp";
+const Music = "/services/industry/music.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 
 
 export const BannerData = {
     title: "Scalable Ecommerce App Development Company for Expanding Online Markets",
     content: "BitsWits is a leading ecommerce development company helping startups and SMBs build intuitive and scalable ecommerce apps for both iOS and Android. We offer UX-driven, custom ecommerce application development services, enabling clients to sell to a global audience and make data-driven decisions.",
-    BannerBg: BannerBg.src,
+    BannerBg: BannerBg,
 }
 
 export const IndustryServiceContent = {
@@ -152,7 +154,7 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
-    image: IndustryCtaImg.src,
+    image: IndustryCtaImg,
     title: "UX-Driven eCommerce App Development Services",
     text: "Give your business an unfair advantage with our UX-driven ecommerce app development services. Expand your reach and sell more to a global audience. Let’s take your business global!",
 }
@@ -164,32 +166,32 @@ export const IndustrySliderContent = {
 
 export const IndustrySliderList = [
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG01,
         title: "Microservices eCommerce",
         txt: "We create microservices-based eCommerce apps that integrate APIs and cart systems with intuitive user journeys, ensuring seamless shopping experiences and scalable solutions, similar to Walmart’s successful online platform."
     },
     {
-        img: IndustrySliderIMG02.src,
+        img: IndustrySliderIMG02,
         title: "Integrated CRM Solutions",
         txt: "We design robust backend systems, user-friendly frontends, and integrated CRM solutions to enhance customer interactions, streamline shopping experiences, improve retention, and drive sales in eCommerce businesses."
     },
     {
-        img: IndustrySliderIMG03.src,
+        img: IndustrySliderIMG03,
         title: "Aggregator Portals",
         txt: "We develop comprehensive aggregator portals that list vendors and products, offering consumers a seamless connection with services and products while improving user experience and expanding business reach."
     },
     {
-        img: IndustrySliderIMG04.src,
+        img: IndustrySliderIMG04,
         title: "Progressive Web Apps",
         txt: "Our PWA solutions for eCommerce provide app-like experiences without needing downloads, offering customers fast, reliable access to online stores across devices, improving engagement and conversion rates."
     },
     {
-        img: IndustrySliderIMG05.src,
+        img: IndustrySliderIMG05,
         title: "Cross-Platform Development",
         txt: "We build cross-platform eCommerce apps using a single codebase, ensuring fast development, reduced costs, and consistent user experiences across iOS, Android, and web platforms for enhanced accessibility."
     },
     {
-        img: IndustrySliderIMG06.src,
+        img: IndustrySliderIMG06,
         title: "Headless Commerce Apps",
         txt: "Our headless commerce apps decouple the frontend from the backend, providing greater flexibility in design and smooth integration with other systems for a personalized, scalable shopping experience."
     }
@@ -263,41 +265,41 @@ export const TechnologiesContent = {
         <p>Want to know how much your app will cost with our well-versed <strong>Ecommerce App Developers?</strong> Use our free app cost calculator to get an instant breakdown of your app cost!</p>
     </>),
 
-    TechImg: TechImg.src
+    TechImg: TechImg
 }
 
 export const TechnologiesIcons = [
     {
         title: "iOS",
-        icons: TechIcon01.src,
+        icons: TechIcon01,
     },
     {
         title: "Android",
-        icons: TechIcon02.src,
+        icons: TechIcon02,
     },
     {
         title: "Flutter",
-        icons: TechIcon03.src,
+        icons: TechIcon03,
     },
     {
         title: "Kotlin",
-        icons: TechIcon04.src,
+        icons: TechIcon04,
     },
     {
         title: "Objective C",
-        icons: TechIcon05.src,
+        icons: TechIcon05,
     },
     {
         title: "ionic",
-        icons: TechIcon06.src,
+        icons: TechIcon06,
     },
     {
         title: "React Native",
-        icons: TechIcon07.src,
+        icons: TechIcon07,
     },
     {
         title: "Swift",
-        icons: TechIcon08.src,
+        icons: TechIcon08,
     },
 ]
 
@@ -312,7 +314,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery Session",
             description: "Our ecommerce app development process begins with a comprehensive business requirement analysis to understand your target market, sales objectives, and customer personas. This helps in selecting the ideal eCommerce platform and defining the must-have features, like inventory management, multi-currency support, and payment gateway integrations that align with your business model.",
-            imgSrc: Process01.src,
+            imgSrc: Process01,
         },
     },
     {
@@ -320,7 +322,7 @@ export const ProcessTabs = [
         content: {
             heading: "Documentation",
             description: "We create detailed documentation that outlines the technical architecture, including API integrations for shipping, payment processing, and ERP systems. This blueprint ensures a seamless integration of third-party services and provides a clear roadmap for developers, minimizing risks and misunderstandings throughout the project.",
-            imgSrc: Process02.src,
+            imgSrc: Process02,
         },
     },
     {
@@ -328,7 +330,7 @@ export const ProcessTabs = [
         content: {
             heading: "UI/UX Design",
             description: "Our design phase focuses on conversion-driven UI/UX techniques. We use data-driven insights to create a user-friendly interface, optimizing the checkout flow, product search filters, and call-to-action elements. The aim is to boost user engagement, enhance navigation, and ensure higher conversion rates.",
-            imgSrc: Process03.src,
+            imgSrc: Process03,
         },
     },
     {
@@ -336,7 +338,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description: "Using an agile development process, we build the app incrementally, incorporating product catalog management, real-time inventory tracking, and customer personalization engines. This ensures flexibility for evolving requirements while focusing on scalability and load-balancing to handle high traffic and expanding product catalogs seamlessly.",
-            imgSrc: Process04.src,
+            imgSrc: Process04,
         },
     },
     {
@@ -344,7 +346,7 @@ export const ProcessTabs = [
         content: {
             heading: "Quality Assurance",
             description: "Our quality assurance phase involves performance testing, security audits, and cross-device functionality testing to ensure the app handles high user loads and transactions securely. We rigorously test for PCI compliance, data encryption, and vulnerability protection to deliver a secure and robust ecommerce solution.",
-            imgSrc: Process05.src,
+            imgSrc: Process05,
         },
     },
     {
@@ -352,7 +354,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch",
             description: "Once the app clears all testing phases, it is deployed across your chosen platforms with ASO (App Store Optimization) and multi-channel marketing support. We ensure the app is optimized for mobile and web, delivering a seamless experience across devices for user acquisition and retention.",
-            imgSrc: Process06.src,
+            imgSrc: Process06,
         },
     },
     {
@@ -360,7 +362,7 @@ export const ProcessTabs = [
         content: {
             heading: "Post-launch Support",
             description: "Our post-launch services include performance monitoring, bug fixes, and feature enhancements to adapt to emerging ecommerce trends like voice commerce, AR product previews, and subscription models. Continuous updates keep your app aligned with new technologies and customer expectations, ensuring long-term competitiveness.",
-            imgSrc: Process07.src,
+            imgSrc: Process07,
         },
     },
 ];
@@ -442,7 +444,7 @@ export const OffersTabs = [
 export const FuelingContent1 = {
     title: "Benefits of Building an Ecommerce App",
     text: "Creating an eCommerce app can significantly enhance your business, offering unique advantages that drive customer engagement, increase sales, and boost brand loyalty.",
-    FuelingImg1: FuelingImg1.src
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList1 = [
@@ -470,9 +472,9 @@ export const FuelingList1 = [
 
 export const TestimonialContent = {
     title: "Client Testimonials",
-    TestiImg1: TestiImg1.src,
-    TestiImg2: TestiImg2.src,
-    TestiImg3: TestiImg3.src
+    TestiImg1: TestiImg1,
+    TestiImg2: TestiImg2,
+    TestiImg3: TestiImg3
 }
 
 export const TestimonialSLIDES = [
@@ -514,8 +516,8 @@ export const FuelingContent2 = {
     text: "Whether it’s AR/VR for unreal, mind-boggling user experience, or AI and ML for unmatched accuracy and data-driven decision-making, BitsWits leverages all the emerging tech to deliver ecommerce apps that wows the customers. ",
     subtitle: "Discover the Future of eCommerce with Emerging Technologies",
     subtext: "Schedule a consultation today to explore how our cutting-edge solutions can transform your eCommerce business and boost sales.",
-    FuelingImg: FuelingImg.src,
-    FuelingImg1: FuelingImg1.src
+    FuelingImg: FuelingImg,
+    FuelingImg1: FuelingImg1
 }
 
 export const FuelingList2 = [
@@ -552,31 +554,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "React.js",
-                img: TAB1_1.src,
+                img: TAB1_1,
             },
             {
                 heading: "Angular",
-                img: TAB1_2.src,
+                img: TAB1_2,
             },
             {
                 heading: "Vue.js",
-                img: TAB1_3.src,
+                img: TAB1_3,
             },
             {
                 heading: "HTML5",
-                img: TAB1_4.src,
+                img: TAB1_4,
             },
             {
                 heading: "CSS3",
-                img: TAB1_5.src,
+                img: TAB1_5,
             },
             {
                 heading: "JavaScript",
-                img: TAB1_6.src,
+                img: TAB1_6,
             },
             {
                 heading: "WordPress",
-                img: TAB1_7.src,
+                img: TAB1_7,
             }
         ],
     },
@@ -585,27 +587,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Node.js",
-                img: TAB2_1.src,
+                img: TAB2_1,
             },
             {
                 heading: "Python",
-                img: TAB2_2.src,
+                img: TAB2_2,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB2_3.src,
+                img: TAB2_3,
             },
             {
                 heading: "Java",
-                img: TAB2_4.src,
+                img: TAB2_4,
             },
             {
                 heading: ".NET Core",
-                img: TAB2_5.src,
+                img: TAB2_5,
             },
             {
                 heading: "PHP",
-                img: TAB2_6.src,
+                img: TAB2_6,
             }
         ],
     },
@@ -614,27 +616,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Swift",
-                img: TAB3_1.src,
+                img: TAB3_1,
             },
             {
                 heading: "Kotlin",
-                img: TAB3_2.src,
+                img: TAB3_2,
             },
             {
                 heading: "React Native",
-                img: TAB3_3.src,
+                img: TAB3_3,
             },
             {
                 heading: "Flutter",
-                img: TAB3_4.src,
+                img: TAB3_4,
             },
             {
                 heading: "Xamarin",
-                img: TAB3_5.src,
+                img: TAB3_5,
             },
             {
                 heading: "Ionic",
-                img: TAB3_6.src,
+                img: TAB3_6,
             }
         ],
     },
@@ -643,27 +645,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "MySQL",
-                img: TAB4_1.src,
+                img: TAB4_1,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB4_2.src,
+                img: TAB4_2,
             },
             {
                 heading: "MongoDB",
-                img: TAB4_3.src,
+                img: TAB4_3,
             },
             {
                 heading: "SQLite",
-                img: TAB4_4.src,
+                img: TAB4_4,
             },
             {
                 heading: "Redis",
-                img: TAB4_5.src,
+                img: TAB4_5,
             },
             {
                 heading: "Oracle",
-                img: TAB4_6.src,
+                img: TAB4_6,
             }
         ],
     },
@@ -672,27 +674,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "AWS",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "Google Cloud",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Microsoft Azure",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "Heroku",
-                img: TAB5_4.src,
+                img: TAB5_4,
             },
             {
                 heading: "DigitalOcean",
-                img: TAB5_5.src,
+                img: TAB5_5,
             },
             {
                 heading: "Firebase",
-                img: TAB5_6.src,
+                img: TAB5_6,
             }
         ],
     },
@@ -701,27 +703,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Stripe",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "PayPal",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Braintree",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "Square",
-                img: TAB6_4.src,
+                img: TAB6_4,
             },
             {
                 heading: "Authorize.Net",
-                img: TAB6_5.src,
+                img: TAB6_5,
             },
             {
                 heading: "Apple Pay",
-                img: TAB6_6.src,
+                img: TAB6_6,
             }
         ],
     }
@@ -733,62 +735,62 @@ export const IndustriesContent = {
 }
 
 export const IndustriesList = [
-    
+
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "We build logistics apps for fleet and shipment optimization. Built-in eCommerce lets businesses manage and sell logistics services directly to clients.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
     {
         icon: <AutomotiveSVG />,
         title: "Automotive",
         txt: "Custom automotive apps streamline vehicle management, customer service, and dealership operations. Simplify bookings, maintenance tracking, and user engagement.",
         url: "/automotive-software-development",
-        img: Automotive.src,
+        img: Automotive,
     },
 
 ];
@@ -835,14 +837,14 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }
@@ -850,7 +852,7 @@ export const BlogsList = [
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

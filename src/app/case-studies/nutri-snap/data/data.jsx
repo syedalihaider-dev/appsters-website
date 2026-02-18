@@ -1,35 +1,35 @@
 // Overview Images
-import OverviewImg from "media/casestudies/nutri-snap/OverviewImg.webp"
+const OverviewImg = "/casestudies/nutri-snap/OverviewImg.webp"
 
 // Features Images
-import FeaturesImg from "media/casestudies/nutri-snap/FeaturesLogo.webp"
+const FeaturesImg = "/casestudies/nutri-snap/FeaturesLogo.webp"
 
 // Problem Images
-import ProblemImg from "media/casestudies/nutri-snap/ProblemImg.webp"
+const ProblemImg = "/casestudies/nutri-snap/ProblemImg.webp"
 
 // Solution Images
-import SolutionImg from "media/casestudies/nutri-snap/SolutionImg.webp"
+const SolutionImg = "/casestudies/nutri-snap/SolutionImg.webp"
 
 // ScrollingSection Images
-import ScrollingSectionImg from "media/casestudies/nutri-snap/ScrollingImage.webp"
+const ScrollingSectionImg = "/casestudies/nutri-snap/ScrollingImage.webp"
 
 // TechStack Images
-import TechStackIcon01 from "media/casestudies/techIcon/React-Native.webp"
-import TechStackIcon02 from "media/casestudies/techIcon/Flutter.webp"
-import TechStackIcon03 from "media/casestudies/techIcon/Xamarin.webp"
-import TechStackIcon04 from "media/casestudies/techIcon/Swift.webp"
-import TechStackIcon05 from "media/casestudies/techIcon/Ionic.webp"
-import TechStackIcon06 from "media/casestudies/techIcon/AWS.webp"
-import TechStackIcon07 from "media/casestudies/techIcon/JavaScript.svg"
-import TechStackIcon08 from "media/casestudies/techIcon/Adobe-XD.webp"
-import TechStackIcon09 from "media/casestudies/techIcon/Adobe-Illustrator.webp"
-import TechStackIcon10 from "media/casestudies/techIcon/Adobe-Photoshop.webp"
-import TechStackIcon11 from "media/casestudies/techIcon/figma.webp"
-import TechStackIcon12 from "media/casestudies/techIcon/InVision.webp"
-import TechStackIcon13 from "media/casestudies/techIcon/Balsamiq.webp"
+const TechStackIcon01 = "/casestudies/techIcon/React-Native.webp"
+const TechStackIcon02 = "/casestudies/techIcon/Flutter.webp"
+const TechStackIcon03 = "/casestudies/techIcon/Xamarin.webp"
+const TechStackIcon04 = "/casestudies/techIcon/Swift.webp"
+const TechStackIcon05 = "/casestudies/techIcon/Ionic.webp"
+const TechStackIcon06 = "/casestudies/techIcon/AWS.webp"
+const TechStackIcon07 = "/casestudies/techIcon/JavaScript.svg"
+const TechStackIcon08 = "/casestudies/techIcon/Adobe-XD.webp"
+const TechStackIcon09 = "/casestudies/techIcon/Adobe-Illustrator.webp"
+const TechStackIcon10 = "/casestudies/techIcon/Adobe-Photoshop.webp"
+const TechStackIcon11 = "/casestudies/techIcon/figma.webp"
+const TechStackIcon12 = "/casestudies/techIcon/InVision.webp"
+const TechStackIcon13 = "/casestudies/techIcon/Balsamiq.webp"
 
 // Result Images
-import ResultImg from "media/casestudies/nutri-snap/ResultImg.webp"
+const ResultImg = "/casestudies/nutri-snap/ResultImg.webp"
 
 
 
@@ -39,14 +39,14 @@ export const BannerData = {
 }
 
 export const OverviewData = {
-    image: OverviewImg.src,
+    image: OverviewImg,
     subtitle: "Overview",
     title: "NutriSnap",
     content: "NutriSnap is an innovative app designed to help users maintain their nutrition and diet while providing easy access to nutritionists for personalized consultations. Integrating tracking tools and expert guidance empowers users to make informed choices about their health and wellness, creating a supportive community for achieving dietary goals."
 }
 
 export const FeaturesData = {
-    image: FeaturesImg.src,
+    image: FeaturesImg,
     background: 'linear-gradient(180deg, #B2E764 0%, #6CA814 100%)',
     subtitle: "Features",
     title: "Key Highlights of The Ready App",
@@ -65,7 +65,7 @@ export const FeaturesBullets = [
 ]
 
 export const ProblemData = {
-    image: ProblemImg.src,
+    image: ProblemImg,
     subtitle: "The Problem",
     title: "Challenges the Client Faced",
     content: "The client aimed to create a platform that combines nutrition tracking with access to professional guidance. A straightforward way for users to manage their dietary needs while connecting to qualified nutritionists was essential for providing personalized support and advice.",
@@ -85,7 +85,7 @@ export const CaseStudyctaData = {
 }
 
 export const SolutionData = {
-    image: SolutionImg.src,
+    image: SolutionImg,
     subtitle: "The Solution",
     title: "Our Approach to the Challenge",
     content: "NutriSnap is a robust app that merges nutritional tracking with expert consultations. Focusing on usability and accessibility, NutriSnap empowers individuals to take control of their health while facilitating easy access to professional advice and support.",
@@ -100,7 +100,7 @@ export const SolutionBullets = [
 ]
 
 export const ScrollingSectionData = {
-    image: ScrollingSectionImg.src,
+    image: ScrollingSectionImg,
 }
 
 export const TechStackData = {
@@ -112,59 +112,59 @@ export const TechStackData = {
 export const TechStackList = [
     {
         title: "React Native",
-        icon: TechStackIcon01.src
+        icon: TechStackIcon01
     },
     {
         title: "Flutter",
-        icon: TechStackIcon02.src
+        icon: TechStackIcon02
     },
     {
         title: "Xamarin",
-        icon: TechStackIcon03.src
+        icon: TechStackIcon03
     },
     {
         title: "Swift",
-        icon: TechStackIcon04.src
+        icon: TechStackIcon04
     },
     {
         title: "Ionic",
-        icon: TechStackIcon05.src
+        icon: TechStackIcon05
     },
     {
         title: "AWS",
-        icon: TechStackIcon06.src
+        icon: TechStackIcon06
     },
     {
         title: "JavaScript",
-        icon: TechStackIcon07.src
+        icon: TechStackIcon07
     },
     {
         title: "Adobe-XD",
-        icon: TechStackIcon08.src
+        icon: TechStackIcon08
     },
     {
         title: "Adobe-Illustrator",
-        icon: TechStackIcon09.src
+        icon: TechStackIcon09
     },
     {
         title: "Adobe-Photoshop",
-        icon: TechStackIcon10.src
+        icon: TechStackIcon10
     },
     {
         title: "Figma",
-        icon: TechStackIcon11.src
+        icon: TechStackIcon11
     },
     {
         title: "InVision",
-        icon: TechStackIcon12.src
+        icon: TechStackIcon12
     },
     {
         title: "Balsamiq",
-        icon: TechStackIcon13.src
+        icon: TechStackIcon13
     }
 ]
 export const ResultData = {
-    background: `linear-gradient(270deg, rgba(108, 168, 20, 0.1) 2.4%, #6CA814 63.73%), url(${ResultImg.src})`,
+    background: `linear-gradient(270deg, rgba(108, 168, 20, 0.1) 2.4%, #6CA814 63.73%), url(${ResultImg})`,
     subtitle: "The Result",
     title: "The Impact We Delivered.",
     content: "NutriSnap quickly established itself as a valuable resource for users seeking to improve their dietary habits. Offering essential tools and expert guidance has driven significant user engagement and satisfaction.",

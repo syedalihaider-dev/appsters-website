@@ -3,43 +3,43 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/home/companyinfo.module.scss";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import IMG01 from "media/home/awards/award01.webp";
-import IMG02 from "media/home/awards/award02.webp";
-import IMG03 from "media/home/awards/award03.webp";
-import IMG04 from "media/home/awards/award04.webp";
-import IMG05 from "media/home/awards/award05.webp";
-import IMG06 from "media/home/awards/award06.webp";
-import IMG07 from "media/home/awards/award07.webp";
-import IMG08 from "media/home/awards/award08.webp";
+const IMG01 = "/home/awards/award01.webp";
+const IMG02 = "/home/awards/award02.webp";
+const IMG03 = "/home/awards/award03.webp";
+const IMG04 = "/home/awards/award04.webp";
+const IMG05 = "/home/awards/award05.webp";
+const IMG06 = "/home/awards/award06.webp";
+const IMG07 = "/home/awards/award07.webp";
+const IMG08 = "/home/awards/award08.webp";
 import Image from "next/image";
-import BannerPoster from "media/home/companyVideoPoster.webp";
+const BannerPoster = "/home/companyVideoPoster.webp";
 
 const options = { align: "start", loop: true };
 
 export const Awards = [
   {
-    AwardsIMG: IMG01.src,
+    AwardsIMG: IMG01,
   },
   {
-    AwardsIMG: IMG02.src,
+    AwardsIMG: IMG02,
   },
   {
-    AwardsIMG: IMG03.src,
+    AwardsIMG: IMG03,
   },
   {
-    AwardsIMG: IMG04.src,
+    AwardsIMG: IMG04,
   },
   {
-    AwardsIMG: IMG05.src,
+    AwardsIMG: IMG05,
   },
   {
-    AwardsIMG: IMG06.src,
+    AwardsIMG: IMG06,
   },
   {
-    AwardsIMG: IMG07.src,
+    AwardsIMG: IMG07,
   },
   {
-    AwardsIMG: IMG08.src,
+    AwardsIMG: IMG08,
   },
 ];
 const CompanyInfo = ({ data }) => {
@@ -106,7 +106,7 @@ const CompanyInfo = ({ data }) => {
         preload="auto"
         aria-label="Background video"
         loading="eager"
-        poster={BannerPoster.src}
+        poster={BannerPoster}
         playsInline
         className={styles.companyVideo}
       >
