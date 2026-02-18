@@ -500,31 +500,31 @@ export const TechnologiesIcons = [
   },
   {
     title: "Android",
-    icons: TechIcon02.src,
+    icons: TechIcon02,
   },
   {
     title: "Flutter",
-    icons: TechIcon03.src,
+    icons: TechIcon03,
   },
   {
     title: "Kotlin",
-    icons: TechIcon04.src,
+    icons: TechIcon04,
   },
   {
     title: "Objective C",
-    icons: TechIcon05.src,
+    icons: TechIcon05,
   },
   {
     title: "ionic",
-    icons: TechIcon06.src,
+    icons: TechIcon06,
   },
   {
     title: "React Native",
-    icons: TechIcon07.src,
+    icons: TechIcon07,
   },
   {
     title: "Swift",
-    icons: TechIcon08.src,
+    icons: TechIcon08,
   },
 ]
 
@@ -721,23 +721,23 @@ export const TechStackTabs = [
       },
       {
         heading: "Adobe Illustrator",
-        img: TAB1_2.src,
+        img: TAB1_2,
       },
       {
         heading: "Balsamiq",
-        img: TAB1_3.src,
+        img: TAB1_3,
       },
       {
         heading: "InVision",
-        img: TAB1_4.src,
+        img: TAB1_4,
       },
       {
         heading: "Figma",
-        img: TAB1_5.src,
+        img: TAB1_5,
       },
       {
         heading: "Adobe Photoshop",
-        img: TAB1_6.src,
+        img: TAB1_6,
       },
     ],
   },
@@ -746,35 +746,35 @@ export const TechStackTabs = [
     content: [
       {
         heading: "Flutter",
-        img: TAB2_1.src,
+        img: TAB2_1,
       },
       {
         heading: "React Native",
-        img: TAB2_2.src,
+        img: TAB2_2,
       },
       {
         heading: "Ionic",
-        img: TAB2_3.src,
+        img: TAB2_3,
       },
       {
         heading: "Swift",
-        img: TAB2_4.src,
+        img: TAB2_4,
       },
       {
         heading: "TypeScript",
-        img: TAB2_5.src,
+        img: TAB2_5,
       },
       {
         heading: "Xamarin",
-        img: TAB2_6.src,
+        img: TAB2_6,
       },
       {
         heading: "HTML5",
-        img: TAB2_7.src,
+        img: TAB2_7,
       },
       {
         heading: "Kotlin",
-        img: TAB2_8.src,
+        img: TAB2_8,
       },
     ],
   },
@@ -783,23 +783,23 @@ export const TechStackTabs = [
     content: [
       {
         heading: "Laravel",
-        img: TAB3_1.src,
+        img: TAB3_1,
       },
       {
         heading: "Node.js",
-        img: TAB3_2.src,
+        img: TAB3_2,
       },
       {
         heading: ".NET Core",
-        img: TAB3_3.src,
+        img: TAB3_3,
       },
       {
         heading: "Ruby on Rails",
-        img: TAB3_4.src,
+        img: TAB3_4,
       },
       {
         heading: "Django",
-        img: TAB3_5.src,
+        img: TAB3_5,
       },
     ],
   },
@@ -808,27 +808,27 @@ export const TechStackTabs = [
     content: [
       {
         heading: "Firebase",
-        img: TAB4_1.src,
+        img: TAB4_1,
       },
       {
         heading: "MongoDB",
-        img: TAB4_2.src,
+        img: TAB4_2,
       },
       {
         heading: "MySQL",
-        img: TAB4_3.src,
+        img: TAB4_3,
       },
       {
         heading: "Swift",
-        img: TAB4_4.src,
+        img: TAB4_4,
       },
       {
         heading: "Oracle",
-        img: TAB4_5.src,
+        img: TAB4_5,
       },
       {
         heading: "PostgreSQL",
-        img: TAB4_6.src,
+        img: TAB4_6,
       },
     ],
   },
@@ -837,31 +837,31 @@ export const TechStackTabs = [
     content: [
       {
         heading: "Google Cloud Platform",
-        img: TAB5_1.src,
+        img: TAB5_1,
       },
       {
         heading: "AWS",
-        img: TAB5_2.src,
+        img: TAB5_2,
       },
       {
         heading: "Linode",
-        img: TAB5_3.src,
+        img: TAB5_3,
       },
       {
         heading: "IBM Cloud",
-        img: TAB5_4.src,
+        img: TAB5_4,
       },
       {
         heading: "Vercel",
-        img: TAB5_5.src,
+        img: TAB5_5,
       },
       {
         heading: "Microsoft Azure",
-        img: TAB5_6.src,
+        img: TAB5_6,
       },
       {
         heading: "Firebase",
-        img: TAB5_7.src,
+        img: TAB5_7,
       },
     ],
   },
@@ -870,35 +870,35 @@ export const TechStackTabs = [
     content: [
       {
         heading: "React Native",
-        img: TAB6_1.src,
+        img: TAB6_1,
       },
       {
         heading: "Flutter",
-        img: TAB6_2.src,
+        img: TAB6_2,
       },
       {
         heading: "Ionic",
-        img: TAB6_3.src,
+        img: TAB6_3,
       },
       {
         heading: "Xamarin",
-        img: TAB6_4.src,
+        img: TAB6_4,
       },
       {
         heading: "Apache Cordova",
-        img: TAB6_5.src,
+        img: TAB6_5,
       },
       {
         heading: "Android Studio",
-        img: TAB6_6.src,
+        img: TAB6_6,
       },
       {
         heading: "Visual Studio",
-        img: TAB6_7.src,
+        img: TAB6_7,
       },
       {
         heading: "Xcode",
-        img: TAB6_8.src,
+        img: TAB6_8,
       },
     ],
   },
@@ -907,27 +907,27 @@ export const TechStackTabs = [
     content: [
       {
         heading: "Teamwork",
-        img: TAB7_1.src,
+        img: TAB7_1,
       },
       {
         heading: "Basecamp",
-        img: TAB7_2.src,
+        img: TAB7_2,
       },
       {
         heading: "Jira",
-        img: TAB7_3.src,
+        img: TAB7_3,
       },
       {
         heading: "Asana",
-        img: TAB7_4.src,
+        img: TAB7_4,
       },
       {
         heading: "Trello",
-        img: TAB7_5.src,
+        img: TAB7_5,
       },
       {
         heading: "PM Tools",
-        img: TAB7_6.src,
+        img: TAB7_6,
       },
     ],
   },
@@ -1056,7 +1056,7 @@ export const BlogsList = [
     title: "Most Popular Mobile App Development Frameworks",
     txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
     cat: "Mobile App Development",
-    img: BlogsIMG02.src,
+    img: BlogsIMG02,
     links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
     date: "August 13,2024",
   },
@@ -1065,7 +1065,7 @@ export const BlogsList = [
       "Everything You Need to Know About Application Development Life Cycle",
     txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
     cat: "Mobile App Development",
-    img: BlogsIMG03.src,
+    img: BlogsIMG03,
     links: "https://www.bitswits.co/blog/application-development-life-cycle",
     date: "July 10,2024",
   },

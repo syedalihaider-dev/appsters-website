@@ -797,30 +797,30 @@ export const TechStackTabs = [
             {
                 title: "Cloud",
                 heading: "Google Cloud Platform",
-                img: TAB5_1.src,
+                img: TAB5_1,
             },
             {
                 heading: "AWS",
-                img: TAB5_2.src,
+                img: TAB5_2,
             },
             {
                 heading: "Linode",
-                img: TAB5_3.src,
+                img: TAB5_3,
             },
             {
                 heading: "IBM Cloud",
-                img: TAB5_4.src,
+                img: TAB5_4,
             }, {
                 heading: "Vercel",
-                img: TAB5_5.src,
+                img: TAB5_5,
             },
             {
                 heading: "Microsoft Azure",
-                img: TAB5_6.src,
+                img: TAB5_6,
             },
             {
                 heading: "Firebase",
-                img: TAB5_7.src,
+                img: TAB5_7,
             },
         ],
     },
@@ -830,35 +830,35 @@ export const TechStackTabs = [
             {
                 title: "Framework",
                 heading: "React Native",
-                img: TAB6_1.src,
+                img: TAB6_1,
             },
             {
                 heading: "Flutter",
-                img: TAB6_2.src,
+                img: TAB6_2,
             },
             {
                 heading: "Ionic",
-                img: TAB6_3.src,
+                img: TAB6_3,
             },
             {
                 heading: "Xamarin",
-                img: TAB6_4.src,
+                img: TAB6_4,
             },
             {
                 heading: "Apache Cordova",
-                img: TAB6_5.src,
+                img: TAB6_5,
             },
             {
                 heading: "Android Studio",
-                img: TAB6_6.src,
+                img: TAB6_6,
             },
             {
                 heading: "Visual Studio",
-                img: TAB6_7.src,
+                img: TAB6_7,
             },
             {
                 heading: "Xcode",
-                img: TAB6_8.src,
+                img: TAB6_8,
             },
         ],
     },
@@ -876,56 +876,56 @@ export const IndustriesList = [
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
         url: "/fintech-app-development",
-        img: Fintech.src,
+        img: Fintech,
     },
     {
         icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
         url: "/ecommerce-app-development",
-        img: Ecommerce.src,
+        img: Ecommerce,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
         url: "/healthcare-app-development-services",
-        img: Healthcare.src,
+        img: Healthcare,
     },
     {
         icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
         url: "/education-app-development",
-        img: Education.src,
+        img: Education,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
         url: "/social-media-app-development-company",
-        img: SocialMarketing.src,
+        img: SocialMarketing,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
         url: "/real-estate-app-development-company",
-        img: RealEstate.src,
+        img: RealEstate,
     },
     {
         icon: <MusicSVG />,
         title: "Music",
         txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
         url: "/music-app-development-company",
-        img: Music.src,
+        img: Music,
     },
     {
         icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "Our apps optimize fleet and shipment tracking. Integrated eCommerce lets businesses offer logistics to clients, boosting efficiency and operations.",
         url: "/logistics-software-development",
-        img: Logistics.src,
+        img: Logistics,
     },
 ];
 
@@ -1011,21 +1011,21 @@ export const BlogsList = [
         title: "How Much Does It Cost to Develop an App in 2024?",
         txt: "Ever noticed how there’s an app for almost everything? To be precise, there are over four million apps available across iOS and Android platforms, extending to a wide range of sub-genres and niches.",
         cat: "Mobile App Development",
-        img: BlogsIMG01.src,
+        img: BlogsIMG01,
         links: "https://www.bitswits.co/blog/mobile-app-development-cost",
         date: "August 29,2024"
     }, {
         title: "Most Popular Mobile App Development Frameworks",
         txt: "You know how people are glued to their phones these days? Apps are like, everywhere. From booking a cab to buying movie tickets, chatting with friends, and nearly everything else in between, we just can’t do without apps.",
         cat: "Mobile App Development",
-        img: BlogsIMG02.src,
+        img: BlogsIMG02,
         links: "https://www.bitswits.co/blog/mobile-app-development-frameworks",
         date: "August 13,2024"
     }, {
         title: "Everything You Need to Know About Application Development Life Cycle",
         txt: "Frustration with clunky interfaces is a thing of the past. The seamless apps that you are using today for food delivery, banking, or even socializing are created after a well-worked-up development process.",
         cat: "Mobile App Development",
-        img: BlogsIMG03.src,
+        img: BlogsIMG03,
         links: "https://www.bitswits.co/blog/application-development-life-cycle",
         date: "July 10,2024"
     }

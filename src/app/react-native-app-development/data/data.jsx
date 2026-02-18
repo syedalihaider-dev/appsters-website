@@ -2,89 +2,90 @@
 import Image from "next/image"
 
 // Bannar Images
-import BannerLogos from "media/services/bannerLogo.webp";
-import BannerBg from "media/services/bgBanner.webp";
+const BannerLogos = "/services/bannerLogo.webp";
+const BannerBg = "/services/bgBanner.webp";
 
 //========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png";
-import slider2 from "media/newmobileapp/slider-3.png";
-import slider3 from "media/newmobileapp/slider-5.png";
-import slider4 from "media/newmobileapp/slider-4.png";
-import slider5 from "media/newmobileapp/slider-1.png";
+const slider1 = "/newmobileapp/slider-2.png";
+const slider2 = "/newmobileapp/slider-3.png";
+const slider3 = "/newmobileapp/slider-5.png";
+const slider4 = "/newmobileapp/slider-4.png";
+const slider5 = "/newmobileapp/slider-1.png";
 
 //========= WhyChoose Images
 import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+const IMG = "/services/process/tab01.webp"
 
 //========= Technologies Images
-import TechIcon01 from "media/services/tech/1.webp"
-import TechIcon02 from "media/services/tech/2.webp"
-import TechIcon03 from "media/services/tech/3.webp"
-import TechIcon04 from "media/services/tech/4.webp"
-import TechIcon05 from "media/services/tech/5.webp"
-import TechIcon06 from "media/services/tech/6.webp"
-import TechIcon07 from "media/services/tech/7.webp"
-import TechIcon08 from "media/services/tech/8.webp"
 import TechImg from "media/services/techImg.webp"
+const TechIcon01 = "/services/tech/1.webp"
+const TechIcon02 = "/services/tech/2.webp"
+const TechIcon03 = "/services/tech/3.webp"
+const TechIcon04 = "/services/tech/4.webp"
+const TechIcon05 = "/services/tech/5.webp"
+const TechIcon06 = "/services/tech/6.webp"
+const TechIcon07 = "/services/tech/7.webp"
+const TechIcon08 = "/services/tech/8.webp"
+const TechImg = "/services/techImg.webp"
 
 //========= Testimonial Images
-import TestiImg1 from "media/services/reviwes/trustpilot.webp"
-import TestiImg2 from "media/services/reviwes/clutch.webp"
-import TestiImg3 from "media/services/reviwes/google.webp"
-import KayleeSlone from "media/services/reviwes/KayleeSlone.webp"
-import RyanJaden from "media/services/reviwes/RyanJaden.webp"
-import Joseph from "media/services/reviwes/Joseph.webp"
-import MauryoJones from "media/services/reviwes/MauryoJones.webp"
-import KateBullock from "media/services/reviwes/KateBullock.webp"
+const TestiImg1 = "/services/reviwes/trustpilot.webp"
+const TestiImg2 = "/services/reviwes/clutch.webp"
+const TestiImg3 = "/services/reviwes/google.webp"
+const KayleeSlone = "/services/reviwes/KayleeSlone.webp"
+const RyanJaden = "/services/reviwes/RyanJaden.webp"
+const Joseph = "/services/reviwes/Joseph.webp"
+const MauryoJones = "/services/reviwes/MauryoJones.webp"
+const KateBullock = "/services/reviwes/KateBullock.webp"
 
 //========= Risks Images
-import RisksIMG01 from "media/services/customImg01.webp"
-import RisksIMG02 from "media/services/customImg02.webp"
+const RisksIMG01 = "/services/customImg01.webp"
+const RisksIMG02 = "/services/customImg02.webp"
 
 //========= Fueling Images
-import FuelingImg from "media/services/cuttingEdge.webp"
+const FuelingImg = "/services/cuttingEdge.webp"
 
 //========= CtaEstimated Images
-import CtaEstimatedImg from "media/services/ctaImg.webp"
+const CtaEstimatedImg = "/services/ctaImg.webp"
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/02.webp";
-import TAB3_5 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
+const TAB1_1 = "/services/tech/tab1/01.webp";
+const TAB1_2 = "/services/tech/tab1/02.webp";
+const TAB1_3 = "/services/tech/tab1/03.webp";
+const TAB2_1 = "/services/tech/tab2/01.webp";
+const TAB2_2 = "/services/tech/tab2/02.webp";
+const TAB2_3 = "/services/tech/tab2/03.webp";
+const TAB2_4 = "/services/tech/tab2/04.webp";
+const TAB3_1 = "/services/tech/tab3/01.webp";
+const TAB3_2 = "/services/tech/tab3/02.webp";
+const TAB3_3 = "/services/tech/tab3/03.webp";
+const TAB3_4 = "/services/tech/tab3/02.webp";
+const TAB3_5 = "/services/tech/tab3/03.webp";
+const TAB4_1 = "/services/tech/tab4/01.webp";
+const TAB5_1 = "/services/tech/tab5/01.webp";
+const TAB5_2 = "/services/tech/tab5/02.webp";
+const TAB5_3 = "/services/tech/tab5/03.webp";
+const TAB6_1 = "/services/tech/tab6/01.webp";
+const TAB6_2 = "/services/tech/tab6/02.webp";
+const TAB6_3 = "/services/tech/tab6/03.webp";
 
 //========= Industries Images
 import { LogisticsSVG, MusicSVG, EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
-import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
-import SocialMarketing from "media/services/industry/SocialMarketing.webp";
-import RealEstate from "media/services/industry/RealEstate.webp";
-import Logistics from "media/services/industry/Logistics.webp";
-import Music from "media/services/industry/music.webp";
+const Ecommerce = "/services/industry/Ecommerce.webp";
+const Fintech = "/services/industry/Fintech.webp";
+const Healthcare = "/services/industry/Healthcare.webp";
+const Education = "/services/industry/Education.webp";
+const SocialMarketing = "/services/industry/SocialMarketing.webp";
+const RealEstate = "/services/industry/RealEstate.webp";
+const Logistics = "/services/industry/Logistics.webp";
+const Music = "/services/industry/music.webp";
 
 //========= Blogs Images
-import BlogsIMG01 from "media/services/blogs/post-1.webp"
-import BlogsIMG02 from "media/services/blogs/post-2.webp"
-import BlogsIMG03 from "media/services/blogs/post-3.webp"
+const BlogsIMG01 = "/services/blogs/post-1.webp"
+const BlogsIMG02 = "/services/blogs/post-2.webp"
+const BlogsIMG03 = "/services/blogs/post-3.webp"
 import Link from "next/link";
 
 
@@ -94,8 +95,8 @@ export const BannerData = {
     subtitle: "React Native App Development in the USA",
     title: "Future-Ready React Native App Development Company Driving Growth Ecosystems.",
     content: "React Native bridges speed and stability to deliver apps that run flawlessly across platforms. Appsters’ react native app development services focus on reducing complexity, boosting performance, and creating native app solutions that adapt to enterprise demands, user expectations, and tomorrow’s innovations without compromising security or reliability while constantly pushing the norm.",
-    BannerLogos: BannerLogos.src,
-    BannerBg: BannerBg.src,
+    BannerLogos: BannerLogos,
+    BannerBg: BannerBg,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }
