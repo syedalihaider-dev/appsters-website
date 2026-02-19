@@ -106,7 +106,7 @@ export default function dubaidevelopmentcompany() {
     title: "Definitive Proof Of Technical Expertise",
     desc: (
       <>
-        Real scalability requires precision. Our app solutions in Chicago focus on reducing latency and maximizing throughput. We build architectures that handle heavy user loads without buckling. Instead of patching temporary fixes, we deliver clean, efficient code that secures your long-term stability and keeps your infrastructure costs manageable. Every project in our Chicago portfolio demonstrates our ability to merge complex backend logic with intuitive frontend design, delivering products that survive market volatility and user scaling.
+        Real scalability requires precision. Our app solutions in Chicago focus on reducing latency and maximizing throughput. We build architectures that handle heavy user loads without buckling.  Instead of patching  <br />{" "} temporary fixes, we deliver clean, efficient code that secures your long-term stability  and keeps your infrastructure costs manageable. Every project in our Chicago portfolio  demonstrates our ability to merge complex <br />{" "} backend logic with intuitive frontend design, delivering products that survive market volatility and user scaling.
       </>
     ),
     subtitleOne: "Klink (FinTech)",
