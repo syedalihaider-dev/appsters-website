@@ -191,7 +191,7 @@ const Brand = ({ rtl }) => {
                     </>
                   ) : (
                     <>
-                      <span>Let’s Level Up</span> Your <br /> Brand, Together
+                      <span>Intelligent Mobile Apps  </span>For The <br /> Businesses Of Today & Tomorrow.
                     </>
                   )}
                 </h2>
