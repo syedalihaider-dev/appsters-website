@@ -190,36 +190,33 @@ export const PortfolioData = {
 
 export const PortfolioDataList = [
     {
-        title: "Switch Poker",
-        content: `Switch Poker redefined competitive poker for mobile. Built with a scalable real-time engine, the app allows players to join private or global tables with seamless multiplayer connectivity. Advanced anti-cheat systems, dynamic tournaments, and live global rankings keep engagement high. Integrated wallet and analytics modules provide real-time insights for users and admins alike.`,
+        title: "KitBuy",
+        content: `KitBuy serves on-demand commerce with sub-second checkout and regional caching for Texas peak loads. Appsters implemented an event-driven cart system, optimized product detail rendering, and added server-side fraud checks. The team cut payment latency by 40 percent and raised conversion through A/B tests on payment flows. We maintain CI/CD, staged rollouts, and a telemetry dashboard for real-time revenue signals.`,
     },
     {
-        title: "FitSphere",
-        content: `Personalized training plans, wearable sync, and progress tracking in one intuitive platform built for both casual users and professional trainers. Its gamified interface keeps users engaged and consistently hitting their fitness goals.`,
+        title: "Austin Track",
+        content: `MuniTrack provides route-aware municipal services and citizen reporting across Austin neighborhoods. Appsters built offline-first maps, efficient tile streaming, and secure role-based access for city workers. We implemented push-based incident queues and priority syncs so field crews get updates under poor connectivity. The city reduced average response times and improved SLA compliance using our plugin-based mapping stack.
+`,
     },
     {
-        title: "DropTheBeat",
-        content: `Streaming app with adaptive sound quality and recommendation engine designed for users in regions with variable connectivity. It delivers a seamless listening experience, even in low-bandwidth environments.`,
+        title: "PulseCare",
+        content: `PulseCare runs patient triage, appointment orchestration, and HIPAA-grade secure storage for regional clinics. Appsters integrated identity providers, encrypted local caches, and background sync that respects battery constraints. We built audit trails and automated consent checks to help clinics pass compliance reviews quickly. Clinics report fewer missed appointments and clearer clinical handovers after launch.`,
     },
     {
-        title: "RightOps",
-        content: `Automation platform that reduces manual workload, tracks efficiency gains, and generates data insights for operational improvement. The tool integrates easily with existing systems, unlocking automation without disrupting workflows.`,
+        title: "Event MD.",
+        content: `EventMD powers live event ticketing, low-latency stream discovery, and backstage crew coordination for venues. Appsters engineered deterministic seat locking, real-time presence channels, and optimized media prefetch for spotty networks. Promoters gained predictable throughput during high-demand drops and lowered ticket oversell incidents. We also added monetization hooks and analytics for retention-based marketing.`,
     },
     {
-        title: "Cars & Wraps",
-        content: `Marketplace app for buyers and dealers with real-time inventory updates, financing tools, and AR-based car wrap previews. Its data-driven matching system increases buyer-dealer conversions and reduces inventory turnaround time for wraps.`,
+        title: "4X4Sync",
+        content: `4x4Sync manages small-fleet telemetry, geofencing, and secure data offload for logistics operators. Appsters designed an edge-first sync protocol, reduced data egress costs, and implemented OTA update flows for embedded devices. Operators saw improved route adherence and tighter ETA accuracy. We provide on-call incident playbooks and regression testing for firmware and mobile client interactions.`,
     },
     {
-        title: "PlayNest",
-        content: `Secure entertainment and education platform for kids, offering curated content, interactive games, and parental monitoring features. The app’s safety-first design ensures COPPA and GDPR compliance for peace of mind.`,
+        title: "TaskO",
+        content: `TaskOcoordinates field teams, shifts, and approvals with offline sign-offs and hierarchical task distribution. Appsters engineered conflict resolution for concurrent edits, compact replication for device-limited storage, and role-aware UI flows. Supervisors regained visibility into task completion rates and auditors inspected immutable logs. The product improved field productivity and reduced administrative reconciliation time.`,
     },
     {
-        title: "TaskIt",
-        content: `Collaboration tool with integrated messaging, file sharing, and AI-driven task suggestions for distributed teams. It boosts team efficiency with real-time sync across devices and automated task prioritization.`,
-    },
-    {
-        title: "Gate",
-        content: `Open-world sandbox game where players build, trade, and explore in a fully simulated ecosystem. Powered by scalable servers, it supports massive concurrent players and real-time physics without lag.`,
+        title: "Green_Route",
+        content: `Green_Route offers EV route planning, charger availability, and energy-optimized navigation for urban drivers. Appsters integrated live charger telemetry, implemented route-cost models, and created quick-replan logic for detours. Drivers save time and battery through smarter charge stops and predictive state-of-charge estimates. We instrumented retention funnels and charging-session analytics to support commercial partnerships.`,
     },
 ]
 
@@ -930,8 +927,8 @@ export const IndustriesList = [
 ];
 
 export const IdeaCtaContent = {
-    title: (<><span>App Development That Turns</span><br /> Base Concepts Into Scalable Products.</>),
-    text: (<> Every app begins with an idea. At Appsters, we turn that idea into a living, breathing digital experience. Our development teams splice technology, performance, and creativity to deliver solutions and disruptive products that break barriers. </>),
+    title: (<><span>Intelligent Mobile Apps For </span><br /> The Businesses Of Today & Tomorrow.</>),
+    text: (<> Partner with Appsters to engineer future-ready mobile applications built on AI, cloud, and data-driven architecture, delivering measurable performance, security, and business impact. </>),
     formtitle: "Get Free Consultation"
 }
 
