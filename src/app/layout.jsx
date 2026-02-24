@@ -7,7 +7,7 @@ import Script from "next/script";
 
 export const metadata = {
   metadataBase: new URL("https://www.appsters.io/"),
-  title: "TTech Company That Provides App Solutions - Appsters",
+  title: "Tech Company That Provides App Solutions - Appsters",
   description:
     "As a digital tech company we offer innovative mobile app solutions to every type of business & industry. Give your business the tech overhaul it deserves today!",
   openGraph: {
