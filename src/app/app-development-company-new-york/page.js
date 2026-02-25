@@ -78,8 +78,8 @@ export default function dubaidevelopmentcompany() {
 
   // Banner Content
   const Banner = {
-    title: "Top Mobile App Development Company in New York",
-    desc: "BitsWits is an industry-leading mobile app development company in New York that helps startups and SMBs create apps that fuel business growth. With a team of top-tier app developers in NYC, we build tailored iOS and Android apps designed to meet specific needs. Recognized for delivering cutting-edge solutions, we make sure your app stands out in the competitive market.",
+    title: "Mobile App Development Company in New York For Disruptive & Performance-Driven Solutions.",
+    desc: "New York runs on velocity and scrutiny. Financial dashboards update in milliseconds. Media platforms stream to millions. Healthcare systems coordinate across boroughs. Appsters operates as a mobile app company in NY for organizations that need software that performs under pressure and visibility. We architect systems for scale before we design interfaces. We model failure before we ship features.",
     bg: HeroBg,
     alt: "Banner for New York based mobile app development company featuring contact information and tag line",
   };
@@ -99,43 +99,43 @@ export default function dubaidevelopmentcompany() {
     {
       question: "Android App Development in New York",
       answer:
-        "We offer top-tier Android app development services to entrepreneurs looking to build high-performance native Android apps. Our tech stack for Android app development in New York includes programming languages like Kotlin, Java, and PHP, with Android Studio as the IDE, MongoDB or MySQL for databases, and Android Jetpack for UI components, ensuring seamless performance.",
+        "Android users in New York range from fintech customers to logistics operators and media consumers. As an Android app development agency near me, we build Kotlin-based systems optimized for concurrency, secure storage, and consistent rendering across device tiers. We integrate biometric authentication, payment SDKs, and analytics frameworks while ensuring memory stability under heavy usage. Each release is profiled for latency, crash-free sessions, and backend synchronization accuracy.",
       btn: "Let’s Build My Android App",
       StoryLineImg: StoryLine2,
     },
     {
       question: "iOS App Development in New York",
       answer:
-        "Building top-tier iOS apps requires a solid tech stack, and our iOS app developers in New York are experienced with the essential tools and languages for success. Our team uses Swift and Objective-C, along with tools like Xcode and SwiftUI, to develop native apps that leverage GPS, cameras, and high-performance processors, ensuring seamless performance across all iOS devices.",
+        "New York consumers expect polished interfaces and secure data handling. Our iOS app development teams deliver Swift-based applications engineered for high-concurrency environments such as trading dashboards, booking platforms, and subscription media. For iPhone app development in New York projects, we optimize cold-start time, refine UI performance, and ensure compliance with Apple privacy policies. Security reviews and performance testing are embedded within every release cycle.",
       btn: "Let’s Build My iOS App!",
       StoryLineImg: StoryLine3,
     },
     {
-      question: "Cross-Platform App Development in New York",
+      question: "Flutter App Development in New York",
       answer:
-        "Using top frameworks like React Native and Flutter, we specialize in delivering seamless cross-platform apps for both Android and iOS. As a leading cross-platform app development company in NYC, we create apps with a single codebase that maintains native-like performance and user experience, all while offering a cost-effective solution for businesses aiming for consistency across platforms.",
-      btn: "Let’s Build My Cross-Platform App!",
+        "Speed matters in NYC startups, but maintainability matters more. Our Flutter app developers in New York build modular cross-platform architectures that preserve performance while accelerating time to market. We use disciplined state management, structured API integration, and CI pipelines to ensure safe updates. Performance budgets are set early, and observability tools track feature adoption and stability post-launch.",
+      btn: "Let’s Build My Flutter App!",
       StoryLineImg: StoryLine4,
     },
     {
-      question: "Progressive Web App Development in New York",
+      question: "Game App Development in New York",
       answer:
-        "We specialize in progressive web app development using modern web technologies to create fast, reliable, and user-friendly PWAs across devices like smartphones, desktops, and tablets. As experienced progressive web app developers in NYC, we utilize popular frameworks such as Angular, React, and Vue.js to deliver seamless performance and an engaging user experience.",
-      btn: "Let’s Build My PWA!",
+        "New York’s gaming and media industries demand immersive experiences that sustain engagement. While we have delivered game app development in DC, our New York builds focus on scalable multiplayer systems, analytics-driven retention loops, and secure monetization. We optimize frame pacing, manage asset streaming, and load test backend services to handle event-driven surges without service degradation.",
+      btn: "Let’s Build My Game App!",
       StoryLineImg: StoryLine5,
     },
     {
-      question: "Game Development in New York",
+      question: "Blockchain Development in New York",
       answer:
-        "Our expert game development team builds binge-worthy, adrenaline-pumping games using cutting-edge tools and technologies. With a team of dedicated mobile game app developers in New York City, we excel with engines like Unity or Unreal Engine, programming languages such as C# and C++, and 3D modeling software like Blender or Maya, creating immersive games that keep players coming back.",
-      btn: "Let’s Build My Game App!",
+        "Financial and Web3 innovation continues to shape Manhattan’s tech landscape. We design web3 solutions in New York with secure smart contracts, audit logs, and wallet integrations that align with regulatory considerations. Our blockchain architectures combine on-chain verification with off-chain indexing services for performance. Permission models and security reviews ensure enterprise readiness without compromising usability.",
+      btn: "Let’s Build My Blockchain App!",
       StoryLineImg: StoryLine6,
     },
   ];
   const storyLine = {
     subtitle: <>Top-Rated</>,
-    title: <> Mobile App Development Company in New York </>,
-    para: "BitsWits has been consistently ranked as the leading mobile app development company in New York on top review platforms like Clutch, GoodFirms, etc. Our full-stack development expertise is the reason why we are ranked among the finest NYC app developers.",
+    title: <> Certified Mobile App Developers in New York Building Secure & Revenue-Driven Apps </>,
+    para: "Our mobile app development services in New York are structured for businesses that operate at investor-level accountability. If you are searching for mobile app builders near me in New York, you are likely evaluating reliability, security posture, and release maturity. We work inside that expectation. Architecture decisions are documented. Integrations are treated as contracts.",
     subPara: (
       <>
         Here’s the suite of{" "}
@@ -153,38 +153,35 @@ export default function dubaidevelopmentcompany() {
   };
   // Who We Are Content
   const WhoWeAre = {
-    title: "A Portfolio that Shouts Success!",
+    title: "Our Portfolio",
     desc: (
       <>
-        We are among the fastest-growing app development companies in New York
-        with a portfolio of 150+ successfully{" "}
-        <br className="d-xl-block d-none" /> built and launched mobile
-        applications across 10+ industries, with over 1 million downloads
-        combined.{" "}
+        New York apps and digital platforms must perform during traffic spikes, investor scrutiny, and real-time financial decisions. Our app solutions in New York are built with clear architecture, structured APIs, {" "}
+        <br className="d-xl-block d-none" /> and observability baked in. We focus on measurable uptime, predictable latency, and scalable integrations that withstand public growth.{" "}
       </>
     ),
     para: "Here’s a glimpse at our resounding app development portfolio.",
     subtitleOne: (
       <>
-        Soul <br className="d-none d-md-block d-lg-none" /> Scribe
+        MarketPulse  <br className="d-none d-md-block d-lg-none" /> Trading 
       </>
     ),
     subDescOne:
-      "Soul Scribe is a groundbreaking social networking app that functions as a digital diary, and you can enlist your loved ones to be part of your online journal. The app operates by using the freemium subscription model, providing a complimentary family room option that enables users to welcome someone from their circle of friends to share their memories.",
+      "MarketPulse is a real-time portfolio and analytics platform designed for retail and semi-professional investors. The system processes streaming price feeds, user watchlists, and alert triggers simultaneously without blocking interface rendering. We implemented event-driven backends and concurrency controls to prevent stale data during high market volatility. Authentication flows were hardened for session security, and analytics dashboards were tuned to load instantly even when thousands of users access live charts during peak trading hours.",
     subtitleTwo: (
       <>
-        The <br className="d-none d-md-block d-lg-none" /> Ready App
+        BoroughBook  <br className="d-none d-md-block d-lg-none" /> Hospitality
       </>
     ),
     subDescTwo:
-      "The Ready App is a revolutionary platform invented to revolutionize the hiring process for the transportation industry. It fills the communication gap between drivers and recruiters by having a user-friendly interface along with features like secure messaging, personal meetings, and real-time updates.",
+      "BoroughBook supports boutique hotels and restaurants managing reservations, loyalty programs, and high-frequency booking changes. The architecture integrates POS systems, payment gateways, and promotional pricing logic while maintaining consistent performance during weekend surges. We implemented caching layers to reduce backend load and structured notification queues to prevent duplicate confirmations. Administrators receive reporting tied directly to occupancy and booking conversion metrics rather than generic activity counts.",
     subtitleThree: (
       <>
-        Grease <br className="d-none d-md-block d-lg-none" /> Monkey
+       MedConnect  <br className="d-none d-md-block d-lg-none" /> Urban Care
       </>
     ),
     subDescThree:
-      "Grease Monkey is a comprehensive automotive innovation system that provides everything ranging from car repairs to oil checkups. Serving as an independent app, Grease Monkey presents users with important factors to consider such as prices and locations, and also client ratings for your vehicles.",
+      "MedConnect coordinates appointment scheduling, secure patient messaging, and clinical documentation for multi-location practices. We structured encrypted storage and role-based permissions aligned with healthcare compliance requirements. The backend supports concurrent scheduling updates without double-booking risks. Analytics dashboards highlight bottlenecks in patient intake and response time. Performance tuning ensures that large patient datasets load smoothly even on older devices commonly used by staff.",
   };
   // delivered content
   const DeliveredContent = {
@@ -201,68 +198,57 @@ export default function dubaidevelopmentcompany() {
     title: (
       <>
         {" "}
-        Pioneering Mobile App <br /> Development in New York{" "}
+        The New York App Development Process:  <br /> Engineering a Failure-Proof Launch{" "}
       </>
     ),
     desc: (
       <>
         <span className="d-block">
-          At BitsWits, we don't just develop mobile apps; we create captivating,
-          revenue-generating applications that keep you ahead in the digital
-          world.{" "}
+          The New York app development lifecycle is engineered for accountability and repeatability. As a mobile app development company in NY, {" "}
         </span>
         <br />
         <span className="d-block">
-          We leverage advanced technologies and creative designs to produce apps
-          that connect with users and drive business success. Our structured
-          approach starts with defining the core problem statement and aligning
-          it with your goals, ensuring a digital strategy that leads to
-          continued success post-launch.
+          we build New York app solutions that align with financial oversight, compliance reviews, and rapid iteration cycles.
         </span>
         <br />
         <span className="mb-5 mb-sm-0 d-block">
-          Whether it's full-scale app development, design revamps, feature
-          integrations, or routine bug fixes, we're committed to turning every
-          client's app into a global sensation.
+          This process reduces ambiguity and ensures that every milestone produces measurable output.
         </span>
       </>
     ),
     isSubtitle: true,
-    heading1: "Strategy & Development Roadmap",
+    heading1: "App Idea & Research",
     para1:
-      "After discovery calls and consultation sessions, we create a tailored strategy and app development roadmap for your project. To ensure smooth execution, we divide your project into multiple phases and set up a dedicated team of app developers in New York, along with front-end designers, DevOps engineers, project managers, and quality assurance engineers, to deliver on our promise and your expectations.",
-    heading2: "Back-end Development & Integration",
+      "We begin by analyzing product viability, regulatory exposure, integration requirements, and competitive positioning within the New York market. Stakeholder workshops uncover operational friction points and scalability risks. We define measurable success metrics and technical constraints before design begins. This ensures that product direction aligns with market demand and internal capability rather than assumption or urgency.",
+    heading2: "Strategic Planning & Consultation",
     para2:
-      "Our battle-hardened NYC app developers work tirelessly to create a powerful and reliable infrastructure that supports your app's functionality and performance. From setting up servers and databases to building APIs and integrating third-party services, we handle every aspect of back-end development with precision and care. Development can be time-consuming, typically taking 3-6 months, depending on the intricacies and complexities of your app.",
-    heading3: "User Interface & Experience",
+      "Planning translates business goals into a structured technical architecture. We define service boundaries, authentication models, data ownership rules, and integration contracts. Performance targets are documented, and security requirements are formalized. Clear planning reduces mid-cycle scope changes and creates alignment between engineering, compliance, and executive teams. Every decision is documented to maintain traceability.",
+    heading3: "Wireframing & Prototyping",
     para3:
-      "The front-end development team closely follows the project roadmap to lay down the foundation and the architecture in terms of wireframes and prototypes. We conduct biweekly stakeholder meetings to make sure we are on the same page and keep them updated on Slack regarding the progress. Once the design is finalized, we convert it into a functional, investor-ready prototype for fundraising opportunities.",
-    heading4: "Post-launch Support & Maintenance",
+      "Wireframes surface user journey gaps before engineering begins. Interactive prototypes validate permissions, navigation logic, and workflow transitions. Stakeholders review real interaction flows rather than abstract descriptions. This early validation prevents expensive redesign cycles and accelerates consensus across product, engineering, and business leadership. We build a functional blueprint of your app to test the user logic. We refine this until the user experience is effortless, ensuring that the final build is as intuitive as it is powerful for your NYC-based audience.",
+    heading4: "App Development",
     para4:
-      "Launching your app is just the beginning of our journey together. We're in it for the long haul, providing ongoing support and maintenance to keep it running smoothly. Whether it's fixing bugs, adding new features, or just keeping things ticking along nicely, we've got your back. We'll keep a close eye on your app, making sure it stays secure, stable, and competitive in the competitive app market.",
-    heading5: "Testing & Deployment",
+      "Development follows a modular design with structured code reviews and continuous integration pipelines. Each feature is independently testable and measurable. Sensitive actions are logged for auditability. Performance profiling tools measure latency, memory consumption, and concurrency thresholds during development rather than after release. As one of the trusted companies among other mobile app companies in New York, we focus on backend robustness and frontend speed. We ensure that every module is built to handle the scale of a modern New York business.",
+    heading5: "Expert QA & Testing",
     para5:
-      "Before your app goes live, we put it through rigorous testing across various devices and platforms. If we find any issues or bugs, we squash them, no questions asked. Once your app is bulletproof, we handle the deployment process and get it on both the App Store and the Play Store, so you can hit the ground running.",
+      "Testing includes regression suites, performance simulation, device compatibility checks, and security validation. We simulate high concurrency scenarios common in financial and media applications. We test across dozens of physical devices to ensure the performance is consistent. Our goal is to find every bug before your users do, protecting your reputation at launch. Defects are categorized by impact and resolved with documented fixes. The QA phase ensures that stability and performance metrics are met before public release.",
   };
   // ClientContent
   const ClientContent = {
     title: (
       <>
         {" "}
-        Why Choose BitsWits for{" "}
+        See Why Stakeholders, Entrepreneurs,   {" "}
         <span>
-          Mobile App <br className="d-xl-block d-none" /> Development
+          & Businesses <br className="d-xl-block d-none" /> Choose Our App Development & Technology Solutions
         </span>{" "}
-        in NYC?
+        in New York.
       </>
     ),
     desc: (
       <>
         {" "}
-        BitsWits has an unmatched track record when it comes to client
-        satisfaction, project success ratio, faster time-to-market, transparent
-        pricing, <br className="d-xl-block d-none" /> and positive reviews on
-        platforms like Clutch and Trustpilot. Book your free discovery call now!
+        From founders to CTOs, businesses choose Appsters because every line of code serves a clear business purpose: growth, AI adaptability, and market edge. We measure success by the impact our solutions create, and our clients agree. From startups to global enterprises, clients trust our developers to engineer digital products that deliver progressive results.
       </>
     ),
   };
@@ -304,294 +290,138 @@ export default function dubaidevelopmentcompany() {
   };
   // Houston Content
   const menus = [
-    "What is the Best Technology Stack for Mobile App Development?",
-    "How do Mobile Apps Make Money?",
-    "Top App Development Trends Across 10+ Industries",
-    "What Things You Should Look for Before Hiring an App Development Company in NYC?",
-    "What does app development cost breakdown look like?",
-    "How to Get the First 1000 Downloads for Your App?",
-    "How to Build a Bulletproof App Startup?",
+    "How do financial mobile apps in New York maintain transaction security under high user loads?",
+    "What technical factors determine whether an app can scale in New York’s dense market?",
+    "Are no-code apps in New York suitable for long-term business growth?",
+    "How do certified apps strengthen enterprise credibility in New York markets?",
+    "What role does observability play in maintaining app reliability?",
+    "How do integrations impact long-term app stability?",
+    "Why is performance testing more critical in New York than in smaller markets?",
   ];
   const sections = [
     {
       num: "01",
-      title: "What is the Best Technology Stack for Mobile App Development?",
-      content: `<p class='fontsfregular'>There’s no one-size-fits-all approach in app development in terms of technology stack. Each app is unique in its own way and requires a different set of tools, programming languages, app development frameworks, SDKs, etc. to run perfectly. 
-      </p>
-      <p class='fontsfregular'>However, just to give you an idea of what technology stack is used in different types of mobile applications, here’s a brief overview of tools and technologies that you will need to build your app:
-      </p>
-      <h5 class="mb-4">Android App Development Tech Stack</h5>
+      title: "How do financial mobile apps in New York maintain transaction security under high user loads?",
+      content: `<p class='fontsfregular'>In New York’s financial ecosystem, mobile platforms must protect transactional integrity while handling thousands of simultaneous requests during trading hours and payment spikes.</p>
+      <p class='fontsfregular'>Token-based authentication with short session lifetimes</p>
+      
             <p class='fontsfregular'>
-              <b>Programming Languages: </b>Kotlin, Java
+              End-to-end encryption for API communication
             </p>
             <p class='fontsfregular'>
-              <b>IDEs: </b>Android Studio, IntelliJ IDEA
+              Multi-factor authentication for sensitive actions
             </p>
             <p class='fontsfregular'>
-              <b>SDKs: </b>Android SDK
+              Rate limiting and anomaly detection systems
             </p>
             <p class='fontsfregular'>
-              <b>Frameworks: </b>Android Jetpack, RxJava, Dagger, Retrofit
+              Real-time transaction logging and monitoring
             </p>
             <p class='fontsfregular'>
-              <b>Database: </b>SQLite, Room
-            </p>
-            <p class='fontsfregular'>
-              <b>Testing Tools: </b>Espresso, Robolectric, Mockito
-            </p>
-            <p class='fontsfregular'>
-              <b>DevOps Tools: </b>Gradle, Jenkins, Fastlane
-            </p>
-            <h5>iOS App Development Tech Stack</h5>
-            <p class='fontsfregular'>
-              <b>Programming Languages: </b>Swift, Objective-C
-            </p>
-            <p class='fontsfregular'>
-              <b>IDEs: </b>Xcode
-            </p>
-            <p class='fontsfregular'>
-              <b>SDKs: </b>iOS SDK
-            </p>
-            <p class='fontsfregular'>
-              <b>Frameworks: </b>Swift, Objective-C
-            </p>
-            <p class='fontsfregular'>
-              <b>Programming Languages: </b>SwiftUI, UIKit, CocoaTouch
-            </p>
-            <p class='fontsfregular'>
-              <b>Database: </b> Core Data, Realm
-            </p>
-            <p class='fontsfregular'>
-              <b>Testing Tools: </b>  XCTest, Quick, Nimble
-            </p>
-            <p class='fontsfregular'>
-              <b>DevOps Tools: </b> Fastlane, Jenkins, Xcode Server
-            </p>
-            <h5 class="mb-4">Android App Development Tech Stack</h5>
-            <p class='fontsfregular'>
-              <b>Programming Languages: </b>Kotlin, Java
-            </p>
-            <p class='fontsfregular'>
-              <b>IDEs: </b>Android Studio, IntelliJ IDEA
-            </p>
-            <p class='fontsfregular'>
-              <b>SDKs: </b>Android SDK
-            </p>
-            <p class='fontsfregular'>
-              <b>Frameworks: </b>Android Jetpack, RxJava, Dagger, Retrofit
-            </p>
-            <p class='fontsfregular'>
-              <b>Database: </b>SQLite, Room
-            </p>
-            <p class='fontsfregular'>
-              <b>Testing Tools: </b>Espresso, Robolectric, Mockito
-            </p>
-            <p class='fontsfregular'>
-              <b>DevOps Tools: </b>Gradle, Jenkins, Fastlane
-            </p>
-
-            <h5>Cross-Platform App Development Tech Stack</h5>
-            <p class='fontsfregular'>
-              <b>Frameworks: </b>React Native, Flutter, Xamarin
-            </p>
-            <p class='fontsfregular'>
-              <b>Programming Languages: </b>JavaScript (React Native), Dart (Flutter), C# (Xamarin)
-            </p>
-            <p class='fontsfregular'>
-              <b>IDEs: </b>Visual Studio, Visual Studio Code, Android Studio, Xcode
-            </p>
-            <p class='fontsfregular'>
-              <b>Testing Tools: </b>Jest (React Native), Flutter Test (Flutter), Xamarin.UITest (Xamarin)
-            </p>
-            <p class='fontsfregular'>
-              <b>DevOps Tools: </b>GitHub Actions, Bitrise, Codemagic
-            </p> 
-
-
-            <h5>Progressive Web App Development Tech Stack</h5>
-            <p class='fontsfregular'>
-              <b>Frameworks: </b>React, Angular, Vue.js
-            </p>
-            <p class='fontsfregular'>
-              <b>Programming Languages: </b> JavaScript, TypeScript
-            </p>
-            <p class='fontsfregular'>
-              <b>Testing Tools: </b>Jest, Jasmine, Mocha
-            </p>
-            <p class='fontsfregular'>
-              <b>DevOps Tools: </b>GitHub Actions, Travis CI, CircleCI
-            </p> 
-            
-
-            <h5>Game App Development Tech Stack</h5>
-            <p class='fontsfregular'>
-              <b>Game Engines: </b>Unity, Unreal Engine
-            </p>
-            <p class='fontsfregular'>
-              <b>Programming Languages: </b> C#, C++
-            </p>
-            <p class='fontsfregular'>
-              <b>IDEs: </b>Visual Studio, Unity
-            </p>
-            <p class='fontsfregular'>
-              <b>Graphics: </b>OpenGL, WebGL, Metal
-            </p> 
-            <p class='fontsfregular'>
-              <b>Testing Tools: </b>Unity Test Framework, Unreal Engine Testing Framework
-            </p> 
-            <p class='fontsfregular'>
-              <b>DevOps Tools: </b>Unity Cloud Build, Unreal Engine Build Server
-            </p> 
-            `,
+              Mobile app development companies in New York often design security layers alongside performance architecture. Systems are stress-tested under simulated trading surges to ensure authentication checks do not slow execution. Proper security engineering protects user trust without sacrificing latency.
+            </p>`,
     },
     {
       num: "02",
-      title: "How do Mobile Apps Make Money?",
-      content: `<p class='fontsfregular'>A mobile app can make money in tons of different ways. Let’s understand different app monetization strategies and figure out how you can make money from your app:</p> 
-      <h5>Advertising</h5>
-      <p class='fontsfregular'>Generate revenue by displaying ads within your app. You can use various ad formats like banner ads, interstitial ads, rewarded ads, or native ads to monetize your app.</p> 
-      <h5>In-App Purchases</h5>
-      <p class='fontsfregular'>Offer users the option to purchase digital goods or premium features within your app. Whether it's unlocking additional content, removing ads, or buying virtual items, in-app purchases can be a lucrative revenue stream.</p> 
-      <h5>Subscriptions</h5>
-      <p class='fontsfregular'>Offer subscription-based access to premium content, features, or services within your app. Users pay a recurring fee, typically on a monthly or yearly basis, to access exclusive content or features.</p> 
-      <h5>Freemium Model</h5>
-      <p class='fontsfregular'>Offer a basic version of your app for free and provide additional premium features or content for a fee. This allows you to attract a larger user base while still generating revenue from users who are willing to pay for extra features.</p> 
-      <h5>Sponsorship</h5>
-      <p class='fontsfregular'>Partner with brands or companies to sponsor your app or specific features within your app. In exchange, you can promote their products or services to your users, either through ads, sponsored content, or branded experiences.</p>
-      <h5>Affiliate Marketing</h5>
-      <p class='fontsfregular'>Earn commission by promoting third-party products or services within your app. You can earn a commission for every user who makes a purchase or takes a specific action through your affiliate links.</p>
-      <h5>Selling Data</h5>
-      <p class='fontsfregular'>Monetize user data by collecting and selling anonymized data to third-party companies. This can include user demographics, behavior patterns, or preferences, which can be valuable for market research and targeted advertising.</p>
-      <h5>Crowdfunding</h5>
-      <p class='fontsfregular'>Raise funds for your app development or ongoing maintenance through crowdfunding platforms. Offer rewards or exclusive perks to backers in exchange for their support..</p>
-      <h5>White Labeling</h5>
-      <p class='fontsfregular'>License your app to other businesses or organizations to use as their own branded app. You can charge a one-time fee or a recurring licensing fee for the use of your app.</p>
-      <h5>Licensing or Selling Your App</h5>
-      <p class='fontsfregular'>Sell or license your app to other businesses or organizations who want to use it for their own purposes. You can negotiate a one-time payment or ongoing royalties for the use of your app.</p>
-      `,
+      title: "What technical factors determine whether an app can scale in New York’s dense market?",
+      content: `<p class='fontsfregular'>Scalability in New York is not about downloads alone. It is about concurrency, geographic density, and unpredictable usage spikes tied to events, media exposure, or financial activity.</p> 
+      
+      <p class='fontsfregular'>Autoscaling cloud infrastructure</p> 
+      
+      <p class='fontsfregular'>Queue-based processing for heavy workflows</p> 
+      
+      <p class='fontsfregular'>Intelligent caching for high-read endpoints</p> 
+   
+      <p class='fontsfregular'>Horizontal database scaling</p> 
+     
+      <p class='fontsfregular'>Load testing beyond expected traffic</p>
+      
+      <p class='fontsfregular'>New York app developers design systems assuming growth rather than hoping for it. Performance ceilings are identified early. Infrastructure monitoring dashboards track real-time throughput and error rates, allowing teams to intervene before user experience degrades.</p>`,
     },
     {
       num: "03",
-      title: "Top App Development Trends Across 10+ Industries",
-      content: `<p class='fontsfregular'>After building and successfully deploying 100+ mobile applications across 10+ industries, we have compiled a list of the top features and trends in app development that guarantees instant market penetration, swift monetization, and guaranteed success.</p>
-      <h5>E-commerce</h5>
-      <p class='fontsfregular'>E-commerce apps with real-time order tracking and multiple payment gateway options tend to have faster market penetration and positive customer feedback.</p>
-      <h5>Healthcare</h5>
-      <p class='fontsfregular'>Telemedicine, appointment scheduling, and health tracking features are gaining popularity, providing convenient and accessible healthcare solutions.</p>
-      <h5>Automotive</h5>
-      <p class='fontsfregular'>Vehicle tracking, remote control, and predictive maintenance features enhance the driving experience and revolutionize automotive apps.</p>
-      <h5>Logistics</h5>
-      <p class='fontsfregular'>Real-time tracking, route optimization, and digital documentation streamline operations and improve efficiency in logistics apps.</p>
-      <h5>Manufacturing</h5>
-      <p class='fontsfregular'>Production management, inventory tracking, and predictive maintenance features optimize processes and increase productivity in manufacturing apps.</p>
-      <h5>Food & Beverage</h5>
-      <p class='fontsfregular'>Online ordering, table reservations, and loyalty programs enhance the dining experience and drive sales in food and beverage apps.</p>
-      <h5>E-Learning</h5>
-      <p class='fontsfregular'>Interactive lessons, gamification, and personalized learning paths revolutionize education and make learning more engaging and effective.</p>
-      <h5>Agriculture</h5>
-      <p class='fontsfregular'>Weather forecasting, crop management, and market analysis features help farmers make informed decisions and increase crop yield and profitability.</p>
-      <h5>Real Estate</h5>
-      <p class='fontsfregular'>Property search, virtual tours, and mortgage calculators simplify the home buying and selling process, providing a seamless experience for real estate apps.</p>
-      <h5>Sports</h5>
-      <p class='fontsfregular'>Live score updates, player stats, and fantasy leagues enhance the sports experience, increasing fan engagement and driving revenue for sports apps.</p>
-      <h5>Enterprise Mobility</h5>
-      <p class='fontsfregular'>Employee productivity tools, collaboration apps, and business intelligence dashboards empower businesses to operate more efficiently and profitably with enterprise mobility solutions.
-      </p>
-      `,
+      title: "Are no-code apps in New York suitable for long-term business growth?",
+      content: `<p class='fontsfregular'>No code apps in New York can accelerate early validation, especially for internal tools or concept testing. However, growth introduces complexity quickly.</p>
+      
+      <p class='fontsfregular'>Limited backend customization</p>
+     
+      <p class='fontsfregular'>Restricted API integration depth</p>
+      
+      <p class='fontsfregular'>Performance constraints under high concurrency</p>
+      
+      <p class='fontsfregular'>Security limitations in regulated industries</p>
+     
+      <p class='fontsfregular'>Reduced control over database architecture/p>
+      
+      <p class='fontsfregular'>For startups handling financial transactions, healthcare data, or subscription models, custom architecture becomes necessary. Mobile app development services in New York often migrate no-code prototypes into scalable systems once traction validates the business case.</p>`,
     },
     {
       num: "04",
       title:
-        "What Things You Should Look for Before Hiring an App Development Company in New York City?",
-      content: `<p class='fontsfregular'>Before you hire a mobile app development company in New York, there are certain qualities and traits that you should look for to avoid any escalations and stay on the same page throughout the development and deployment process.</p>  
-        <h5>Time Zone Difference</h5>
-        <p class='fontsfregular'>The app development company you hire should be located in a similar time zone to New York to facilitate real-time communication and quick issue resolution, minimizing delays and misunderstandings during the development process.</p> 
-        <h5>Language Barrier & Communication Channels</h5>
-        <p class='fontsfregular'>Choose a company with fluent English speakers and multiple communication channels like email, phone, video, and other collaboration tools like Asana, Slack, etc. for effective communication and smooth collaboration throughout the project.</p> 
-        <h5>Transparent Pricing Structure</h5>
-        <p class='fontsfregular'>Hire an app development company that provides a clear and transparent pricing structure with no hidden costs or surprise fees, allowing you to budget effectively and avoid any financial surprises during the project.</p> 
-        <h5>Focus on UX</h5>
-        <p class='fontsfregular'>Select a company that prioritizes user experience (UX) and has a track record of creating intuitive, user-friendly apps that meet the needs and preferences of your target audience for high user satisfaction and engagement.</p> 
-        <h5>Technical Proficiency</h5>
-        <p class='fontsfregular'>Cross-check if the company has a skilled and experienced team of app developers in NYC proficient in the latest technologies and programming languages, capable of delivering a high-quality, bug-free app that meets your requirements and exceeds your expectations.</p> 
-        <h5>Customer Success Ratio</h5>
-        <p class='fontsfregular'>Check the company's customer success ratio and client testimonials to gauge their reputation and reliability. Make sure they have a proven track record of delivering successful app development projects on time and within budget.</p>  `,
+        "How do certified apps strengthen enterprise credibility in New York markets?",
+      content: `<p class='fontsfregular'>Enterprise buyers in New York look for documentation, security clarity, and compliance awareness before approving vendor software for deployment.</p>  
+        <p class='fontsfregular'>Documented QA procedures</p> 
+        
+        <p class='fontsfregular'>Secure coding practices aligned with OWASP standards</p> 
+        
+        <p class='fontsfregular'>Audit logs for sensitive workflows</p> 
+        
+        <p class='fontsfregular'>Version control traceability</p> 
+        
+        <p class='fontsfregular'>Role-based access enforcement</p> 
+        
+        <p class='fontsfregular'>Certified apps reflect structured engineering rather than surface claims. When building apps in New York for finance or healthcare, formal documentation supports procurement reviews and regulatory assessments. That transparency builds long-term enterprise confidence.</p>  `,
     },
     {
       num: "05",
-      title: "What does app development cost breakdown look like?",
-      content: `<p class='fontsfregular'>When budgeting for app development, it's essential to understand the breakdown of costs. Here's a detailed breakdown of the typical costs involved in developing a mobile app:</p> 
-      <h5>1. Discovery and Planning (10-15% of total cost)</h5>
-      <p><b>Market Research:</b> Researching your target audience, competitors, and market trends.</p>
-      <p><b>Requirement Gathering:</b> Defining project requirements, features, and functionalities.</p>
-      <p><b>Prototyping:</b> Creating wireframes and prototypes to visualize the app's layout and user flow.</p>
-      <p><b>Project Planning:</b> Developing a project timeline, milestones, and deliverables.</p>
-
-      <h5>2. Design (20-25% of total cost)</h5>
-      <p><b>UI/UX Design:</b> Designing the app's user interface (UI) and user experience (UX) to ensure a visually appealing and intuitive design.</p>
-      <p><b>Graphic Design: </b> Creating visual elements such as icons, images, and branding materials.</p>
-
-      <h5>3. Development (50-60% of total cost)</h5>
-      <p><b>Frontend Development:</b> Writing code for the app's user interface using programming languages like Swift (iOS) or Kotlin/Java (Android).</p>
-      <p><b>Backend Development: </b> Developing the server-side logic, databases, and APIs required for the app to function.</p>
-      <p><b>Integration of Third-party Services: </b> Integrating services such as payment gateways, social media logins, or analytics tools</p>
-      <p><b>Quality Assurance & Testing: </b> Testing the app for bugs, errors, and performance issues to ensure a smooth user experience.</p>
-
-      <h5>4. Deployment (5-10% of total cost)</h5>
-      <p><b>App Store Fees:</b> Paying fees to publish the app on app stores such as the Apple App Store or Google Play Store.</p>
-      <p><b>Server Setup and Hosting: </b> Setting up servers and hosting services to deploy the app.</p> 
-
-
-      <h5>5. Post-launch Support & Maintenance (15-20% of total cost)</h5>
-      <p><b>Bug Fixes & Updates:</b> Addressing any bugs, errors, or issues that arise after the app is launched.</p>
-      <p><b>Adding New Features: </b> Introducing new features or functionalities to improve the app's performance and user experience.</p> 
-      <p><b>Server Maintenance: </b> Regularly maintaining and updating server infrastructure to ensure optimal performance and security.</p> 
+      title: "What role does observability play in maintaining app reliability?",
+      content: `<p class='fontsfregular'>Real-time performance dashboards</p> 
+      
+      <p>Centralized error logging</p>
+      <p>API latency monitoring</p>
+      <p>Crash analytics segmented by device</p>
+      <p>Infrastructure health alerts</p>
+      <p>Mobile app development companies in New York often integrate telemetry during development rather than after launch. That allows product teams to monitor usage patterns, detect anomalies early, and correlate technical metrics with business KPIs for smarter decision-making.</p>
       `,
     },
     {
       num: "06",
-      title: "How to Get the First 1000 Downloads for Your App?",
-      content: `<p class='fontsfregular'>Here are five highly impactful strategies to get the first 1000 downloads for your app:</p> 
-        <h5>1. App Store Ads</h5>
-        <p class='fontsfregular'>
-        Invest in paid advertising on platforms like Google Ads or Apple Search Ads to increase your app's visibility and attract more downloads.
-        </p> 
+      title: "How do integrations impact long-term app stability?",
+      content: `<p class='fontsfregular'>Many New York platforms rely on external APIs, payment processors, CRMs, and financial data providers. Integration design determines operational resilience.</p> 
+        
+        <p class='fontsfregular'> Clear API contracts and versioning</p> 
+        <p class='fontsfregular'>Retry logic for failed requests </p> 
 
-        <h5>2. Word of Mouth</h5>
-        <p class='fontsfregular'>
-            Encourage satisfied users to spread the word about your app to their friends, family, and social circles. 
-        </p> 
+       
+        <p class='fontsfregular'>Timeout handling strategies</p> 
 
-        <h5>3. Influencer Marketing</h5>
-        <p class='fontsfregular'>
-            Partner with influencers in your app's niche to promote your app to their followers and increase your reach.
-        </p> 
-
-        <h5>4. Guerrilla Marketing</h5>
-        <p class='fontsfregular'>
-        Get creative with unconventional marketing tactics to generate buzz and excitement around your app, such as street art, flash mobs, or publicity stunts.
-        </p> 
-        <h5>5. User Referrals & Freebies</h5>
-        <p class='fontsfregular'>
-        Implement referral programs that reward users for referring their friends to download your app, and offer limited-time promotions or discounts to incentivize downloads.
-        </p>
+        <p class='fontsfregular'> Data validation layers </p> 
+        
+        <p class='fontsfregular'> Monitoring of third-party performance </p>
+        <p class='fontsfregular'>Strong integration planning prevents cascading failures when external providers update endpoints or experience downtime. Mobile app development services in New York typically treat integrations as structured dependencies, not casual add-ons. </p>
         `,
     },
     {
       num: "07",
-      title: "How to Build a Bulletproof App Startup?",
-      content: `<p class='fontsfregular'>Here are six game-changing strategies to ensure the success of your app startup:</p>
-      <h5>1. Plan Monetization Ahead of Development</h5>
-      <p class='fontsfregular'>Decide on your app's revenue model early on. Whether it's in-app purchases, subscriptions, ads, or a combination, planning monetization ahead will help you build a sustainable business model.</p>
-      <h5>2. Solve a Burning Problem</h5>
-      <p class='fontsfregular'>Address a pressing problem or need within your target market. Solve it effectively, providing a solution that users can't resist.</p>
-      <p class='fontsfregular'>Focus on essential features and functionalities to launch a Minimum Viable Product (MVP). Gather feedback from early users to refine and improve your app.</p>
-      <h5>4. Go All in for the User Experience</h5>
-      <p class='fontsfregular'>Design your app with a relentless focus on user experience (UX). Make it intuitive, seamless, and delightful to use, ensuring maximum user satisfaction.</p>
-      <h5>5. Convert Feedback into Feedforward</h5>
-      <p class='fontsfregular'>Listen to user feedback and use it to drive improvements. Continuously iterate and enhance your app to meet evolving user needs and expectations.</p>
-      <h5>6. Leverage App Marketing Strategies</h5>
-      <p class='fontsfregular'>Invest in targeted app marketing strategies to increase visibility and drive downloads. Utilize a combination of organic and paid marketing channels, including social media, content marketing, app store optimization (ASO), and targeted advertising.</p>
+      title: "Why is performance testing more critical in New York than in smaller markets?",
+      content: `<p class='fontsfregular'>User density and visibility amplify every failure in New York. A minor glitch can spread quickly across social channels and investor circles.</p>
+      
+      <p class='fontsfregular'>Load simulation exceeding projected demand
+</p>
+     
+      <p class='fontsfregular'>Stress testing backend concurrency
+</p>
+      <p class='fontsfregular'>Device-specific memory profiling
+</p>
+     
+      <p class='fontsfregular'>Network fluctuation testing
+</p>
+      
+      <p class='fontsfregular'>Performance budgets per feature
+</p>
+      
+      <p class='fontsfregular'>New York app developers design testing environments that mimic real-world volatility. This ensures applications remain stable during high-traffic moments such as product launches, media coverage, or financial market events.
+</p>
       `,
     },
   ];
@@ -645,16 +475,16 @@ export default function dubaidevelopmentcompany() {
           <DubaiBrandTrust />
           <Expertappdubaiadvanced
             expertapp="expertapp"
-            title="Future-Proof Your Startup with Cutting-Edge Technology Integration"
+            title="Architecting the High-Impact Mobile Future of New York"
             appData={[
               {
-                title: "Big Data",
+                title: "AI/Machine Learning",
                 description:
-                  "Got a growing app with loads of user data? Let's make the most of it! With BitsWits' big data solutions, we'll help you analyze all that data to understand user behavior, market trends, and new business opportunities.",
+                  "We move beyond basic automation to build apps that think autonomously. By integrating predictive analytics and natural language processing, we help New York businesses turn raw data into actionable insights. Whether it is predicting market shifts in a fintech app or personalizing a shopper’s journey in a retail platform, our AI integrations prioritize speed and data accuracy to drive better business decisions.",
                 imageSrc: banImg2,
               },
               {
-                title: "IoT",
+                title: "Augmented & Virtual Reality",
                 description:
                   "IoT technology enables data collection, access automation, and helps reveal and solve other basic problems in real time. Our app development company in New york uses this technology to ensure smooth communication, boost operational efficiency, and provide innovative solutions.",
                 imageSrc: banImg3,
@@ -662,25 +492,25 @@ export default function dubaidevelopmentcompany() {
               {
                 title: "Blockchain",
                 description:
-                  "Want to make your app's transactions more secure and transparent? With BitsWits' blockchain solutions, we will help you build decentralized apps, streamline supply chains, and create new business models. Let's build something awesome, something safer together!",
+                  "For New York’s real estate and fashion sectors, immersive tech is a game-changer. We develop high-frame-rate AR modules that allow for virtual property walkthroughs or technical 'try-on' simulations. Our focus is on low-latency rendering, ensuring the 3D assets feel physical and responsive, providing a premium experience that sets your brand apart from competitors.",
                 imageSrc: banImg1,
-              },
-              {
-                title: "AR/VR",
-                description:
-                  "Want to create immersive, real-like unreal experiences for your app users? BitsWits' AR/VR app development services, we will help you develop mind-boggling apps and experiences that keep the end users crave for more. Let's create something amazing together!",
-                imageSrc: banImg6,
-              },
-              {
-                title: "AI/ML",
-                description:
-                  "Want to integrate self-learning capabilities and make your app respond to user queries real-time with AI-powered chatbots? BitsWits’ AI/ML solutions can help you integrate self-learning components and smart chatbots to deliver real user experience for your audience.",
-                imageSrc: banImg4,
               },
               {
                 title: "Cloud Computing",
                 description:
-                  "Looking for scalable cloud solutions without breaking the bank? BitsWits' cloud computing services offer flexibility in terms of pricing, scalability to grow as needed, and impregnable security so you can focus on growing your business.",
+                  "Your app is only as good as the server it sits on. We architect cloud-native environments using AWS and Azure to ensure your platform handles massive traffic spikes without lagging. This focus on backend elasticity is what allows Manhattan enterprises to scale from a local pilot program to a global deployment without ever worrying about server crashes or data loss.",
+                imageSrc: banImg6,
+              },
+              {
+                title: "Internet of Things",
+                description:
+                  "In an urban hub like New York, connecting hardware to software is essential. We build secure IoT dashboards that communicate with thousands of remote sensors via Bluetooth or MQTT protocols. This allows for real-time monitoring of everything from logistics fleets to smart building systems, giving you total visibility and control over your physical assets through a single mobile interface.",
+                imageSrc: banImg4,
+              },
+              {
+                title: "Blockchain",
+                description:
+                  "Transparency is the foundation of trust in fintech and supply chain logistics. We implement decentralized ledgers to ensure every transaction or handoff is immutable and verifiable. By using blockchain, we eliminate the need for expensive intermediaries, providing New York businesses with a secure, cost-effective way to manage digital contracts and sensitive asset transfers with absolute certainty.",
                 imageSrc: banImg5,
               },
             ]}
@@ -697,185 +527,64 @@ export default function dubaidevelopmentcompany() {
             faqsData={[
               {
                 question:
-                  "How much does mobile app development cost in New York?",
+                  "How often should a professional New York mobile application be updated? ",
                 answer: (
                   <p>
-                    Building a software or mobile application is both
-                    complicated and expensive. App developers in New York City
-                    usually charge an average of $45 per hour. Similarly,
-                    front-end developers, designers, project managers, etc.
-                    charge more or less the same hourly rate. Assuming you’re
-                    building native apps for both iOS and Android, and your LOE
-                    is somewhere around 1200 - 1500 for a single version, the
-                    cost of app development could easily go above $100,000. And
-                    that’s where BitsWits come to help!
-                    <br />
-                    BitsWits has offices in around 7 countries with production
-                    houses across Pakistan, UAE, and the USA. The hourly rates
-                    are cheaper here with slightly better development quality.
-                    Thus, if you work with us, you can easily get the same app
-                    within $25k to $40k.
+                    In Manhattan’s fast-moving market, updates should occur every 2 to 4 weeks. This ensures your mobile application development in New York stays secure, bug-free, and fully optimized for the latest iOS and Android patches.
+
                   </p>
                 ),
               },
               {
                 question:
-                  "Do I need to build separate Android and iOS versions of my app?",
+                  "Does Appsters provide full source code ownership after the launch? ",
                 answer: (
                   <p>
-                    Building separate Android and iOS versions of your app
-                    depends on your target audience and business goals. While
-                    native apps offer better performance and user experience,
-                    they require separate development for each platform.
-                    Alternatively, you can opt for cross-platform app
-                    development to save time and resources while reaching a
-                    wider audience.
+                    Yes. Unlike other app development companies in New York, Appsters grants you 100% intellectual property ownership. We deliver clean, documented source code, ensuring you have total technical sovereignty over your app development in New York.
                   </p>
                 ),
               },
               {
                 question:
-                  "Are there any drawbacks of cross-platform app development?",
+                  "How does an app developer in New York handle sudden traffic spikes? ",
                 answer: (
                   <p>
-                    While cross-platform app development offers benefits like
-                    reduced development time and cost, there are some drawbacks
-                    to consider. Cross-platform apps may not offer the same
-                    level of performance or user experience as native apps. They
-                    may also have limitations in accessing platform-specific
-                    features and capabilities.
+                    We engineer your application development in New York using Elastic Cloud auto-scaling. This ensures your backend automatically expands resources during high-traffic events,preventing crashes and maintaining sub-second speeds for your mobile app development in New York.                
+                    </p>
+                ),
+              },
+              {
+                question:
+                  "Can Appsters integrate my existing legacy software into a new mobile app? ",
+                answer: (
+                  <>
+                    <p>
+                      Our senior app developer in New York specializes in bridge logic. We connect your current databases and CRMs to a modern frontend, ensuring your mobile application development in New York works seamlessly with your existing infrastructure.
+                    </p>
+                  </>
+                ),
+              },
+              {
+                question:
+                  "What security standards does Appsters follow for New York financial apps? ",
+                answer: (
+                  <p>
+                    We implement "Zero-Trust" security for every mobile app development company in New York projects. This includes multi-layer encryption and biometric authentication, ensuring your app development in New York meets the highest Wall Street and federal standards.
                   </p>
                 ),
               },
               {
                 question:
-                  "Do I have to pay at once for mobile app development?",
+                  "Is it possible to build one app for both iOS and Android on a budget? ",
                 answer: (
                   <>
                     <p>
-                      No, you don't have to pay all at once for mobile app
-                      development. Most app development companies offer flexible
-                      payment options, including milestone-based payments.
-                    </p>
-                    <p>
-                      For instance, BitsWits offers you the flexibility to
-                      divide your project into several stages and get started
-                      with the alpha development fee.
-                    </p>
-                    <p>
-                      You can book a free consultation call with our team to
-                      discuss the pricing plans and flexibility we offer for app
-                      development cost.
+                      Absolutely. By using Flutter or React Native, our mobile app development in New York builds a single codebase for both platforms. This slashes costs while maintaining the native performance NYC users demand from a mobile app company in NY.
                     </p>
                   </>
                 ),
               },
-              {
-                question:
-                  "What’s better between hiring freelance app developers in NYC vs working with an app development company?",
-                answer: (
-                  <p>
-                    You can hire a freelance app developer in NYC if you already
-                    have an existing in-house team and need to augment it for
-                    better results. Besides that, hiring a freelance app
-                    developer is not the right approach. While it might seem a
-                    little cost effective and monitorable, the overall cost and
-                    results are not guaranteed and the only person who's
-                    accountable for any mishap is you. At the same time, hiring
-                    an app development company in NYC like BitsWits gives you
-                    freedom to be as flexible and customizable as you want.
-                    Plus, you can check the portfolio of an app development
-                    company and see if they’re capable of building something
-                    similar to what you are looking for.
-                  </p>
-                ),
-              },
-              {
-                question:
-                  "How to find the right app development company in New York?",
-                answer: (
-                  <>
-                    <p>
-                      The most important factor when hiring an app development
-                      company is the pricing. For top-end brands with unlimited
-                      means of funding and resources, hiring an app development
-                      company is a no-brainer as they can afford to work with
-                      app development companies like Accenture where pricing
-                      starts from $1 Million.{" "}
-                    </p>
-                    <p>
-                      However, for mid-level and low-end brands who’re
-                      bootstrapping their startups, pricing and time to market
-                      are two of the most important factors. The best way to
-                      find an app development company in New York City that
-                      resonates with your values and beliefs is to search on top
-                      review platforms like Clutch, shortlist a few app
-                      development companies, and interview their teams to see if
-                      they are a fit or not.
-                    </p>
-                    <p>
-                      You can book your free consultation with our app
-                      development and project management teams here to get a
-                      better understanding of the technology stack we use and
-                      the values we have at our company.
-                    </p>
-                  </>
-                ),
-              },
-              {
-                question:
-                  "Why Choose BitsWits for mobile app development in New York City?",
-                answer: (
-                  <>
-                    <p>
-                      BitsWits is consistently ranked among the top app
-                      development companies in New York on the top review
-                      platforms like Clutch, Goodfirms, The Manifest, etc. We
-                      have a 100+ app strong portfolio with over 1 Million+
-                      combined downloads on the App Store and the Play Store.
-                      Besides that, we are able to offer top-tier app
-                      development services for far better rates and short
-                      turnaround time due to our presence in 7 countries across
-                      the globe. You won’t find a better app development company
-                      in NYC that offers extremely competitive pricing, timezone
-                      compatibility, and fast turnaround times.
-                    </p>
-                  </>
-                ),
-              },
-              {
-                question: "What app development services does BitsWits offer?",
-                answer: (
-                  <>
-                    <p>
-                      BitsWits offers a wide range of app development services,
-                      including native Android and iOS app development,
-                      cross-platform app development, progressive web app
-                      development, game development, and enterprise mobility
-                      solutions. We also work with cutting-edge technologies
-                      like Blockchain, IoT, Big Data, Cloud integration,
-                      Artificial Intelligence and Machine Learning, and other
-                      technologies of the future.
-                    </p>
-                  </>
-                ),
-              },
-              {
-                question:
-                  "What industries does BitsWits offer app development services for?",
-                answer: (
-                  <>
-                    <p>
-                      BitsWits provides app development services for various
-                      industries, including ecommerce, healthcare, automotive,
-                      logistics, manufacturing, food & beverage, e-learning,
-                      agriculture, real estate, sports, and enterprise mobility.
-                      We boast of having a strong portfolio of mobile apps
-                      across industries, with over 1 Million downloads combined.
-                    </p>
-                  </>
-                ),
-              },
+              
             ]}
           />
           <Latestblog blogBox={blogBox} />
